@@ -1,10 +1,9 @@
 <template>
-  <div>
-    <label>this is reference page</label>
-    <div class="document-list">
+  <div class="main-frame">
+    <div class="doc-list">
       <li v-for="doc in docs">
-        <div class="document-item">
-          <label>doc.title</label>
+        <div class="doc-item">
+          <div class="doc-desc">{{doc.title}}</div>
         </div>
       </li>
     </div>
@@ -15,10 +14,9 @@
 </template>
 <script>
 export default {
-  name: 'Reference',
   data () {
     return {
-      docs: [{title: 'doc1'}, {title: 'doc2'}]
+      docs: [{title: 'Start learning document'}, {title: 'Start learning English'}]
     }
   }
 }
@@ -34,10 +32,39 @@ export default {
     padding: 0;
   }
   li {
+    list-style-type: none;
+  }
+  .doc-list {
+    padding-top: 12px;
+  }
+  .doc-item {
+    position: relative;
     display: inline-block;
-    margin: 0 10px;
+    margin: 5px 10px;
+    height: 40px;
+    width: 80%;
+    background-color: white;
+  }
+  .doc-desc {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto 10px;
+    height: 20px;
+    width: 70%;
+    font-size: 20px;
+    text-align: left;
   }
   a {
     color: #42b983;
+  }
+
+  .main-frame {
+    width: 100%;
+    height: 1000px;
+    background-color: bisque;
+    margin-top: 50px;
   }
 </style>
