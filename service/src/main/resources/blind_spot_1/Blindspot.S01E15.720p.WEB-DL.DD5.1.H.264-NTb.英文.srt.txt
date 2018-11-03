@@ -1,0 +1,3096 @@
+﻿19
+00:00:01,580 --> 00:00:03,560
+Previously on "Blindspot"...
+
+20
+00:00:04,480 --> 00:00:04,980
+Go!
+
+21
+00:00:04,980 --> 00:00:05,950
+- Come on! - Go!
+
+22
+00:00:05,950 --> 00:00:07,880
+Does this mean you've changed your mind about working with me?
+
+23
+00:00:07,880 --> 00:00:08,860
+I don't trust you.
+
+24
+00:00:08,860 --> 00:00:11,780
+And whoever I was before, I don't trust her, either.
+
+25
+00:00:12,420 --> 00:00:13,520
+I'm dating your sister.
+
+26
+00:00:13,530 --> 00:00:14,820
+I've been meaning to tell you for weeks.
+
+27
+00:00:14,820 --> 00:00:16,980
+I spoke to Reade. He told me things were serious.
+
+28
+00:00:17,000 --> 00:00:19,300
+The last thing that I want is you or Sawyer
+
+29
+00:00:19,310 --> 00:00:20,580
+to lose someone that you love.
+
+30
+00:00:20,580 --> 00:00:22,020
+Been looking into Carter's disappearance,
+
+31
+00:00:22,020 --> 00:00:24,240
+and I can't find any evidence as to where he was
+
+32
+00:00:24,240 --> 00:00:26,380
+in the hours before his car showed up on that bridge,
+
+33
+00:00:26,380 --> 00:00:28,390
+but there's a bunch of traffic cameras near it.
+
+34
+00:00:28,390 --> 00:00:29,420
+If you find anything,
+
+35
+00:00:29,420 --> 00:00:31,880
+you bring it to me and only me.
+
+36
+00:00:31,880 --> 00:00:32,910
+This the guy you're looking for?
+
+37
+00:00:32,910 --> 00:00:34,660
+No, that's his car.
+
+38
+00:00:34,660 --> 00:00:36,100
+So who the hell are you?
+
+39
+00:00:37,970 --> 00:00:40,080
+The people we work with will stop at nothing
+
+40
+00:00:40,090 --> 00:00:41,700
+to make sure this plan succeeds.
+
+41
+00:00:41,710 --> 00:00:43,180
+If you refuse to cooperate,
+
+42
+00:00:43,180 --> 00:00:44,730
+they'll kill Agent Weller.
+
+43
+00:00:52,140 --> 00:00:53,850
+I was starting to think you weren't gonna show.
+
+44
+00:00:53,850 --> 00:00:56,210
+Well, you made it pretty clear I didn't have a choice.
+
+45
+00:00:56,670 --> 00:00:57,820
+What do you want?
+
+46
+00:00:58,590 --> 00:01:01,090
+I need you to install this in your team's vehicle.
+
+47
+00:01:01,360 --> 00:01:01,980
+What is it?
+
+48
+00:01:01,990 --> 00:01:03,540
+A GPS tracker.
+
+49
+00:01:03,540 --> 00:01:06,490
+So we can more effectively keep tabs on your whereabouts.
+
+50
+00:01:06,490 --> 00:01:07,980
+You think I'm stupid?
+
+51
+00:01:08,360 --> 00:01:10,690
+That's not to follow me, it's to follow them.
+
+52
+00:01:15,280 --> 00:01:17,470
+You install it in the vehicle's ECU,
+
+53
+00:01:17,510 --> 00:01:19,580
+behind the glove box and next to the fuse board.
+
+54
+00:01:19,590 --> 00:01:21,740
+It looks just like the chip you'll be replacing.
+
+55
+00:01:22,610 --> 00:01:23,820
+Okay, listen, I...
+
+56
+00:01:25,040 --> 00:01:26,850
+I know what I said last night may have...
+
+57
+00:01:26,850 --> 00:01:28,610
+eroded some trust between us.
+
+58
+00:01:28,610 --> 00:01:29,460
+No.
+
+59
+00:01:30,270 --> 00:01:31,810
+I never trusted you.
+
+60
+00:01:47,140 --> 00:01:48,220
+How's your head?
+
+61
+00:01:49,510 --> 00:01:52,470
+Stop looking into Tom Carter's disappearance...
+
+62
+00:01:52,470 --> 00:01:55,140
+or people you love will start to die.
+
+63
+00:01:56,180 --> 00:01:59,380
+Or I could just kill you now with your own gun.
+
+64
+00:02:00,430 --> 00:02:01,910
+Remember that sound...
+
+65
+00:02:01,910 --> 00:02:04,300
+how easy it was to get to you.
+
+66
+00:02:05,130 --> 00:02:06,980
+We'll be watching, Agent Reade.
+
+68
+00:02:56,490 --> 00:02:58,390
+So you called me in here
+
+69
+00:02:58,390 --> 00:03:01,540
+before the crack of dawn to tell me you have nothing?
+
+70
+00:03:01,840 --> 00:03:04,930
+The DOT guys told me they found this new camera,
+
+71
+00:03:04,930 --> 00:03:05,580
+and I...
+
+72
+00:03:07,390 --> 00:03:09,890
+I jumped the gun, there was nothing there.
+
+73
+00:03:10,020 --> 00:03:12,240
+I've had it in for Jane ever since she got here.
+
+74
+00:03:13,660 --> 00:03:15,900
+When Fischer brought up all the Carter stuff, I...
+
+75
+00:03:16,900 --> 00:03:18,750
+kinda wanted it to be true.
+
+76
+00:03:18,860 --> 00:03:21,140
+Been all over Weller about his lack of judgment when it comes to Jane,
+
+77
+00:03:21,140 --> 00:03:22,610
+but the truth is,
+
+78
+00:03:22,820 --> 00:03:24,500
+I've been guilty of the same thing.
+
+79
+00:03:26,110 --> 00:03:30,020
+So you don't think Jane had anything to do with Carter's disappearance?
+
+80
+00:03:34,720 --> 00:03:35,750
+No, ma'am.
+
+81
+00:03:36,260 --> 00:03:39,350
+The next time you get a moment of clarity,
+
+82
+00:03:39,490 --> 00:03:41,150
+tell it to your diary.
+
+83
+00:03:41,500 --> 00:03:42,860
+Dismissed.
+
+84
+00:03:48,340 --> 00:03:50,720
+Okay. What do we have?
+
+85
+00:03:50,720 --> 00:03:52,120
+This is something.
+
+86
+00:03:52,130 --> 00:03:53,310
+This is big.
+
+87
+00:03:53,540 --> 00:03:54,840
+I mean, I don't even...
+
+88
+00:03:55,130 --> 00:03:56,520
+Yes, okay.
+
+89
+00:03:56,620 --> 00:03:59,670
+This is security footage last night
+
+90
+00:03:59,670 --> 00:04:02,900
+from a high-end contemporary art gallery in Chelsea.
+
+91
+00:04:02,900 --> 00:04:05,200
+So this gentleman in the pig mask
+
+92
+00:04:05,200 --> 00:04:06,600
+took great pains to break in
+
+93
+00:04:06,600 --> 00:04:09,600
+and steal one painting from the new ZOMO exhibit
+
+94
+00:04:09,600 --> 00:04:11,400
+set to open this morning.
+
+95
+00:04:11,400 --> 00:04:12,720
+ZOMO? Why do I know that name?
+
+96
+00:04:12,730 --> 00:04:14,530
+He started out as a graffiti artist
+
+97
+00:04:14,540 --> 00:04:17,330
+before the art world turned him into a media darling.
+
+98
+00:04:17,330 --> 00:04:19,200
+Super elusive.
+
+99
+00:04:19,370 --> 00:04:20,960
+No one even knows his real identity.
+
+100
+00:04:20,960 --> 00:04:24,320
+Okay, so... what did pig boy take?
+
+101
+00:04:24,320 --> 00:04:25,650
+That's where we come in.
+
+102
+00:04:25,650 --> 00:04:28,260
+He stole ZOMO's newest piece,
+
+103
+00:04:28,260 --> 00:04:30,370
+which was included at the last minute.
+
+104
+00:04:35,980 --> 00:04:37,300
+The burning rose.
+
+105
+00:04:37,850 --> 00:04:39,940
+That's right. The burning rose.
+
+106
+00:04:39,940 --> 00:04:41,680
+This is nearly an exact depiction
+
+107
+00:04:41,680 --> 00:04:44,110
+of one of the most prominent tattoos on your body.
+
+108
+00:04:44,440 --> 00:04:48,330
+The thief walked past paintings worth hundreds of thousands of dollars
+
+109
+00:04:48,860 --> 00:04:50,900
+and ripped this one right out of the frame.
+
+110
+00:05:02,260 --> 00:05:03,570
+Are you with the FBI?
+
+111
+00:05:03,570 --> 00:05:04,650
+Yes, we are.
+
+112
+00:05:04,650 --> 00:05:06,720
+Special Agent Weller. You are...
+
+113
+00:05:06,720 --> 00:05:08,470
+I'm Kristy, ZOMO's assistant.
+
+114
+00:05:08,470 --> 00:05:10,620
+Perfect. He's gonna have to come in for questioning.
+
+115
+00:05:10,620 --> 00:05:11,760
+Yeah, good luck with that.
+
+116
+00:05:11,760 --> 00:05:14,050
+Excuse me? You need to see that badge again?
+
+117
+00:05:14,050 --> 00:05:16,520
+Sorry, um, it's this way.
+
+118
+00:05:16,800 --> 00:05:18,030
+I didn't mean to...
+
+119
+00:05:18,140 --> 00:05:19,640
+I've worked for ZOMO for seven years.
+
+120
+00:05:19,640 --> 00:05:21,540
+No one talks with him, no one meets with him,
+
+121
+00:05:21,540 --> 00:05:23,170
+no one knows who he is, including me.
+
+122
+00:05:23,170 --> 00:05:25,180
+So you don't know who you work for?
+
+123
+00:05:25,190 --> 00:05:26,710
+Do you know how long this is gonna take?
+
+124
+00:05:26,710 --> 00:05:28,590
+Because I have, like, a line of people waiting outside
+
+125
+00:05:28,590 --> 00:05:29,920
+to see the missing painting.
+
+126
+00:05:29,920 --> 00:05:31,810
+To see what? It's been stolen.
+
+127
+00:05:31,890 --> 00:05:33,970
+Some things are more meaningful in their absence.
+
+128
+00:05:34,280 --> 00:05:36,230
+If you and ZOMO don't talk to each other,
+
+129
+00:05:36,750 --> 00:05:38,270
+how does he communicate with you?
+
+130
+00:05:38,270 --> 00:05:40,200
+Postcards, no return address.
+
+131
+00:05:40,200 --> 00:05:41,460
+"Do this, do that."
+
+132
+00:05:42,590 --> 00:05:43,950
+This one was attached to the painting
+
+133
+00:05:43,950 --> 00:05:45,700
+when it was sent to the gallery.
+
+134
+00:05:45,860 --> 00:05:47,690
+Before it was stolen, obviously.
+
+135
+00:05:48,570 --> 00:05:50,140
+"Kristy, hang this."
+
+136
+00:05:51,510 --> 00:05:53,680
+Tasha, bag this.
+
+137
+00:05:53,680 --> 00:05:55,100
+This guy gets paid, doesn't he?
+
+138
+00:05:55,100 --> 00:05:55,900
+Where do they send his checks?
+
+139
+00:05:55,900 --> 00:05:57,330
+ZOMO's a cash-only business.
+
+140
+00:05:57,330 --> 00:05:59,030
+Deals with a pretty annoying system
+
+141
+00:05:59,030 --> 00:06:01,350
+of rotating drop points and couriers.
+
+142
+00:06:01,660 --> 00:06:03,260
+I'm telling you, this guy makes J.D. Salinger
+
+143
+00:06:03,260 --> 00:06:04,160
+look like an extrovert.
+
+144
+00:06:04,170 --> 00:06:06,850
+Okay, let's see what we're looking at.
+
+145
+00:06:06,850 --> 00:06:09,280
+Or... not looking at.
+
+146
+00:06:09,550 --> 00:06:12,410
+I left my radio in the car, so I'll meet you in there.
+
+147
+00:06:18,400 --> 00:06:19,470
+What's up with you?
+
+148
+00:06:19,470 --> 00:06:20,380
+Nothing.
+
+149
+00:06:20,650 --> 00:06:21,940
+Then get your head in the game.
+
+150
+00:06:33,780 --> 00:06:37,360
+If you refuse to cooperate, they'll kill Agent Weller.
+
+152
+00:07:05,130 --> 00:07:06,220
+"Ultimatum."
+
+153
+00:07:06,790 --> 00:07:07,850
+What does that mean?
+
+154
+00:07:08,110 --> 00:07:09,260
+Who knows?
+
+155
+00:07:09,260 --> 00:07:10,090
+Honestly, it wasn't really
+
+156
+00:07:10,090 --> 00:07:11,810
+one of my favorite paintings anyway.
+
+157
+00:07:11,810 --> 00:07:13,210
+Felt a little soft.
+
+158
+00:07:13,950 --> 00:07:15,720
+I've worked for ZOMO for seven years,
+
+159
+00:07:15,720 --> 00:07:17,260
+and that self-portrait is the closest
+
+160
+00:07:17,260 --> 00:07:18,900
+I've ever come to meeting him.
+
+161
+00:07:20,730 --> 00:07:22,120
+This is the only room that the thief
+
+162
+00:07:22,120 --> 00:07:23,720
+had blacked out the cameras in.
+
+163
+00:07:23,870 --> 00:07:25,690
+The burning rose painting was the only one taken?
+
+164
+00:07:25,690 --> 00:07:26,470
+Yep.
+
+165
+00:07:27,190 --> 00:07:30,460
+I would have taken one of his earlier pieces myself, but...
+
+166
+00:07:31,440 --> 00:07:33,220
+This statue's been moved.
+
+167
+00:07:33,640 --> 00:07:35,140
+Um, sculpture.
+
+168
+00:07:35,910 --> 00:07:36,590
+Are you sure?
+
+169
+00:07:36,590 --> 00:07:37,630
+Yes, I am.
+
+170
+00:07:38,600 --> 00:07:39,930
+You see those marks?
+
+171
+00:07:41,430 --> 00:07:42,740
+You cannot do that.
+
+172
+00:07:44,240 --> 00:07:46,480
+Hey, how come the thief didn't black out this camera?
+
+173
+00:07:47,640 --> 00:07:49,270
+I don't know. I've never seen that before.
+
+174
+00:07:49,270 --> 00:07:51,030
+This doesn't belong in the gallery?
+
+175
+00:08:01,740 --> 00:08:03,660
+Everyone out! Team, move!
+
+176
+00:08:03,660 --> 00:08:04,510
+Move!
+
+177
+00:08:12,730 --> 00:08:14,160
+Is everybody okay?
+
+178
+00:08:15,440 --> 00:08:16,480
+I think I'm good.
+
+179
+00:08:16,480 --> 00:08:17,800
+All good here.
+
+180
+00:08:20,380 --> 00:08:21,690
+Somebody help me!
+
+181
+00:08:21,830 --> 00:08:23,440
+Reade, call an ambulance!
+
+182
+00:08:24,310 --> 00:08:26,290
+No. Oh, no. You're gonna be okay.
+
+185
+00:08:41,820 --> 00:08:43,190
+You're gonna be okay, Kurt.
+
+186
+00:08:54,020 --> 00:08:55,480
+He lost a lot of blood.
+
+187
+00:08:55,590 --> 00:08:58,710
+But no major organs were hit and, um...
+
+188
+00:08:59,110 --> 00:09:01,440
+and, uh, he's got one of the best trauma surgeons
+
+189
+00:09:01,440 --> 00:09:02,730
+in the city working on him.
+
+190
+00:09:02,730 --> 00:09:04,270
+He's gonna be fine, Sarah.
+
+191
+00:09:04,560 --> 00:09:06,440
+You sure you're gonna be all right by yourself?
+
+192
+00:09:07,150 --> 00:09:09,220
+Yeah, I'm okay. Just catch the son of a bitch.
+
+193
+00:09:09,220 --> 00:09:10,000
+We will.
+
+194
+00:09:10,000 --> 00:09:11,140
+I promise.
+
+195
+00:09:11,700 --> 00:09:12,700
+I love you.
+
+196
+00:09:14,810 --> 00:09:16,450
+I'll get there as soon as I can.
+
+197
+00:09:17,960 --> 00:09:18,950
+Yeah, okay.
+
+198
+00:09:19,460 --> 00:09:20,300
+Bye.
+
+199
+00:09:27,320 --> 00:09:28,070
+How is he?
+
+200
+00:09:28,070 --> 00:09:29,210
+Still in surgery.
+
+201
+00:09:29,210 --> 00:09:29,900
+Until we hear otherwise,
+
+202
+00:09:29,900 --> 00:09:31,650
+we're just gonna have to take no news as good news.
+
+203
+00:09:31,740 --> 00:09:32,400
+We should be there--
+
+204
+00:09:32,400 --> 00:09:34,780
+Look, I know this is hard,
+
+205
+00:09:34,780 --> 00:09:36,530
+but if you want to help Weller,
+
+206
+00:09:36,890 --> 00:09:39,440
+let's find the person who did this to him.
+
+207
+00:09:39,680 --> 00:09:42,930
+Every second we waste makes that tougher.
+
+208
+00:09:43,310 --> 00:09:44,130
+Right!
+
+209
+00:09:44,220 --> 00:09:45,460
+So let's drill down.
+
+210
+00:09:45,490 --> 00:09:46,870
+Who's our prime suspect?
+
+211
+00:09:46,870 --> 00:09:47,810
+ZOMO, right?
+
+212
+00:09:47,820 --> 00:09:49,240
+He painted the picture that put us there,
+
+213
+00:09:49,240 --> 00:09:51,380
+and the bomb was hidden inside his sculpture.
+
+214
+00:09:51,610 --> 00:09:53,650
+Okay, did we get any prints off that last postcard
+
+215
+00:09:53,650 --> 00:09:54,640
+he sent to his assistant?
+
+216
+00:09:54,640 --> 00:09:55,360
+Just hers.
+
+217
+00:09:55,360 --> 00:09:57,710
+And with traces of latex. Same with the painting.
+
+218
+00:09:57,710 --> 00:09:59,400
+So I guess he's smart enough to use gloves.
+
+219
+00:09:59,410 --> 00:10:01,610
+And you still think that the bombing
+
+220
+00:10:01,610 --> 00:10:03,830
+was specifically targeting us?
+
+221
+00:10:03,830 --> 00:10:07,100
+Gallery footage confirms that the camera by the fire alarm
+
+222
+00:10:07,100 --> 00:10:10,280
+was added after the thief blacked out the security camera.
+
+223
+00:10:10,280 --> 00:10:12,720
+And it's hooked up to a wireless transmitter.
+
+224
+00:10:12,730 --> 00:10:14,930
+So he could watch and wait for us.
+
+225
+00:10:15,280 --> 00:10:18,530
+Maybe he just has a thing for law enforcement in general.
+
+226
+00:10:18,530 --> 00:10:20,890
+No, he stole one painting.
+
+227
+00:10:21,140 --> 00:10:22,060
+That one.
+
+228
+00:10:22,220 --> 00:10:24,050
+He wanted our attention, he wanted us.
+
+229
+00:10:24,050 --> 00:10:26,050
+And do we know how ZOMO knew
+
+230
+00:10:26,050 --> 00:10:28,070
+about the image in the first place?
+
+231
+00:10:28,070 --> 00:10:30,850
+Maybe he was one of the architects of Jane's tattoos.
+
+232
+00:10:30,850 --> 00:10:32,330
+But Jane was sent to us.
+
+233
+00:10:32,330 --> 00:10:33,660
+These tattoos are revealing crimes.
+
+234
+00:10:33,660 --> 00:10:35,960
+Why suddenly try and kill the people you're trying to help?
+
+235
+00:10:36,120 --> 00:10:38,460
+Maybe the person who painted the rose
+
+236
+00:10:38,460 --> 00:10:40,770
+and the person who stole it and tried to kill us
+
+237
+00:10:40,950 --> 00:10:41,930
+are two different people.
+
+238
+00:10:41,930 --> 00:10:43,360
+So, just to recap,
+
+239
+00:10:43,680 --> 00:10:47,250
+ZOMO did or didn't design Jane's tattoos,
+
+240
+00:10:47,250 --> 00:10:50,130
+did or didn't paint the burning rose,
+
+241
+00:10:50,130 --> 00:10:53,660
+and then did or didn't steal it and try and blow us up?
+
+242
+00:10:55,240 --> 00:10:57,230
+Looks like we're making progress.
+
+243
+00:10:57,290 --> 00:10:58,890
+Look, we know one thing.
+
+244
+00:10:59,410 --> 00:11:00,840
+We need to find ZOMO.
+
+245
+00:11:00,930 --> 00:11:02,530
+This is a self-portrait, right?
+
+246
+00:11:02,690 --> 00:11:04,560
+So maybe there's a clue as to who he is here.
+
+247
+00:11:04,560 --> 00:11:06,600
+What, we look for a guy with an "X" on his face?
+
+248
+00:11:06,600 --> 00:11:08,600
+How often does ZOMO use photography in his work?
+
+249
+00:11:09,320 --> 00:11:11,380
+This is the first instance I've seen.
+
+250
+00:11:11,380 --> 00:11:13,840
+Other than sculptures, he's a paint and stencil guy.
+
+251
+00:11:13,840 --> 00:11:17,140
+What if this photo is the actual view from his studio?
+
+252
+00:11:17,150 --> 00:11:18,730
+Find the view, find ZOMO.
+
+253
+00:11:18,990 --> 00:11:20,210
+That's a hell of a long shot.
+
+254
+00:11:20,210 --> 00:11:22,670
+It's the only shot we got. Patterson?
+
+255
+00:11:22,680 --> 00:11:24,100
+Yep, on it.
+
+256
+00:11:26,270 --> 00:11:29,100
+We ran this photograph from ZOMO's self-portrait painting
+
+257
+00:11:29,100 --> 00:11:32,200
+through Bing street view, and we got a match.
+
+258
+00:11:32,370 --> 00:11:35,510
+This apartment complex is on a street in DUMBO.
+
+259
+00:11:35,610 --> 00:11:37,590
+Based on the height and angle of the shot,
+
+260
+00:11:37,590 --> 00:11:39,330
+it had to be from a commercial loft building
+
+261
+00:11:39,330 --> 00:11:40,210
+across the street.
+
+262
+00:11:40,210 --> 00:11:41,750
+And get this-- the owner said
+
+263
+00:11:41,750 --> 00:11:43,120
+one of the tenants on the second floor
+
+264
+00:11:43,120 --> 00:11:45,290
+pays cash and never shows his face.
+
+265
+00:11:45,310 --> 00:11:46,370
+It has to be him.
+
+266
+00:11:46,390 --> 00:11:49,330
+How do we know that ZOMO doesn't want us to find this place?
+
+267
+00:11:49,330 --> 00:11:51,240
+The last time we followed one of his paintings,
+
+268
+00:11:51,250 --> 00:11:52,510
+it led us to a bomb.
+
+269
+00:11:52,510 --> 00:11:55,380
+We can't just go in there waving our FBI flag.
+
+270
+00:11:56,440 --> 00:11:59,500
+Well, then... let's not go in as FBI at all.
+
+271
+00:12:01,340 --> 00:12:03,430
+This dog can really smell bombs?
+
+272
+00:12:03,550 --> 00:12:06,660
+Well, if it can't, then it's one terrible bomb-sniffing dog.
+
+273
+00:12:08,000 --> 00:12:09,050
+Zapata, you still there?
+
+274
+00:12:09,050 --> 00:12:09,940
+Ready and waiting around the block.
+
+275
+00:12:09,940 --> 00:12:10,900
+Just say the word.
+
+276
+00:12:10,900 --> 00:12:12,130
+We're at the door now.
+
+277
+00:12:13,520 --> 00:12:14,830
+What do you think, Harvey?
+
+278
+00:12:16,520 --> 00:12:19,060
+Well, he's not sitting, so... no bomb.
+
+279
+00:12:19,080 --> 00:12:19,920
+Right.
+
+280
+00:12:25,180 --> 00:12:26,560
+ZOMO's in there, he's bleeding.
+
+281
+00:12:26,560 --> 00:12:27,110
+How bad?
+
+282
+00:12:27,110 --> 00:12:28,200
+Bad. He's not gonna last.
+
+283
+00:12:28,200 --> 00:12:29,730
+Jane, it might be another trap. What are you doing?
+
+284
+00:12:29,730 --> 00:12:31,190
+There's no bomb, and he's gonna die in there.
+
+285
+00:12:31,190 --> 00:12:32,650
+We gotta take that chance.
+
+286
+00:12:43,340 --> 00:12:44,170
+Jane!
+
+287
+00:12:47,910 --> 00:12:49,660
+Shooter in northwest building across the intersection!
+
+288
+00:12:49,660 --> 00:12:51,410
+That's the community center-- move!
+
+289
+00:12:51,410 --> 00:12:52,230
+Move!
+
+290
+00:12:53,710 --> 00:12:54,480
+Jane!
+
+291
+00:12:57,200 --> 00:12:58,290
+Jane, you all right?
+
+292
+00:12:58,980 --> 00:12:59,960
+I'm okay.
+
+293
+00:13:00,390 --> 00:13:02,090
+I'm okay, it got me in the plates.
+
+294
+00:13:02,300 --> 00:13:03,090
+Go!
+
+295
+00:13:29,550 --> 00:13:30,430
+Where's Zapata?
+
+296
+00:13:30,430 --> 00:13:31,820
+Upstairs, I think they got him.
+
+297
+00:13:47,530 --> 00:13:49,810
+I got a sniper's nest with no sniper.
+
+298
+00:13:51,250 --> 00:13:53,260
+- He's in the wind. - I thought you had him.
+
+299
+00:14:18,670 --> 00:14:19,440
+Go!
+
+300
+00:14:34,260 --> 00:14:35,560
+Shooter's on the street!
+
+301
+00:14:35,560 --> 00:14:36,710
+The target's not us, it's Jane!
+
+302
+00:14:36,710 --> 00:14:39,050
+I repeat, the target is Jane Doe!
+
+303
+00:14:48,550 --> 00:14:50,150
+He's on the move. Go!
+
+304
+00:14:52,750 --> 00:14:53,300
+Her comms.
+
+305
+00:14:53,300 --> 00:14:55,420
+Where's Jane? Was she hit?
+
+306
+00:14:55,610 --> 00:14:56,750
+No, she's gone.
+
+307
+00:15:08,740 --> 00:15:09,910
+Hey, Kurt.
+
+308
+00:15:09,980 --> 00:15:11,490
+Welcome back.
+
+309
+00:15:11,970 --> 00:15:13,170
+It was a trap.
+
+310
+00:15:14,190 --> 00:15:15,110
+The bomber was after Jane.
+
+311
+00:15:15,110 --> 00:15:16,090
+Easy.
+
+312
+00:15:16,560 --> 00:15:18,720
+The shrapnel from the bomb nicked your jugular,
+
+313
+00:15:18,720 --> 00:15:20,710
+but they were able to repair the damage.
+
+314
+00:15:20,710 --> 00:15:21,800
+You need to rest, okay?
+
+315
+00:15:21,800 --> 00:15:24,450
+The doctors said you have to avoid strenuous activity.
+
+316
+00:15:25,290 --> 00:15:26,600
+But you're gonna be fine.
+
+317
+00:15:27,120 --> 00:15:29,310
+Why do you both look so worried, then?
+
+318
+00:15:29,320 --> 00:15:32,870
+Whoever did this, it wasn't ZOMO.
+
+319
+00:15:32,910 --> 00:15:35,500
+We just found him murdered in his studio.
+
+320
+00:15:36,230 --> 00:15:38,010
+The killer was just using him as bait,
+
+321
+00:15:38,010 --> 00:15:41,160
+lying in wait with a sniper rifle across the street.
+
+322
+00:15:41,180 --> 00:15:42,190
+For Jane.
+
+323
+00:15:44,220 --> 00:15:45,220
+We got him?
+
+324
+00:15:46,130 --> 00:15:47,060
+No.
+
+325
+00:15:47,960 --> 00:15:48,980
+What else?
+
+326
+00:15:49,130 --> 00:15:50,540
+Jane is missing.
+
+327
+00:15:51,580 --> 00:15:52,680
+Has he got her?
+
+328
+00:15:52,680 --> 00:15:55,860
+No, she ditched her comms and ran off
+
+329
+00:15:55,860 --> 00:15:59,370
+after the suspect made a play for her in the street.
+
+330
+00:15:59,530 --> 00:16:00,770
+She's not running.
+
+331
+00:16:01,060 --> 00:16:01,840
+She's protecting us.
+
+332
+00:16:01,840 --> 00:16:03,190
+How can you know that?
+
+333
+00:16:03,200 --> 00:16:04,760
+Jane's not a coward.
+
+334
+00:16:06,080 --> 00:16:07,600
+She's not selfish.
+
+335
+00:16:08,120 --> 00:16:10,480
+We're only targets by association.
+
+336
+00:16:11,500 --> 00:16:13,590
+So she's removed her proximity.
+
+337
+00:16:13,590 --> 00:16:15,720
+She's trying to draw him away from us,
+
+338
+00:16:15,750 --> 00:16:17,470
+and now she's out there alone.
+
+339
+00:16:17,500 --> 00:16:18,940
+Let us worry about Jane.
+
+340
+00:16:18,940 --> 00:16:20,700
+You need to take the time to recover.
+
+341
+00:16:20,700 --> 00:16:22,060
+Kurt, what are you doing?
+
+342
+00:16:22,060 --> 00:16:23,440
+I'll recover later.
+
+343
+00:16:23,760 --> 00:16:25,430
+Kurt, come on, you just had surgery.
+
+344
+00:16:25,430 --> 00:16:27,440
+You need to stay in that bed.
+
+345
+00:16:27,560 --> 00:16:29,930
+Keep fighting about it while I'm getting dressed.
+
+346
+00:16:47,630 --> 00:16:48,750
+Joey's Pizza.
+
+347
+00:16:48,750 --> 00:16:50,360
+I need to cancel my order.
+
+348
+00:16:50,370 --> 00:16:52,130
+Are you sure that's necessary?
+
+349
+00:16:52,130 --> 00:16:53,200
+Just tell him.
+
+350
+00:16:57,200 --> 00:16:59,600
+According to the ID we found in the studio,
+
+351
+00:16:59,610 --> 00:17:02,290
+ZOMO's real identity was Eric Buchman.
+
+352
+00:17:02,290 --> 00:17:05,000
+He was a fine arts student who flunked out of Columbia
+
+353
+00:17:05,000 --> 00:17:06,970
+five years ago, apparently to become
+
+354
+00:17:06,970 --> 00:17:09,600
+one of the most notorious artists of the 21st century.
+
+355
+00:17:09,600 --> 00:17:12,200
+More notorious now that he was murdered in his own studio.
+
+356
+00:17:12,940 --> 00:17:15,690
+So... first, our mystery man
+
+357
+00:17:15,690 --> 00:17:17,580
+tries to blow Jane up at the art gallery
+
+358
+00:17:17,580 --> 00:17:19,040
+and then falls back to plan "B,"
+
+359
+00:17:19,040 --> 00:17:21,170
+using ZOMO as bait to try to take her out at his loft?
+
+360
+00:17:21,170 --> 00:17:23,370
+We need to get Jane back before he gets to plan "C."
+
+361
+00:17:23,370 --> 00:17:24,530
+You really think we're gonna find her
+
+362
+00:17:24,530 --> 00:17:25,740
+if she doesn't want to be found?
+
+363
+00:17:25,850 --> 00:17:28,220
+No, which means that we have to find him.
+
+364
+00:17:29,020 --> 00:17:30,020
+So what do we know?
+
+365
+00:17:30,130 --> 00:17:32,230
+Almost nothing-- he doesn't leave much behind.
+
+366
+00:17:32,230 --> 00:17:35,290
+No ID through facial recognition, no prints.
+
+367
+00:17:35,290 --> 00:17:37,060
+What about tracing the sniper rifle?
+
+368
+00:17:37,070 --> 00:17:38,270
+No serial number.
+
+369
+00:17:38,270 --> 00:17:40,820
+We're trying to analyze the fragments from the gallery explosion.
+
+370
+00:17:40,820 --> 00:17:43,920
+The shrapnel is a combination of old steel and aluminum.
+
+371
+00:17:43,920 --> 00:17:45,300
+From what, we don't know.
+
+372
+00:17:45,440 --> 00:17:48,890
+They just caught ZOMO's assistant Kristy at JFK
+
+373
+00:17:48,890 --> 00:17:51,150
+trying to board a plane to Bhutan.
+
+374
+00:17:51,150 --> 00:17:52,660
+It's an interesting time for a vacation.
+
+375
+00:17:52,660 --> 00:17:55,360
+Especially to a country with no U.S. Extradition.
+
+376
+00:17:55,800 --> 00:17:58,040
+Sounds like we better have another talk with this girl.
+
+377
+00:18:13,710 --> 00:18:14,660
+Is it you?
+
+378
+00:18:14,660 --> 00:18:16,420
+Are your people trying to take me out?
+
+379
+00:18:16,420 --> 00:18:18,690
+You think I'd meet you alone if we were trying to kill you?
+
+380
+00:18:19,650 --> 00:18:21,180
+Don't lie to me.
+
+381
+00:18:21,180 --> 00:18:22,360
+I remember him from before.
+
+382
+00:18:22,360 --> 00:18:23,660
+He's part of your group.
+
+383
+00:18:23,660 --> 00:18:25,420
+Wait. What? Remember who?
+
+384
+00:18:25,420 --> 00:18:28,500
+The man who just tried to kill me and my entire team.
+
+385
+00:18:30,300 --> 00:18:31,290
+Cade.
+
+386
+00:18:32,100 --> 00:18:33,090
+It has to be Cade.
+
+387
+00:18:33,090 --> 00:18:34,040
+Start talking.
+
+388
+00:18:34,040 --> 00:18:35,980
+He's one of our founding members.
+
+389
+00:18:36,170 --> 00:18:38,030
+Integral to the design of this plan.
+
+390
+00:18:38,030 --> 00:18:39,620
+We should have paid attention to the warning signs,
+
+391
+00:18:39,620 --> 00:18:42,530
+but his strengths outweigh his flaws.
+
+392
+00:18:43,230 --> 00:18:44,300
+Till they didn't.
+
+393
+00:18:44,600 --> 00:18:46,200
+And who made that call?
+
+394
+00:18:47,890 --> 00:18:49,110
+You did.
+
+395
+00:18:56,380 --> 00:18:58,540
+Cade was always volatile, but...
+
+396
+00:19:00,070 --> 00:19:01,700
+after we put you in play at the FBI,
+
+397
+00:19:01,700 --> 00:19:04,150
+something inside him just... broke.
+
+398
+00:19:04,150 --> 00:19:06,220
+He started going on these rants, saying...
+
+399
+00:19:06,220 --> 00:19:07,700
+it was all a mistake, that we were no better
+
+400
+00:19:07,700 --> 00:19:09,640
+than the people we were trying to stop.
+
+401
+00:19:09,840 --> 00:19:10,710
+And when we wouldn't listen,
+
+402
+00:19:10,710 --> 00:19:12,660
+he made an early play for your life.
+
+403
+00:19:14,150 --> 00:19:15,460
+The safe house.
+
+404
+00:19:17,070 --> 00:19:18,350
+Once Cade splintered off,
+
+405
+00:19:18,350 --> 00:19:21,050
+we couldn't trust the FBI to keep you safe,
+
+406
+00:19:21,090 --> 00:19:23,070
+so we sent someone in to move you.
+
+407
+00:19:26,920 --> 00:19:30,780
+But, as we learned too late, Cade had gotten there first.
+
+408
+00:19:53,270 --> 00:19:54,890
+You saved my life that night.
+
+409
+00:19:56,680 --> 00:19:58,910
+After that, Cade disappeared...
+
+410
+00:20:00,190 --> 00:20:02,300
+and we've been trying to find him ever since.
+
+411
+00:20:02,300 --> 00:20:03,820
+We had our own protective detail
+
+412
+00:20:03,820 --> 00:20:06,190
+keeping an eye on you in the meantime.
+
+413
+00:20:06,200 --> 00:20:07,590
+I have to tell my team.
+
+414
+00:20:07,590 --> 00:20:09,720
+Tell them what, that someone's trying to kill you?
+
+415
+00:20:09,760 --> 00:20:10,920
+They know that already.
+
+416
+00:20:11,260 --> 00:20:12,870
+How do you explain the rest?
+
+417
+00:20:14,090 --> 00:20:15,690
+How do we stop Cade?
+
+418
+00:20:15,830 --> 00:20:17,780
+- "We"? - Yeah, you and me.
+
+419
+00:20:18,070 --> 00:20:20,080
+I can't go back and risk endangering my team
+
+420
+00:20:20,080 --> 00:20:22,340
+while he's still trying to come after me like this.
+
+421
+00:20:23,070 --> 00:20:24,090
+We kill him.
+
+422
+00:20:26,020 --> 00:20:28,120
+People like Cade don't stop for less.
+
+423
+00:20:28,960 --> 00:20:30,570
+But if we're gonna take him down,
+
+424
+00:20:31,620 --> 00:20:32,970
+we'll need to gear up.
+
+425
+00:20:40,260 --> 00:20:42,040
+If you weren't an accessory to these crimes,
+
+426
+00:20:42,040 --> 00:20:43,500
+why are you fleeing the country?
+
+427
+00:20:45,190 --> 00:20:47,240
+My boss just got killed.
+
+428
+00:20:47,250 --> 00:20:50,720
+I'm out of a job. I wasn't... "Fleeing."
+
+429
+00:20:50,720 --> 00:20:51,820
+This is crazy.
+
+430
+00:20:51,830 --> 00:20:53,490
+He should still be in the hospital.
+
+431
+00:20:53,620 --> 00:20:55,390
+Feel free to tell him that.
+
+432
+00:20:56,240 --> 00:20:57,020
+I'm sure he knows.
+
+433
+00:20:57,020 --> 00:20:59,870
+How did that burning rose get on ZOMO's canvas?
+
+434
+00:21:00,570 --> 00:21:02,550
+Kristy, whoever did this
+
+435
+00:21:02,550 --> 00:21:05,100
+will be facing charges of breaking and entering,
+
+436
+00:21:05,100 --> 00:21:06,940
+robbery, the bombing,
+
+437
+00:21:07,030 --> 00:21:08,990
+and, now that ZOMO is dead, murder.
+
+438
+00:21:08,990 --> 00:21:10,740
+I didn't do any of this!
+
+439
+00:21:12,320 --> 00:21:13,620
+Then talk to us.
+
+440
+00:21:16,950 --> 00:21:17,780
+Kristy.
+
+441
+00:21:18,520 --> 00:21:19,420
+Talk!
+
+442
+00:21:20,620 --> 00:21:23,780
+A few days ago, ZOMO got an anonymous message.
+
+443
+00:21:26,200 --> 00:21:28,400
+Threatening to expose his identity if he didn't
+
+444
+00:21:28,400 --> 00:21:31,220
+meet him in Carroll Park at 4:00 A.M.
+
+445
+00:21:31,220 --> 00:21:32,630
+How did they figure out who he was?
+
+446
+00:21:32,630 --> 00:21:33,540
+I don't know.
+
+447
+00:21:35,710 --> 00:21:36,670
+But he said when he got there,
+
+448
+00:21:36,670 --> 00:21:39,490
+this guy just handed him a sketch.
+
+449
+00:21:39,980 --> 00:21:43,200
+And said he wanted him to paint it for a show.
+
+450
+00:21:43,210 --> 00:21:44,360
+The burning rose.
+
+451
+00:21:44,830 --> 00:21:45,650
+I don't get it.
+
+452
+00:21:45,890 --> 00:21:48,200
+Why would ZOMO go to the park if this guy was threatening him?
+
+453
+00:21:48,200 --> 00:21:50,110
+Well, ZOMO's whole artistic life
+
+454
+00:21:50,110 --> 00:21:52,140
+was based on mystery.
+
+455
+00:21:53,650 --> 00:21:56,690
+My guess, he was too curious to stay home.
+
+456
+00:21:56,800 --> 00:21:59,490
+And when he found out he was being blackmailed to make art,
+
+457
+00:21:59,500 --> 00:22:02,150
+well, he would have eaten that up with a spoon.
+
+458
+00:22:02,160 --> 00:22:03,890
+He told you all this on a postcard?
+
+459
+00:22:05,000 --> 00:22:07,020
+It wasn't supposed to end like this.
+
+460
+00:22:12,660 --> 00:22:13,590
+You're ZOMO.
+
+461
+00:22:15,540 --> 00:22:16,440
+Aren't you?
+
+462
+00:22:18,130 --> 00:22:20,490
+The only prints on that postcard were yours,
+
+463
+00:22:20,530 --> 00:22:21,590
+'cause you wrote it.
+
+464
+00:22:21,990 --> 00:22:23,310
+Who went to the park?
+
+465
+00:22:23,310 --> 00:22:26,990
+You, or this Eric Buchman front?
+
+466
+00:22:28,800 --> 00:22:29,600
+Eric.
+
+467
+00:22:30,420 --> 00:22:31,880
+But you're the artist.
+
+468
+00:22:32,180 --> 00:22:33,690
+I was the artist.
+
+469
+00:22:37,700 --> 00:22:41,240
+And Eric... wasn't just a front.
+
+470
+00:22:43,630 --> 00:22:44,950
+He was my boyfriend.
+
+471
+00:22:45,590 --> 00:22:47,650
+We started ZOMO as an experiment
+
+472
+00:22:47,650 --> 00:22:49,670
+after we met at Columbia.
+
+473
+00:22:50,350 --> 00:22:52,030
+And when it caught on...
+
+474
+00:22:54,030 --> 00:22:56,620
+we wanted to see how far we could push it.
+
+475
+00:22:59,390 --> 00:23:00,680
+I guess we found out.
+
+476
+00:23:03,240 --> 00:23:06,120
+When they told me Eric was killed in my studio, I...
+
+477
+00:23:06,690 --> 00:23:09,320
+I'm sorry, I couldn't think, I just, I...
+
+478
+00:23:10,080 --> 00:23:11,030
+I ran.
+
+479
+00:23:11,470 --> 00:23:13,520
+I just want to disappear. I just...
+
+480
+00:23:13,690 --> 00:23:15,400
+I just want it all to go away.
+
+481
+00:23:18,970 --> 00:23:21,080
+Where were you when Eric was killed?
+
+482
+00:23:21,370 --> 00:23:22,740
+I was at the gallery,
+
+483
+00:23:24,460 --> 00:23:27,250
+dealing with insurance for the ZOMO paintings.
+
+484
+00:23:27,250 --> 00:23:29,190
+We're gonna have to keep you in protective custody
+
+485
+00:23:29,910 --> 00:23:31,760
+until this case is resolved.
+
+486
+00:23:31,820 --> 00:23:33,340
+I'm sorry for your loss.
+
+487
+00:23:35,770 --> 00:23:36,740
+Okay.
+
+488
+00:23:39,820 --> 00:23:42,250
+Our suspect had a sketch of the tattoos.
+
+489
+00:23:42,640 --> 00:23:44,950
+He either had access to Jane's FBI file
+
+490
+00:23:45,070 --> 00:23:47,440
+or had access to her before she came to us.
+
+491
+00:23:47,610 --> 00:23:49,140
+Either way, it's huge.
+
+492
+00:23:49,330 --> 00:23:51,630
+Weller. Your neck.
+
+493
+00:23:52,760 --> 00:23:54,550
+- I'm fine. - You're not fine.
+
+494
+00:23:55,450 --> 00:23:58,010
+You're bleeding, you need to go back to the hospital.
+
+495
+00:23:58,010 --> 00:23:59,920
+I need to stop this guy from killing Jane.
+
+496
+00:23:59,920 --> 00:24:02,510
+After that, I'll go to whatever hospital you want.
+
+497
+00:24:17,690 --> 00:24:19,480
+Are you gonna tell me what we're doing in here?
+
+498
+00:24:25,350 --> 00:24:27,090
+Well, this can't be good news.
+
+499
+00:24:39,590 --> 00:24:41,490
+What, I only see you when you need something?
+
+500
+00:24:42,930 --> 00:24:43,940
+Hey, stranger.
+
+501
+00:24:44,280 --> 00:24:46,020
+Oh... right.
+
+502
+00:24:47,670 --> 00:24:48,960
+Guess I am a stranger.
+
+503
+00:24:49,110 --> 00:24:51,630
+She's not too happy with us at the moment.
+
+504
+00:24:51,670 --> 00:24:53,280
+You warned us that might happen.
+
+505
+00:24:53,950 --> 00:24:55,820
+We're gonna need some supplies.
+
+506
+00:24:55,820 --> 00:24:58,030
+I heard. Follow me.
+
+507
+00:24:58,650 --> 00:24:59,740
+Goes without saying,
+
+508
+00:24:59,750 --> 00:25:02,370
+don't use your FBI sidearm until this over.
+
+509
+00:25:02,370 --> 00:25:04,280
+We don't need anyone tracing your movements
+
+510
+00:25:04,280 --> 00:25:05,720
+through federal bullets.
+
+511
+00:25:06,650 --> 00:25:10,590
+Ah, we got longarms in the trunk, in case you need 'em.
+
+512
+00:25:10,720 --> 00:25:12,830
+And with Cade, you'll need 'em.
+
+513
+00:25:13,060 --> 00:25:15,530
+This'll get you anywhere you need to go, and quick.
+
+514
+00:25:15,680 --> 00:25:17,670
+A little, uh, conspicuous, maybe.
+
+515
+00:25:17,670 --> 00:25:18,960
+Look, you didn't give me much notice.
+
+516
+00:25:18,960 --> 00:25:21,040
+So, you don't like it, you can buy a bus pass.
+
+517
+00:25:22,810 --> 00:25:24,480
+We got burners, case you need to reach out,
+
+518
+00:25:24,480 --> 00:25:27,290
+can't get to a payphone-- one call and toss.
+
+519
+00:25:27,740 --> 00:25:29,600
+You should have started with the phones first.
+
+520
+00:25:29,600 --> 00:25:32,040
+Yeah, it's a little anticlimactic.
+
+521
+00:25:32,870 --> 00:25:35,960
+All right, buddy, sorry to steal your toys and run, but...
+
+522
+00:25:37,030 --> 00:25:38,250
+Look after him, will you?
+
+523
+00:25:38,860 --> 00:25:39,640
+Thank you.
+
+524
+00:25:40,470 --> 00:25:41,230
+You got it.
+
+525
+00:26:08,970 --> 00:26:10,220
+Oh, I'm sorry.
+
+526
+00:26:10,670 --> 00:26:12,810
+Oh ho, I'm sorry. I messed up.
+
+527
+00:26:12,810 --> 00:26:13,720
+I messed up.
+
+528
+00:26:18,310 --> 00:26:20,360
+Oh ho, I'm sorry. I messed up.
+
+529
+00:26:20,450 --> 00:26:21,400
+I'm sorry.
+
+530
+00:26:21,620 --> 00:26:23,560
+I'm sorry, Cade must have followed me here,
+
+531
+00:26:23,610 --> 00:26:24,270
+and he waited for you guys to show.
+
+532
+00:26:24,270 --> 00:26:26,170
+This isn't on you, this isn't on you.
+
+533
+00:26:27,780 --> 00:26:29,260
+Don't look at me like that.
+
+534
+00:26:31,410 --> 00:26:32,620
+I owed you one.
+
+535
+00:26:33,300 --> 00:26:34,550
+Now we're even.
+
+536
+00:26:42,610 --> 00:26:44,110
+Oscar, I'm so sorry.
+
+537
+00:26:46,730 --> 00:26:47,610
+We have to go.
+
+538
+00:26:51,750 --> 00:26:53,140
+Oscar, we have to go now!
+
+539
+00:27:01,430 --> 00:27:02,470
+What are you doing?
+
+540
+00:27:03,370 --> 00:27:04,900
+I'm making it look like a robbery, so it's easier
+
+541
+00:27:04,900 --> 00:27:06,290
+to explain in a police report.
+
+542
+00:27:06,290 --> 00:27:07,110
+Get in the car!
+
+543
+00:27:17,830 --> 00:27:19,930
+We're gonna have to ditch this car and steal another one.
+
+544
+00:27:19,930 --> 00:27:21,360
+We can't risk using it now.
+
+545
+00:27:26,450 --> 00:27:27,450
+I'm sorry about your friend...
+
+546
+00:27:27,450 --> 00:27:29,030
+our-- our friend.
+
+547
+00:27:29,460 --> 00:27:31,940
+But if Cade found Danny, who else can he find?
+
+548
+00:27:39,040 --> 00:27:39,930
+What does that mean?
+
+549
+00:27:46,310 --> 00:27:47,150
+You found something?
+
+550
+00:27:47,150 --> 00:27:47,890
+Maybe.
+
+551
+00:27:48,270 --> 00:27:49,670
+My team's been working the metal fragments
+
+552
+00:27:49,670 --> 00:27:51,550
+and the shrapnel from the Gandhi bomb.
+
+553
+00:27:51,550 --> 00:27:52,460
+And?
+
+554
+00:27:52,550 --> 00:27:54,120
+They're old. Like, way old.
+
+555
+00:27:54,120 --> 00:27:55,780
+Based on the shape and the composition,
+
+556
+00:27:55,780 --> 00:27:56,960
+it looks like they're the offcuts
+
+557
+00:27:56,960 --> 00:27:58,600
+from old ACSR conductors.
+
+558
+00:27:58,600 --> 00:27:59,640
+Power lines.
+
+559
+00:27:59,640 --> 00:28:01,020
+There can't be too many places around the city
+
+560
+00:28:01,020 --> 00:28:02,970
+- they could have come from. - There's four.
+
+561
+00:28:02,970 --> 00:28:03,950
+But only one near Carroll Park,
+
+562
+00:28:03,950 --> 00:28:05,770
+where this guy arranged to meet ZOMO.
+
+563
+00:28:05,880 --> 00:28:07,260
+The Red Hook Power Plant.
+
+564
+00:28:07,610 --> 00:28:08,470
+Anything else?
+
+565
+00:28:08,470 --> 00:28:09,210
+Yeah, it's the only one
+
+566
+00:28:09,210 --> 00:28:10,550
+that's been decommissioned.
+
+567
+00:28:10,560 --> 00:28:11,860
+- It's empty. - All right, so send some teams
+
+568
+00:28:11,860 --> 00:28:13,720
+to those other plants just in case.
+
+569
+00:28:13,830 --> 00:28:15,580
+Tasha, Reade, you're with me.
+
+570
+00:28:18,100 --> 00:28:18,890
+Got it.
+
+571
+00:28:20,400 --> 00:28:21,260
+What's happened now?
+
+572
+00:28:23,130 --> 00:28:24,540
+They found another body.
+
+573
+00:28:25,540 --> 00:28:26,550
+One of ours.
+
+574
+00:28:26,550 --> 00:28:29,040
+He was tortured and killed a few hours ago.
+
+575
+00:28:29,120 --> 00:28:31,160
+That must be how Cade found Danny.
+
+576
+00:28:31,230 --> 00:28:32,760
+He knows too much about us.
+
+577
+00:28:33,480 --> 00:28:36,260
+We can't beat him, not like this.
+
+578
+00:28:37,500 --> 00:28:39,320
+Every second you're out here puts you in more danger.
+
+579
+00:28:39,320 --> 00:28:40,990
+Well, what's the alternative?
+
+580
+00:28:41,400 --> 00:28:42,070
+I mean, you said it yourself,
+
+581
+00:28:42,070 --> 00:28:44,000
+he's not gonna stop coming after me.
+
+582
+00:28:44,040 --> 00:28:45,540
+We stop playing his game.
+
+583
+00:28:46,450 --> 00:28:47,820
+We pull you out of the FBI.
+
+584
+00:28:47,820 --> 00:28:48,690
+What?
+
+585
+00:28:49,610 --> 00:28:50,540
+No, I--
+
+586
+00:28:50,730 --> 00:28:52,170
+I thought this mission was the most important--
+
+587
+00:28:52,170 --> 00:28:53,960
+If you die, mission fails.
+
+588
+00:28:55,580 --> 00:28:56,990
+Once we deal with Cade,
+
+589
+00:28:57,050 --> 00:28:59,120
+we'll find a way to put you back in play.
+
+590
+00:28:59,360 --> 00:29:00,610
+I won't leave my team.
+
+591
+00:29:00,800 --> 00:29:01,940
+You've already left them.
+
+592
+00:29:01,950 --> 00:29:02,770
+To protect them,
+
+593
+00:29:02,780 --> 00:29:04,930
+and it's gonna be hard enough as it is to explain where I've been.
+
+594
+00:29:04,930 --> 00:29:06,150
+If I disappear completely, I might never--
+
+595
+00:29:06,150 --> 00:29:07,830
+Please. We can't lose you.
+
+596
+00:29:10,200 --> 00:29:12,700
+I can't lose you. I can't.
+
+597
+00:29:14,130 --> 00:29:15,010
+They need me.
+
+598
+00:29:15,570 --> 00:29:16,940
+Well, then do it for them.
+
+599
+00:29:18,550 --> 00:29:19,940
+As long as Cade's alive,
+
+600
+00:29:20,540 --> 00:29:22,390
+your presence puts them all in danger.
+
+601
+00:29:24,010 --> 00:29:24,860
+You know I'm right.
+
+602
+00:29:27,480 --> 00:29:28,830
+We need to find a new car.
+
+604
+00:29:43,490 --> 00:29:44,430
+See anything?
+
+605
+00:29:45,170 --> 00:29:46,640
+Maybe Patterson was wrong.
+
+606
+00:29:55,750 --> 00:29:56,540
+Maybe not.
+
+607
+00:29:57,080 --> 00:29:58,270
+Flashlight off.
+
+608
+00:30:52,940 --> 00:30:53,820
+On me!
+
+609
+00:31:16,590 --> 00:31:17,550
+We're trapped.
+
+610
+00:31:28,010 --> 00:31:29,110
+I'm sorry, Ms. Weller,
+
+611
+00:31:29,110 --> 00:31:31,940
+it says your brother checked himself out earlier today.
+
+612
+00:31:32,790 --> 00:31:33,510
+Wait.
+
+613
+00:31:33,510 --> 00:31:34,810
+It says he was under your care.
+
+614
+00:31:34,810 --> 00:31:35,900
+Who is this?
+
+615
+00:31:38,570 --> 00:31:39,360
+How is he?
+
+616
+00:31:41,400 --> 00:31:42,440
+He's not there.
+
+617
+00:31:44,120 --> 00:31:45,060
+What's he doing?
+
+618
+00:31:46,110 --> 00:31:48,310
+This was a mistake. I should be with them.
+
+619
+00:31:54,200 --> 00:31:55,820
+You're not gonna find out what's wrong?
+
+620
+00:31:55,820 --> 00:31:57,880
+I'll deal with it once I've got you secured.
+
+621
+00:31:57,880 --> 00:32:00,070
+No. I want to know.
+
+622
+00:32:00,570 --> 00:32:01,420
+Check in.
+
+623
+00:32:05,240 --> 00:32:07,250
+Check in now!
+
+624
+00:32:08,640 --> 00:32:10,350
+I'm sick of being kept in the dark.
+
+625
+00:32:10,900 --> 00:32:11,920
+I want to hear.
+
+626
+00:32:14,010 --> 00:32:15,280
+Gotta get through that door.
+
+627
+00:32:18,740 --> 00:32:19,490
+Come on.
+
+628
+00:32:19,520 --> 00:32:20,980
+No signal in or out.
+
+629
+00:32:23,240 --> 00:32:24,990
+Hey, Weller, why don't you take it easy?
+
+630
+00:32:25,660 --> 00:32:28,530
+Yes, I'm sure. Cade just called this line.
+
+631
+00:32:28,730 --> 00:32:30,730
+Says he's got all three of them on a ship
+
+632
+00:32:30,730 --> 00:32:32,770
+by the old Red Hook Power Plant.
+
+633
+00:32:33,020 --> 00:32:34,020
+We'll handle it.
+
+634
+00:32:34,280 --> 00:32:35,980
+Just get her safe.
+
+635
+00:32:42,460 --> 00:32:44,150
+- No. - We have to help them.
+
+636
+00:32:44,150 --> 00:32:45,840
+No. That's exactly what Cade wants you to do.
+
+637
+00:32:45,840 --> 00:32:46,530
+Why do you think he called Hobbes?
+
+638
+00:32:46,530 --> 00:32:49,210
+You think I don't know that? It doesn't matter!
+
+639
+00:32:49,210 --> 00:32:51,210
+You heard him yourself. They're handling it.
+
+640
+00:32:51,210 --> 00:32:53,160
+- We'll get him back, I promise. - How?
+
+641
+00:32:53,160 --> 00:32:54,930
+You have to trust me on this.
+
+642
+00:32:54,980 --> 00:32:56,720
+This isn't your fight right now.
+
+643
+00:32:58,990 --> 00:32:59,730
+Fine.
+
+644
+00:33:03,500 --> 00:33:04,370
+Stop!
+
+645
+00:33:05,900 --> 00:33:06,750
+Back away.
+
+646
+00:33:06,750 --> 00:33:08,750
+Taylor, you're not gonna do this.
+
+647
+00:33:08,770 --> 00:33:10,940
+I don't give up on my friends for anyone.
+
+648
+00:33:10,940 --> 00:33:12,430
+They're not your friends, Taylor.
+
+649
+00:33:17,760 --> 00:33:19,020
+Look, it ain't happening.
+
+650
+00:33:19,580 --> 00:33:20,450
+We're stuck.
+
+651
+00:33:28,300 --> 00:33:29,260
+You hearing that?
+
+652
+00:33:29,880 --> 00:33:30,720
+It's hollow.
+
+653
+00:33:33,040 --> 00:33:34,460
+- Get over to this side. - Why?
+
+654
+00:33:34,730 --> 00:33:35,880
+'Cause of the ricochet.
+
+655
+00:33:40,780 --> 00:33:41,860
+Oh, nice.
+
+656
+00:33:42,540 --> 00:33:43,930
+Think we'd all fit through it?
+
+657
+00:33:47,860 --> 00:33:48,900
+Let's hope that has gas in it.
+
+658
+00:33:48,910 --> 00:33:49,810
+Wait, what?
+
+659
+00:33:49,990 --> 00:33:52,400
+Help me find a hose to fit into that hole.
+
+660
+00:33:52,830 --> 00:33:54,540
+We gotta fill the door with gas.
+
+661
+00:33:55,620 --> 00:33:56,680
+That's too thick.
+
+662
+00:33:56,830 --> 00:33:57,690
+Look at that.
+
+663
+00:33:58,980 --> 00:33:59,820
+Here.
+
+664
+00:34:00,290 --> 00:34:01,750
+Try and fit that in that hole.
+
+665
+00:34:01,840 --> 00:34:03,170
+- Can you do it? - Yeah, yeah.
+
+666
+00:34:04,420 --> 00:34:05,650
+Need something to seal it.
+
+667
+00:34:05,970 --> 00:34:06,770
+Got a rag?
+
+668
+00:34:06,810 --> 00:34:07,600
+Here you go.
+
+669
+00:34:09,320 --> 00:34:10,090
+All right.
+
+670
+00:34:10,550 --> 00:34:12,070
+- Weller! - What?
+
+671
+00:34:12,080 --> 00:34:14,180
+- Well, see-- - Jane!
+
+672
+00:34:14,180 --> 00:34:15,540
+How did she find us?
+
+673
+00:34:15,610 --> 00:34:17,070
+Jane! Get us out of here!
+
+674
+00:34:17,160 --> 00:34:18,090
+Hit that button!
+
+675
+00:34:20,420 --> 00:34:21,240
+Down!
+
+676
+00:34:24,070 --> 00:34:24,960
+Keep going!
+
+677
+00:34:28,050 --> 00:34:28,940
+No!
+
+678
+00:34:29,180 --> 00:34:29,950
+Weapon.
+
+679
+00:34:34,310 --> 00:34:36,010
+No! Jane!
+
+680
+00:34:36,150 --> 00:34:37,140
+Where's Oscar?
+
+681
+00:34:38,640 --> 00:34:39,500
+Please.
+
+682
+00:34:40,130 --> 00:34:40,850
+Not in front of them.
+
+683
+00:34:40,860 --> 00:34:42,360
+Don't kill me in front of my team.
+
+684
+00:34:42,360 --> 00:34:43,850
+"Your team." That's interesting.
+
+685
+00:34:44,630 --> 00:34:45,590
+Where's Oscar?
+
+686
+00:34:46,060 --> 00:34:47,090
+I want him to watch you die
+
+687
+00:34:47,090 --> 00:34:48,510
+for what he did to Marcos.
+
+688
+00:34:49,180 --> 00:34:50,160
+He's not here.
+
+689
+00:34:50,520 --> 00:34:52,720
+You're lying. Take a walk.
+
+690
+00:34:52,720 --> 00:34:54,520
+Jane! Jane!
+
+691
+00:34:55,580 --> 00:34:56,430
+No!
+
+692
+00:35:08,260 --> 00:35:09,530
+- All right. - What?
+
+693
+00:35:09,580 --> 00:35:10,300
+Okay.
+
+694
+00:35:12,270 --> 00:35:14,230
+Tasha, hold it in there.
+
+695
+00:35:15,860 --> 00:35:17,750
+That's it. That's enough.
+
+696
+00:35:17,750 --> 00:35:18,760
+Keep it sealed.
+
+697
+00:35:19,540 --> 00:35:20,590
+We gotta fill it up.
+
+698
+00:35:22,420 --> 00:35:24,680
+Seal the hole. Keep it sealed.
+
+699
+00:35:24,680 --> 00:35:25,610
+We got to keep filling that door.
+
+700
+00:35:25,610 --> 00:35:26,340
+Yeah.
+
+701
+00:35:26,410 --> 00:35:28,320
+Okay, stand back here.
+
+702
+00:35:28,380 --> 00:35:29,360
+Take some cover.
+
+703
+00:36:16,980 --> 00:36:17,880
+Jane!
+
+704
+00:36:19,570 --> 00:36:20,300
+Jane!
+
+705
+00:36:20,300 --> 00:36:24,720
+No!
+
+706
+00:36:27,770 --> 00:36:29,350
+Jane! Jane!
+
+707
+00:36:30,040 --> 00:36:30,830
+Are you hit?
+
+708
+00:36:30,970 --> 00:36:32,560
+- I heard a gunshot. - He fell in?
+
+709
+00:36:32,770 --> 00:36:34,230
+Yeah. I shot him in the stomach.
+
+710
+00:36:43,090 --> 00:36:44,390
+What the hell were you thinking?
+
+711
+00:36:44,440 --> 00:36:46,340
+You can't just disappear like that!
+
+712
+00:36:46,370 --> 00:36:47,330
+I was trying to protect--
+
+713
+00:36:47,330 --> 00:36:48,720
+It was reckless!
+
+714
+00:36:48,750 --> 00:36:50,270
+You can't take those risks.
+
+715
+00:36:50,270 --> 00:36:51,740
+It is not your call.
+
+716
+00:36:58,090 --> 00:36:58,940
+You're right.
+
+717
+00:36:59,200 --> 00:37:02,220
+How did you trace the team to the power plant?
+
+718
+00:37:02,230 --> 00:37:03,480
+I didn't...
+
+719
+00:37:03,480 --> 00:37:06,490
+I tracked the assassin from ZOMO's studio back to the ship.
+
+720
+00:37:06,490 --> 00:37:07,830
+I was surveilling him, trying to figure out
+
+721
+00:37:07,840 --> 00:37:09,990
+what he was up to, when the team showed up.
+
+722
+00:37:09,990 --> 00:37:11,910
+Why didn't you alert us to your presence?
+
+723
+00:37:11,910 --> 00:37:14,340
+I couldn't without alerting him to yours.
+
+724
+00:37:14,950 --> 00:37:16,700
+And then when you guys didn't come out,
+
+725
+00:37:16,700 --> 00:37:19,210
+I waited for the right moment and I went in after you.
+
+726
+00:37:20,490 --> 00:37:23,970
+Do something like that again, and you're done.
+
+727
+00:37:31,090 --> 00:37:31,940
+I'm sorry.
+
+728
+00:37:34,230 --> 00:37:35,250
+Are you okay?
+
+729
+00:37:37,180 --> 00:37:40,080
+No. I'm not.
+
+730
+00:37:41,400 --> 00:37:42,830
+I lost you once before.
+
+731
+00:37:42,990 --> 00:37:46,310
+I spent most of today thinking I lost you again.
+
+732
+00:37:52,210 --> 00:37:55,580
+What would you have done... if you were me?
+
+733
+00:37:57,070 --> 00:37:58,540
+Exactly the same thing.
+
+734
+00:38:05,680 --> 00:38:06,880
+Coast Guard didn't find a body.
+
+735
+00:38:06,880 --> 00:38:08,430
+Said the current must have taken him.
+
+736
+00:38:08,510 --> 00:38:10,210
+Her story feels off.
+
+737
+00:38:10,430 --> 00:38:12,180
+You still don't think she's connected
+
+738
+00:38:12,180 --> 00:38:13,840
+to Carter's disappearance?
+
+739
+00:38:17,550 --> 00:38:18,510
+No, I don't.
+
+740
+00:38:26,550 --> 00:38:27,740
+I mean, who the hell goes back to work
+
+741
+00:38:27,740 --> 00:38:29,320
+the day they have surgery?
+
+742
+00:38:30,490 --> 00:38:32,430
+Seriously, what is wrong with you?
+
+743
+00:38:33,720 --> 00:38:34,860
+What'd you want me to do?
+
+744
+00:38:35,390 --> 00:38:37,450
+Stay at home, watch soap operas?
+
+745
+00:38:37,460 --> 00:38:38,320
+Yes.
+
+746
+00:38:38,790 --> 00:38:40,330
+That's what normal people....
+
+747
+00:38:43,580 --> 00:38:45,170
+Yeah, comin'.
+
+748
+00:38:47,180 --> 00:38:48,020
+Hey, bud.
+
+749
+00:38:48,630 --> 00:38:49,540
+It's been a long day.
+
+750
+00:38:49,540 --> 00:38:50,810
+I'm not here to talk to you.
+
+751
+00:38:53,870 --> 00:38:54,660
+Right.
+
+752
+00:38:55,630 --> 00:38:56,440
+Come in.
+
+753
+00:38:58,780 --> 00:38:59,800
+I'm going to bed.
+
+754
+00:39:09,280 --> 00:39:10,600
+It was a crazy day, huh?
+
+755
+00:39:19,270 --> 00:39:21,660
+Sarah, I've been thinking a lot...
+
+756
+00:39:22,360 --> 00:39:24,050
+about what you said to me earlier,
+
+757
+00:39:25,170 --> 00:39:26,710
+and it made me realize...
+
+758
+00:39:31,070 --> 00:39:32,600
+I don't feel the same way.
+
+759
+00:39:36,330 --> 00:39:37,120
+What?
+
+760
+00:39:37,300 --> 00:39:38,720
+I can't do this anymore.
+
+761
+00:39:39,700 --> 00:39:40,910
+If this is because of Kurt,
+
+762
+00:39:40,910 --> 00:39:41,640
+- I mean, he-- - No.
+
+763
+00:39:41,640 --> 00:39:43,640
+- Like, he doesn't-- - It's not about Kurt.
+
+764
+00:39:43,640 --> 00:39:45,870
+You don't know me, and...
+
+765
+00:39:49,050 --> 00:39:50,450
+I've got issues.
+
+766
+00:39:50,570 --> 00:39:51,720
+I don't believe you.
+
+767
+00:39:53,440 --> 00:39:54,430
+I know you.
+
+768
+00:39:56,030 --> 00:39:57,360
+And I know that you love me, too.
+
+769
+00:39:57,370 --> 00:39:59,240
+No, I don't.
+
+770
+00:40:01,550 --> 00:40:02,780
+I'm sorry, Sarah.
+
+771
+00:40:16,780 --> 00:40:19,130
+The water's actually not that bad once you're in.
+
+772
+00:40:24,300 --> 00:40:26,950
+Wow you almost seemed happy to see me for a second.
+
+773
+00:40:28,840 --> 00:40:29,700
+What happened?
+
+774
+00:40:30,310 --> 00:40:32,250
+You're not the only one who can hold their breath.
+
+775
+00:40:34,040 --> 00:40:35,600
+Cade's grudge seemed like a lot more
+
+776
+00:40:35,600 --> 00:40:37,750
+than just a difference of ideals.
+
+777
+00:40:38,270 --> 00:40:39,490
+It felt personal.
+
+778
+00:40:40,580 --> 00:40:42,090
+He wanted you to watch me die
+
+779
+00:40:42,090 --> 00:40:44,290
+because of what you did to Marcos?
+
+780
+00:40:45,780 --> 00:40:46,970
+What did you do to him?
+
+781
+00:40:47,360 --> 00:40:48,540
+We all made sacrifices.
+
+782
+00:40:48,550 --> 00:40:50,700
+No. That's not good enough, not today.
+
+783
+00:40:53,280 --> 00:40:55,740
+Cade lost someone close to him once,
+
+784
+00:40:55,740 --> 00:40:57,230
+and he held me responsible.
+
+785
+00:40:57,950 --> 00:40:58,800
+Were you?
+
+786
+00:41:00,840 --> 00:41:01,660
+Yeah.
+
+787
+00:41:03,200 --> 00:41:04,590
+You always act like everything is going
+
+788
+00:41:04,600 --> 00:41:06,730
+completely according to plan,
+
+789
+00:41:07,130 --> 00:41:09,310
+but today, Cade proved that wasn't true.
+
+790
+00:41:12,550 --> 00:41:14,120
+What else aren't you telling me?
+
+791
+00:41:15,220 --> 00:41:16,330
+How worried should I be?
+
+792
+00:41:16,330 --> 00:41:18,120
+Cade's dead. We beat him.
+
+793
+00:41:18,120 --> 00:41:19,480
+Things are back on track.
+
+794
+00:41:20,560 --> 00:41:21,580
+So what now?
+
+795
+00:41:22,000 --> 00:41:23,060
+Now you go home.
+
+796
+00:41:24,570 --> 00:41:25,850
+I'll see you tomorrow.
+
+797
+00:41:26,750 --> 00:41:27,510
+Yeah.
+
