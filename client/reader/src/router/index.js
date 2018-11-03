@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import Reference from '@/components/Reference'
-import Document from '@/components/Document'
+import reference from '@/components/reference'
+import document from '@/components/document'
 
 Vue.use(Router)
 
@@ -10,13 +10,14 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Reference',
-      component: Reference
+      name: reference.name,
+      component: reference
     },
     {
-      path: '/Document',
-      name: 'Document',
-      component: Document
+      path: '/document/:id',
+      name: document.name,
+      props: true,
+      component: document
     },
     {
       path: '/HelloWorld',

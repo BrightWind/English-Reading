@@ -1,11 +1,13 @@
 <template>
   <div class="main-frame">
     <div class="doc-list">
-      <li v-for="doc in docs">
+      <li v-for="doc in docs" @click="OnClickItem(doc)">
         <div class="doc-item">
           <div class="doc-desc">{{doc.title}}</div>
         </div>
       </li>
+
+      <router-link :to="{ name: 'document', params: { id: 123 }}">bar</router-link>
     </div>
     <div>
       <footer></footer>
@@ -17,6 +19,12 @@ export default {
   data () {
     return {
       docs: [{title: 'Start learning document'}, {title: 'Start learning English'}]
+    }
+  },
+  methods: {
+    OnClickItem (item) {
+      console.log(item.title)
+      this.$router.push({name: 'document', params: { profile: item }})
     }
   }
 }
