@@ -7,6 +7,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 
 import java.io.InputStream;
@@ -41,5 +42,15 @@ public class DocumentController {
         {
             return "Document not found";
         }
+    }
+
+    String YouDaoUrl = "http://dict.youdao.com/jsonapi?xmlVersion=5.1&client=&q=account&dicts=&keyfrom=&model=&mid=&imei=&vendor=&screen=&ssid=&network=5g&abtest=&jsonversion=2";
+
+    @RequestMapping(value = "/youdao/get", method = RequestMethod.GET)
+    public String test()
+    {
+        RestTemplate restTemplate = new RestTemplate();
+        String quote = restTemplate.getForObject(YouDaoUrl, String.class);
+         return null;
     }
 }
