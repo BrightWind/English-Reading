@@ -1,16 +1,11 @@
 package reader;
 
-import java.util.Arrays;
-
-import org.springframework.data.mongodb.MongoDbFactory;
 import reader.Model.Customer;
 import reader.Model.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class Application implements CommandLineRunner {
@@ -42,8 +37,9 @@ public class Application implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
 
-        repository.deleteAll();
+        //repository.deleteAll();
 
+        /*
         // save a couple of customers
         repository.save(new Customer("Alice", "Smith", "test"));
         repository.save(new Customer("Bob", "Smith", "test"));
@@ -72,10 +68,6 @@ public class Application implements CommandLineRunner {
         for (Customer customer : repository.findByMiddleName("test")) {
             System.out.println(customer);
         }
-
-
+        */
     }
-
-
-
 }

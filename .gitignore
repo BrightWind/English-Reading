@@ -1,3 +1,4 @@
 client/reader/node_modules/
 service/.idea
 service/target
+service/desploy.cmd
