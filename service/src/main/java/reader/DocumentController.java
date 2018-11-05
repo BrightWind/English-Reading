@@ -6,10 +6,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+import reader.Model.ResourceProfile;
 
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 @CrossOrigin(value = "*")
 @RestController
@@ -24,26 +26,21 @@ public class DocumentController {
     }
 
     @RequestMapping(value = "/document/list/get", method = RequestMethod.GET)
-    public List<String> GetDocumentList()
+    public Set GetDocumentList()
     {
-        List<String> listContent  = new ArrayList<>();
-        for (Object content: staticResource.resources.keySet().toArray()) {
-            String line = String.format("/document/list/get?id=%s", content.toString(), content.toString());
-            listContent.add(line);
-        }
-        return listContent;
+        return staticResource.resources.keySet();
     }
 
     @RequestMapping(value = "/document/get", method = RequestMethod.GET)
-    public String GetDocument(String id)
+    public ResourceProfile GetDocument(String id)
     {
         if (staticResource.resources.containsKey(id))
         {
-            return "<pre>" + staticResource.resources.get(id).toString() + "</pre>";
+            return (ResourceProfile)staticResource.resources.get(id);
         }
         else
         {
-            return "Document not found";
+            return null;
         }
     }
 

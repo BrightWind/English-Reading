@@ -27,7 +27,7 @@ public class StaticResource {
     @Autowired
     ResourceProfileRepository resourceProfileRepository;
 
-    public HashMap resources = new HashMap<String, String>();
+    public HashMap resources = new HashMap<String, ResourceProfile>();
 
     public void LoadFiles(File[] files) {
         for (File file : files) {
@@ -47,7 +47,11 @@ public class StaticResource {
         {
             String fileName = flle.getName();
             ResourceProfile profile = resourceProfileRepository.findByFileName(fileName);
-            if (profile != null) return;
+            if (profile != null)
+            {
+                resources.put(profile.fileName, profile);
+                return;
+            }
         }
         catch (Exception ex)
         {
@@ -149,7 +153,7 @@ public class StaticResource {
                 resourceProfile.content = content.toString();
                 resourceProfile.strangeWords = LongWords;
 
-                resources.put(UUID.randomUUID().toString(), content.toString());
+                resources.put(resourceProfile.fileName, resourceProfile);
 
                 resourceProfileRepository.save(resourceProfile);
             }
