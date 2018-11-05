@@ -1,19 +1,17 @@
 package reader;
 
-import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.io.Resource;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 
-import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
+@CrossOrigin(value = "*")
 @RestController
 public class DocumentController {
 
@@ -26,9 +24,14 @@ public class DocumentController {
     }
 
     @RequestMapping(value = "/document/list/get", method = RequestMethod.GET)
-    public Set<String> GetDocumentList()
+    public List<String> GetDocumentList()
     {
-        return staticResource.resources.keySet();
+        List<String> listContent  = new ArrayList<>();
+        for (Object content: staticResource.resources.keySet().toArray()) {
+            String line = String.format("/document/list/get?id=%s", content.toString(), content.toString());
+            listContent.add(line);
+        }
+        return listContent;
     }
 
     @RequestMapping(value = "/document/get", method = RequestMethod.GET)

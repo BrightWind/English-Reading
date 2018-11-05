@@ -11,7 +11,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
-import java.util.HashMap;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @Component
 public class StaticResource {
@@ -37,10 +39,84 @@ public class StaticResource {
         {
             try
             {
+                StringBuffer content = new StringBuffer();
+                Set<String> LongWords = new HashSet<>();
+
                 String filePath = flle.getAbsolutePath();
                 InputStream inputStream = new FileInputStream(filePath);
-                String content = IOUtils.toString(inputStream, StandardCharsets.UTF_8);
-                resources.put(flle.getPath(), content);
+                String temp = IOUtils.toString(inputStream, StandardCharsets.UTF_8);
+
+                //remove start string
+                String start = "字幕信息";
+                int idx = temp.indexOf(start);
+                if (-1 != idx) {
+                    temp = temp.substring(idx + start.length());
+                }
+
+                start = "前情回顾";
+                idx = temp.indexOf(start);
+                if (-1 != idx) {
+                    temp = temp.substring(idx + start.length());
+                }
+
+                start = "最新影视";
+                idx = temp.indexOf(start);
+                if (-1!= idx) {
+                    temp = temp.substring(idx + start.length());
+                }
+
+                start = "}总监";
+                idx = temp.indexOf(start);
+                if (-1!= idx) {
+                    temp = temp.substring(idx + start.length());
+                }
+
+                //detect the line splitter
+                String splitter = "\r\n";
+                if (temp.indexOf(splitter) == -1)
+                {
+                    splitter = "\n";
+                }
+
+                String []lines = temp.split(splitter);
+                String pattern = "\\d\\d:\\d\\d:\\d\\d";
+                Pattern regex = Pattern.compile(pattern);
+                for (String line : lines) {
+                    line.trim();
+
+                    //it may be empty line
+                    if (line.length() < 2)
+                    {
+                        content.append("\n");       //keep the line
+                        continue;
+                    }
+
+                    //it is too small, should no be a work
+                    if (line.length() < 5){
+                        continue;
+                    }
+
+                    //it should be time string
+                    Matcher result = regex.matcher(line);
+                    if (result.find() && result.find()) //at least match twice
+                    {
+                        continue;
+                    }
+
+                    //collect meaningful content
+                    content.append(line).append("\n");
+
+                    //collect long word
+                    String words[] = line.split(" ");
+                    for (String word: words) {
+                        if (word.length() > 8)
+                        {
+                            LongWords.add(word);
+                        }
+                    }
+                }
+
+                resources.put(UUID.randomUUID().toString(), content.toString());
             }
             catch (Exception ex)
             {
@@ -54,8 +130,20 @@ public class StaticResource {
     {
         try
         {
-            String path = "C:\\Users\\mark00x\\Desktop\\English-Reading\\service\\src\\main\\resources";
-            File []resources = new File[] {new File(path)};
+            String path = "/root/resources";
+            File top = new File(path);
+            if (!top.exists())
+            {
+                path = "C:\\Users\\mark00x\\Desktop\\English-Reading\\service\\src\\main\\resources";
+                top = new File(path);
+
+                if (!top.exists())
+                {
+                    return;
+                }
+            }
+
+            File []resources = new File[] {top};
             LoadFiles(resources);
         }
         catch (Exception ex)
