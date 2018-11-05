@@ -2,9 +2,12 @@ package reader;
 
 
 import org.apache.commons.io.IOUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
+import reader.Model.ResourceProfile;
+import reader.Model.ResourceProfileRepository;
 
 import javax.annotation.PostConstruct;
 import java.io.File;
@@ -15,10 +18,14 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+
 @Component
 public class StaticResource {
     @Value("classpath")
     Resource resourcePath;
+
+    @Autowired
+    ResourceProfileRepository resourceProfileRepository;
 
     public HashMap resources = new HashMap<String, String>();
 
@@ -33,12 +40,26 @@ public class StaticResource {
         }
     }
 
+
     public void ReadFile(File flle)
     {
+        try
+        {
+            String fileName = flle.getName();
+            ResourceProfile profile = resourceProfileRepository.findByFileName(fileName);
+            if (profile != null) return;
+        }
+        catch (Exception ex)
+        {
+            //not exist
+        }
+
         if (flle.exists())
         {
             try
             {
+                String fileName = flle.getName();
+                List<String> contentList = new ArrayList<>();
                 StringBuffer content = new StringBuffer();
                 Set<String> LongWords = new HashSet<>();
 
@@ -91,6 +112,11 @@ public class StaticResource {
                         continue;
                     }
 
+                    if (line.indexOf("{\\an8}") != -1)
+                    {
+                        continue;
+                    }
+
                     //it is too small, should no be a work
                     if (line.length() < 5){
                         continue;
@@ -105,6 +131,7 @@ public class StaticResource {
 
                     //collect meaningful content
                     content.append(line).append("\n");
+                    contentList.add(line);
 
                     //collect long word
                     String words[] = line.split(" ");
@@ -116,7 +143,15 @@ public class StaticResource {
                     }
                 }
 
+                ResourceProfile resourceProfile = new ResourceProfile();
+                resourceProfile.fileName = fileName;
+                resourceProfile.contentLines = contentList;
+                resourceProfile.content = content.toString();
+                resourceProfile.strangeWords = LongWords;
+
                 resources.put(UUID.randomUUID().toString(), content.toString());
+
+                resourceProfileRepository.save(resourceProfile);
             }
             catch (Exception ex)
             {
