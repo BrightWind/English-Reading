@@ -1,9 +1,9 @@
 <template>
   <div class="main-frame">
     <div class="doc-list">
-      <li v-for="doc in docs" @click="OnClickItem(doc)">
+      <li v-for="doc in doc_list" @click="OnClickItem(doc)">
         <div class="doc-item">
-          <div class="doc-desc">{{doc.title}}</div>
+          <div class="doc-desc">{{doc}}</div>
         </div>
       </li>
 
@@ -15,17 +15,28 @@
   </div>
 </template>
 <script>
+import {mapState, mapActions} from 'vuex'
 export default {
   data () {
     return {
       docs: [{title: 'Start learning document'}, {title: 'Start learning English'}]
     }
   },
+  mounted () {
+    this.load_doc_list()
+  },
+  computed: {
+    ...mapState(['doc_list'])
+  },
   methods: {
     OnClickItem (item) {
-      console.log(item.title)
-      this.$router.push({name: 'document', params: { profile: item }})
-    }
+      this.$router.push({name: 'document', params: { id: item, profile: item }})
+    },
+    ...mapActions(
+      {
+        load_doc_list: 'init'
+      }
+    )
   }
 }
 </script>

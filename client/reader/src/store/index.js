@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import user from './user'
 import axios from 'axios'
 
 Vue.use(Vuex)
@@ -10,23 +9,19 @@ export default new Vuex.Store({
     doc_list: {}
   },
   actions: {
-    get_document_list () {
-      axios.get('/user?ID=12345')
+    init ({commit}) {
+      axios.get('/document/list/get')
         .then(function (response) {
-          // handle success
-          console.log(response)
+          commit('set_document_list_mu', response.data)
         })
         .catch(function (error) {
-          // handle error
           console.log(error)
-        })
-        .then(function () {
-          // always executed
         })
     }
   },
-  strict: process.env.NODE_ENV !== 'production', //在非生产环境下，使用严格模式
-  modules: {
-    user
+  mutations: {
+    set_document_list_mu (state, docList) {
+      state.doc_list = docList
+    }
   }
 })
