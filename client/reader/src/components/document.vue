@@ -21,7 +21,8 @@ export default {
     return {
       document: {
         filename: '',
-        contentLines: ''
+        contentLines: '',
+
       }
     }
   },

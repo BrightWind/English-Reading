@@ -178,7 +178,13 @@ public class StaticResource {
 
                 if (!top.exists())
                 {
-                    return;
+                    path = "E:\\Projects\\EnglishReader\\English-Reading\\service\\src\\main\\resources";
+                    top = new File(path);
+
+                    if (!top.exists())
+                    {
+                        return;
+                    }
                 }
             }
 
