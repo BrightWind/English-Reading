@@ -27,6 +27,9 @@ public class StaticResource {
     @Autowired
     ResourceProfileRepository resourceProfileRepository;
 
+    @Autowired
+    GitHubLookupService gitHubLookupService;
+
     public HashMap resources = new HashMap<String, ResourceProfile>();
 
     public void LoadFiles(File[] files) {
@@ -162,6 +165,10 @@ public class StaticResource {
                 ex.printStackTrace();
             }
         }
+    }
+
+    public void QueryWork() {
+        //gitHubLookupService
     }
 
     @PostConstruct
