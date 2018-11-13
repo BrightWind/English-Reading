@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
+import reader.Helper.ChineseChecker;
+import reader.Helper.StringHelper;
 import reader.Model.ResourceProfile;
 import reader.Model.ResourceProfileRepository;
 import reader.Model.WordExplain;
@@ -142,7 +144,7 @@ public class StaticResource {
                         continue;
                     }
 
-                    //it is too small, should no be a work
+                    //it is too small, should no be a word
                     if (line.length() < 5){
                         continue;
                     }
@@ -158,9 +160,16 @@ public class StaticResource {
                     content.append(line).append("\n");
                     contentList.add(line);
 
+                    //it should be chinese
+                    if (ChineseChecker.hasChinese(line))
+                    {
+                        continue;
+                    }
+
                     //collect long word
                     String words[] = line.split(" ");
                     for (String word: words) {
+                        StringHelper.trim(word, ",.?!()");
                         if (word.length() > 8)
                         {
                             LongWords.add(word);
