@@ -4,5 +4,5 @@ import java.util.List;
 
 public class L
 {
-    List<String> i;
+    public List<String> i;
 }

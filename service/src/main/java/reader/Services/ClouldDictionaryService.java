@@ -1,26 +1,25 @@
-package reader;
+package reader.Services;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import reader.Model.User;
+import reader.Model.YouDao.YDResult;
 
 import java.util.concurrent.CompletableFuture;
 
 @Service
-public class GitHubLookupService {
-
-    private static final Logger logger = LoggerFactory.getLogger(GitHubLookupService.class);
+public class ClouldDictionaryService {
+    //private static final Logger logger = LoggerFactory.getLogger(GitHubLookupService.class);
 
     private final RestTemplate restTemplate;
+    private final String YouDaoUrlTemple = "http://dict.youdao.com/jsonapi?xmlVersion=5.1&client=&q=%s&dicts=&keyfrom=&model=&mid=&imei=&vendor=&screen=&ssid=&network=5g&abtest=&jsonversion=2";
 
-    public GitHubLookupService(RestTemplateBuilder restTemplateBuilder) {
+    public ClouldDictionaryService(RestTemplateBuilder restTemplateBuilder) {
         this.restTemplate = restTemplateBuilder.build();
     }
 
+    /*
     @Async
     public CompletableFuture<User> findUser(String user) throws InterruptedException {
         logger.info("Looking up " + user);
@@ -30,10 +29,12 @@ public class GitHubLookupService {
         Thread.sleep(1000L);
         return CompletableFuture.completedFuture(results);
     }
+    */
 
     @Async
-    public CompletableFuture<User> QueryTheWork(String user) throws InterruptedException {
-        return CompletableFuture.completedFuture(null);
+    public CompletableFuture<YDResult> QueryWord(String word) throws InterruptedException {
+        String url = String.format(YouDaoUrlTemple, word);
+        YDResult results = restTemplate.getForObject(url, YDResult.class);
+        return CompletableFuture.completedFuture(results);
     }
-
 }

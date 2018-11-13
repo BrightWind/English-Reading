@@ -1,13 +1,20 @@
 package reader;
 
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.io.IOUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 import reader.Model.ResourceProfile;
 import reader.Model.ResourceProfileRepository;
+import reader.Model.WordExplain;
+import reader.Model.YouDao.YDResult;
+import reader.Services.ClouldDictionaryService;
+import reader.Services.LocalDictionaryService;
 
 import javax.annotation.PostConstruct;
 import java.io.File;
@@ -15,12 +22,15 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
+import java.util.concurrent.CompletableFuture;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
 @Component
 public class StaticResource {
+    private static final Logger logger = LoggerFactory.getLogger(ClouldDictionaryService.class);
+
     @Value("classpath")
     Resource resourcePath;
 
@@ -28,7 +38,10 @@ public class StaticResource {
     ResourceProfileRepository resourceProfileRepository;
 
     @Autowired
-    GitHubLookupService gitHubLookupService;
+    ClouldDictionaryService clouldDictionaryService;
+
+    @Autowired
+    LocalDictionaryService localDictionaryService;
 
     public HashMap resources = new HashMap<String, ResourceProfile>();
 
@@ -53,6 +66,11 @@ public class StaticResource {
             if (profile != null)
             {
                 resources.put(profile.fileName, profile);
+
+                if (!profile.fileName.equalsIgnoreCase("application.properties")) {
+                    QueryWord(profile.strangeWords);
+                }
+
                 return;
             }
         }
@@ -119,7 +137,7 @@ public class StaticResource {
                         continue;
                     }
 
-                    if (line.indexOf("{\\an8}") != -1)
+                    if (line.indexOf("{\\an") != -1)
                     {
                         continue;
                     }
@@ -156,6 +174,10 @@ public class StaticResource {
                 resourceProfile.content = content.toString();
                 resourceProfile.strangeWords = LongWords;
 
+                if (fileName != "application.properties") {
+                    QueryWord(LongWords);
+                }
+
                 resources.put(resourceProfile.fileName, resourceProfile);
 
                 resourceProfileRepository.save(resourceProfile);
@@ -167,8 +189,32 @@ public class StaticResource {
         }
     }
 
-    public void QueryWork() {
-        //gitHubLookupService
+    public void QueryWord(Set<String> LongWords) {
+        for (String word : LongWords) {
+            try {
+                CompletableFuture<YDResult> qr =  clouldDictionaryService.QueryWord(word);
+                qr.thenAccept(ydResult -> {
+                    try {
+                        if (ydResult == null) return;
+
+                        //ObjectMapper mapper = new ObjectMapper();
+                        //String jsonInString = mapper.writeValueAsString(ydResult);
+                        WordExplain wordExplain = new WordExplain();
+                        wordExplain.word = word;
+                        wordExplain.ukphone = ydResult.ec.word.get(0).ukphone;
+                        wordExplain.ukspeech = ydResult.ec.word.get(0).ukspeech;
+                        wordExplain.usphone = ydResult.ec.word.get(0).usphone;
+                        wordExplain.usspeech = ydResult.ec.word.get(0).usspeech;
+                        ydResult.ec.word.get(0).trs.get(0).tr
+                                .forEach(item -> wordExplain.explain.add(item.l.i.get(0)));
+                        localDictionaryService.Add(wordExplain);
+                    } catch (Exception ex) {
+                    }
+                });
+            }
+            catch (Exception ex) {
+            }
+        }
     }
 
     @PostConstruct
