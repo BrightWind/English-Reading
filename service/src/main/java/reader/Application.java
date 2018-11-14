@@ -1,9 +1,10 @@
 package reader;
 
+import com.mongodb.MongoClient;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
-import reader.Model.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -14,10 +15,6 @@ import java.util.concurrent.Executor;
 @SpringBootApplication
 @EnableAsync
 public class Application implements CommandLineRunner {
-
-    @Autowired
-    private CustomerRepository repository;
-
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
@@ -83,5 +80,10 @@ public class Application implements CommandLineRunner {
         executor.setThreadNamePrefix("GithubLookup-");
         executor.initialize();
         return executor;
+    }
+
+    public @Bean
+    MongoTemplate mongoTemplate(MongoClient client) {
+        return new MongoTemplate(client, "admin");
     }
 }
