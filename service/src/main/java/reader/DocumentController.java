@@ -1,12 +1,13 @@
 package reader;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
+import reader.Helper.StringHelper;
 import reader.Model.ResourceProfile;
+import reader.Services.ClouldDictionaryService;
+import reader.Services.LocalDictionaryService;
+import reader.Services.MongoDBService;
 
 
 import java.util.ArrayList;
@@ -31,6 +32,15 @@ public class DocumentController {
         return staticResource.resources.keySet();
     }
 
+    @Autowired
+    ClouldDictionaryService clouldDictionaryService;
+
+    @Autowired
+    LocalDictionaryService localDictionaryService;
+
+    @Autowired
+    MongoDBService dbService;
+
     @RequestMapping(value = "/document/get", method = RequestMethod.GET)
     public ResourceProfile GetDocument(String id)
     {
@@ -44,13 +54,52 @@ public class DocumentController {
         }
     }
 
-    String YouDaoUrl = "http://dict.youdao.com/jsonapi?xmlVersion=5.1&client=&q=account&dicts=&keyfrom=&model=&mid=&imei=&vendor=&screen=&ssid=&network=5g&abtest=&jsonversion=2";
-
-    @RequestMapping(value = "/youdao/get", method = RequestMethod.GET)
-    public String test()
+    @RequestMapping(value = "/document/position")
+    public boolean SetPosition(@RequestParam String doc_id, @RequestParam int index)
     {
-        RestTemplate restTemplate = new RestTemplate();
-        String quote = restTemplate.getForObject(YouDaoUrl, String.class);
-         return null;
+        if (staticResource.resources.containsKey(doc_id))
+        {
+            ResourceProfile rs = (ResourceProfile)staticResource.resources.get(doc_id);
+            if (rs != null)
+            {
+                if (dbService.updateDocPos(doc_id, index)) {
+                    rs.readingOffset = index;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    @RequestMapping(value = "document/strangeword/add")
+    public void AddStrangeWord(@RequestParam String doc_id, @RequestParam List<String> word_list)
+    {
+        for (String word: word_list) {
+            if (!localDictionaryService.Find(word))
+                try {
+                    clouldDictionaryService.QueryWord(word).thenAccept(wordExplain -> {
+                        if (wordExplain != null)
+                        {
+                            localDictionaryService.Add(wordExplain);
+
+                            String docWordSet = "";
+                            String globalWordSet = "";
+
+                            if (dbService.AddToSet(docWordSet, word)) {
+                                //add to document set
+                            }
+
+                            if (dbService.AddToSet(globalWordSet, wordExplain))
+                            {
+                                //add to global set
+                            }
+
+                        }
+                    });
+                }
+                catch (Exception ex) {};
+        }
+
+
     }
 }

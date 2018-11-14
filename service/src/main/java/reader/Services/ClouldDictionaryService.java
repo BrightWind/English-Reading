@@ -4,6 +4,7 @@ import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+import reader.Model.WordExplain;
 import reader.Model.YouDao.YDResult;
 
 import java.util.concurrent.CompletableFuture;
@@ -32,9 +33,23 @@ public class ClouldDictionaryService {
     */
 
     @Async
-    public CompletableFuture<YDResult> QueryWord(String word) throws InterruptedException {
+    public CompletableFuture<WordExplain> QueryWord(String word) throws InterruptedException {
         String url = String.format(YouDaoUrlTemple, word);
-        YDResult results = restTemplate.getForObject(url, YDResult.class);
-        return CompletableFuture.completedFuture(results);
+        YDResult ydResult = restTemplate.getForObject(url, YDResult.class);
+        WordExplain wordExplain = null;
+
+        if (ydResult == null)
+        {
+            WordExplain explain = new WordExplain();
+            wordExplain.word = word;
+            wordExplain.ukphone = ydResult.ec.word.get(0).ukphone;
+            wordExplain.ukspeech = ydResult.ec.word.get(0).ukspeech;
+            wordExplain.usphone = ydResult.ec.word.get(0).usphone;
+            wordExplain.usspeech = ydResult.ec.word.get(0).usspeech;
+            ydResult.ec.word.get(0).trs.get(0).tr
+                    .forEach(item -> explain.explain.add(item.l.i.get(0)));
+            wordExplain = explain;
+        }
+        return CompletableFuture.completedFuture(wordExplain);
     }
 }

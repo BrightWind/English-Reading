@@ -17,7 +17,7 @@ public class LocalDictionaryService {
     private ReadWriteLock rwLock = new ReentrantReadWriteLock();
     private HashMap<String, WordExplain> container = new HashMap<>();
 
-    public WordExplain Find(String word)
+    public WordExplain Get(String word)
     {
         rwLock.readLock().lock();
         try{
@@ -29,6 +29,19 @@ public class LocalDictionaryService {
             rwLock.readLock().unlock();   //释放锁
         }
         return null;
+    }
+
+    public boolean Find(String word)
+    {
+        rwLock.readLock().lock();
+        try{
+            return  container.containsKey(word);
+        }catch(Exception ex){
+
+        }finally{
+            rwLock.readLock().unlock();   //释放锁
+        }
+        return false;
     }
 
     public void Add(WordExplain wordExplain) {

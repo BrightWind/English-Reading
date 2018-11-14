@@ -201,21 +201,14 @@ public class StaticResource {
     public void QueryWord(Set<String> LongWords) {
         for (String word : LongWords) {
             try {
-                CompletableFuture<YDResult> qr =  clouldDictionaryService.QueryWord(word);
-                qr.thenAccept(ydResult -> {
+                CompletableFuture<WordExplain> qr =  clouldDictionaryService.QueryWord(word);
+                qr.thenAccept(wordExplain -> {
                     try {
-                        if (ydResult == null) return;
+                        if (wordExplain == null) return;
 
                         //ObjectMapper mapper = new ObjectMapper();
                         //String jsonInString = mapper.writeValueAsString(ydResult);
-                        WordExplain wordExplain = new WordExplain();
-                        wordExplain.word = word;
-                        wordExplain.ukphone = ydResult.ec.word.get(0).ukphone;
-                        wordExplain.ukspeech = ydResult.ec.word.get(0).ukspeech;
-                        wordExplain.usphone = ydResult.ec.word.get(0).usphone;
-                        wordExplain.usspeech = ydResult.ec.word.get(0).usspeech;
-                        ydResult.ec.word.get(0).trs.get(0).tr
-                                .forEach(item -> wordExplain.explain.add(item.l.i.get(0)));
+
                         localDictionaryService.Add(wordExplain);
                     } catch (Exception ex) {
                     }

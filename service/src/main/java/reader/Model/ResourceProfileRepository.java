@@ -5,6 +5,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public interface ResourceProfileRepository extends MongoRepository<ResourceProfile, String> {
-    public ResourceProfile findById();
-    public ResourceProfile findByFileName(String name);
+    ResourceProfile findById();
+    ResourceProfile findByFileName(String name);
 }
