@@ -5,7 +5,7 @@ import org.springframework.data.annotation.Id;
 import java.util.List;
 import java.util.Set;
 
-public class ResourceProfile {
+public class DocumentProfile {
     @Id
     public String id;
     public String fileName;

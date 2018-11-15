@@ -1,14 +1,18 @@
 package reader;
 
 import com.mongodb.MongoClient;
+import com.mongodb.MongoClientURI;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.mongodb.MongoDbFactory;
 import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.SimpleMongoDbFactory;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import reader.Services.MongoDBService;
 
 import java.util.concurrent.Executor;
 
@@ -34,6 +38,9 @@ public class Application implements CommandLineRunner {
     //    };
     //}
 
+
+    @Autowired
+    public MongoDBService mongoDBService;
 
     @Override
     public void run(String... args) throws Exception {
@@ -69,6 +76,8 @@ public class Application implements CommandLineRunner {
             System.out.println(customer);
         }
         */
+
+        mongoDBService.test(null);
     }
 
     @Bean
@@ -80,10 +89,5 @@ public class Application implements CommandLineRunner {
         executor.setThreadNamePrefix("GithubLookup-");
         executor.initialize();
         return executor;
-    }
-
-    public @Bean
-    MongoTemplate mongoTemplate(MongoClient client) {
-        return new MongoTemplate(client, "admin");
     }
 }

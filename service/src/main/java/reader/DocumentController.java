@@ -102,4 +102,51 @@ public class DocumentController {
 
 
     }
+
+    private  void Draft () {
+
+        /*
+        SA.getDocumentList()
+        [
+            {
+              id
+              name
+              category
+            }
+
+        ]
+
+        SA.getDocument(id)
+        {
+           id,
+           name,
+           category,
+           readingPosition,
+           content {},
+           StrangeWord: [
+             {
+                word,
+                speak
+                explain : []
+             }
+           ],
+        }
+
+        sa.addStrangeWord()
+        sa.setReadingPosition()
+
+
+        bean
+        DocumentProfile
+        WordExplain
+        */
+
+
+
+
+
+
+
+
+    }
 }
