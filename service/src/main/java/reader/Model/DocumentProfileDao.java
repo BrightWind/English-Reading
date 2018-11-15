@@ -1,5 +1,6 @@
 package reader.Model;
 
+import com.mongodb.client.result.UpdateResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Query;
@@ -23,18 +24,22 @@ public class DocumentProfileDao {
         return false;
     }
 
-    public DocumentProfile GetDocument(String id) {
+    public DocumentProfile Get(String id) {
         return mongoTemplate.findById(id, DocumentProfile.class);
     }
 
-    public List<DocumentProfile> GetDocument() {
+    public DocumentProfile GetByName(String fileName) {
+        return mongoTemplate.findOne(query(where("fileName").is(fileName)), DocumentProfile.class);
+    }
+
+    public List<DocumentProfile> Get() {
         return mongoTemplate.findAll(DocumentProfile.class);
     }
 
     public void UpdateIndex(String id, int position) {
         mongoTemplate.updateFirst(
                 query(where("id").is(id)),
-                update("rPosition", 35),
+                update("rPosition", position),
                 DocumentProfile.class);
     }
 

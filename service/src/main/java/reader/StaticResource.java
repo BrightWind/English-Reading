@@ -11,10 +11,9 @@ import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 import reader.Helper.ChineseChecker;
 import reader.Helper.StringHelper;
-import reader.Model.ResourceProfile;
-import reader.Model.ResourceProfileRepository;
+import reader.Model.DocumentProfile;
+import reader.Model.DocumentProfileDao;
 import reader.Model.WordExplain;
-import reader.Model.YouDao.YDResult;
 import reader.Services.ClouldDictionaryService;
 import reader.Services.LocalDictionaryService;
 
@@ -37,7 +36,7 @@ public class StaticResource {
     Resource resourcePath;
 
     @Autowired
-    ResourceProfileRepository resourceProfileRepository;
+    DocumentProfileDao documentProfileDao;
 
     @Autowired
     ClouldDictionaryService clouldDictionaryService;
@@ -45,7 +44,7 @@ public class StaticResource {
     @Autowired
     LocalDictionaryService localDictionaryService;
 
-    public HashMap resources = new HashMap<String, ResourceProfile>();
+    public HashMap resources = new HashMap<String, DocumentProfile>();
 
     public void LoadFiles(File[] files) {
         for (File file : files) {
@@ -64,7 +63,7 @@ public class StaticResource {
         try
         {
             String fileName = flle.getName();
-            ResourceProfile profile = resourceProfileRepository.findByFileName(fileName);
+            DocumentProfile profile = documentProfileDao.Get(fileName);
             if (profile != null)
             {
                 resources.put(profile.fileName, profile);
@@ -177,7 +176,7 @@ public class StaticResource {
                     }
                 }
 
-                ResourceProfile resourceProfile = new ResourceProfile();
+                DocumentProfile resourceProfile = new DocumentProfile();
                 resourceProfile.fileName = fileName;
                 resourceProfile.contentLines = contentList;
                 resourceProfile.content = content.toString();
@@ -189,7 +188,7 @@ public class StaticResource {
 
                 resources.put(resourceProfile.fileName, resourceProfile);
 
-                resourceProfileRepository.save(resourceProfile);
+                documentProfileDao.Save(resourceProfile);
             }
             catch (Exception ex)
             {

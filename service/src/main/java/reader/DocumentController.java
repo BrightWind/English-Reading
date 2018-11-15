@@ -2,15 +2,13 @@ package reader;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
-import reader.Helper.StringHelper;
-import reader.Model.ResourceProfile;
+import reader.Model.DocumentProfile;
+import reader.Model.DocumentProfileDao;
+import reader.Model.WordExplanDao;
 import reader.Services.ClouldDictionaryService;
 import reader.Services.LocalDictionaryService;
-import reader.Services.MongoDBService;
 
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
@@ -20,6 +18,12 @@ public class DocumentController {
 
     @Autowired
     StaticResource staticResource;
+
+    @Autowired
+    DocumentProfileDao documentProfileDao;
+
+    @Autowired
+    WordExplanDao wordExplanDao;
 
     @RequestMapping("/")
     public String index() {
@@ -38,15 +42,12 @@ public class DocumentController {
     @Autowired
     LocalDictionaryService localDictionaryService;
 
-    @Autowired
-    MongoDBService dbService;
-
     @RequestMapping(value = "/document/get", method = RequestMethod.GET)
-    public ResourceProfile GetDocument(String id)
+    public DocumentProfile GetDocument(String id)
     {
         if (staticResource.resources.containsKey(id))
         {
-            return (ResourceProfile)staticResource.resources.get(id);
+            return (DocumentProfile)staticResource.resources.get(id);
         }
         else
         {
@@ -59,12 +60,11 @@ public class DocumentController {
     {
         if (staticResource.resources.containsKey(doc_id))
         {
-            ResourceProfile rs = (ResourceProfile)staticResource.resources.get(doc_id);
+            DocumentProfile rs = (DocumentProfile)staticResource.resources.get(doc_id);
             if (rs != null)
             {
-                if (dbService.updateDocPos(doc_id, index)) {
-                    rs.readingOffset = index;
-                }
+                documentProfileDao.UpdateIndex(doc_id, index);
+                rs.rPosition = index;
             }
         }
 
@@ -81,19 +81,8 @@ public class DocumentController {
                         if (wordExplain != null)
                         {
                             localDictionaryService.Add(wordExplain);
-
-                            String docWordSet = "";
-                            String globalWordSet = "";
-
-                            if (dbService.AddToSet(docWordSet, word)) {
-                                //add to document set
-                            }
-
-                            if (dbService.AddToSet(globalWordSet, wordExplain))
-                            {
-                                //add to global set
-                            }
-
+                            documentProfileDao.AddWord(doc_id, word);
+                            wordExplanDao.Save(wordExplain);
                         }
                     });
                 }

@@ -12,8 +12,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import reader.Services.MongoDBService;
+import reader.Model.DocumentProfile;
+import reader.Model.DocumentProfileDao;
+import reader.Model.WordExplain;
+import reader.Model.WordExplanDao;
 
+import java.util.List;
 import java.util.concurrent.Executor;
 
 @SpringBootApplication
@@ -38,13 +42,36 @@ public class Application implements CommandLineRunner {
     //    };
     //}
 
+    @Autowired
+    public DocumentProfileDao documentProfileDao;
 
     @Autowired
-    public MongoDBService mongoDBService;
+    public WordExplanDao wordExplanDao;
 
     @Override
     public void run(String... args) throws Exception {
         //repository.deleteAll();
+
+        /*
+        WordExplain word = new WordExplain();
+        word.word = "test";
+        word.explain.add("it is a test");
+        wordExplanDao.Save(word);
+        List<WordExplain> wordExplainList = wordExplanDao.Get();
+
+        DocumentProfile documentProfile = new DocumentProfile();
+        documentProfile.content = "test";
+        documentProfile.contentLines.add("this is a test");
+        documentProfile.strangeWords.add("doc");
+        documentProfileDao.Save(documentProfile);
+        List<DocumentProfile> documentProfileList = documentProfileDao.Get();
+
+        DocumentProfile documentProfile1 = documentProfileList.get(0);
+        DocumentProfile documentProfile2 = documentProfileDao.Get(documentProfile1.id);
+        documentProfileDao.UpdateIndex(documentProfile1.id, 100);
+        documentProfileDao.AddWord(documentProfile1.id, "test2");
+        documentProfile1 = documentProfileDao.Get(documentProfile1.id);
+        */
 
         /*
         // save a couple of customers
@@ -76,8 +103,6 @@ public class Application implements CommandLineRunner {
             System.out.println(customer);
         }
         */
-
-        mongoDBService.test(null);
     }
 
     @Bean
