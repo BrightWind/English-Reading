@@ -17,7 +17,7 @@ import java.util.Set;
 public class DocumentController {
 
     @Autowired
-    StaticResource staticResource;
+    TextLoader staticResource;
 
     @Autowired
     DocumentProfileDao documentProfileDao;
@@ -129,13 +129,5 @@ public class DocumentController {
         DocumentProfile
         WordExplain
         */
-
-
-
-
-
-
-
-
     }
 }

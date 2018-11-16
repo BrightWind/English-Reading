@@ -1,7 +1,6 @@
 package reader;
 
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,7 +28,7 @@ import java.util.regex.Pattern;
 
 
 @Component
-public class StaticResource {
+public class TextLoader {
     private static final Logger logger = LoggerFactory.getLogger(ClouldDictionaryService.class);
 
     @Value("classpath")
