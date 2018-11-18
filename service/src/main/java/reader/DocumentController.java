@@ -2,15 +2,13 @@ package reader;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import reader.Model.DocumentProfile;
-import reader.Model.DocumentProfileDao;
-import reader.Model.WordExplanDao;
+import reader.Model.*;
 import reader.Services.ClouldDictionaryService;
 import reader.Services.LocalDictionaryService;
 
 
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 @CrossOrigin(value = "*")
 @RestController
@@ -31,9 +29,16 @@ public class DocumentController {
     }
 
     @RequestMapping(value = "/document/list/get", method = RequestMethod.GET)
-    public Set GetDocumentList()
+    public List<BriefDocumentProfile> GetDocumentList()
     {
-        return staticResource.resources.keySet();
+        List<BriefDocumentProfile> list = new ArrayList<>();
+        for (Object profile: staticResource.resources.values()) {
+            BriefDocumentProfile briefDocumentProfile = new BriefDocumentProfile();
+            briefDocumentProfile.id = ((DocumentProfile)profile).id;
+            briefDocumentProfile.fileName = ((DocumentProfile)profile).fileName;
+            list.add(briefDocumentProfile);
+        }
+        return list;
     }
 
     @Autowired
@@ -42,12 +47,43 @@ public class DocumentController {
     @Autowired
     LocalDictionaryService localDictionaryService;
 
+    @Autowired
+    TextLoader textLoader;
+
+    @RequestMapping(value = "/document/resource/reload", method = RequestMethod.GET)
+    public void ReloadResource()
+    {
+
+    }
+
     @RequestMapping(value = "/document/get", method = RequestMethod.GET)
     public DocumentProfile GetDocument(String id)
     {
         if (staticResource.resources.containsKey(id))
         {
             return (DocumentProfile)staticResource.resources.get(id);
+        }
+        else
+        {
+            return null;
+        }
+    }
+
+    @RequestMapping(value = "/document/explain/get", method = RequestMethod.GET)
+    public List<WordExplain> GetWordExplain(String doc_id)
+    {
+        List<WordExplain> wordExplainList = new ArrayList<>();
+        if (staticResource.resources.containsKey(doc_id))
+        {
+            DocumentProfile profile = (DocumentProfile) staticResource.resources.get(doc_id);
+            for (String word: profile.strangeWords) {
+              WordExplain wordExplain = localDictionaryService.Get(word);
+              if (wordExplain != null) {
+                  wordExplainList.add(wordExplain);
+              }
+            }
+
+            return wordExplainList;
         }
         else
         {
@@ -71,25 +107,34 @@ public class DocumentController {
         return false;
     }
 
-    @RequestMapping(value = "document/strangeword/add")
-    public void AddStrangeWord(@RequestParam String doc_id, @RequestParam List<String> word_list)
+    @RequestMapping(value = "document/strange/word/add")
+    public void AddStrangeWord(@RequestParam String doc_id, @RequestParam String word)
     {
-        for (String word: word_list) {
-            if (!localDictionaryService.Find(word))
-                try {
-                    clouldDictionaryService.QueryWord(word).thenAccept(wordExplain -> {
-                        if (wordExplain != null)
-                        {
-                            localDictionaryService.Add(wordExplain);
-                            documentProfileDao.AddWord(doc_id, word);
-                            wordExplanDao.Save(wordExplain);
-                        }
-                    });
-                }
-                catch (Exception ex) {};
+        if (!localDictionaryService.Find(word))
+            try {
+                clouldDictionaryService.QueryWord(word).thenAccept(wordExplain -> {
+                    if (wordExplain != null)
+                    {
+                        localDictionaryService.Add(wordExplain);
+                        documentProfileDao.AddWord(doc_id, word);
+                        wordExplanDao.Save(wordExplain);
+                        DocumentProfile rs = (DocumentProfile)staticResource.resources.get(doc_id);
+                        if (rs != null) rs.strangeWords.add(word);
+                    }
+                });
+            }
+            catch (Exception ex) {};
+    }
+
+    @RequestMapping(value = "document/strange/word/delete")
+    public void DeleteStrangeWord(@RequestParam String doc_id, @RequestParam String word)
+    {
+        DocumentProfile rs = (DocumentProfile)staticResource.resources.get(doc_id);
+        if (rs != null)
+        {
+            rs.strangeWords.remove(word);
+            documentProfileDao.DeleteWord(doc_id, word);
         }
-
-
     }
 
     private  void Draft () {

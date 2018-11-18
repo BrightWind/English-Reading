@@ -13,5 +13,5 @@ public class WordExplain {
     public String ukspeech;
     public String usphone;
     public String usspeech;
-    public List<String> explain = new ArrayList<>();
+    public List<String> explain_list = new ArrayList<>();
 }

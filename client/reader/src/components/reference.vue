@@ -3,7 +3,7 @@
     <div class="doc-list">
       <li v-for="doc in doc_list" @click="OnClickItem(doc)">
         <div class="doc-item">
-          <div class="doc-desc">{{doc}}</div>
+          <div class="doc-desc">{{doc.fileName}}</div>
         </div>
       </li>
 
@@ -30,7 +30,8 @@ export default {
   },
   methods: {
     OnClickItem (item) {
-      this.$router.push({name: 'document', params: { id: item, profile: item }})
+      console.log(item);
+      this.$router.push({name: 'document', params: { id: item.id, profile: item }})
     },
     ...mapActions(
       {
@@ -84,6 +85,6 @@ export default {
     width: 100%;
     height: 1000px;
     background-color: bisque;
-    margin-top: 50px;
+    //margin-top: 50px;
   }
 </style>

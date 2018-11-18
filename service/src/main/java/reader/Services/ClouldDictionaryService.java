@@ -38,16 +38,17 @@ public class ClouldDictionaryService {
         YDResult ydResult = restTemplate.getForObject(url, YDResult.class);
         WordExplain wordExplain = null;
 
-        if (ydResult == null)
+        if (ydResult != null)
         {
             WordExplain explain = new WordExplain();
-            wordExplain.word = word;
-            wordExplain.ukphone = ydResult.ec.word.get(0).ukphone;
-            wordExplain.ukspeech = ydResult.ec.word.get(0).ukspeech;
-            wordExplain.usphone = ydResult.ec.word.get(0).usphone;
-            wordExplain.usspeech = ydResult.ec.word.get(0).usspeech;
-            ydResult.ec.word.get(0).trs.get(0).tr
-                    .forEach(item -> explain.explain.add(item.l.i.get(0)));
+            explain.word = word;
+            explain.ukphone = ydResult.ec.word.get(0).ukphone;
+            explain.ukspeech = ydResult.ec.word.get(0).ukspeech;
+            explain.usphone = ydResult.ec.word.get(0).usphone;
+            explain.usspeech = ydResult.ec.word.get(0).usspeech;
+            ydResult.ec.word.get(0).trs.forEach(trs -> {
+                trs.tr.forEach(item -> explain.explain_list.add(item.l.i.get(0)));
+            });
             wordExplain = explain;
         }
         return CompletableFuture.completedFuture(wordExplain);

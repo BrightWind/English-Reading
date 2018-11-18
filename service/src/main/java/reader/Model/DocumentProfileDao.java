@@ -1,9 +1,7 @@
 package reader.Model;
 
-import com.mongodb.client.result.UpdateResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Component;
 
@@ -48,5 +46,16 @@ public class DocumentProfileDao {
                 query(where("id").is(id)),
                 new Update().addToSet("strangeWords", word),
                 DocumentProfile.class);
+    }
+
+    public void DeleteWord(String id, String word) {
+        mongoTemplate.updateFirst(
+                query(where("id").is(id)),
+                new Update().pull("strangeWords", word),
+                DocumentProfile.class);
+    }
+
+    public void DropCollection() {
+        mongoTemplate.dropCollection(DocumentProfile.class);
     }
 }

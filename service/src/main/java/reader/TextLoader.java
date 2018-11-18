@@ -62,10 +62,10 @@ public class TextLoader {
         try
         {
             String fileName = flle.getName();
-            DocumentProfile profile = documentProfileDao.Get(fileName);
+            DocumentProfile profile = documentProfileDao.GetByName(fileName);
             if (profile != null)
             {
-                resources.put(profile.fileName, profile);
+                resources.put(profile.id, profile);
 
                 if (!profile.fileName.equalsIgnoreCase("application.properties")) {
                     QueryWord(profile.strangeWords);
@@ -167,7 +167,7 @@ public class TextLoader {
                     //collect long word
                     String words[] = line.split(" ");
                     for (String word: words) {
-                        StringHelper.trim(word, ",.?!()");
+                        StringHelper.trim(word, ",.?!()-\"");
                         if (word.length() > 8)
                         {
                             LongWords.add(word);
@@ -178,14 +178,13 @@ public class TextLoader {
                 DocumentProfile resourceProfile = new DocumentProfile();
                 resourceProfile.fileName = fileName;
                 resourceProfile.contentLines = contentList;
-                resourceProfile.content = content.toString();
                 resourceProfile.strangeWords = LongWords;
 
                 if (fileName != "application.properties") {
                     QueryWord(LongWords);
                 }
 
-                resources.put(resourceProfile.fileName, resourceProfile);
+                resources.put(resourceProfile.id, resourceProfile);
 
                 documentProfileDao.Save(resourceProfile);
             }
@@ -218,8 +217,10 @@ public class TextLoader {
     }
 
     @PostConstruct
-    public void init ()
+    public void load ()
     {
+        documentProfileDao.DropCollection();
+
         try
         {
             String path = "/root/resources";

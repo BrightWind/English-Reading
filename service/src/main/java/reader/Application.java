@@ -1,19 +1,12 @@
 package reader;
 
-import com.mongodb.MongoClient;
-import com.mongodb.MongoClientURI;
 import org.springframework.context.annotation.Bean;
-import org.springframework.data.mongodb.MongoDbFactory;
-import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.mongodb.core.SimpleMongoDbFactory;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import reader.Model.DocumentProfileDao;
-import reader.Model.WordExplanDao;
+
 import java.util.concurrent.Executor;
 
 @SpringBootApplication
@@ -25,7 +18,6 @@ public class Application implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-
     }
 
     @Bean
@@ -34,7 +26,7 @@ public class Application implements CommandLineRunner {
         executor.setCorePoolSize(4);
         executor.setMaxPoolSize(8);
         executor.setQueueCapacity(500);
-        executor.setThreadNamePrefix("GithubLookup-");
+        executor.setThreadNamePrefix("AsyncPool-");
         executor.initialize();
         return executor;
     }
