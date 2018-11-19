@@ -9,18 +9,23 @@ public class StringHelper {
         if(source.isEmpty()){
             return "";
         }
-        String beginChar = source.substring(0, 1);
-        if (beginChar.equalsIgnoreCase(beTrim)) {
-            source = source.substring(1, source.length());
-            beginChar = source.substring(0, 1);
+
+        int len = source.length();
+        int i = len - 1;
+        for (; i > -1; i--) {
+            if (source.charAt(i) > 'A' && source.charAt(i) < 'z') {
+                break;
+            }
         }
 
-        // 循环去掉字符串尾的beTrim字符
-        String endChar = source.substring(source.length() - 1, source.length());
-        if (endChar.equalsIgnoreCase(beTrim)) {
-            source = source.substring(0, source.length() - 1);
-            endChar = source.substring(source.length() - 1, source.length());
+        if (i == len - 1) {
+            return  source;
         }
-        return source;
+        else if (i == -1) {
+            return "";
+        }
+        else {
+            return source.substring(0, i + 1);
+        }
     }
 }

@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import reader.Model.*;
 import reader.Services.ClouldDictionaryService;
 import reader.Services.LocalDictionaryService;
+import reader.Services.WordBlackListService;
 
 
 import java.util.ArrayList;
@@ -48,6 +49,9 @@ public class DocumentController {
     LocalDictionaryService localDictionaryService;
 
     @Autowired
+    WordBlackListService wordBlackListService;
+
+    @Autowired
     TextLoader textLoader;
 
     @RequestMapping(value = "/document/resource/reload", method = RequestMethod.GET)
@@ -61,7 +65,20 @@ public class DocumentController {
     {
         if (staticResource.resources.containsKey(id))
         {
-            return (DocumentProfile)staticResource.resources.get(id);
+            DocumentProfile documentProfile = (DocumentProfile)staticResource.resources.get(id);
+            List<String> tempList = new ArrayList<>();
+            for (String word: documentProfile.strangeWords) {
+                if (wordBlackListService.Contain(word)) {
+                    tempList.add(word);
+                    documentProfileDao.DeleteWord(documentProfile.id, word);
+                }
+            }
+
+            for (String word: tempList) {
+                documentProfile.strangeWords.remove(word);
+            }
+
+            return documentProfile;
         }
         else
         {
@@ -110,20 +127,27 @@ public class DocumentController {
     @RequestMapping(value = "document/strange/word/add")
     public void AddStrangeWord(@RequestParam String doc_id, @RequestParam String word)
     {
-        if (!localDictionaryService.Find(word))
+        String  tword = word.toLowerCase();
+        if (!localDictionaryService.Find(tword)) {
             try {
-                clouldDictionaryService.QueryWord(word).thenAccept(wordExplain -> {
+                clouldDictionaryService.QueryWord(tword).thenAccept(wordExplain -> {
                     if (wordExplain != null)
                     {
                         localDictionaryService.Add(wordExplain);
-                        documentProfileDao.AddWord(doc_id, word);
+                        documentProfileDao.AddWord(doc_id, tword);
                         wordExplanDao.Save(wordExplain);
                         DocumentProfile rs = (DocumentProfile)staticResource.resources.get(doc_id);
-                        if (rs != null) rs.strangeWords.add(word);
+                        if (rs != null) rs.strangeWords.add(tword);
                     }
                 });
             }
             catch (Exception ex) {};
+        } else {
+            documentProfileDao.AddWord(doc_id, tword);
+            DocumentProfile rs = (DocumentProfile)staticResource.resources.get(doc_id);
+            if (rs != null) rs.strangeWords.add(tword);
+        }
+
     }
 
     @RequestMapping(value = "document/strange/word/delete")
@@ -133,6 +157,7 @@ public class DocumentController {
         if (rs != null)
         {
             rs.strangeWords.remove(word);
+            wordBlackListService.Add(word);
             documentProfileDao.DeleteWord(doc_id, word);
         }
     }

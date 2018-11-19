@@ -7,13 +7,13 @@
     </div>
 
     <div class="new-strange-word-list" v-bind:class="{ 'hide-block': new_strange_word_List.length == 0 }">
-      <div class="new-strange-word" v-bind:class="{'select-strange-word': new_strange_word_List_status.indexOf(word) != -1}" v-for="word in new_strange_word_List" @dblclick="AddNewStrangeWord(word)"><span>{{word}}</span></div>
+      <div class="new-strange-word" v-bind:class="{'select-strange-word': true }" v-for="word in new_strange_word_List" @dblclick="AddNewStrangeWord(word)"><span>{{word}}</span></div>
       <div class="word-list-done"><button @click="OnClickWordListDone()">Done</button></div>
     </div>
 
     <div class="title" @click="OnClickTitle()"><label>{{document.fileName}}</label></div>
     <div class="content">
-      <div class="content-left">
+      <div class="content-left" @scroll="OnScroll(event)">
         <label v-for="line in document.contentLines" @dblclick="OnDoubleClickDoc(line)"> {{line}}</label>
       </div>
       <div class="content-right">
@@ -326,6 +326,9 @@
         }
 
         this.new_strange_word_List = line.split(' ');
+      },
+      OnScroll(event) {
+        return;
       }
      }
   }

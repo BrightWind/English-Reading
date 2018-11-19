@@ -12,9 +12,11 @@ import reader.Helper.ChineseChecker;
 import reader.Helper.StringHelper;
 import reader.Model.DocumentProfile;
 import reader.Model.DocumentProfileDao;
+import reader.Model.WordBlackListDao;
 import reader.Model.WordExplain;
 import reader.Services.ClouldDictionaryService;
 import reader.Services.LocalDictionaryService;
+import reader.Services.WordBlackListService;
 
 import javax.annotation.PostConstruct;
 import java.io.File;
@@ -42,6 +44,9 @@ public class TextLoader {
 
     @Autowired
     LocalDictionaryService localDictionaryService;
+
+    @Autowired
+    WordBlackListService wordBlackListService;
 
     public HashMap resources = new HashMap<String, DocumentProfile>();
 
@@ -168,10 +173,14 @@ public class TextLoader {
                     //collect long word
                     String words[] = line.split(" ");
                     for (String word: words) {
-                        StringHelper.trim(word, ",.?!()-\"");
-                        if (word.length() > 8)
+                        if (word.length() < 8) {
+                            continue;
+                        }
+
+                        String trimWord = StringHelper.trim(word, ",.?!()-\"").toLowerCase();
+                        if (trimWord.length() > 8 && !wordBlackListService.Contain(trimWord))
                         {
-                            LongWords.add(word);
+                            LongWords.add(trimWord);
                         }
                     }
                 }
@@ -220,7 +229,7 @@ public class TextLoader {
     @PostConstruct
     public void load ()
     {
-        //documentProfileDao.DropCollection();
+        documentProfileDao.DropCollection();
         try
         {
             String path = "/root/resources";
