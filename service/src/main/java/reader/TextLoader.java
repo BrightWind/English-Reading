@@ -48,7 +48,7 @@ public class TextLoader {
     public void LoadFiles(File[] files) {
         for (File file : files) {
             if (file.isDirectory()) {
-                System.out.println("Directory: " + file.getName());
+                logger.info("Directory: " + file.getName());
                 LoadFiles(file.listFiles()); // Calls same method again.
             } else {
                 ReadFile(file);
@@ -65,6 +65,7 @@ public class TextLoader {
             DocumentProfile profile = documentProfileDao.GetByName(fileName);
             if (profile != null)
             {
+                logger.info(String.format("Get file From mango{%s}{%s}", profile.id, fileName));
                 resources.put(profile.id, profile);
 
                 if (!profile.fileName.equalsIgnoreCase("application.properties")) {
@@ -184,9 +185,9 @@ public class TextLoader {
                     QueryWord(LongWords);
                 }
 
-                resources.put(resourceProfile.id, resourceProfile);
-
                 documentProfileDao.Save(resourceProfile);
+                resources.put(resourceProfile.id, resourceProfile);
+                logger.info(String.format("Get file From local{%s}{%s}", resourceProfile.id, fileName));
             }
             catch (Exception ex)
             {
@@ -219,8 +220,7 @@ public class TextLoader {
     @PostConstruct
     public void load ()
     {
-        documentProfileDao.DropCollection();
-
+        //documentProfileDao.DropCollection();
         try
         {
             String path = "/root/resources";
@@ -240,6 +240,9 @@ public class TextLoader {
                         return;
                     }
                 }
+            }
+            else {
+                logger.info("Resource exit:" + path);
             }
 
             File []resources = new File[] {top};
