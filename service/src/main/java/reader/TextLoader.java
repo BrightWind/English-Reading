@@ -178,7 +178,7 @@ public class TextLoader {
                         }
 
                         String trimWord = StringHelper.trim(word, ",.?!()-\"").toLowerCase();
-                        if (trimWord.length() > 8 && !wordBlackListService.Contain(trimWord))
+                        if (trimWord.length() >= 8 && !wordBlackListService.Contain(trimWord))
                         {
                             LongWords.add(trimWord);
                         }
@@ -229,7 +229,7 @@ public class TextLoader {
     @PostConstruct
     public void load ()
     {
-        documentProfileDao.DropCollection();
+        //documentProfileDao.DropCollection();
         try
         {
             String path = "/root/resources";

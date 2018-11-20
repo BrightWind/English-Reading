@@ -7,16 +7,16 @@
     </div>
 
     <div class="new-strange-word-list" v-bind:class="{ 'hide-block': new_strange_word_List.length == 0 }">
-      <div class="new-strange-word" v-bind:class="{'select-strange-word': true }" v-for="word in new_strange_word_List" @dblclick="AddNewStrangeWord(word)"><span>{{word}}</span></div>
+      <div class="new-strange-word" v-bind:class="{'select-strange-word': selected_new_strange_word_List.indexOf(word) != -1 }" v-for="word in new_strange_word_List" @click="AddNewStrangeWord(word)"><span>{{word}}</span></div>
       <div class="word-list-done"><button @click="OnClickWordListDone()">Done</button></div>
     </div>
 
     <div class="title" @click="OnClickTitle()"><label>{{document.fileName}}</label></div>
-    <div class="content">
-      <div class="content-left" @scroll="OnScroll(event)">
+    <div class="content" id="doc-content">
+      <div class="content-left" id="doc-content-left">
         <label v-for="line in document.contentLines" @dblclick="OnDoubleClickDoc(line)"> {{line}}</label>
       </div>
-      <div class="content-right">
+      <div class="content-right" id="doc-content-right" @scroll="OnContentRightScroll()">
         <div class="word-block" v-for="strangeWord in StrangeWordList">
           <div class="remove-block" @click="OnClickRemoveWordBlock(strangeWord)">X</div>
           <p class="word">{{strangeWord.word}}</p>
@@ -34,7 +34,15 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .select-strange-word {
-    background-color: goldenrod;
+    background: url('../assets/check_1.png'); 
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+
+  .none-select-strange-word {
+        background: burlywood;
   }
 
   .hide-block {
@@ -65,7 +73,7 @@
     width: 110px;
     height: 40px;
     margin: 5px 5px;
-    background: burlywood;
+    background-color: white;
   }
   .new-strange-word span {
     display: block;
@@ -218,12 +226,22 @@
         },
         StrangeWordList: [],
         new_strange_word_List:[],
-        new_strange_word_List_status: [],
+        selected_new_strange_word_List: [],
         wordRemoved: {},
       }
     },
     mounted: function () {
+      let _this = this;
       this.OnClickTitle()
+      _this.saveScoll = document.body.onscroll;
+      document.body.onscroll = _this.OnContentLeftScroll;
+
+        console.log("inject left scroll..");
+    },
+    beforeDestroy() {
+      let _this = this;
+      document.body.onscroll = _this.saveScoll;
+        console.log("reject left scroll..");
     },
     computed: {
       /*
@@ -300,18 +318,28 @@
         this.wordRemoved = {};
       },
       AddNewStrangeWord(word) {
-        let _this = this;
-        _this.new_strange_word_List_status.push(word);
-        axios.get(
-          'document/strange/word/add', {
-            params: {
-              doc_id: _this.document.id,
-              word: word }
-          });
+        let index = this.selected_new_strange_word_List.indexOf(word);
+        if (index == -1) {
+          this.selected_new_strange_word_List.push(word);
+        } else {
+          this.selected_new_strange_word_List.splice(index, 1);
+        }
       },
       OnClickWordListDone() {
-        this.new_strange_word_List = [];
-        this.new_strange_word_List_status = [];
+        var _this = this;
+        _this.new_strange_word_List = [];
+        let list = _this.selected_new_strange_word_List;
+        if (list.length > 0) {
+          list.forEach(word => {
+          axios.get(
+              'document/strange/word/add', {
+                params: {
+                  doc_id: _this.document.id,
+                  word: word }
+              });
+          })
+        }
+        this.selected_new_strange_word_List = [];
       },
       hasChineseLetter(str) {
         if (/.*[\u4e00-\u9fa5]+.*/.test(str)) {
@@ -327,8 +355,12 @@
 
         this.new_strange_word_List = line.split(' ');
       },
-      OnScroll(event) {
+      OnContentLeftScroll() {
+        console.log("left scroll..");
         return;
+      },
+      OnContentRightScroll() {
+        console.log("right scroll..");
       }
      }
   }

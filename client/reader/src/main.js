@@ -6,8 +6,8 @@ import store from './store'
 import axios from 'axios'
 import VueSessionStorage from 'vue-sessionstorage'
 
-//axios.defaults.baseURL = 'http://127.0.0.1:8090/'
-axios.defaults.baseURL = 'http://97.64.23.115:8090/'
+axios.defaults.baseURL = 'http://127.0.0.1:8090/'
+//axios.defaults.baseURL = 'http://97.64.23.115:8090/'
 Vue.config.productionTip = false
 
 Vue.use(VueX)
