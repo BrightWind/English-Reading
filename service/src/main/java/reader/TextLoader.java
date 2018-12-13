@@ -12,7 +12,6 @@ import reader.Helper.ChineseChecker;
 import reader.Helper.StringHelper;
 import reader.Model.DocumentProfile;
 import reader.Model.DocumentProfileDao;
-import reader.Model.WordBlackListDao;
 import reader.Model.WordExplain;
 import reader.Services.ClouldDictionaryService;
 import reader.Services.LocalDictionaryService;

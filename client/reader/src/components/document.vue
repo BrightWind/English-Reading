@@ -235,7 +235,8 @@
         new_strange_word_List:[],
         selected_new_strange_word_List: [],
         wordRemoved: {},
-        sessionPos  : 0
+        sessionPos  : 0,
+        scrollRecorder: null
       }
     },
     mounted: function () {
@@ -369,10 +370,15 @@
         console.log("right scroll..");
       },
       onScroll (event) {
-        this.sessionPos = event.target.scrollTop;
-        this.SaveScrollPos();
+        var _this = this;
+        _this.sessionPos = event.target.scrollTop;
+        _this.ScrollFiller(_this.HandlScrollEvent);
       },
-      SaveScrollPos() {
+      HandlScrollEvent() {
+          this.SaveDocumentPos();
+          this.UpdateStrangeWordList();
+      },
+      SaveDocumentPos() {
         let _this = this;
           if (math.abs(_this.document.rPosition - _this.sessionPos) > 100) {
             _this.document.rPosition = _this.sessionPos;
@@ -383,6 +389,22 @@
                   index: _this.document.rPosition }
               });
           } 
+      },
+      UpdateStrangeWordList() {
+
+      },
+      ScrollFiller(handler) {
+        var _this = this;
+        if (_this.scrollRecorder == null) {
+          _this.scrollRecorder = setTimeout(()=> {
+            console.log("triggering scroll event")
+            _this.scrollRecorder = null;
+            if (handler != null) handler();
+          }, 500);
+        } else {
+          clearTimeout(_this.scrollRecorder);
+          _this.scrollRecorder = null;
+        }
       }
     }
   }
