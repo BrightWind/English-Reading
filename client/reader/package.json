@@ -13,8 +13,11 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "math": "0.0.3",
     "vue": "^2.5.2",
+    "vue-observe-visibility": "^0.4.3",
     "vue-router": "^3.0.1",
+    "vue-scroll": "^2.1.9",
     "vue-sessionstorage": "^1.0.0",
     "vuex": "^3.0.1"
   },

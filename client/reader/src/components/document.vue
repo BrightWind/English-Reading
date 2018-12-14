@@ -1,5 +1,5 @@
 <template>
-  <div class="document">
+  <div class="document" id="document" @scroll.passive="onScroll">
 
     <div class="message-box" v-bind:class="{ 'hide-block': wordRemoved.word == null }">
       <p class="remove-block-tips">Do you want to remove "{{wordRemoved.word}}"</p>
@@ -7,16 +7,16 @@
     </div>
 
     <div class="new-strange-word-list" v-bind:class="{ 'hide-block': new_strange_word_List.length == 0 }">
-      <div class="new-strange-word" v-bind:class="{'select-strange-word': true }" v-for="word in new_strange_word_List" @dblclick="AddNewStrangeWord(word)"><span>{{word}}</span></div>
+      <div class="new-strange-word" v-bind:class="{'select-strange-word': selected_new_strange_word_List.indexOf(word) != -1 }" v-for="word in new_strange_word_List" @click="AddNewStrangeWord(word)"><span>{{word}}</span></div>
       <div class="word-list-done"><button @click="OnClickWordListDone()">Done</button></div>
     </div>
 
     <div class="title" @click="OnClickTitle()"><label>{{document.fileName}}</label></div>
-    <div class="content">
-      <div class="content-left" @scroll="OnScroll(event)">
-        <label v-for="line in document.contentLines" @dblclick="OnDoubleClickDoc(line)"> {{line}}</label>
+    <div class="content" id="doc-content">
+      <div class="content-left" id="doc-content-left">
+        <label v-for="(line, index) in document.contentLines" @dblclick="OnDoubleClickDoc(line)"> {{line}}</label>
       </div>
-      <div class="content-right">
+      <div class="content-right" id="doc-content-right" @scroll="OnContentRightScroll()">
         <div class="word-block" v-for="strangeWord in StrangeWordList">
           <div class="remove-block" @click="OnClickRemoveWordBlock(strangeWord)">X</div>
           <p class="word">{{strangeWord.word}}</p>
@@ -33,8 +33,23 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .document {
+    position: absolute;
+    width: 100%;
+    top: 42px;
+    bottom: 10px;
+    overflow-y: auto;
+  }
   .select-strange-word {
-    background-color: goldenrod;
+    background: url('../assets/check_1.png'); 
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+
+  .none-select-strange-word {
+        background: burlywood;
   }
 
   .hide-block {
@@ -65,7 +80,7 @@
     width: 110px;
     height: 40px;
     margin: 5px 5px;
-    background: burlywood;
+    background-color: white;
   }
   .new-strange-word span {
     display: block;
@@ -158,7 +173,6 @@
   .content-left {
     position: relative;
     display: block;
-    margin-top: 42px;
     margin-left: 0;
     left: 0;
     width: 70%;
@@ -206,6 +220,7 @@
 <script>
   import { mapActions } from 'vuex'
   import axios from 'axios'
+  import math from 'math'
 
   export default {
     name: 'document',
@@ -218,12 +233,22 @@
         },
         StrangeWordList: [],
         new_strange_word_List:[],
-        new_strange_word_List_status: [],
+        selected_new_strange_word_List: [],
         wordRemoved: {},
+        sessionPos  : 0,
+        scrollRecorder: null
       }
     },
     mounted: function () {
+      let _this = this;
       this.OnClickTitle()
+    },
+    updated: function(){
+      this.$el.scrollTop = this.document.rPosition;
+    },
+    beforeDestroy() {
+      let _this = this;
+        console.log("reject left scroll..");
     },
     computed: {
       /*
@@ -254,10 +279,10 @@
           docId = this.$session.get('profile')
         }
 
-        let outerThis = this
+        let _this = this
         axios.get('/document/get?id=' + docId)
           .then(function (response) {
-            outerThis.document = response.data
+            _this.document = response.data
           })
           .catch(function (error) {
             console.log(error)
@@ -265,7 +290,7 @@
 
         axios.get('/document/explain/get?doc_id=' + docId)
           .then(function (response) {
-            outerThis.StrangeWordList = response.data
+            _this.StrangeWordList = response.data
           })
           .catch(function (error) {
             console.log(error)
@@ -300,18 +325,28 @@
         this.wordRemoved = {};
       },
       AddNewStrangeWord(word) {
-        let _this = this;
-        _this.new_strange_word_List_status.push(word);
-        axios.get(
-          'document/strange/word/add', {
-            params: {
-              doc_id: _this.document.id,
-              word: word }
-          });
+        let index = this.selected_new_strange_word_List.indexOf(word);
+        if (index == -1) {
+          this.selected_new_strange_word_List.push(word);
+        } else {
+          this.selected_new_strange_word_List.splice(index, 1);
+        }
       },
       OnClickWordListDone() {
-        this.new_strange_word_List = [];
-        this.new_strange_word_List_status = [];
+        var _this = this;
+        _this.new_strange_word_List = [];
+        let list = _this.selected_new_strange_word_List;
+        if (list.length > 0) {
+          list.forEach(word => {
+          axios.get(
+              'document/strange/word/add', {
+                params: {
+                  doc_id: _this.document.id,
+                  word: word }
+              });
+          })
+        }
+        this.selected_new_strange_word_List = [];
       },
       hasChineseLetter(str) {
         if (/.*[\u4e00-\u9fa5]+.*/.test(str)) {
@@ -327,9 +362,50 @@
 
         this.new_strange_word_List = line.split(' ');
       },
-      OnScroll(event) {
+      OnContentLeftScroll() {
+        console.log("left scroll..");
         return;
+      },
+      OnContentRightScroll() {
+        console.log("right scroll..");
+      },
+      onScroll (event) {
+        var _this = this;
+        _this.sessionPos = event.target.scrollTop;
+        _this.ScrollFiller(_this.HandlScrollEvent);
+      },
+      HandlScrollEvent() {
+          this.SaveDocumentPos();
+          this.UpdateStrangeWordList();
+      },
+      SaveDocumentPos() {
+        let _this = this;
+          if (math.abs(_this.document.rPosition - _this.sessionPos) > 100) {
+            _this.document.rPosition = _this.sessionPos;
+            axios.get(
+              '/document/position', {
+                params: {
+                  doc_id: _this.document.id,
+                  index: _this.document.rPosition }
+              });
+          } 
+      },
+      UpdateStrangeWordList() {
+
+      },
+      ScrollFiller(handler) {
+        var _this = this;
+        if (_this.scrollRecorder == null) {
+          _this.scrollRecorder = setTimeout(()=> {
+            console.log("triggering scroll event")
+            _this.scrollRecorder = null;
+            if (handler != null) handler();
+          }, 500);
+        } else {
+          clearTimeout(_this.scrollRecorder);
+          _this.scrollRecorder = null;
+        }
       }
-     }
+    }
   }
 </script>

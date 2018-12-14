@@ -121,7 +121,7 @@ public class DocumentController {
             }
         }
 
-        return false;
+        return true;
     }
 
     @RequestMapping(value = "document/strange/word/add")

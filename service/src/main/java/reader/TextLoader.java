@@ -12,7 +12,6 @@ import reader.Helper.ChineseChecker;
 import reader.Helper.StringHelper;
 import reader.Model.DocumentProfile;
 import reader.Model.DocumentProfileDao;
-import reader.Model.WordBlackListDao;
 import reader.Model.WordExplain;
 import reader.Services.ClouldDictionaryService;
 import reader.Services.LocalDictionaryService;
@@ -178,7 +177,7 @@ public class TextLoader {
                         }
 
                         String trimWord = StringHelper.trim(word, ",.?!()-\"").toLowerCase();
-                        if (trimWord.length() > 8 && !wordBlackListService.Contain(trimWord))
+                        if (trimWord.length() >= 8 && !wordBlackListService.Contain(trimWord))
                         {
                             LongWords.add(trimWord);
                         }
@@ -229,7 +228,7 @@ public class TextLoader {
     @PostConstruct
     public void load ()
     {
-        documentProfileDao.DropCollection();
+        //documentProfileDao.DropCollection();
         try
         {
             String path = "/root/resources";
