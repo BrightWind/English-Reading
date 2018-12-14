@@ -3,3 +3,8 @@ service/.idea
 service/target
 service/desploy.cmd
 client/reader/deploy.cmd
+service/.classpath
+service/.gradle/
+service/.project
+service/.settings/
+service/bin/
