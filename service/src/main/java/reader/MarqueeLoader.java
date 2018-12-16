@@ -9,12 +9,12 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 import reader.Helper.ChineseChecker;
+import reader.Helper.StaticConfigration;
 import reader.Helper.StringHelper;
-import reader.Model.DocumentProfile;
-import reader.Model.DocumentProfileDao;
-import reader.Model.WordExplain;
+import reader.Model.*;
 import reader.Services.ClouldDictionaryService;
 import reader.Services.LocalDictionaryService;
+import reader.Services.SettingService;
 import reader.Services.WordBlackListService;
 
 import javax.annotation.PostConstruct;
@@ -29,7 +29,7 @@ import java.util.regex.Pattern;
 
 
 @Component
-public class TextLoader {
+public class MarqueeLoader {
     private static final Logger logger = LoggerFactory.getLogger(ClouldDictionaryService.class);
 
     @Value("classpath")
@@ -47,6 +47,13 @@ public class TextLoader {
     @Autowired
     WordBlackListService wordBlackListService;
 
+    @Autowired
+    SettingService settingService;
+
+    @Autowired
+    WordFrequencyLoader wordFrequencyLoader;
+
+
     public HashMap resources = new HashMap<String, DocumentProfile>();
 
     public void LoadFiles(File[] files) {
@@ -63,18 +70,19 @@ public class TextLoader {
 
     public void ReadFile(File flle)
     {
+        String fileName = flle.getName();
         try
         {
-            String fileName = flle.getName();
+            if (fileName.equals("application.properties") || fileName.equals("word_frequency")) {
+                return;
+            }
+
             DocumentProfile profile = documentProfileDao.GetByName(fileName);
             if (profile != null)
             {
                 logger.info(String.format("Get file From mango{%s}{%s}", profile.id, fileName));
                 resources.put(profile.id, profile);
-
-                if (!profile.fileName.equalsIgnoreCase("application.properties")) {
-                    QueryWord(profile.strangeWords);
-                }
+                QueryWord(profile.strangeWords);
 
                 return;
             }
@@ -88,7 +96,6 @@ public class TextLoader {
         {
             try
             {
-                String fileName = flle.getName();
                 List<String> contentList = new ArrayList<>();
                 StringBuffer content = new StringBuffer();
                 Set<String> LongWords = new HashSet<>();
@@ -172,12 +179,18 @@ public class TextLoader {
                     //collect long word
                     String words[] = line.split(" ");
                     for (String word: words) {
-                        if (word.length() < 8) {
+                        String trimWord = StringHelper.trim(word, ",.?!()-\"").toLowerCase();
+
+                        if (wordBlackListService.Contain(trimWord)) {
                             continue;
                         }
 
-                        String trimWord = StringHelper.trim(word, ",.?!()-\"").toLowerCase();
-                        if (trimWord.length() >= 8 && !wordBlackListService.Contain(trimWord))
+                        int changeIdx = wordFrequencyLoader.WordFrequencyList.indexOf(trimWord);
+                        if (changeIdx < settingService.strangeWordLevel.LowLevel) {
+                            continue;
+                        }
+
+                        if (changeIdx > settingService.strangeWordLevel.HighLevel ||trimWord.length() >= 8)
                         {
                             LongWords.add(trimWord);
                         }
@@ -188,10 +201,7 @@ public class TextLoader {
                 resourceProfile.fileName = fileName;
                 resourceProfile.contentLines = contentList;
                 resourceProfile.strangeWords = LongWords;
-
-                if (fileName != "application.properties") {
-                    QueryWord(LongWords);
-                }
+                QueryWord(LongWords);
 
                 documentProfileDao.Save(resourceProfile);
                 resources.put(resourceProfile.id, resourceProfile);
@@ -211,10 +221,6 @@ public class TextLoader {
                 qr.thenAccept(wordExplain -> {
                     try {
                         if (wordExplain == null) return;
-
-                        //ObjectMapper mapper = new ObjectMapper();
-                        //String jsonInString = mapper.writeValueAsString(ydResult);
-
                         localDictionaryService.Add(wordExplain);
                     } catch (Exception ex) {
                     }
@@ -228,32 +234,13 @@ public class TextLoader {
     @PostConstruct
     public void load ()
     {
-        //documentProfileDao.DropCollection();
+        settingService.init();
+        wordFrequencyLoader.Init();
         try
         {
-            String path = "/root/resources";
-            File top = new File(path);
-            if (!top.exists())
-            {
-                path = "C:\\Users\\mark00x\\Desktop\\English-Reading\\service\\src\\main\\resources";
-                top = new File(path);
-
-                if (!top.exists())
-                {
-                    path = "E:\\Projects\\EnglishReader\\English-Reading\\service\\src\\main\\resources";
-                    top = new File(path);
-
-                    if (!top.exists())
-                    {
-                        return;
-                    }
-                }
-            }
-            else {
-                logger.info("Resource exit:" + path);
-            }
-
-            File []resources = new File[] {top};
+            String path = StaticConfigration.ResourcePath();
+            if (path == null) return;
+            File []resources = new File[] {new File(path)};
             LoadFiles(resources);
         }
         catch (Exception ex)

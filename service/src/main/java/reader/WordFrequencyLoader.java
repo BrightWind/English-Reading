@@ -1,40 +1,32 @@
 package reader;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import reader.Services.ClouldDictionaryService;
+import org.springframework.stereotype.Service;
+import reader.Helper.StaticConfigration;
+import reader.Helper.TextLoader;
 
+@Service
 public class WordFrequencyLoader {
-    List<String> WordFrequencyList = new ArrayList<>();
+    public List<String> WordFrequencyList;
 
-    private static final Logger logger = LoggerFactory.getLogger(ClouldDictionaryService.class);
-
-    public void Load() {
-        String path = "/root/resources";
-        File top = new File(path);
-        if (!top.exists())
+    public void Init() {
+        List<String> content_list = new ArrayList<>();
+        try
         {
-            path = "C:\\Users\\mark00x\\Desktop\\English-Reading\\service\\src\\main\\resources";
-            top = new File(path);
-
-            if (!top.exists())
-            {
-                path = "E:\\Projects\\EnglishReader\\English-Reading\\service\\src\\main\\resources";
-                top = new File(path);
-
-                if (!top.exists())
-                {
-                    return;
+            String filePath = StaticConfigration.ResourcePath() + "\\word_frequency";
+            List<String> temp_list = TextLoader.FileToList(filePath);
+            for (String line: temp_list) {
+                String []temp = line.split("\t");
+                if (temp.length < 3) {
+                    continue;
                 }
-            }
+                content_list.add(temp[2]);
+             }
         }
-        else {
-            logger.info("Resource exit:" + path);
+        catch (Exception ex) {
         }
 
-
+        WordFrequencyList = content_list;
     }
 }
