@@ -11,6 +11,8 @@ import reader.Services.WordBlackListService;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @CrossOrigin(value = "*")
 @RestController
@@ -164,6 +166,8 @@ public class DocumentController {
             documentProfileDao.DeleteWord(doc_id, word);
         }
     }
+
+
 
     private  void Draft () {
 

@@ -292,6 +292,7 @@
 
         axios.get('/document/explain/get?doc_id=' + docId)
           .then(function (response) {
+            console.log(response.data);
             _this.StrangeWordList = response.data
           })
           .catch(function (error) {

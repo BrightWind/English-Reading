@@ -56,6 +56,19 @@ public class MarqueeLoader {
 
     public HashMap resources = new HashMap<String, DocumentProfile>();
 
+    public String GetOriginalWord(String text) {
+        String pattern = "（([a-zA-Z]+)的";
+        Pattern r = Pattern.compile(pattern);
+
+        // 现在创建 matcher 对象
+        Matcher m = r.matcher(text);
+        if (m.find()) {
+            return m.group(1);
+        }
+
+        return null;
+    }
+
     public void LoadFiles(File[] files) {
         for (File file : files) {
             if (file.isDirectory()) {
@@ -67,6 +80,22 @@ public class MarqueeLoader {
         }
     }
 
+    public boolean IsStrangeWord(String word) {
+        if (wordBlackListService.Contain(word)) {
+            return false;
+        }
+
+        int changeIdx = wordFrequencyLoader.WordFrequencyList.indexOf(word);
+        if (changeIdx != -1 && changeIdx < settingService.strangeWordLevel.LowLevel) {
+            return false;
+        }
+
+        if (changeIdx > settingService.strangeWordLevel.HighLevel || word.length() >= 8) {
+            return true;
+        }
+
+        return false;
+    }
 
     public void ReadFile(File flle)
     {
@@ -82,7 +111,7 @@ public class MarqueeLoader {
             {
                 logger.info(String.format("Get file From mango{%s}{%s}", profile.id, fileName));
                 resources.put(profile.id, profile);
-                QueryWord(profile.strangeWords);
+                QueryWord(profile, profile.strangeWords);
 
                 return;
             }
@@ -178,20 +207,19 @@ public class MarqueeLoader {
 
                     //collect long word
                     String words[] = line.split(" ");
-                    for (String word: words) {
+                    ArrayDeque<String> wordQueue = new ArrayDeque(Arrays.asList(words));
+                    while (wordQueue.size() > 0) {
+                        String word = wordQueue.pop();
                         String trimWord = StringHelper.trim(word, ",.?!()-\"").toLowerCase();
-
-                        if (wordBlackListService.Contain(trimWord)) {
+                        if (trimWord.isEmpty()) {
                             continue;
                         }
 
-                        int changeIdx = wordFrequencyLoader.WordFrequencyList.indexOf(trimWord);
-                        if (changeIdx < settingService.strangeWordLevel.LowLevel) {
-                            continue;
+                        if (trimWord.contains("'s")) {
+                            trimWord = trimWord.replace("'s", "");
                         }
 
-                        if (changeIdx > settingService.strangeWordLevel.HighLevel ||trimWord.length() >= 8)
-                        {
+                        if (IsStrangeWord(trimWord)) {
                             LongWords.add(trimWord);
                         }
                     }
@@ -201,7 +229,7 @@ public class MarqueeLoader {
                 resourceProfile.fileName = fileName;
                 resourceProfile.contentLines = contentList;
                 resourceProfile.strangeWords = LongWords;
-                QueryWord(LongWords);
+                QueryWord(resourceProfile, LongWords);
 
                 documentProfileDao.Save(resourceProfile);
                 resources.put(resourceProfile.id, resourceProfile);
@@ -214,15 +242,49 @@ public class MarqueeLoader {
         }
     }
 
-    public void QueryWord(Set<String> LongWords) {
+    private String GetOrgWordFromList(List<String> explain_list) {
+        for (String line : explain_list) {
+            String org = GetOriginalWord(line);
+            if (org != null) {
+                return org;
+            }
+        }
+
+        return null;
+    }
+
+    public void QueryWord(DocumentProfile resourceProfile, Set<String> LongWords) {
         for (String word : LongWords) {
             try {
                 CompletableFuture<WordExplain> qr =  clouldDictionaryService.QueryWord(word);
                 qr.thenAccept(wordExplain -> {
                     try {
                         if (wordExplain == null) return;
-                        localDictionaryService.Add(wordExplain);
-                    } catch (Exception ex) {
+
+                        String org = GetOrgWordFromList(wordExplain.explain_list);
+                        if (org == null) {
+                            localDictionaryService.Add(wordExplain);
+                            return;
+                        }
+
+                        resourceProfile.strangeWords.remove(word);
+                        documentProfileDao.DeleteWord(resourceProfile.id, word);
+                        if (IsStrangeWord(org)) {
+                            try
+                            {
+                                CompletableFuture<WordExplain> tqr =  clouldDictionaryService.QueryWord(org);
+                                tqr.thenAccept(wordExplain1 -> {
+                                    resourceProfile.strangeWords.add(word);
+                                    documentProfileDao.AddWord(resourceProfile.id, word);
+                                });
+                            }
+                            catch (Exception ex) {
+
+                            }
+                        }
+                    }
+                    catch (Exception ex) {
+
                     }
                 });
             }
