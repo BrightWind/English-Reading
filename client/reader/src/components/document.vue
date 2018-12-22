@@ -18,7 +18,11 @@
         <label class="document-line" v-for="(line, index) in document.contentLines" @dblclick="OnDoubleClickDoc(line)"> {{line}}</label>
       </div>
       <div class="content-right" id="doc-content-right" @scroll="OnContentRightScroll()">
-        <div class="word-block" v-for="strangeWord in visible_strange_word_list">
+        <div class="word-block" v-for="strangeWord in visible_strange_word_list" >
+          <div class="video-trigger" @click="OnClickSpeech($event)">
+              <video class="video-block" controls="" name="media"><source v-bind:src="'http://dict.youdao.com/dictvoice?audio=' + strangeWord.word + '&type=2'" type="audio/mpeg">
+              </video>
+          </div>
           <div class="remove-block" @click="OnClickRemoveWordBlock(strangeWord)">X</div>
           <p class="word">{{strangeWord.word}}</p>
           <p class="speech">
@@ -132,10 +136,25 @@
 
   }
   .word-block {
+    position: relative;
     margin-top: 5px;
     background-color: burlywood;
     padding: 4px 4px;
   }
+
+  .video-block {
+    display: none;
+  }
+
+  .video-trigger {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 35px;
+    z-index: 1000;
+  }
+
   .word {
     margin-top: 0px;
     font-size: 23px;
@@ -299,7 +318,10 @@
             console.log(error)
           })
       },
-      OnClickSpeech(phone) {
+      OnClickSpeech(event) {
+        if (event != null) {
+          event.srcElement.lastChild.play();
+        }
       },
       OnClickRemoveWordBlock(word) {
         console.log(word)
@@ -431,7 +453,7 @@
           //console.log("triggering scroll event")
           _this.scrollRecorder = null;
           if (handler != null) handler(target);
-        }, 500);
+        }, 200);
       }
     }
   }
