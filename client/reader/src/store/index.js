@@ -12,7 +12,7 @@ export default new Vuex.Store({
     init ({commit}) {
       axios.get('/document/list/get')
         .then(function (response) {
-          console.log(response.data);
+          //console.log(response.data);
           commit('set_document_list_mu', response.data)
         })
         .catch(function (error) {

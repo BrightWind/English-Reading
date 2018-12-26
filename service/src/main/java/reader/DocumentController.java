@@ -5,24 +5,41 @@ import org.springframework.web.bind.annotation.*;
 import reader.Model.*;
 import reader.Services.ClouldDictionaryService;
 import reader.Services.LocalDictionaryService;
+import reader.Services.SettingService;
 import reader.Services.WordBlackListService;
 
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @CrossOrigin(value = "*")
 @RestController
 public class DocumentController {
-
     @Autowired
-    TextLoader staticResource;
+    MarqueeLoader staticResource;
 
     @Autowired
     DocumentProfileDao documentProfileDao;
 
     @Autowired
     WordExplanDao wordExplanDao;
+
+    @Autowired
+    WordFrequencyLoader wordFrequencyLoader;
+
+    @Autowired
+    SettingService settingService;
+
+    @Autowired
+    ClouldDictionaryService clouldDictionaryService;
+
+    @Autowired
+    LocalDictionaryService localDictionaryService;
+
+    @Autowired
+    WordBlackListService wordBlackListService;
 
     @RequestMapping("/")
     public String index() {
@@ -41,18 +58,6 @@ public class DocumentController {
         }
         return list;
     }
-
-    @Autowired
-    ClouldDictionaryService clouldDictionaryService;
-
-    @Autowired
-    LocalDictionaryService localDictionaryService;
-
-    @Autowired
-    WordBlackListService wordBlackListService;
-
-    @Autowired
-    TextLoader textLoader;
 
     @RequestMapping(value = "/document/resource/reload", method = RequestMethod.GET)
     public void ReloadResource()
@@ -161,6 +166,8 @@ public class DocumentController {
             documentProfileDao.DeleteWord(doc_id, word);
         }
     }
+
+
 
     private  void Draft () {
 

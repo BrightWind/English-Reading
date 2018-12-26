@@ -12,12 +12,17 @@
     </div>
 
     <div class="title" @click="OnClickTitle()"><label>{{document.fileName}}</label></div>
+
     <div class="content" id="doc-content">
       <div class="content-left" id="doc-content-left">
-        <label v-for="(line, index) in document.contentLines" @dblclick="OnDoubleClickDoc(line)"> {{line}}</label>
+        <label class="document-line" v-for="(line, index) in document.contentLines" @dblclick="OnDoubleClickDoc(line)"> {{line}}</label>
       </div>
       <div class="content-right" id="doc-content-right" @scroll="OnContentRightScroll()">
-        <div class="word-block" v-for="strangeWord in StrangeWordList">
+        <div class="word-block" v-for="strangeWord in visible_strange_word_list" >
+          <div class="video-trigger" @click="OnClickSpeech($event)">
+              <video class="video-block" controls="" name="media"><source v-bind:src="'http://dict.youdao.com/dictvoice?audio=' + strangeWord.word + '&type=2'" type="audio/mpeg">
+              </video>
+          </div>
           <div class="remove-block" @click="OnClickRemoveWordBlock(strangeWord)">X</div>
           <p class="word">{{strangeWord.word}}</p>
           <p class="speech">
@@ -41,7 +46,7 @@
     overflow-y: auto;
   }
   .select-strange-word {
-    background: url('../assets/check_1.png'); 
+    background: url('../assets/check_1.png');
     background-position-x: right;
     background-position-y: bottom;
     background-size: 50%;
@@ -131,10 +136,25 @@
 
   }
   .word-block {
+    position: relative;
     margin-top: 5px;
     background-color: burlywood;
     padding: 4px 4px;
   }
+
+  .video-block {
+    display: none;
+  }
+
+  .video-trigger {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 35px;
+    z-index: 1000;
+  }
+
   .word {
     margin-top: 0px;
     font-size: 23px;
@@ -232,6 +252,7 @@
           contentLines: '',
         },
         StrangeWordList: [],
+        visible_strange_word_list: [],
         new_strange_word_List:[],
         selected_new_strange_word_List: [],
         wordRemoved: {},
@@ -290,13 +311,22 @@
 
         axios.get('/document/explain/get?doc_id=' + docId)
           .then(function (response) {
-            _this.StrangeWordList = response.data
+            console.log(response.data);
+            _this.StrangeWordList = response.data;
+            let strange_words = [];
+            _this.StrangeWordList.forEach(item => {
+              strange_words.push(item.word);
+            });
+            console.log(strange_words);
           })
           .catch(function (error) {
             console.log(error)
           })
       },
-      OnClickSpeech(phone) {
+      OnClickSpeech(event) {
+        if (event != null) {
+          event.srcElement.lastChild.play();
+        }
       },
       OnClickRemoveWordBlock(word) {
         console.log(word)
@@ -362,21 +392,19 @@
 
         this.new_strange_word_List = line.split(' ');
       },
-      OnContentLeftScroll() {
-        console.log("left scroll..");
-        return;
-      },
       OnContentRightScroll() {
         console.log("right scroll..");
       },
       onScroll (event) {
-        var _this = this;
+        let _this = this;
+        //console.log("..debug..")
         _this.sessionPos = event.target.scrollTop;
-        _this.ScrollFiller(_this.HandlScrollEvent);
+
+        _this.ScrollFiller(_this.HandleScrollEvent, event.target);
       },
-      HandlScrollEvent() {
+      HandleScrollEvent(target) {
           this.SaveDocumentPos();
-          this.UpdateStrangeWordList();
+          this.UpdateStrangeWordList(target);
       },
       SaveDocumentPos() {
         let _this = this;
@@ -388,23 +416,49 @@
                   doc_id: _this.document.id,
                   index: _this.document.rPosition }
               });
-          } 
+          }
       },
-      UpdateStrangeWordList() {
+      UpdateStrangeWordList(target) {
+        let _this = this;
+        _this.visible_strange_word_list = [];
 
-      },
-      ScrollFiller(handler) {
-        var _this = this;
-        if (_this.scrollRecorder == null) {
-          _this.scrollRecorder = setTimeout(()=> {
-            console.log("triggering scroll event")
-            _this.scrollRecorder = null;
-            if (handler != null) handler();
-          }, 500);
-        } else {
-          clearTimeout(_this.scrollRecorder);
-          _this.scrollRecorder = null;
+        let doc_lines = window.document.getElementsByClassName('document-line');
+        if (doc_lines == null) {
+          return;
         }
+
+        let visible_content = '';
+        let client_top = _this.sessionPos + 40;
+        let client_bottom = target.scrollTop + target.clientHeight - 40;
+
+        for (let idx in doc_lines) {
+          let line = doc_lines[idx];
+          if (line.offsetTop > client_top) {
+            if (line.offsetTop > client_bottom) {
+              break;
+            }
+
+            visible_content += ' ' + line.innerText;
+          }
+        }
+
+        _this.StrangeWordList.forEach(function(item) {
+          if (visible_content.indexOf(item.word) != -1) {
+            _this.visible_strange_word_list.push(item);
+          }
+        });
+      },
+      ScrollFiller(handler, target) {
+        let _this = this;
+        if (_this.scrollRecorder != null) {
+          clearTimeout(_this.scrollRecorder);
+        }
+
+        _this.scrollRecorder = setTimeout(()=> {
+          //console.log("triggering scroll event")
+          _this.scrollRecorder = null;
+          if (handler != null) handler(target);
+        }, 200);
       }
     }
   }

@@ -9,12 +9,12 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 import reader.Helper.ChineseChecker;
+import reader.Helper.StaticConfigration;
 import reader.Helper.StringHelper;
-import reader.Model.DocumentProfile;
-import reader.Model.DocumentProfileDao;
-import reader.Model.WordExplain;
+import reader.Model.*;
 import reader.Services.ClouldDictionaryService;
 import reader.Services.LocalDictionaryService;
+import reader.Services.SettingService;
 import reader.Services.WordBlackListService;
 
 import javax.annotation.PostConstruct;
@@ -29,7 +29,7 @@ import java.util.regex.Pattern;
 
 
 @Component
-public class TextLoader {
+public class MarqueeLoader {
     private static final Logger logger = LoggerFactory.getLogger(ClouldDictionaryService.class);
 
     @Value("classpath")
@@ -47,7 +47,27 @@ public class TextLoader {
     @Autowired
     WordBlackListService wordBlackListService;
 
+    @Autowired
+    SettingService settingService;
+
+    @Autowired
+    WordFrequencyLoader wordFrequencyLoader;
+
+
     public HashMap resources = new HashMap<String, DocumentProfile>();
+
+    public String GetOriginalWord(String text) {
+        String pattern = "（([a-zA-Z]+)的";
+        Pattern r = Pattern.compile(pattern);
+
+        // 现在创建 matcher 对象
+        Matcher m = r.matcher(text);
+        if (m.find()) {
+            return m.group(1);
+        }
+
+        return null;
+    }
 
     public void LoadFiles(File[] files) {
         for (File file : files) {
@@ -60,21 +80,48 @@ public class TextLoader {
         }
     }
 
+    private Set<String> lowSet = new HashSet();
+    private Set<String> HighSet = new HashSet();
+
+    public boolean IsStrangeWord(String word) {
+        if (wordBlackListService.Contain(word)) {
+            return false;
+        }
+
+        int changeIdx = wordFrequencyLoader.WordFrequencyList.indexOf(word);
+        if (changeIdx != -1 && changeIdx < settingService.strangeWordLevel.LowLevel) {
+            return false;
+        }
+
+        if (changeIdx > settingService.strangeWordLevel.HighLevel) {
+            return true;
+        }
+
+        if (word.length() < 7) {
+            lowSet.add(word);
+            return false;
+        }
+        else {
+            HighSet.add(word);
+            return true;
+        }
+    }
 
     public void ReadFile(File flle)
     {
+        String fileName = flle.getName();
         try
         {
-            String fileName = flle.getName();
+            if (fileName.equals("application.properties") || fileName.equals("word_frequency")) {
+                return;
+            }
+
             DocumentProfile profile = documentProfileDao.GetByName(fileName);
             if (profile != null)
             {
                 logger.info(String.format("Get file From mango{%s}{%s}", profile.id, fileName));
                 resources.put(profile.id, profile);
-
-                if (!profile.fileName.equalsIgnoreCase("application.properties")) {
-                    QueryWord(profile.strangeWords);
-                }
+                QueryWord(profile, profile.strangeWords);
 
                 return;
             }
@@ -88,7 +135,6 @@ public class TextLoader {
         {
             try
             {
-                String fileName = flle.getName();
                 List<String> contentList = new ArrayList<>();
                 StringBuffer content = new StringBuffer();
                 Set<String> LongWords = new HashSet<>();
@@ -171,14 +217,19 @@ public class TextLoader {
 
                     //collect long word
                     String words[] = line.split(" ");
-                    for (String word: words) {
-                        if (word.length() < 8) {
+                    ArrayDeque<String> wordQueue = new ArrayDeque(Arrays.asList(words));
+                    while (wordQueue.size() > 0) {
+                        String word = wordQueue.pop();
+                        String trimWord = StringHelper.trim(word, ",.?!()-\"").toLowerCase();
+                        if (trimWord.isEmpty()) {
                             continue;
                         }
 
-                        String trimWord = StringHelper.trim(word, ",.?!()-\"").toLowerCase();
-                        if (trimWord.length() >= 8 && !wordBlackListService.Contain(trimWord))
-                        {
+                        if (trimWord.contains("'s")) {
+                            trimWord = trimWord.replace("'s", "");
+                        }
+
+                        if (IsStrangeWord(trimWord)) {
                             LongWords.add(trimWord);
                         }
                     }
@@ -188,10 +239,7 @@ public class TextLoader {
                 resourceProfile.fileName = fileName;
                 resourceProfile.contentLines = contentList;
                 resourceProfile.strangeWords = LongWords;
-
-                if (fileName != "application.properties") {
-                    QueryWord(LongWords);
-                }
+                QueryWord(resourceProfile, LongWords);
 
                 documentProfileDao.Save(resourceProfile);
                 resources.put(resourceProfile.id, resourceProfile);
@@ -204,7 +252,18 @@ public class TextLoader {
         }
     }
 
-    public void QueryWord(Set<String> LongWords) {
+    private String GetOrgWordFromList(List<String> explain_list) {
+        for (String line : explain_list) {
+            String org = GetOriginalWord(line);
+            if (org != null) {
+                return org;
+            }
+        }
+
+        return null;
+    }
+
+    public void QueryWord(DocumentProfile resourceProfile, Set<String> LongWords) {
         for (String word : LongWords) {
             try {
                 CompletableFuture<WordExplain> qr =  clouldDictionaryService.QueryWord(word);
@@ -212,11 +271,30 @@ public class TextLoader {
                     try {
                         if (wordExplain == null) return;
 
-                        //ObjectMapper mapper = new ObjectMapper();
-                        //String jsonInString = mapper.writeValueAsString(ydResult);
+                        String org = GetOrgWordFromList(wordExplain.explain_list);
+                        if (org == null) {
+                            localDictionaryService.Add(wordExplain);
+                            return;
+                        }
 
-                        localDictionaryService.Add(wordExplain);
-                    } catch (Exception ex) {
+                        resourceProfile.strangeWords.remove(word);
+                        documentProfileDao.DeleteWord(resourceProfile.id, word);
+                        if (IsStrangeWord(org)) {
+                            try
+                            {
+                                CompletableFuture<WordExplain> tqr =  clouldDictionaryService.QueryWord(org);
+                                tqr.thenAccept(wordExplain1 -> {
+                                    resourceProfile.strangeWords.add(word);
+                                    documentProfileDao.AddWord(resourceProfile.id, word);
+                                });
+                            }
+                            catch (Exception ex) {
+
+                            }
+                        }
+                    }
+                    catch (Exception ex) {
+
                     }
                 });
             }
@@ -228,33 +306,24 @@ public class TextLoader {
     @PostConstruct
     public void load ()
     {
-        //documentProfileDao.DropCollection();
+        settingService.init();
+        wordFrequencyLoader.Init();
         try
         {
-            String path = "/root/resources";
-            File top = new File(path);
-            if (!top.exists())
-            {
-                path = "C:\\Users\\mark00x\\Desktop\\English-Reading\\service\\src\\main\\resources";
-                top = new File(path);
-
-                if (!top.exists())
-                {
-                    path = "E:\\Projects\\EnglishReader\\English-Reading\\service\\src\\main\\resources";
-                    top = new File(path);
-
-                    if (!top.exists())
-                    {
-                        return;
-                    }
-                }
-            }
-            else {
-                logger.info("Resource exit:" + path);
-            }
-
-            File []resources = new File[] {top};
+            String path = StaticConfigration.ResourcePath();
+            if (path == null) return;
+            File []resources = new File[] {new File(path)};
             LoadFiles(resources);
+
+            System.out.printf("----------------low set----------------\n");
+            lowSet.forEach(word -> {
+                System.out.printf("s s %s\n", word);
+            });
+
+            System.out.printf("\n\n----------------high set----------------\n");
+            HighSet.forEach(word -> {
+                System.out.printf("s s %s\n", word);
+            });
         }
         catch (Exception ex)
         {
