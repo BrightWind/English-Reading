@@ -80,6 +80,9 @@ public class MarqueeLoader {
         }
     }
 
+    private Set<String> lowSet = new HashSet();
+    private Set<String> HighSet = new HashSet();
+
     public boolean IsStrangeWord(String word) {
         if (wordBlackListService.Contain(word)) {
             return false;
@@ -90,11 +93,18 @@ public class MarqueeLoader {
             return false;
         }
 
-        if (changeIdx > settingService.strangeWordLevel.HighLevel || word.length() >= 8) {
+        if (changeIdx > settingService.strangeWordLevel.HighLevel) {
             return true;
         }
 
-        return false;
+        if (word.length() < 7) {
+            lowSet.add(word);
+            return false;
+        }
+        else {
+            HighSet.add(word);
+            return true;
+        }
     }
 
     public void ReadFile(File flle)
@@ -304,6 +314,16 @@ public class MarqueeLoader {
             if (path == null) return;
             File []resources = new File[] {new File(path)};
             LoadFiles(resources);
+
+            System.out.printf("----------------low set----------------\n");
+            lowSet.forEach(word -> {
+                System.out.printf("s s %s\n", word);
+            });
+
+            System.out.printf("\n\n----------------high set----------------\n");
+            HighSet.forEach(word -> {
+                System.out.printf("s s %s\n", word);
+            });
         }
         catch (Exception ex)
         {

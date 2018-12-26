@@ -1,0 +1,4877 @@
+﻿8
+00:01:42,510 --> 00:01:47,010
+{\pos(99,242)}原创翻译  双语字幕
+
+9
+00:01:43,010 --> 00:01:47,010
+{\pos(235.108,242)}最新连载海外影视剧下载
+请登陆 www.YYeTs.com
+仅供交流学习  禁止商用盈利
+
+12
+00:01:48,740 --> 00:01:53,740
+{\an4}{\pos(35,235)}翻译     红枫  冬麟  Santolalla
+
+13
+00:01:53,740 --> 00:01:58,740
+{\an4}{\pos(35,235)}翻译     秋明月  桑葚
+
+14
+00:01:58,740 --> 00:02:03,740
+{\an4}{\pos(35,235)}校对     红枫  桑葚
+
+15
+00:02:03,740 --> 00:02:08,740
+{\an4}{\pos(27,235)}时间轴     纸袋  吖biu宝
+
+16
+00:02:08,740 --> 00:02:13,740
+{\an4}{\pos(35,235)}后期     宝宝  8T
+
+17
+00:02:13,740 --> 00:02:18,740
+{\an4}{\pos(35,235)}总监     红枫Gabriel
+
+18
+00:00:00,980 --> 00:00:04,360
+{\an8}2001年
+
+19
+00:00:34,220 --> 00:00:35,640
+{\an8}图片名
+
+20
+00:00:36,120 --> 00:00:37,540
+看见了吗  那有个启动日志
+Are you seeing this? There's a boot logger.
+
+21
+00:00:37,540 --> 00:00:38,790
+他们会发现我们来过的
+They're gonna know we were here.
+
+22
+00:00:38,790 --> 00:00:40,740
+所以我才改备份服务器里的成绩
+That's why I'm changing the grades on the backup server.
+
+23
+00:00:38,760 --> 00:00:39,600
+{\an8}学生姓名  戈登·恩维尔
+
+24
+00:00:39,600 --> 00:00:40,180
+{\an8}成绩
+
+25
+00:00:40,750 --> 00:00:41,560
+这有什么好处
+And that helps us how?
+
+26
+00:00:41,570 --> 00:00:42,810
+一旦我将本地驱动里的数据清零
+Once I zero out the local drives,
+
+27
+00:00:41,560 --> 00:00:42,180
+{\an8}扎克·莱利
+
+28
+00:00:42,810 --> 00:00:44,490
+他们就只能从备份服务器里
+they'll have no choice but to restore them
+
+29
+00:00:44,230 --> 00:00:45,060
+{\an8}波士顿·阿利斯·克莱伯
+
+30
+00:00:44,490 --> 00:00:45,520
+恢复数据
+from the backups.
+
+31
+00:00:46,300 --> 00:00:47,030
+成绩改好了
+New grades in place.
+
+32
+00:00:47,030 --> 00:00:49,030
+没留下任何痕迹  不用客气
+No sign we were here. You're welcome.
+
+33
+00:00:49,350 --> 00:00:50,150
+警察来了
+The cops are here!
+
+34
+00:00:50,150 --> 00:00:52,330
+不是学校保安  是真的警察
+Like, not the campus cops, the real cops!
+
+35
+00:00:52,460 --> 00:00:54,720
+天啊  他们进大楼了
+Oh, God... they've entered the building.
+
+36
+00:00:54,910 --> 00:00:57,500
+我们得走了  快
+We have to go. Now!
+
+37
+00:00:57,510 --> 00:00:59,600
+-再给我一分钟  -没时间了
+- Just give me a minute. - We don't have one.
+
+38
+00:01:00,520 --> 00:01:02,030
+我们走  各位  快走
+Let's go, guys, come on.
+
+39
+00:01:09,550 --> 00:01:10,850
+我不喜欢这样
+I did not enjoy that!
+
+40
+00:01:10,860 --> 00:01:12,850
+警察看到我们了  要是他们查到我们怎么办
+The cops saw us. What if they can I.D. us, man?
+
+41
+00:01:12,850 --> 00:01:14,050
+我们死定了
+This is so, so bad.
+
+42
+00:01:14,060 --> 00:01:15,950
+事实上  这是件大好事
+Actually, this is very, very good.
+
+43
+00:01:15,950 --> 00:01:17,770
+看  现在我们知道警察的出警时间了
+See, now we know the true police response time,
+
+44
+00:01:17,770 --> 00:01:20,070
+所以如果我们把这点考虑进去
+so if we account for that here
+
+45
+00:01:20,070 --> 00:01:23,830
+然后相应地调整其他变量  瞧
+and adjust the other variables accordingly, booyah.
+
+46
+00:01:23,830 --> 00:01:25,920
+-下次我们...-下次我们好好学习
+- Next time, we'll-- - Next time, we'll study!
+
+47
+00:01:26,750 --> 00:01:27,700
+天啊
+Oh, God.
+
+48
+00:01:31,950 --> 00:01:34,830
+算你们厉害  警官  被你们逮到了
+Well, you did it. Officers, you caught us.
+
+49
+00:01:34,840 --> 00:01:38,350
+几个混学生刚刚闯入了学校
+A bunch of dumb college kids just trespassing on campus
+
+50
+00:01:38,350 --> 00:01:40,350
+一般的混学生都会这么做
+as dumb college kids are wont to do.
+
+51
+00:01:40,550 --> 00:01:42,680
+你们可以把我们抓去局里  没关系
+Now, you could take us down to the station, I get that.
+
+52
+00:01:42,680 --> 00:01:45,390
+填几张没用的单子  但那又如何
+Fill out all that boring paperwork, but for what?
+
+53
+00:01:45,390 --> 00:01:47,950
+我是说  又不是什么大罪
+I mean, it's a silly misdemeanor.
+
+54
+00:01:47,950 --> 00:01:50,780
+所以倒不如你们就当我们是出来...
+So why don't we just chalk this up we just being out here...
+
+55
+00:02:01,100 --> 00:02:03,940
+{\an8}现在
+
+56
+00:02:22,670 --> 00:02:23,860
+你看起来很累
+You look tired.
+
+57
+00:02:23,860 --> 00:02:25,310
+需要提提神吗
+You need a pick-me-up?
+
+58
+00:02:26,860 --> 00:02:28,990
+比浓咖啡管用多了
+Beats the hell out of espresso.
+
+59
+00:02:31,200 --> 00:02:33,840
+周末放纵下自己是挺有趣的
+It was fun pretending to be somebody else for the weekend,
+
+60
+00:02:33,850 --> 00:02:37,230
+但我...要去上班了
+but I'm... on the clock now.
+
+61
+00:02:37,880 --> 00:02:40,850
+{\an3}{\pos(374,247)}出自悬疑小说《化身博士》
+
+62
+00:02:37,880 --> 00:02:40,850
+杰基尔博士和里德探员
+Dr. Jekyll and Agent Reade.
+
+63
+00:02:49,400 --> 00:02:51,000
+妮基  我得准备一下了
+Nikki, I gotta get ready.
+
+64
+00:02:51,030 --> 00:02:52,550
+你感觉你准备好了
+You feel ready to me.
+
+65
+00:02:56,760 --> 00:02:59,260
+谢培德当时看着我的眼睛
+Shepherd looked me right in the eye.
+
+66
+00:03:01,060 --> 00:03:02,180
+然后就...
+Just before...
+
+67
+00:03:04,640 --> 00:03:06,190
+你当时也无能为力
+There was nothing you could do.
+
+68
+00:03:06,240 --> 00:03:07,580
+那正是问题所在
+That's the problem!
+
+69
+00:03:07,690 --> 00:03:10,200
+谢培德想去哪就去哪
+I mean, Shepherd goes where she wants.
+
+70
+00:03:10,220 --> 00:03:11,520
+为所欲为
+Does what she wants.
+
+71
+00:03:11,520 --> 00:03:13,260
+想杀谁就杀谁
+Kills who she wants!
+
+72
+00:03:13,760 --> 00:03:15,060
+我们总是无能为力
+There's nothing that we can ever do.
+
+73
+00:03:15,070 --> 00:03:16,320
+也不尽然
+Well, not entirely.
+
+74
+00:03:16,330 --> 00:03:17,930
+她没料到我们会找到克拉克
+She didn't count on us finding Clark.
+
+75
+00:03:17,930 --> 00:03:19,900
+她杀了他  正是因为他知道些什么
+She killed him because he knew something.
+
+76
+00:03:20,800 --> 00:03:23,450
+克拉克曾清醒了一阵子
+Clark was lucid for a second.
+
+77
+00:03:23,870 --> 00:03:26,040
+他提到了什么"杜鲁门计划"
+He mentioned something about "The Truman Protocol."
+
+78
+00:03:26,040 --> 00:03:27,980
+你有印象吗
+Does that mean anything to you?
+
+79
+00:03:28,170 --> 00:03:30,550
+没有  不过我会去查的
+No... but, look, I'll look into it.
+
+80
+00:03:31,320 --> 00:03:32,870
+不过当务之急...
+Uh, in the meantime...
+
+81
+00:03:33,950 --> 00:03:35,480
+这是份产权记录
+Property records.
+
+82
+00:03:35,480 --> 00:03:37,390
+埃伦·布里格斯的
+For Ellen Briggs.
+
+83
+00:03:37,230 --> 00:03:37,980
+{\an8}个人档案
+埃伦·布里格斯
+
+84
+00:03:37,540 --> 00:03:39,090
+这就是谢培德成为恐怖分子之前
+This is everywhere that Shepherd lived
+
+85
+00:03:39,090 --> 00:03:40,130
+曾住过的地方吗
+before she went off the grid?
+
+86
+00:03:40,130 --> 00:03:42,530
+意味着我和罗曼可能也在那住过
+Meaning Roman and I might have lived there, too.
+
+87
+00:03:42,530 --> 00:03:45,240
+我们得送你和罗曼去一趟这上面的地方
+We need to send you and Roman to every one of these addresses.
+
+88
+00:03:45,550 --> 00:03:48,510
+看看你们能否想起什么关于谢培德的线索
+See if any of them trigger anything that leads us to Shepherd.
+
+89
+00:03:48,640 --> 00:03:49,980
+抱歉打扰一下
+Hey, sorry to interrupt.
+
+90
+00:03:49,990 --> 00:03:51,390
+你们得看看这个
+There's something you need to see.
+
+91
+00:03:51,610 --> 00:03:53,710
+你怎么这就回来了
+What are you doing back here already?
+
+92
+00:03:56,300 --> 00:03:58,240
+我没事  看过医生了
+I'm okay... I saw a doctor,
+
+93
+00:03:58,240 --> 00:04:00,280
+她说我的身体没任何异常
+and she said there's nothing physically wrong with me.
+
+94
+00:04:00,280 --> 00:04:02,520
+可心理上的问题还没说呢
+All the more reason to get checked out psychologically.
+
+95
+00:04:02,520 --> 00:04:04,800
+正常人是不会在工作中昏倒的
+An okay person doesn't collapse at work.
+
+96
+00:04:04,800 --> 00:04:07,540
+我今天必须回来  因为一枚纹身
+I had to come in today. For a tattoo.
+
+97
+00:04:07,540 --> 00:04:08,550
+你又破解了一枚
+You solved a new one?
+
+98
+00:04:08,550 --> 00:04:11,360
+准确说  是它自己解开的
+Actually, this one solved itself.
+
+99
+00:04:13,010 --> 00:04:15,870
+这枚纹身在设计时就设定了今天会解开
+By design, this tattoo had to be solved today.
+
+100
+00:04:15,870 --> 00:04:16,970
+那怎么可能
+How is that possible?
+
+101
+00:04:16,970 --> 00:04:19,290
+纹身里隐藏着一个方程式
+There's an equation hidden in the tattoo.
+
+102
+00:04:19,300 --> 00:04:21,880
+上面的变量和现实的经济价值相关联
+Its variables correspond to real-world economic values--
+
+103
+00:04:21,880 --> 00:04:23,980
+股票价格  商品  期货
+stock prices, commodities, futures.
+
+104
+00:04:23,980 --> 00:04:25,940
+今天早晨  有史以来第一次
+This morning, for the first time,
+
+105
+00:04:25,940 --> 00:04:27,250
+方程式两边相等了
+the equation balanced out.
+
+106
+00:04:27,250 --> 00:04:28,670
+所以有事要发生
+So something is about to go down.
+
+107
+00:04:28,670 --> 00:04:29,500
+什么事
+But what?
+
+108
+00:04:29,510 --> 00:04:32,360
+还不确定  不过我相信跟锂有关
+I'm not sure yet, but I'm pretty sure it involves lithium.
+
+109
+00:04:31,370 --> 00:04:34,250
+{\an8}锂  碱金属
+
+110
+00:04:32,370 --> 00:04:33,690
+为了让等式成立
+In order for this equation to work,
+
+111
+00:04:34,250 --> 00:04:35,750
+{\an8}锂价
+
+112
+00:04:33,690 --> 00:04:35,980
+其市价必须突破新高
+its market price had to pass an all-time high.
+
+113
+00:04:35,990 --> 00:04:37,550
+锂有什么特别之处
+What's so special about lithium?
+
+114
+00:04:37,550 --> 00:04:40,390
+它是现代大容量电池的主要材料
+It's the main component in all modern high-capacity batteries.
+
+115
+00:04:40,390 --> 00:04:42,750
+从智能手机到电力汽车
+Everything from smart phones to electric cars.
+
+116
+00:04:42,750 --> 00:04:44,520
+锂电池给一切东西提供电力
+Lithium powers the things that power everything.
+
+117
+00:04:44,520 --> 00:04:46,320
+它正快速成为一种新能源
+It's quickly becoming the new oil.
+
+118
+00:04:46,320 --> 00:04:48,630
+那纹身本身呢
+But what about the tattoo itself?
+
+119
+00:04:48,630 --> 00:04:50,360
+这是詹姆逊大学
+It's the seal for a secret society
+
+120
+00:04:50,360 --> 00:04:53,090
+一个秘密社团的标志  叫达勒斯
+at Jameson College called Daedalus.
+
+121
+00:04:53,090 --> 00:04:54,730
+希腊神话里的智者
+The smart guy from Greek mythology.
+
+122
+00:04:54,730 --> 00:04:56,800
+制造了伊卡洛斯的翅膀  对吗
+Made Icarus's wings, right?
+
+123
+00:04:58,500 --> 00:05:00,490
+别老是在我答上来问题时那样看着我
+Stop looking at me like that when I know things.
+
+124
+00:05:00,490 --> 00:05:02,580
+自命不凡的大学生和锂
+Pretentious college kids and lithium.
+
+125
+00:05:02,590 --> 00:05:03,660
+两者没什么联系
+That does not add up.
+
+126
+00:05:03,660 --> 00:05:06,150
+也许他们把锂和纯毛料混合  制作炸弹
+Maybe they're mixing it with Jaeger and doing shots?
+
+127
+00:05:06,870 --> 00:05:09,760
+好了  这个秘密社团有多隐秘
+All right, how secret is this secret society?
+
+128
+00:05:09,760 --> 00:05:13,180
+非常神秘  成员之间有严格的缄默条令
+Very-- members have a strict code of silence,
+
+129
+00:05:13,180 --> 00:05:17,160
+不过几年前  泄露了部分成员名单
+but a partial list of alumni was leaked a few years back.
+
+130
+00:05:17,160 --> 00:05:19,020
+有些还是重量级人物
+Wow, that's some pretty heavy hitters here.
+
+131
+00:05:19,020 --> 00:05:21,830
+五百强公司总裁  有几个成了参议员
+Fortune 500 CEOs, a couple of senators.
+
+132
+00:05:21,830 --> 00:05:24,320
+连美联储前主席都有
+Even a former chairman of the Federal Reserve.
+
+133
+00:05:24,330 --> 00:05:25,290
+不
+No...
+
+134
+00:05:26,600 --> 00:05:27,680
+还有戈德·恩维尔
+And Gord Enver.
+
+135
+00:05:27,680 --> 00:05:29,300
+对  我就猜你对这个感兴趣
+Yeah, I thought you might like that one.
+
+136
+00:05:29,300 --> 00:05:30,840
+我怎么听着这么耳熟
+Why does that sound familiar to me?
+
+137
+00:05:30,840 --> 00:05:33,100
+因为那是瑞奇·多特康的真名
+Because it's Rich.Com's real name.
+
+138
+00:05:33,100 --> 00:05:35,040
+别告诉我  我们得把他找来
+Please tell me we don't need to bring him in.
+
+139
+00:05:35,410 --> 00:05:37,290
+我们得找个能开口的社团成员
+We need a member who will talk.
+
+140
+00:05:37,630 --> 00:05:40,950
+没人比瑞奇更爱说话的了
+And no one likes talking more than Rich.
+
+141
+00:05:45,490 --> 00:05:46,630
+搞什么
+What the hell?
+
+142
+00:05:47,170 --> 00:05:49,090
+看来某人找到信仰了
+Looks like someone found religion.
+
+143
+00:05:49,220 --> 00:05:51,620
+看来某人所有信仰都信
+Looks like someone found all the religions.
+
+144
+00:05:51,620 --> 00:05:54,600
+孩子们  祈祷吧
+Children, let us pray.
+
+145
+00:05:55,700 --> 00:05:57,470
+你在开什么玩笑
+You've got to be kidding me.
+
+146
+00:06:09,820 --> 00:06:11,400
+天佑众生
+Bless this mess.
+
+147
+00:06:11,640 --> 00:06:12,640
+完了吗
+You done?
+
+148
+00:06:13,140 --> 00:06:14,740
+我们想请你帮个小忙
+We need to ask you for a little help.
+
+149
+00:06:14,740 --> 00:06:16,040
+无需多言
+Say no more.
+
+150
+00:06:17,380 --> 00:06:18,490
+事关一起案件
+With a case.
+
+151
+00:06:18,580 --> 00:06:20,280
+我很想帮你  不过...
+I'd love to help you, but, uh,
+
+152
+00:06:20,290 --> 00:06:23,200
+我正忙着尝试探索精神世界
+I'm actually pretty busy trying to investigate the spiritual plane
+
+153
+00:06:23,210 --> 00:06:25,660
+把我污秽的灵魂从万恶的深渊解救出来
+and reclaim my tattered soul from eternal damnation.
+
+154
+00:06:25,660 --> 00:06:27,630
+我们想问几个关于达勒斯的事
+We have some questions about Daedalus.
+
+155
+00:06:29,170 --> 00:06:30,670
+真相总是从内心中探知  简
+True answers come from within, Jane.
+
+156
+00:06:30,680 --> 00:06:31,950
+乖乖合作
+Cooperate...
+
+157
+00:06:31,950 --> 00:06:34,500
+我们能改善你的监禁条件
+and we can make your incarceration far more comfortable.
+
+158
+00:06:34,500 --> 00:06:37,070
+你拿什么打动一个无欲无求的人
+What can you offer the man who wants for nothing?
+
+159
+00:06:37,500 --> 00:06:39,270
+你在牢里的后半生
+The rest of your time in prison
+
+160
+00:06:39,270 --> 00:06:42,270
+要是不合作  会让你生不如死
+becoming a living hell if you don't cooperate.
+
+161
+00:06:42,270 --> 00:06:43,560
+家就是监狱
+Every home is a prison.
+
+162
+00:06:43,560 --> 00:06:44,970
+监狱就是家
+Every prison a home.
+
+163
+00:06:44,970 --> 00:06:47,940
+我没有家  所以我也没监狱
+I have no home, ergo, I have no prison.
+
+164
+00:06:47,950 --> 00:06:49,880
+看来你信仰幸运饼干
+So your religion is Fortune Cookie.
+
+165
+00:06:49,880 --> 00:06:53,200
+人都喜欢用玩笑掩饰自己  我明白
+It's easier to hide behind simple jokes-- I get it.
+
+166
+00:06:54,040 --> 00:06:55,720
+告诉我们这是什么
+Just tell us what this is.
+
+167
+00:06:57,360 --> 00:06:58,540
+你们从哪得到的
+How'd you get this?
+
+168
+00:07:01,160 --> 00:07:03,500
+这个方程在你身上干什么
+What is the formula doing on your body?
+
+169
+00:07:03,500 --> 00:07:05,830
+"这个方程"是什么意思
+What do you mean? What's "The formula"?
+
+170
+00:07:08,230 --> 00:07:11,040
+好吧  透露一句  这是达勒斯的老传统了
+Okay, off the record, it's an old Daedalus tradition.
+
+171
+00:07:11,040 --> 00:07:12,960
+这是个风险补偿算法
+It's a risk-reward algorithm
+
+172
+00:07:12,960 --> 00:07:14,770
+我们用来决定  哪个冒险行为
+we use to determine which risky activity
+
+173
+00:07:14,770 --> 00:07:16,840
+是真的值得去冒险
+is actually worth the risk.
+
+174
+00:07:16,850 --> 00:07:19,270
+考试作弊  入店行窃
+Cheating on tests, shoplifting...
+
+175
+00:07:19,300 --> 00:07:21,250
+无套性行为  诸如此类有趣的事
+unprotected sex-- you know, the fun stuff.
+
+176
+00:07:21,250 --> 00:07:22,990
+但有些成员却在毕业后
+But some alumni have actually taken
+
+177
+00:07:22,990 --> 00:07:24,900
+利用这个算法
+to using it in their post-college lives
+
+178
+00:07:24,900 --> 00:07:27,530
+来掩饰他们不正当的利益交易
+to justify some pretty shady business dealings.
+
+179
+00:07:27,530 --> 00:07:29,780
+比如成为暗网的核心人物
+Like becoming a dark web kingpin.
+
+180
+00:07:30,060 --> 00:07:31,270
+愿主宽恕他的罪过
+Let he who is without sin...
+
+181
+00:07:31,270 --> 00:07:33,270
+集中精神  瑞奇
+Please focus, Rich.
+
+182
+00:07:34,850 --> 00:07:36,780
+这个版本的方程
+This version of the formula...
+
+183
+00:07:37,320 --> 00:07:38,370
+是干什么用的
+what's it for?
+
+184
+00:07:40,840 --> 00:07:42,110
+天啊
+Oh, Gott im Himmel.
+
+185
+00:07:42,510 --> 00:07:44,530
+大事不妙  大大的不妙
+This is bad. This is very bad.
+
+186
+00:07:44,530 --> 00:07:46,190
+什么不妙  瑞奇
+What's bad, Rich?
+
+187
+00:07:46,210 --> 00:07:48,240
+《古兰经》第5章101节
+Koran Surah 5:101.
+
+188
+00:07:48,240 --> 00:07:51,680
+{\an3}{\pos(374,247)}出自《古兰经》  马坚译版
+
+189
+00:07:48,240 --> 00:07:49,650
+"你们不要询问若干事物
+"Do not ask about things which,
+
+190
+00:07:49,650 --> 00:07:51,680
+那些事物若为你们显示  会使你们烦恼"
+if they are shown you, will distress you."
+
+191
+00:07:51,680 --> 00:07:53,300
+我已经够烦的了
+I'm already distressed!
+
+192
+00:07:53,430 --> 00:07:54,460
+到底什么意思
+What does it mean?
+
+193
+00:07:57,090 --> 00:07:58,750
+《马太福音》第24章7节
+Matthew 24:7.
+
+194
+00:07:59,050 --> 00:08:00,950
+"民要攻打民
+And nation will rise against nation,
+
+195
+00:08:00,950 --> 00:08:02,820
+国要攻打国"
+kingdom against kingdom.
+
+196
+00:08:03,410 --> 00:08:06,220
+这个方程式的变换决定了发动武装冲突的
+This permutation of the formula determines the optimal time
+
+197
+00:08:06,220 --> 00:08:07,760
+最优时间
+to start an armed conflict.
+
+198
+00:08:07,770 --> 00:08:09,330
+而且根据数据显示
+And, according to these numbers,
+
+199
+00:08:09,330 --> 00:08:11,310
+时间就是今天
+that time is today.
+
+200
+00:08:12,210 --> 00:08:13,650
+你说什么  瑞奇
+What are you saying, Rich?
+
+201
+00:08:14,250 --> 00:08:16,490
+给你们的家人打电话  说你爱他们
+Call your family and tell them you love them.
+
+202
+00:08:18,020 --> 00:08:20,590
+因为这方程式代表了战争的开始
+Because this is a formula to start a war.
+
+203
+00:08:26,520 --> 00:08:29,020
+{\an8}盲点
+
+204
+00:08:26,520 --> 00:08:29,020
+{\an8}第二季  第十四集
+
+205
+00:08:35,600 --> 00:08:36,840
+瑞奇说得基本没错
+Basically, Rich is right.
+
+206
+00:08:36,840 --> 00:08:38,720
+什么叫基本  我就是对的
+There's nothing basic about it-- I'm right.
+
+207
+00:08:39,050 --> 00:08:40,440
+这个方程被改写成
+The formula's been tweaked to determine at
+
+208
+00:08:40,440 --> 00:08:42,620
+确定锂价格何时达到最高
+what point lithium becomes so expensive
+
+209
+00:08:42,620 --> 00:08:45,400
+也就是什么时候入侵占领别国
+that it's more cost effective to just, you know,
+
+210
+00:08:45,400 --> 00:08:46,940
+成本效益最好
+invade another country and take theirs.
+
+211
+00:08:46,940 --> 00:08:47,700
+哪国
+Which country?
+
+212
+00:08:47,700 --> 00:08:49,520
+以现有数据还很难确定
+Hard to say, based on the data set.
+
+213
+00:08:49,520 --> 00:08:51,540
+所有重大冲突都是有导火索的
+All major conflicts begin with a catalyst,
+
+214
+00:08:51,550 --> 00:08:53,510
+也就是开战的借口
+a casus belli, if you will.
+
+215
+00:08:53,510 --> 00:08:55,260
+只要有合适的借口  谁都能发动战争
+Anyone can start a war if they find the right spark.
+
+216
+00:08:55,260 --> 00:08:56,680
+然后把责任推给对方
+And blame it on the right country.
+
+217
+00:08:56,680 --> 00:08:58,390
+看吧  她就明白  你们现在能做的
+See? She gets it. All you need to do
+
+218
+00:08:58,390 --> 00:09:00,210
+就是让政府做好多方位的防范措施
+is force the government's hand with a large enough attack.
+
+219
+00:09:00,210 --> 00:09:02,830
+是什么袭击  哪国准备动手
+So what's the attack, and which country's getting framed for it?
+
+220
+00:09:02,830 --> 00:09:05,720
+还有达勒斯的哪个成员与这场阴谋有关
+And which members of Daedalus are involved in the conspiracy?
+
+221
+00:09:05,720 --> 00:09:07,530
+我怎么知道  我现在属于...
+How should I know? I belong to a...
+
+222
+00:09:07,530 --> 00:09:08,690
+另一个团体了
+very different club now.
+
+223
+00:09:08,690 --> 00:09:10,920
+那好  既然你这么虔诚
+Okay, so you're gonna pontificate?
+
+224
+00:09:10,920 --> 00:09:14,360
+告诉我们达勒斯里谁最有嫌疑吧
+Start waxing poetic on who else we should look at in Daedalus.
+
+225
+00:09:17,380 --> 00:09:18,680
+扎克·莱利
+Zach Riley.
+
+226
+00:09:18,680 --> 00:09:19,910
+肯定跟他有关
+He's gotta be involved.
+
+227
+00:09:19,910 --> 00:09:21,060
+你认识扎克·莱利
+You know Zach Riley?
+
+228
+00:09:21,070 --> 00:09:23,640
+认识  就是他带我进达勒斯的
+Know him? He got me into Daedalus.
+
+229
+00:09:23,640 --> 00:09:25,560
+就是打算克隆月亮的那家伙吗
+The guy who wants to colonize the moon?
+
+230
+00:09:25,560 --> 00:09:27,600
+他可不仅是钟情月亮
+Oh, he's more than just the moon guy.
+
+231
+00:09:27,600 --> 00:09:29,810
+他的软件  莱利分享  可以说是
+His software, RileyShare, was practically the birth
+
+232
+00:09:29,810 --> 00:09:31,640
+数字音乐分销模式的鼻祖
+of digital music distribution.
+
+233
+00:09:31,640 --> 00:09:33,100
+卖了数十亿
+Sold it for billions.
+
+234
+00:09:33,100 --> 00:09:34,740
+现如今他的业务涉及各大领域
+Now he's a major player in everything from
+
+235
+00:09:34,740 --> 00:09:37,100
+从人工智能到电力汽车
+artificial intelligence to electric cars.
+
+236
+00:09:37,100 --> 00:09:38,650
+他还是个大傻帽  好吗
+He's also a major ass-hat, okay?
+
+237
+00:09:38,650 --> 00:09:40,630
+他就像我  只不过没我的智慧
+It's like me, but without the wit
+
+238
+00:09:40,640 --> 00:09:42,160
+相貌以及人格魅...  你们知道吗
+or the looks or the char-- You know what?
+
+239
+00:09:42,160 --> 00:09:43,780
+这个比喻并不恰当
+It's not a good comparison, okay?
+
+240
+00:09:43,780 --> 00:09:45,310
+-想象一下...-我的天啊
+- Imagine-- - Oh, my God.
+
+241
+00:09:45,310 --> 00:09:47,300
+电力汽车是锂电池驱动的
+Electric cars are powered by lithium.
+
+242
+00:09:48,150 --> 00:09:50,460
+看  莱利摩托
+There... Riley Motors
+
+243
+00:09:50,460 --> 00:09:53,300
+是西半球最大的锂电池买家之一
+is one of the biggest buyers of lithium in the hemisphere.
+
+244
+00:09:53,300 --> 00:09:54,950
+所以要是美国入侵了别国
+So if the U.S. invade the right country,
+
+245
+00:09:54,950 --> 00:09:56,680
+就能帮他省下数十亿
+they could save him billions.
+
+246
+00:09:57,220 --> 00:09:59,710
+我要知道扎克·莱利在哪  快
+I want to know where Zach Riley is, right now.
+
+247
+00:10:00,870 --> 00:10:03,200
+达勒斯里还有谁需要我们注意的吗
+Anyone else in Daedalus that we should know about?
+
+248
+00:10:03,660 --> 00:10:06,960
+或许还有个人需要提一句
+Well, there's probably one guy I should mention.
+
+249
+00:10:10,250 --> 00:10:13,820
+不不不  你们可没说他在这
+No. N-N-N-N-No. You didn't tell me he would be here.
+
+250
+00:10:14,430 --> 00:10:16,820
+如果这是你挽回我的又一个把戏  我发誓
+If this is another one of your schemes to get me back, I swear--
+
+251
+00:10:16,820 --> 00:10:18,660
+我和这事没关系
+I had nothing to do with this.
+
+252
+00:10:18,730 --> 00:10:20,120
+你气色不错  顺便说一句
+You like nice, by the way.
+
+253
+00:10:20,400 --> 00:10:21,990
+别和我说话  别看我
+Don't talk to me, don't look at me--
+
+254
+00:10:22,000 --> 00:10:23,920
+别看你  拜托  你看看我
+Don't look at you? Come on, look at me!
+
+255
+00:10:23,920 --> 00:10:25,670
+因为你  我已经彻底改变了
+I'm a changed man because of you.
+
+256
+00:10:25,670 --> 00:10:27,530
+是你让我想做个好人
+You made me wanna be a better human.
+
+257
+00:10:27,570 --> 00:10:30,230
+好了  又是你
+Okay, so-- uck! You again?
+
+258
+00:10:30,230 --> 00:10:31,780
+我也很高兴见到你
+Lovely to see you as well.
+
+259
+00:10:33,400 --> 00:10:35,810
+好了  猜猜扎克·莱利现在在哪
+All right, guess where Zach Riley is right now.
+
+260
+00:10:35,810 --> 00:10:37,140
+回詹姆逊大学了
+Back at Jameson College,
+
+261
+00:10:37,140 --> 00:10:39,550
+作为冬季嘉年华的领奖人
+an honoree for the winter carnival.
+
+262
+00:10:39,550 --> 00:10:41,290
+很正常  按照传统
+That makes sense-- Daedalus will traditionally
+
+263
+00:10:41,290 --> 00:10:44,020
+达勒斯通常会把聚会隐藏在盛大的校友活动下
+hide their meetings under the cover of larger alumni events.
+
+264
+00:10:44,020 --> 00:10:47,090
+这是为了保护他们的隐私
+It's, uh, designed to help safeguard their secrecy.
+
+265
+00:10:47,090 --> 00:10:48,620
+有时候会选择嘉年华
+At some point during the carnival,
+
+266
+00:10:48,620 --> 00:10:50,860
+他们会在"迷宫"里举行团内鸡尾酒会
+they'll have a members-only cocktail party at The Labyrinth.
+
+267
+00:10:50,860 --> 00:10:51,780
+什么地方
+The what?
+
+268
+00:10:52,400 --> 00:10:54,240
+达勒斯在学校里的俱乐部
+Daedalus's clubhouse on campus.
+
+269
+00:10:54,240 --> 00:10:55,580
+我们得进到里面去
+Well, we need to get in that building.
+
+270
+00:10:55,580 --> 00:10:57,210
+查出莱利在和谁串通
+Find out who Riley's conspiring with
+
+271
+00:10:57,210 --> 00:10:58,540
+以及袭击的具体时间
+and when the attack's gonna happen.
+
+272
+00:10:58,540 --> 00:11:01,190
+祝你们好运  他们那群人很可怕的
+Good luck-- groups a lot scarier than the F.B.I.
+
+273
+00:11:01,190 --> 00:11:03,150
+联调局曾经试过  结果惨不忍睹
+have tried that and failed miserably.
+
+274
+00:11:03,150 --> 00:11:04,160
+为什么要以联调局的身份进去
+Why go in as F.B.I.
+
+275
+00:11:04,160 --> 00:11:05,950
+我们明明有两个行走的通行证
+When we got two card-carrying members right here?
+
+276
+00:11:05,950 --> 00:11:08,120
+-说得有道理  -我和瑞奇去吗
+- That's a good point. - Me go with Rich?
+
+277
+00:11:08,250 --> 00:11:09,610
+没门  直接判我死刑吧
+Uh, no, just give me the death penalty.
+
+278
+00:11:09,610 --> 00:11:11,480
+天啊  你还要我道歉几次才满意
+Oh, my God, how many times do I have to say I'm sorry?
+
+279
+00:11:11,480 --> 00:11:12,990
+一次  你只需要说一次
+Once! You have to say it one time!
+
+280
+00:11:13,000 --> 00:11:14,370
+够了  你们两个
+Enough, you two!
+
+281
+00:11:14,370 --> 00:11:17,240
+社团成员能带女伴去酒会吗
+Can members take a date to this party?
+
+282
+00:11:17,310 --> 00:11:19,470
+离我上次参加已经过去很久了
+I mean, it's been a while since I've been available to attend,
+
+283
+00:11:19,470 --> 00:11:21,410
+-不过以前确实可以  -很好
+- but, uh, yeah, they sure used to. - Great.
+
+284
+00:11:21,410 --> 00:11:23,270
+你俩分别带一个女伴去
+You'll go separately with a plus one.
+
+285
+00:11:23,270 --> 00:11:25,600
+那样我们就有双倍耳目在里面了
+That way, have twice the eyes and ears in there.
+
+286
+00:11:25,600 --> 00:11:28,480
+不好意思  不过我为什么要帮你们
+I'm sorry, but... why would I help any of you?
+
+287
+00:11:28,690 --> 00:11:30,680
+因为我能转移你去维克多维尔
+'Cause I can transfer you to Victorville.
+
+288
+00:11:31,020 --> 00:11:33,260
+那里离你洛杉矶的父母只有136公里
+That's 85 miles from your parents in L.A.
+
+289
+00:11:33,260 --> 00:11:35,830
+我知道他们的身体不适合长途旅行
+I know it's been a little hard for them to travel,
+
+290
+00:11:35,880 --> 00:11:38,680
+这样的话  他们就能经常去看你了
+so this way, they'll be able to visit you more often.
+
+291
+00:11:39,830 --> 00:11:42,020
+至于你  瑞奇...
+As for you, Rich--
+
+292
+00:11:42,020 --> 00:11:44,190
+《塔木德》曾言  救人一命
+The Talmud states that whoever saves a life,
+
+293
+00:11:44,190 --> 00:11:47,050
+如同拯救了全世界
+it is considered as if they saved an entire world.
+
+294
+00:11:47,050 --> 00:11:49,240
+阻止战争将拯救无数生命
+Stopping this war will save thousands of lives,
+
+295
+00:11:49,240 --> 00:11:51,230
+那就是救了无数世界
+and therefore, thousands of worlds.
+
+296
+00:11:51,230 --> 00:11:53,080
+对我而言这就够了
+That's quite enough for me.
+
+297
+00:11:56,030 --> 00:11:58,540
+这方程关乎战争  你需要我
+It's a war formula. You need me out there.
+
+298
+00:11:58,540 --> 00:12:00,920
+不  现在只是侦查阶段  好吗
+No, right now, it's a recon mission. All right?
+
+299
+00:12:00,920 --> 00:12:02,810
+我们的大敌仍是沙暴组织
+Our priority is still Sandstorm.
+
+300
+00:12:02,810 --> 00:12:05,770
+纳兹会送你和罗曼去谢培德曾住过的每个地方
+Nas will take you and Roman to all of Shepherd's old residences.
+
+301
+00:12:05,770 --> 00:12:07,780
+看看你们能否想起什么
+See if any of them trigger any memories.
+
+302
+00:12:07,780 --> 00:12:08,840
+你确定吗
+Are you sure?
+
+303
+00:12:09,270 --> 00:12:10,860
+-别碰这个  -可你在碰
+- Stop touching this. - You're touching it.
+
+304
+00:12:10,860 --> 00:12:12,440
+我可以碰  这是我的
+I'm allowed to, it's mine.
+
+305
+00:12:12,910 --> 00:12:15,630
+对  我能应付瑞奇
+Yeah... uh... I can handle Rich.
+
+306
+00:12:15,630 --> 00:12:17,250
+好吗  我们需要谢培德的线索
+All right? But we need a lead on Shepherd.
+
+307
+00:12:17,250 --> 00:12:20,270
+-请你们尽力去找  -好吧
+- So, please, find out. - Yeah, okay.
+
+308
+00:12:21,380 --> 00:12:22,930
+我们得渗透进达勒斯
+We have to infiltrate Daedalus,
+
+309
+00:12:22,930 --> 00:12:24,960
+抓到莱利  阻止这场战争
+get a pulse on Riley, and stop this attack.
+
+310
+00:12:24,960 --> 00:12:27,800
+波士顿和瑞奇会带我们进入"迷宫"
+So, Boston and Rich, they can get us into The Labyrinth.
+
+311
+00:12:27,810 --> 00:12:30,140
+帕特森  你能出外勤吗
+Patterson, are you up for some field work?
+
+312
+00:12:30,140 --> 00:12:31,530
+-可以  -很好
+- Yes. - Good.
+
+313
+00:12:31,880 --> 00:12:33,090
+你和波士顿一组
+You're with Boston.
+
+314
+00:12:33,530 --> 00:12:34,650
+性冷淡小姐探员吗
+Uck, Agent Granny Panties?
+
+315
+00:12:34,650 --> 00:12:37,100
+对我而言  那里也不是什么漫展  老兄
+Oh, it's not exactly Comic-Con for me, either, dude.
+
+316
+00:12:37,100 --> 00:12:38,050
+她了解世界形势
+She knows this world.
+
+317
+00:12:38,050 --> 00:12:40,590
+而且她的先进技术或许派得上用场
+And her tech skills could come in handy.
+
+318
+00:12:40,650 --> 00:12:42,810
+瑞奇  你带塔莎
+Rich... You take Tasha.
+
+319
+00:12:43,370 --> 00:12:44,850
+谁是塔莎
+Which one's Tasha?
+
+320
+00:12:46,770 --> 00:12:47,830
+她
+That one.
+
+321
+00:12:49,520 --> 00:12:50,530
+无意冒犯  但我不觉得
+No offense, but I don't think
+
+322
+00:12:50,530 --> 00:12:54,130
+有谁会带愁眉苦脸小姐当自己的女伴
+anyone's gonna buy Suzy-Frowns-A-Lot as my plus one.
+
+323
+00:12:54,170 --> 00:12:55,840
+不过说真的  或许整个联调局里只有一个人
+And, really, there's only one person in the whole F.B.I.
+
+324
+00:12:55,840 --> 00:12:57,990
+有资格当我的女伴
+that can maybe pass as my date.
+
+325
+00:12:57,990 --> 00:12:59,130
+简没空
+Jane's busy.
+
+326
+00:13:03,810 --> 00:13:05,410
+你指的不是简
+You're not talking about Jane.
+
+327
+00:13:21,140 --> 00:13:23,470
+看  这就是信任  这就是友谊
+See, this is trust. This is friendship.
+
+328
+00:13:23,470 --> 00:13:24,690
+平等的地位
+Equal footing.
+
+329
+00:13:28,040 --> 00:13:29,750
+你觉得那水味道有什么特别的吗
+That water taste funny to you?
+
+330
+00:13:30,350 --> 00:13:32,520
+纳兹加了点同位素进去
+It's a little isotope that Nas cooked up.
+
+331
+00:13:32,880 --> 00:13:34,590
+能在你体内停留好几天
+It stays in your body for days,
+
+332
+00:13:34,590 --> 00:13:36,220
+方便用卫星追踪
+trackable by satellites.
+
+333
+00:13:36,220 --> 00:13:37,600
+你要是离开我一秒
+You leave me for a second,
+
+334
+00:13:37,600 --> 00:13:40,230
+我就当你是逃犯  把你找出来当场击毙
+I'll find you and I'll shoot you as a fleeing fugitive.
+
+335
+00:13:40,240 --> 00:13:41,940
+你真是个控制狂
+You are so controlling.
+
+336
+00:13:42,530 --> 00:13:44,180
+我为什么老来招惹你
+Why do I keep coming back to you?
+
+337
+00:13:46,850 --> 00:13:48,900
+你和瑞奇之间是怎么回事
+So what happened between you and Rich?
+
+338
+00:13:49,040 --> 00:13:50,540
+他在牢里突然醒悟过来
+He, uh, got sober in prison
+
+339
+00:13:50,540 --> 00:13:51,930
+发现你是这世上最差劲的人吗
+and realized you were the worst person ever?
+
+340
+00:13:51,930 --> 00:13:53,490
+我不想谈这事
+I don't want to talk about it.
+
+341
+00:13:53,610 --> 00:13:56,030
+那是有个无聊的白大褂先生走进你的生命吗
+So is there a Mr. Boring Lab Coat in your life?
+
+342
+00:13:56,770 --> 00:13:58,150
+我不想谈这事
+I don't wanna talk about it.
+
+343
+00:13:59,100 --> 00:14:00,770
+好了  我们准备进去了  能听见吗
+All right, we're heading in. Can you hear us?
+
+344
+00:14:00,770 --> 00:14:02,960
+可以  莱利二十分钟前进入"迷宫"了
+All right, Riley went into The Labyrinth 20 minutes ago.
+
+345
+00:14:02,960 --> 00:14:05,020
+那好  我们尽快找到他吧
+All right, let's get eyes on him as fast as we can.
+
+346
+00:14:05,020 --> 00:14:06,490
+看看他和谁密谋
+See who he's talking to.
+
+347
+00:14:06,570 --> 00:14:09,770
+各位  那几位可不像是一般的大学保安
+Uh, guys, these don't look like typical college bouncers.
+
+348
+00:14:09,770 --> 00:14:11,500
+只有忏悔者能通过
+Only the penitent man shall pass.
+
+349
+00:14:11,500 --> 00:14:13,660
+好吧  你引用的是《圣战奇兵》的台词
+All right, well, now you're just quoting "The Last Crusade."
+
+350
+00:14:21,750 --> 00:14:22,760
+不
+No!
+
+351
+00:14:23,270 --> 00:14:25,050
+不行  这里不欢迎戈德·恩维尔
+No, Gord Enver is not welcome here.
+
+352
+00:14:25,050 --> 00:14:26,340
+菲尼亚斯·吉尔马丁
+Phineas Gilmartin!
+
+353
+00:14:26,340 --> 00:14:28,560
+你做出那种事  竟然还敢回来
+How dare you come back here after what you did?
+
+354
+00:14:28,620 --> 00:14:30,210
+无论如何
+Under no conditions
+
+355
+00:14:30,210 --> 00:14:31,990
+都不准放他进去
+is this man to enter this building.
+
+356
+00:14:31,990 --> 00:14:33,540
+菲尼亚斯  你还在为那事生气吗
+Phineas, you're not still mad about that?
+
+357
+00:14:33,550 --> 00:14:35,590
+-再见  戈德  -菲尼
+- Good-bye, Gord. - Phinny!
+
+358
+00:14:35,590 --> 00:14:37,750
+犯错者为人  谅错者...
+To err is human, to forgive is...
+
+359
+00:14:38,350 --> 00:14:39,150
+两位  我是这里的成员
+Fellas, I'm a member here.
+
+360
+00:14:39,150 --> 00:14:41,350
+我们经常相互开点小玩笑
+It's just a little inside joke we play sometimes.
+
+361
+00:14:41,360 --> 00:14:43,750
+好吧  要是我告诉你
+Okay, um, well... what if I were to tell you
+
+362
+00:14:43,750 --> 00:14:46,390
+他是个狂热的种族主义者  你怎么看
+that he is a, uh, huge racist? How 'bout that?
+
+363
+00:14:46,400 --> 00:14:48,040
+顺便提一句  我不只是跟你说
+I'm not just telling you, by the way, but...
+
+364
+00:14:48,910 --> 00:14:50,360
+你明知道混进酒会现场
+You do realize getting inside that building
+
+365
+00:14:50,360 --> 00:14:52,290
+关乎国家安全
+is a matter of national security.
+
+366
+00:14:52,410 --> 00:14:54,900
+你还有什么没告诉我的
+So... what haven't you told me?
+
+367
+00:14:54,900 --> 00:14:55,790
+天啊
+Jeez!
+
+368
+00:14:55,790 --> 00:14:57,900
+好吧  我或许是有点忘了提
+Okay, I maybe kinda-sorta forgot to mention
+
+369
+00:14:57,900 --> 00:15:01,570
+我近几年在这里是有点不太受欢迎
+that I'm kinda-sorta persona non grata around here these days.
+
+370
+00:15:02,160 --> 00:15:03,990
+现在我们能去看嘉年华了
+Hey, now we can go check out the carnival.
+
+371
+00:15:03,990 --> 00:15:05,240
+或许还能看看冰雕
+Maybe take in the ice sculptures?
+
+372
+00:15:05,240 --> 00:15:07,280
+莱利准备发动战争
+Riley is about to start a war.
+
+373
+00:15:07,410 --> 00:15:09,580
+待在外面可阻止不了他
+It's a bit hard to stop from out here.
+
+374
+00:15:14,060 --> 00:15:15,590
+或许还有另一条路  跟我来
+There may be another way. Come on.
+
+375
+00:15:16,320 --> 00:15:18,840
+禁酒时期结束后  人们就忘了这些隧道
+People forgot about these tunnels once Prohibition ended.
+
+376
+00:15:18,840 --> 00:15:19,870
+但我过去常常用来偷偷
+But I used to use them to sneak all kinds
+
+377
+00:15:19,870 --> 00:15:21,710
+把东西运进"迷宫"里
+of other things into The Labyrinth.
+
+378
+00:15:21,800 --> 00:15:23,350
+妓女  柯特  我指的是妓女
+Hookers, Kurt, I'm talking about hookers.
+
+379
+00:15:23,350 --> 00:15:25,440
+如果你非要逼我说出来的话
+I mean, if you're gonna push to be uncouth, you know.
+
+380
+00:15:25,680 --> 00:15:27,640
+为什么菲尼亚斯那么恨你
+Why does Phineas hate you so much?
+
+381
+00:15:27,740 --> 00:15:28,670
+除了显而易见的
+Apart from the obvious.
+
+382
+00:15:28,670 --> 00:15:30,200
+我卸掉了他的宝马
+Oh, I took apart his BWM
+
+383
+00:15:30,200 --> 00:15:32,570
+然后在他宿舍屋顶上重新装配起来
+and then reassembled it on the roof of his dorm.
+
+384
+00:15:32,570 --> 00:15:34,080
+真不知道他为什么那么生气
+I don't know why he got so upset.
+
+385
+00:15:34,080 --> 00:15:35,860
+他才是差点被开除的人
+I'm the one that almost got expelled.
+
+386
+00:15:36,590 --> 00:15:37,970
+怎么了  没有...
+Hey, what gives? No, uh...
+
+387
+00:15:38,190 --> 00:15:39,060
+批判的目光吗
+judgmental glare?
+
+388
+00:15:39,060 --> 00:15:40,930
+不说我自作自受吗
+No lecture on reaping what I sow?
+
+389
+00:15:40,930 --> 00:15:44,050
+-我也差点被开除过  好几次  -什么
+- Ah, I nearly got expelled myself. A few times. - What?
+
+390
+00:15:44,050 --> 00:15:46,400
+柯特·威勒是捣蛋大王  是这意思吗
+Kurt Weller, master prankster. Is that what you're telling me?
+
+391
+00:15:46,400 --> 00:15:48,580
+-我想知道更多细节  -我也是
+- I want details. - So do I.
+
+392
+00:15:49,040 --> 00:15:51,150
+天啊  我们刚刚惺惺相惜了  对吗
+Oh, my God. We're having a moment right now, aren't we?
+
+393
+00:15:51,150 --> 00:15:52,940
+-没有  -你开始觉得我们也没太多不同
+- No! - You're realizing we're not so different.
+
+394
+00:15:52,940 --> 00:15:54,750
+我们是一样的  就像阴和阳
+We're two peas in a pod. Yin and yang.
+
+395
+00:15:54,750 --> 00:15:57,310
+以撒和以实玛利  德维托和斯瓦辛格
+Isaac and Ishmael. DeVito and Schwarzenegger.
+
+396
+00:15:57,310 --> 00:15:59,170
+你能安静点  集中精神吗
+Can you please just try and stay focused?
+
+397
+00:15:59,170 --> 00:16:00,900
+-等等  -怎么了
+- Oh, hey, wait. - What?
+
+398
+00:16:01,080 --> 00:16:04,400
+就是这扇门  但把手变了
+Well, this is the door, but the handle's different.
+
+399
+00:16:04,690 --> 00:16:05,540
+什么意思
+How?
+
+400
+00:16:05,920 --> 00:16:07,340
+通道不见了
+Well, it's not there anymore?
+
+401
+00:16:07,380 --> 00:16:08,870
+说不定就是我把妓女带进去的错
+Probably on account of all the hookers I bought up.
+
+402
+00:16:08,880 --> 00:16:10,090
+我说过妓女的事了吧
+I mentioned the hookers, right?
+
+403
+00:16:10,100 --> 00:16:11,140
+对  说过了
+Yes, you did.
+
+404
+00:16:11,560 --> 00:16:12,830
+-退后  -你要干什么  好吧
+- Stand back. - What are you doing? Okay.
+
+405
+00:16:12,840 --> 00:16:14,460
+门后是什么
+So what's behind that door?
+
+406
+00:16:14,460 --> 00:16:15,480
+壁橱
+The closet.
+
+407
+00:16:15,720 --> 00:16:17,420
+-那好  -你要...
+- All right. - What--
+
+408
+00:16:17,710 --> 00:16:18,700
+-退后  -好吧
+- Stand back - Okay.
+
+409
+00:16:24,000 --> 00:16:24,650
+他们做了什么
+Oh, see what they did?
+
+410
+00:16:24,650 --> 00:16:26,930
+他们拆了壁橱  把房间改成...
+They took out the closet to make room for the--
+
+411
+00:16:26,960 --> 00:16:28,610
+对  这样更好
+Yeah, this is better.
+
+412
+00:16:29,480 --> 00:16:30,300
+我是说...
+I mean...
+
+413
+00:16:30,800 --> 00:16:33,050
+显然对我们不怎么好
+not for us right now, obviously.
+
+414
+00:16:38,700 --> 00:16:43,110
+各位  这不是大名鼎鼎的戈德·恩维尔吗
+Well, if it isn't the one and only Gord Enver, everybody!
+
+415
+00:16:43,620 --> 00:16:45,640
+我还在想你会怎么进来
+I wondered how you might make an entrance.
+
+416
+00:16:46,020 --> 00:16:47,640
+真没让我失望
+You did not disappoint.
+
+417
+00:16:48,290 --> 00:16:50,940
+各位  别紧张  他是自己人
+Guys, please... he's a member.
+
+418
+00:16:51,010 --> 00:16:52,820
+他曾是自己人  可后来...
+Well, he was a member, right, before--
+
+419
+00:16:52,820 --> 00:16:54,470
+你们知道吗  他和我在一起
+You know what? He's with me.
+
+420
+00:16:54,470 --> 00:16:55,400
+-撒德·门森  -对
+- Thad Munson. - Yes.
+
+421
+00:16:55,400 --> 00:16:57,170
+你真是我的救星
+You're a sight for sore eyes.
+
+422
+00:16:58,140 --> 00:16:59,550
+很高兴见到你  兄弟
+Ah, it's good to see you, pal.
+
+423
+00:16:59,550 --> 00:17:00,340
+得了吧
+Oh, stop it.
+
+424
+00:17:00,340 --> 00:17:01,770
+天啊  你朋友是哪位
+My, who's your friend?
+
+425
+00:17:01,770 --> 00:17:05,090
+我介绍一下  这位是柯特·恩维尔
+I would like to introduce you to Kurt... Enver.
+
+426
+00:17:05,090 --> 00:17:06,320
+我丈夫
+My husband.
+
+427
+00:17:08,640 --> 00:17:09,650
+得了吧
+Nice try.
+
+428
+00:17:11,240 --> 00:17:13,810
+这家伙脸上写满了"妓男"两个字
+But this guy's got "Hooker" written all over him.
+
+429
+00:17:14,960 --> 00:17:16,900
+他的手臂真结实
+His arms are all burly.
+
+430
+00:17:17,280 --> 00:17:18,300
+能跟我说说你从哪找来的吗
+You mind me asking where you got him?
+
+431
+00:17:18,300 --> 00:17:19,880
+因为我也想找一个这样的
+Because I'd back that stallion, whew.
+
+432
+00:17:19,880 --> 00:17:22,490
+他绝对是个"妓男"
+Oh, he's definitely a prostitute.
+
+433
+00:17:23,480 --> 00:17:25,380
+撒德  菲尼亚斯·吉尔马丁刚对我有点意见
+Thad, Phineas Gilmartin was giving me a bit of attitude--
+
+434
+00:17:25,380 --> 00:17:27,340
+没关系  菲尼亚斯我来处理
+Yeah, you know what, I'll handle Phineas.
+
+435
+00:17:27,340 --> 00:17:30,860
+你和你肉票玩得愉快
+You and your, uh, meat trophy enjoy yourself.
+
+436
+00:17:34,430 --> 00:17:36,070
+里德  塔莎  查查
+Reade, Tasha... what have we got
+
+437
+00:17:36,070 --> 00:17:39,050
+撒德·门森和菲尼亚斯·吉尔马丁
+on Thad Munson and Phineas Gilmartin?
+
+438
+00:17:39,050 --> 00:17:42,110
+菲尼亚斯是个保险推销员  离过婚
+Phineas is an insurance lobbyist going through a bad divorce.
+
+439
+00:17:42,110 --> 00:17:44,140
+而撒德在华尔街有吸血鬼的称号
+And Thad's a Wall Street guy known as The Vampire.
+
+440
+00:17:43,580 --> 00:17:46,500
+{\an8}门森将抗癌药物价格提高十倍
+
+441
+00:17:44,140 --> 00:17:46,630
+通过收购经营不善的企业  再榨干他们的钱
+Buys struggling companies and sucks out every last penny.
+
+442
+00:17:46,630 --> 00:17:48,350
+对  他刚收购了一家制药公司
+Yeah, he just did it to a pharmaceutical company.
+
+443
+00:17:48,360 --> 00:17:51,640
+然后他将他们抗癌药物的价格提高了十倍
+He raised their cancer drug prices by over 1,000%.
+
+444
+00:17:49,670 --> 00:17:51,040
+{\an8}门森将抗癌药物价格提高十倍
+
+445
+00:17:51,640 --> 00:17:53,110
+这家伙真该被抓起了
+This guy definitely needs to be locked up,
+
+446
+00:17:53,110 --> 00:17:55,230
+不过应该不是恐怖分子
+but probably not for a terrorist attack.
+
+447
+00:18:01,580 --> 00:18:03,000
+这就是我们长大的地方吗
+This is where we grew up?
+
+448
+00:18:03,110 --> 00:18:04,710
+罗宾汉巷15号
+15 Robin Hood Lane.
+
+449
+00:18:04,710 --> 00:18:06,840
+产权记录显示  这就是谢培德将你从
+According to property records, this is where Shepherd lived
+
+450
+00:18:06,850 --> 00:18:08,910
+南非带回来后居住的地方
+when she brought you back from South Africa.
+
+451
+00:18:10,430 --> 00:18:11,420
+有印象吗
+Anything?
+
+452
+00:18:12,720 --> 00:18:14,730
+-没有  -你呢
+- No. - You?
+
+453
+00:18:14,730 --> 00:18:15,740
+没有
+No.
+
+454
+00:18:15,830 --> 00:18:17,910
+如果这里是我们长大的地方
+If this is where we were raised...
+
+455
+00:18:18,190 --> 00:18:19,470
+应该能有印象的  不是吗
+it should mean something, right?
+
+456
+00:18:19,470 --> 00:18:21,150
+我们进去看看吧
+Well, let's take a look inside.
+
+457
+00:18:21,260 --> 00:18:23,330
+万一有人回来呢
+Well, what if someone comes home?
+
+458
+00:18:23,770 --> 00:18:25,530
+或许谢培德早料到我们会来
+Or Shepherd could be expecting us to come here.
+
+459
+00:18:25,530 --> 00:18:26,830
+这可能是陷阱
+It could be a trap.
+
+460
+00:18:27,740 --> 00:18:31,000
+为了你们两个  我甘愿冒险
+With you two... I'll take my chances.
+
+461
+00:18:43,610 --> 00:18:45,730
+扎克·莱利  十点钟方向
+Zach Riley, 10:00.
+
+462
+00:18:45,730 --> 00:18:47,290
+桌子边上  旁边站着...
+Standing at a table with...
+
+463
+00:18:49,070 --> 00:18:50,590
+太远了  看不清
+Ah, I can't tell from here.
+
+464
+00:18:53,050 --> 00:18:54,180
+跳支舞吧
+Shall we?
+
+465
+00:18:58,790 --> 00:18:59,880
+现在呢
+What about now?
+
+466
+00:19:03,240 --> 00:19:05,520
+是布拉德福·维纳  国际律师
+That's Bradford Winer, international lawyer.
+
+467
+00:19:05,990 --> 00:19:07,580
+替国务院干过不少事
+Does a lot of work with the state department.
+
+468
+00:19:07,580 --> 00:19:09,590
+要是我打算掌握别国的情报资源
+If I were trying to seize resources from a foreign country
+
+469
+00:19:09,590 --> 00:19:11,620
+绝对会想办法拉他入伙
+I would definitely want him on my side.
+
+470
+00:19:16,290 --> 00:19:18,730
+他们的袭击计划很可能在那台电脑里
+Their plan of attack could be on that computer.
+
+471
+00:19:20,620 --> 00:19:22,550
+你能搞定他的保卫吗
+Can you get past his security measures?
+
+472
+00:19:23,440 --> 00:19:25,600
+准确地说  我还是美国政府的囚犯
+Well, technically, I'm barred by the U.S. government
+
+473
+00:19:25,600 --> 00:19:28,030
+不能参加任何...  好吧
+from operating any illeg-- Ohh! Okay.
+
+474
+00:19:28,210 --> 00:19:30,120
+这里的保安不是问题
+The local security is not the issue.
+
+475
+00:19:30,120 --> 00:19:32,640
+难点在于莱利手里的密钥
+The tricky part is the fob in Riley's hand.
+
+476
+00:19:32,640 --> 00:19:35,620
+每九十秒会生成一个新的九位数密码
+It generates a new, eight-digit pass code every 90 seconds,
+
+477
+00:19:35,620 --> 00:19:37,550
+并且无法伪造  我们需要密码
+and it can't be faked-- we need that code.
+
+478
+00:19:37,550 --> 00:19:38,610
+帕特森  听到了吗
+Patterson, you got that?
+
+479
+00:19:38,610 --> 00:19:39,990
+我们会搞定密钥
+We'll handle the key fob.
+
+480
+00:19:39,990 --> 00:19:41,300
+我们去拿电脑
+We'll get the computer.
+
+481
+00:19:42,460 --> 00:19:43,740
+走吧  亲爱的
+Come on, honey.
+
+482
+00:19:52,800 --> 00:19:54,990
+不敢相信我们住过这里  这里这么...
+Hard to believe we ever lived in a place so...
+
+483
+00:19:54,990 --> 00:19:55,790
+普通
+Normal?
+
+484
+00:20:03,170 --> 00:20:04,610
+想起什么了吗
+You remember something?
+
+485
+00:20:08,830 --> 00:20:09,830
+没有
+No.
+
+486
+00:20:10,590 --> 00:20:13,260
+我甚至不记得我住在哪一间
+I can't even remember the house I grew up in.
+
+487
+00:20:13,510 --> 00:20:16,100
+或许谢培德让我们住在别的地方
+Maybe Shepherd kept us someplace different.
+
+488
+00:20:16,500 --> 00:20:18,260
+谢培德剥夺了我的人生
+Shepherd took my life away.
+
+489
+00:20:18,440 --> 00:20:19,910
+罗曼  她夺走了一切
+Roman... She took everything!
+
+490
+00:20:19,910 --> 00:20:20,990
+我明白你的感受
+I know how you feel.
+
+491
+00:20:20,990 --> 00:20:23,100
+那你为什么没有同感
+Then why don't you feel it?!
+
+492
+00:20:24,540 --> 00:20:26,350
+她也对你做了相同的事
+She did this to you, too!
+
+493
+00:20:27,220 --> 00:20:28,390
+你的怒火呢
+Where's your anger?
+
+494
+00:20:29,500 --> 00:20:30,760
+你的伤痛呢
+Where's your hurt?!
+
+495
+00:20:31,710 --> 00:20:32,790
+罗曼
+Roman...
+
+496
+00:20:33,610 --> 00:20:35,530
+你得冷静点  好吗
+I need you to calm down, okay?
+
+497
+00:20:36,220 --> 00:20:37,170
+不
+No...
+
+498
+00:20:37,580 --> 00:20:39,230
+她夺走了我的人生
+She stole my life from me.
+
+499
+00:20:39,540 --> 00:20:40,830
+她必须付出代价
+She's gonna pay.
+
+500
+00:20:47,100 --> 00:20:48,760
+你今天情绪很低啊
+You're in pretty low gear today.
+
+501
+00:20:51,080 --> 00:20:52,570
+我和妮基在一起了
+I been dating Nikki.
+
+502
+00:20:53,700 --> 00:20:55,740
+-弗雷迪的女朋友吗  -前女友
+- Freddy's girlfriend? - Ex-girlfriend.
+
+503
+00:20:55,740 --> 00:20:58,150
+你帮助潜逃出城的杀人凶手的女朋友
+Oh, the ex-girlfriend of the killer you helped skip town?
+
+504
+00:20:59,090 --> 00:21:00,340
+你知道这么做有多愚蠢吗
+Do you have any idea how messed up that is?
+
+505
+00:21:00,340 --> 00:21:02,860
+不  我从没想过  萨帕塔
+No, thought never crossed my mind, Zapata.
+
+506
+00:21:02,860 --> 00:21:03,770
+里德  塔莎
+Reade, Tasha,
+
+507
+00:21:03,770 --> 00:21:05,590
+我和瑞奇要上楼了
+Rich and I are headed upstairs.
+
+508
+00:21:05,590 --> 00:21:07,730
+-你们看到守卫了吗  -前面只有一个
+- You got eyes on the guards? - Only the ones in front.
+
+509
+00:21:07,730 --> 00:21:10,310
+不得不冒险了
+Well, we're gonna have to risk it.
+
+510
+00:21:10,310 --> 00:21:12,450
+你怎么知道莱利会把电脑放在这
+How do you know this is where Riley would keep his laptop?
+
+511
+00:21:12,450 --> 00:21:15,240
+相信我  我比扎克更了解他自己
+Trust me, I know more about Zach than Zach does.
+
+512
+00:21:15,240 --> 00:21:16,720
+我们以前是最好的朋友
+We were best friends back in the day.
+
+513
+00:21:16,720 --> 00:21:17,940
+直到你惹毛了他
+Till you pissed him off?
+
+514
+00:21:17,940 --> 00:21:19,060
+不  直到他惹毛了我
+No, until he pissed me off
+
+515
+00:21:19,060 --> 00:21:21,220
+他拿走了不属于他的东西
+when he took something that didn't belong to him.
+
+516
+00:21:21,220 --> 00:21:23,060
+此后我再没和他说过话
+Haven't spoken to him since.
+
+517
+00:21:26,410 --> 00:21:28,050
+其实也可以说  是他把我
+You know, actually, you could say that he pretty much set me
+
+518
+00:21:28,050 --> 00:21:29,410
+造就成了瑞奇·多特康
+on the path to becoming Rich.Com--
+
+519
+00:21:29,410 --> 00:21:31,730
+瑞奇  你的往事就不必说了
+Rich! I don't need the origin story.
+
+520
+00:21:31,730 --> 00:21:34,170
+对啊  谁都不喜欢前传
+Right, nobody likes a prequel.
+
+521
+00:21:39,850 --> 00:21:41,460
+小扎克
+Zachy boy.
+
+522
+00:21:41,460 --> 00:21:43,850
+有些人永远都不会变
+Some people never change.
+
+523
+00:21:44,490 --> 00:21:46,450
+我们就等密码了
+We're ready for that password.
+
+524
+00:21:46,450 --> 00:21:48,990
+好的  应该就在密钥上
+All right, it should be displayed on that fob.
+
+525
+00:21:50,760 --> 00:21:52,390
+该死  衬衫前口袋
+Damn, front shirt pocket.
+
+526
+00:21:52,390 --> 00:21:53,690
+最难搞到的地方
+Hardest pocket to pick.
+
+527
+00:21:53,690 --> 00:21:54,700
+好吧  要是...
+Okay, well, what if--
+
+528
+00:21:54,710 --> 00:21:56,160
+要是我们把什么东西洒在他身上
+What if we just spill something on him,
+
+529
+00:21:56,160 --> 00:21:58,190
+他就得把密钥拿出来换衣服  对吗
+and he has to take the key fob out to change, right?
+
+530
+00:21:58,190 --> 00:21:59,990
+是啊  单独去卫生间之类的地方
+Yeah, alone in a bathroom somewhere.
+
+531
+00:21:59,990 --> 00:22:01,260
+我还以为你很聪明
+I thought you were the smart one.
+
+532
+00:22:01,260 --> 00:22:03,140
+我...
+I...
+
+533
+00:22:03,140 --> 00:22:04,430
+等等
+Wait...
+
+534
+00:22:07,800 --> 00:22:10,230
+来这边  扎克
+Come here. Hey, Zach!
+
+535
+00:22:10,230 --> 00:22:11,600
+-扎克  -你在干什么
+- Zach? - ‭What are you doing?
+
+536
+00:22:11,600 --> 00:22:14,500
+扎克·莱利
+Zach Riley!
+
+537
+00:22:14,590 --> 00:22:16,570
+见到你太好了
+So great to see you!
+
+538
+00:22:16,960 --> 00:22:18,270
+波士顿
+‭Boston!
+
+539
+00:22:18,270 --> 00:22:19,480
+好久不见
+It's been... too long.
+
+540
+00:22:19,480 --> 00:22:21,050
+太长时间了
+Way too long!
+
+541
+00:22:21,350 --> 00:22:22,620
+瞧瞧你啊
+Oh, look at ya, huh?
+
+542
+00:22:22,620 --> 00:22:25,600
+你把宇航局搞破产了没
+Hey, you put NASA out of business yet??
+
+543
+00:22:25,600 --> 00:22:27,700
+我非常想给你介绍个人
+Hey, I really want to introduce you to somebody, all right?
+
+544
+00:22:27,700 --> 00:22:30,200
+扎克·莱利  能洞察未来的人
+Zach Riley, visioneer of the future,
+
+545
+00:22:30,200 --> 00:22:32,310
+请允许我为你介绍帕特森
+please allow me to introduce Patterson.
+
+546
+00:22:32,320 --> 00:22:34,310
+我一生的挚爱
+The love of my life.
+
+547
+00:22:34,310 --> 00:22:36,020
+真的吗  我还以为你...
+Really? I thought you were--
+
+548
+00:22:36,020 --> 00:22:38,190
+认识你真是太荣幸了  莱利先生
+It is such an honor to meet you, Mr. Riley.
+
+549
+00:22:38,190 --> 00:22:40,550
+天啊  如果我现在是个孩子
+Oh, my God, if I were a kid today,
+
+550
+00:22:40,550 --> 00:22:43,580
+我肯定会把你的海报贴在
+I-- your just-- your poster would just be right between
+
+551
+00:22:43,580 --> 00:22:46,110
+爱因斯坦和居里夫人的中间
+Albert Einstein and Marie Curie.
+
+552
+00:22:46,110 --> 00:22:47,720
+我只是个喜欢畅想的商人
+I'm just a businessman who likes to dream.
+
+553
+00:22:47,720 --> 00:22:49,690
+好极了  这场宴会真是太丰盛了
+Wonderful, it has just been such a treat and a half.
+
+554
+00:22:49,690 --> 00:22:52,830
+真的  非常感谢  玩得开心
+Seriously, thank you so much. Okay, have fun.
+
+555
+00:22:53,150 --> 00:22:54,940
+想都别想  她是我的
+Hands off, she's all mine.
+
+556
+00:22:54,940 --> 00:22:57,770
+维勒  密码是08
+Weller, the code is 08...
+
+557
+00:22:57,770 --> 00:23:01,620
+28...07... 18.
+
+558
+00:23:02,120 --> 00:23:03,740
+进去了
+Uh, we're in.
+
+559
+00:23:03,740 --> 00:23:06,110
+我正在把硬盘里的所有内容
+Okay, I'm floating all hard drive contents
+
+560
+00:23:06,110 --> 00:23:08,270
+发给诡异黑车里的两个讨厌鬼
+to Lenny and Squiggy in the creepy black van.
+
+561
+00:23:08,270 --> 00:23:10,510
+里德  塔莎  数据发过去了
+Reade, Tasha, data's coming your way.
+
+562
+00:23:10,510 --> 00:23:13,070
+找出一切与袭击美国有关的内容
+Look for anything indicating a pending attack on U.S. Soil.
+
+563
+00:23:13,080 --> 00:23:15,280
+维勒  保安上楼了
+Weller! The guards are heading upstairs.
+
+564
+00:23:15,290 --> 00:23:16,450
+瑞奇  停手吧
+Rich, you better wrap it up.
+
+565
+00:23:16,450 --> 00:23:18,180
+稍等一下
+Just give me a minute.
+
+566
+00:23:18,700 --> 00:23:19,780
+瑞奇
+Rich...
+
+567
+00:23:19,790 --> 00:23:21,110
+已经发明出来了
+That's already been invented.
+
+568
+00:23:21,110 --> 00:23:22,140
+-是吗  -是的
+- H-Has it? - ‭Yes.
+
+569
+00:23:22,140 --> 00:23:24,310
+那我怎么还有斑块呢
+Well, why do I still have plaque?
+
+570
+00:23:24,390 --> 00:23:25,630
+我不打扰你
+Well, okay, I'm gonna let you get back
+
+571
+00:23:25,630 --> 00:23:26,750
+继续作亿万富翁了
+to being a billionaire, I guess.
+
+572
+00:23:26,750 --> 00:23:28,700
+很高兴见到你
+It's so great to see you, huh?
+
+573
+00:23:28,700 --> 00:23:32,570
+先生  我们在楼里发现了戈德·恩维尔
+Sir, Gord Enver has been located on the premises.
+
+574
+00:23:33,310 --> 00:23:35,390
+和戈德的关系还很近吗  波士顿
+Still tight with Gord, Boston?
+
+575
+00:23:35,390 --> 00:23:37,770
+戈德  是啊  我们...
+Uh-- uh, Gord, yeah. We-- we're, um...
+
+576
+00:23:37,780 --> 00:23:39,180
+其实我们住在同一个楼里
+we're actually in the same complex,
+
+577
+00:23:39,180 --> 00:23:41,060
+但我们俩现在的关系不太好
+but we're not on civil terms right now.
+
+578
+00:23:41,060 --> 00:23:42,300
+太糟了
+That's too bad.
+
+579
+00:23:42,300 --> 00:23:43,900
+你手里拿的什么
+What's in your hand?
+
+580
+00:23:48,200 --> 00:23:49,580
+什么都没有
+Nothing.
+
+581
+00:23:50,210 --> 00:23:51,610
+容易情绪激动吗
+Feel a little high strung?
+
+582
+00:23:51,610 --> 00:23:52,530
+去演奏四重奏吧
+Go join a quartet.
+
+583
+00:23:52,530 --> 00:23:53,940
+-失陪了  -好吧
+- Excuse me. ‭- Okay.
+
+584
+00:23:53,940 --> 00:23:55,500
+维勒  快离开
+Weller, get out of there.
+
+585
+00:23:55,500 --> 00:23:57,160
+莱利正往你那儿去
+Riley's coming your way.
+
+586
+00:23:57,900 --> 00:23:59,780
+多谢提醒
+Thanks for the heads-up.
+
+587
+00:24:12,290 --> 00:24:14,200
+你怎么会在这  戈德
+What the hell are you doing, Gord?
+
+588
+00:24:14,490 --> 00:24:15,870
+莱利先生  我是助理...
+Mr. Riley, I'm the Assistant--
+
+589
+00:24:15,870 --> 00:24:18,760
+你很清楚我为什么在这  扎克
+You know exactly what I'm doing here, Zach.
+
+590
+00:24:18,860 --> 00:24:21,020
+我来找回理应属于我的东西
+I'm here for what's rightfully mine.
+
+591
+00:24:21,020 --> 00:24:23,990
+来证明我是莱利软件唯一的发明人
+Proof that I was the sole inventor of RileyShare,
+
+592
+00:24:23,990 --> 00:24:26,490
+是你在退出并搬到硅谷之前
+that you stole that code from me before you dropped out
+
+593
+00:24:26,500 --> 00:24:28,170
+从我手里偷走了代码
+and moved to Silicon Valley,
+
+594
+00:24:28,170 --> 00:24:31,050
+你的整个帝国都建立在谎言之上
+that your entire empire is built on a lie!
+
+595
+00:24:31,050 --> 00:24:34,270
+我  戈登·梅瑞迪斯·恩维尔  
+That I, Gordon Meredith Enver,
+
+596
+00:24:34,280 --> 00:24:35,280
+应该取代你
+should be in your shoes,
+
+597
+00:24:35,280 --> 00:24:38,770
+成为万人敬仰的畅想家  而不是...
+breathing your rarefied air as a beloved visionary instead of...
+
+598
+00:24:38,770 --> 00:24:41,650
+躲在黑暗中默默无闻被人遗忘
+lurking, nameless and thankless in the shadows,
+
+599
+00:24:41,660 --> 00:24:43,710
+像个网络暴徒
+like some digital thug!
+
+600
+00:24:44,590 --> 00:24:46,120
+你们先出去
+Give us a moment.
+
+601
+00:24:47,710 --> 00:24:50,530
+戈德  我很抱歉
+Gord... I'm so sorry...
+
+602
+00:24:50,600 --> 00:24:52,200
+你会这么想
+that you feel that way.
+
+603
+00:24:52,200 --> 00:24:54,220
+但我没从你手上偷走任何东西
+But I didn't steal anything from you.
+
+604
+00:24:54,220 --> 00:24:56,260
+我们一起开发了部分代码
+Yeah, we developed some of that code together,
+
+605
+00:24:56,260 --> 00:24:57,300
+可后来我求你
+but then I begged you
+
+606
+00:24:57,310 --> 00:24:59,040
+和我搬到硅谷完成开发
+to move to Silicon Valley with me to finish it.
+
+607
+00:24:59,040 --> 00:25:00,310
+不  不是这样
+No, no. No, no, no, no, no.
+
+608
+00:25:00,310 --> 00:25:01,450
+是的  我记得
+Yes! I remember,
+
+609
+00:25:01,450 --> 00:25:05,050
+因为我不敢相信你对我们  对你自己
+because I couldn't believe how little faith you had in us,
+
+610
+00:25:05,050 --> 00:25:06,500
+那么没信心
+in yourself.
+
+611
+00:25:06,510 --> 00:25:08,610
+我们本可以一起完成这事
+The things we could've done together.
+
+612
+00:25:08,830 --> 00:25:09,480
+可是相反  
+But, no...
+
+613
+00:25:09,910 --> 00:25:11,950
+你用那个愚蠢的公式来运算数据 
+you ran the numbers through that stupid formula
+
+614
+00:25:11,950 --> 00:25:14,630
+并且选择留在学校完成学业
+and then opted to stay and finish college.
+
+615
+00:25:14,870 --> 00:25:16,440
+选择了安全的生活
+Take the safe route.
+
+616
+00:25:17,210 --> 00:25:18,960
+维勒  我们刚在莱利的电脑上
+Weller, we just found a draft of a press release
+
+617
+00:25:18,700 --> 00:25:20,540
+{\an8}新闻稿
+
+618
+00:25:18,960 --> 00:25:20,010
+发现一篇新闻稿的草稿  
+on Riley's laptop
+
+619
+00:25:20,010 --> 00:25:21,210
+说到他要卖掉汽车公司
+announcing the sale of Riley Motors
+
+620
+00:25:21,210 --> 00:25:22,780
+这样他就能更加关注太空事业
+so he can focus more on his space efforts.
+
+621
+00:25:22,780 --> 00:25:24,640
+莱利打算退出锂生意了
+Riley's getting out of the lithium business.
+
+622
+00:25:24,640 --> 00:25:27,320
+他没理由参与这种阴谋
+He's got no reason to be part of this conspiracy.
+
+623
+00:25:27,480 --> 00:25:29,200
+很抱歉给你添乱了
+We're sorry about the mix-up.
+
+624
+00:25:29,200 --> 00:25:31,750
+他有时候会情绪激动  对吧
+He gets a little carried away sometimes, don't you?
+
+625
+00:25:31,750 --> 00:25:33,580
+戈德  我们该走了
+Uh, Gord, we should go.
+
+626
+00:25:33,580 --> 00:25:35,750
+我们已经浪费莱利先生很多时间了
+We've wasted enough of Mr. Riley's time.
+
+627
+00:25:35,750 --> 00:25:36,750
+抱歉  先生
+I'm sorry, sir.
+
+628
+00:25:36,750 --> 00:25:38,160
+戈德...
+Gord...
+
+629
+00:25:38,920 --> 00:25:40,250
+如果你愿意
+If you're up for it,
+
+630
+00:25:40,250 --> 00:25:41,960
+我的团队里永远有你的位置
+there's always a spot for you on my team.
+
+631
+00:25:41,960 --> 00:25:44,380
+-真是...  -真是太慷慨了
+- Oh, that is... - That is very generous!
+
+632
+00:25:44,510 --> 00:25:45,810
+他肯定会答复你的
+I'm sure you'll hear from him.
+
+633
+00:25:45,810 --> 00:25:47,290
+走吧  亲爱的
+Let's go, honey.
+
+634
+00:26:01,110 --> 00:26:03,920
+没关系
+It's okay.
+
+635
+00:26:03,930 --> 00:26:05,820
+我们还有好几个地方没去呢
+We still have a couple more addresses to try.
+
+636
+00:26:05,820 --> 00:26:08,390
+因此我们更应该回到路上
+Which is why we should get back on the road.
+
+637
+00:26:11,820 --> 00:26:13,320
+他需要恢复镇静
+He needs to regain his composure,
+
+638
+00:26:13,320 --> 00:26:15,520
+我觉得他"零号分部"的牢房
+and I don't think his prison cell in Zero Division
+
+639
+00:26:15,520 --> 00:26:16,920
+没什么帮助
+is a good place to do that.
+
+640
+00:26:16,920 --> 00:26:19,000
+先让他喘口气  好吗
+Let's let him catch his breath, okay?
+
+641
+00:26:19,000 --> 00:26:20,860
+然后我们马上出去
+Then we'll get right back out there.
+
+642
+00:26:20,870 --> 00:26:22,970
+好吧  但快一点
+Okay, fine, but make it quick.
+
+643
+00:26:24,040 --> 00:26:25,350
+喝点水
+Here you go.
+
+644
+00:26:29,340 --> 00:26:31,020
+房间里有点空
+Place is a bit sparse.
+
+645
+00:26:31,030 --> 00:26:33,580
+还没来得及好好装饰
+Haven't had much time to decorate.
+
+646
+00:26:33,580 --> 00:26:36,080
+至少这门  你想开就能开
+At least your doors open when you want them to.
+
+647
+00:26:36,710 --> 00:26:38,460
+也不总是这样
+They didn't always.
+
+648
+00:26:40,610 --> 00:26:42,050
+花不错
+Nice flowers.
+
+649
+00:26:42,430 --> 00:26:44,900
+-奥利弗是谁  -一个朋友
+- Who's Oliver? - Just a friend.
+
+650
+00:26:47,500 --> 00:26:48,000
+{\an8}塞西尔餐厅
+
+651
+00:26:53,460 --> 00:26:55,760
+{\an8}目标就在眼前
+
+652
+00:26:54,460 --> 00:26:55,760
+{\an8}动手吧
+
+653
+00:27:00,450 --> 00:27:01,660
+怎么了
+What is it?
+
+654
+00:27:02,170 --> 00:27:03,680
+我恢复了一点记忆
+I remember something.
+
+655
+00:27:05,110 --> 00:27:08,020
+纹身依旧指向达勒斯
+All right, the tattoo still points to Daedalus.
+
+656
+00:27:08,020 --> 00:27:10,640
+就算扎克·莱利没在密谋通过袭击美国
+Even if Zach Riley isn't plotting a U.S. attack
+
+657
+00:27:10,650 --> 00:27:12,600
+来引发战争  这里有其他人在这么做
+to trigger a war, someone else here is.
+
+658
+00:27:12,600 --> 00:27:15,990
+现在开始  所有会员都有嫌疑
+From this point on, every member is a suspect.
+
+659
+00:27:15,990 --> 00:27:17,900
+这都是瑞奇的错
+This is all Rich's fault.
+
+660
+00:27:18,320 --> 00:27:19,860
+因为他那不愿放手的私仇
+Sends us on some wild goose chase
+
+661
+00:27:19,860 --> 00:27:21,880
+让我们做了徒劳无功的事
+because of a personal grudge he can't let go of.
+
+662
+00:27:21,890 --> 00:27:23,900
+这里有没有能让我们获取信息的
+Okay, is there an alumni room here somewhere
+
+663
+00:27:23,900 --> 00:27:25,560
+毕业生会室
+where we can get information?
+
+664
+00:27:25,560 --> 00:27:27,340
+瑞奇眼里只有他自己
+You know, it's always about Rich with Rich.
+
+665
+00:27:27,340 --> 00:27:29,320
+他根本不在乎其他人的难处
+He doesn't care about other people's issues.
+
+666
+00:27:29,320 --> 00:27:31,110
+-他不...  -你能不说瑞奇了吗
+- He doesn't... - ‭Would you shut up about Rich!
+
+667
+00:27:31,110 --> 00:27:33,620
+你分手了  你得接受事实
+You broke up, you just need to deal with it.
+
+668
+00:27:33,620 --> 00:27:35,140
+至少你的前任没想杀死你
+At least your ex didn't try to kill you
+
+669
+00:27:35,140 --> 00:27:37,800
+把你交给疯女人受尽折磨
+and then hand you over to a madwoman to be tortured
+
+670
+00:27:37,800 --> 00:27:40,310
+还利用你缅怀真爱的悲伤  而你的真爱
+and exploit your grief over your one true love who died
+
+671
+00:27:40,310 --> 00:27:42,620
+因为你不愿和他同居而死
+because you wouldn't move in with him.
+
+672
+00:27:44,490 --> 00:27:45,920
+你感觉好点了吗
+You feel better?
+
+673
+00:27:47,820 --> 00:27:48,900
+差不多
+Kinda.
+
+674
+00:27:48,900 --> 00:27:51,060
+-好极了  -好吧
+- Great. ‭Yeah. - Yeah.
+
+675
+00:27:51,060 --> 00:27:53,930
+-能继续谈论我的问题了吗  -好
+- So can we talk about my problems again? - Okay.
+
+676
+00:27:53,930 --> 00:27:55,520
+瑞奇总是不肯闭嘴
+You know, Rich just will not shut up,
+
+677
+00:27:55,520 --> 00:27:58,960
+我在许多场合问过他...
+and I have asked him on numerous occasions...
+
+678
+00:28:01,430 --> 00:28:04,540
+里德  塔莎  继续搜查莱利的资料
+Reade, Tasha, keep searching through Riley's files.
+
+679
+00:28:04,540 --> 00:28:06,880
+查出他把莱利汽车公司卖给谁了
+See if you can find out who he sold Riley Motors to.
+
+680
+00:28:06,880 --> 00:28:08,730
+我们在寻找入侵锂矿丰富国家的
+We're looking for anyone who can benefit from the invasion
+
+681
+00:28:08,730 --> 00:28:10,450
+所有可能受益人
+of a lithium-rich country.
+
+682
+00:28:10,450 --> 00:28:11,880
+扎克说得对
+Zach's right, you know.
+
+683
+00:28:11,880 --> 00:28:13,250
+我为了上大学  放弃了软件
+I gave up on the software to stay in college
+
+684
+00:28:13,250 --> 00:28:16,140
+最终我的学业  只是张纸罢了
+and finish my degree... a piece of paper.
+
+685
+00:28:16,140 --> 00:28:17,360
+这是国会议员凯利
+That's Congressman Kelley.
+
+686
+00:28:17,360 --> 00:28:18,890
+他是武装部队附属委员会的
+He's on the Armed Forces Subcommittee.
+
+687
+00:28:18,890 --> 00:28:21,950
+花费了我上亿美元的一张纸
+A piece of paper that cost me billions of dollars, okay?
+
+688
+00:28:21,950 --> 00:28:23,450
+你们高兴了吗  爸妈
+Are you happy now, mom and dad?
+
+689
+00:28:23,450 --> 00:28:24,740
+-你们何不把这张纸... -瑞奇  瑞奇
+- Why don't you take that piece of paper... - Rich! Rich!
+
+690
+00:28:24,740 --> 00:28:26,040
+卷紧一点  塞进你们...
+and roll it up real tight and shove it up your...
+
+691
+00:28:26,040 --> 00:28:28,300
+瑞奇  我们在执行任务
+Rich. We're on a mission.
+
+692
+00:28:28,300 --> 00:28:32,050
+-别搞存在危机这套  -谁还在乎任务
+- Drop the existential crisis. - Who cares about the mission?
+
+693
+00:28:32,050 --> 00:28:34,990
+柯特  别像我一样
+Kurt, listen. Don't be like me, okay?
+
+694
+00:28:34,990 --> 00:28:37,030
+别把一生都浪费在任务上
+Don't waste your life on missions.
+
+695
+00:28:37,030 --> 00:28:39,210
+你要赶在别人之前  把握住简
+You grab Jane now, before somebody else does,
+
+696
+00:28:39,210 --> 00:28:41,030
+利用她赚上几亿美元
+and then uses her to make billions of dollars.
+
+697
+00:28:41,030 --> 00:28:42,530
+我知道最后那部分说不太通
+I know that last part didn't really make sense,
+
+698
+00:28:42,530 --> 00:28:44,800
+但你明白我的意思了吗
+but you see what I'm saying, right?
+
+699
+00:28:51,030 --> 00:28:52,290
+这是干什么
+What's going on?
+
+700
+00:28:53,720 --> 00:28:57,690
+觉醒仪式  是神圣的达勒斯仪式
+It's the Awakening. It's a sacred Daedalus ritual.
+
+701
+00:28:57,690 --> 00:28:59,810
+最好别涉及到性行为
+This better not be a sex thing.
+
+702
+00:29:00,610 --> 00:29:03,220
+如果有  我们最好跟着一起做
+If it is, we should probably go along with it, right?
+
+703
+00:29:04,340 --> 00:29:06,050
+你也不想暴露身份吧
+We don't wanna blow our cover.
+
+704
+00:29:06,050 --> 00:29:08,740
+没想到波士顿·阿利斯·克莱伯是你的真名
+I can't believe your real name is Boston Arliss Crab.
+
+705
+00:29:08,740 --> 00:29:09,670
+我还以为是化名
+I thought it was an alias.
+
+706
+00:29:09,670 --> 00:29:11,330
+你竟然取笑我的名字  明明你叫...
+You're making fun of my name when your first name is...
+
+707
+00:29:11,330 --> 00:29:13,140
+等等  他是谁
+Wait, who's that guy?
+
+708
+00:29:14,130 --> 00:29:16,170
+好问题
+Excellent question.
+
+709
+00:29:17,580 --> 00:29:19,950
+我看到一个形迹可疑的男人  正走向出口
+I got eyes on a shady-looking dude headed straight for the exit.
+
+710
+00:29:19,950 --> 00:29:22,540
+跟住他  别交火  我们马上过去
+Follow him, but don't engage. We're on our way.
+
+711
+00:29:22,540 --> 00:29:24,400
+若想获得雄狮之心
+If you want the heart of a lion,
+
+712
+00:29:24,400 --> 00:29:27,390
+必得先甘愿将之咽下
+you must first be willing to consume it.
+
+713
+00:29:27,860 --> 00:29:30,390
+谁想第一个和我分享
+Who will be the first to partake with me?
+
+714
+00:29:30,850 --> 00:29:34,980
+站住  觉醒仪式开始后  谁也不能走
+Stop! No one leaves once the Awakening has begun.
+
+715
+00:29:47,050 --> 00:29:48,140
+走啊
+Come on.
+
+716
+00:29:48,140 --> 00:29:50,330
+你现在绝对被禁了  戈德
+Oh, you're definitely banned now, Gord.
+
+717
+00:29:50,330 --> 00:29:52,740
+接受现实吧  菲尼亚斯
+Oh, suck it, Phineas.
+
+718
+00:29:52,860 --> 00:29:55,180
+-有钱人有什么毛病  -我们会无聊
+- What's wrong with rich people? - We get bored.
+
+719
+00:29:55,180 --> 00:29:56,780
+拿到离开派对那人的证件了
+Got an I.D. on the guy who left the party.
+
+720
+00:29:56,780 --> 00:29:59,360
+他叫本杰明·奥伦
+His name is Benjamin Oren.
+
+721
+00:29:58,830 --> 00:30:01,570
+{\an8}诺斯莱克
+
+722
+00:29:59,360 --> 00:30:01,630
+他是诺斯莱克军事承包商的总经理
+He's an executive at Northlake Military Contractors.
+
+723
+00:30:01,630 --> 00:30:03,670
+如果对美国的袭击导致海外军事行动
+Northlake stands to make millions if an attack on the U.S.
+
+724
+00:30:03,670 --> 00:30:05,830
+诺斯莱克可赚上百万
+led to military action overseas.
+
+725
+00:30:05,830 --> 00:30:07,850
+他在发送另一条信息
+He's sending another text.
+
+726
+00:30:08,280 --> 00:30:11,080
+好  我们正跟着他进入艺术大厦
+Right. We're following him into the Fine Arts building.
+
+727
+00:30:11,420 --> 00:30:14,860
+波士顿  你在干什么  快走
+Boston, what are you doing? Let's go!
+
+728
+00:30:16,750 --> 00:30:18,030
+好
+Okay.
+
+729
+00:30:20,880 --> 00:30:23,710
+我们不知道这里面有人
+Hi. W-we didn't know anybody was in here.
+
+730
+00:30:23,710 --> 00:30:25,910
+我们进来是想和对方做爱
+W-we came in here to have sex with each other.
+
+731
+00:30:25,910 --> 00:30:29,470
+我们觉得对方特别迷人
+‭We find each other incredibly attractive.
+
+732
+00:30:30,050 --> 00:30:32,080
+可恶
+Oh, son of a...
+
+733
+00:30:39,310 --> 00:30:41,890
+波士顿
+Uh... Boston!
+
+734
+00:30:47,670 --> 00:30:49,090
+帕特森
+Patterson.
+
+735
+00:30:49,170 --> 00:30:52,880
+-里德  塔莎  来支援我  -马上过去
+- Reade, Tasha... help me now. - On our way.
+
+736
+00:30:54,000 --> 00:30:55,300
+瑞奇  把手给我
+Rich, give me your hand.
+
+737
+00:30:55,300 --> 00:30:56,730
+你现在要给我枪吗
+You're giving me a gun right now??
+
+738
+00:30:56,730 --> 00:30:58,570
+我们的友谊水平直线上升了
+We are totally leveling up on our friendship.
+
+739
+00:30:58,570 --> 00:30:59,440
+你这是干什么
+What are you doing?
+
+740
+00:30:59,440 --> 00:31:02,210
+把另一只手给我  我在救你  好了
+Give me your other hand! I'm saving your life. Here. ‭
+
+741
+00:31:02,210 --> 00:31:04,340
+你可不想冲到枪战里
+‭You don't wanna run towards gunfire.
+
+742
+00:31:04,340 --> 00:31:08,440
+枪战杀不了人  人才会杀人
+Gunfire doesn't kill people! People kill people!
+
+743
+00:31:09,630 --> 00:31:11,900
+严格地说  枪战确实能杀人
+I guess, technically, gunfire does kill people.
+
+744
+00:31:19,160 --> 00:31:20,490
+抱歉
+‭Sorry!
+
+745
+00:31:25,670 --> 00:31:26,880
+趴下
+Down!
+
+746
+00:31:32,780 --> 00:31:36,410
+-我是联调局的  放下武器  -躲开
+- Drop it. FBI! Drop the weapon. - Move!
+
+747
+00:31:43,390 --> 00:31:44,380
+戈德
+Gord?
+
+748
+00:31:44,380 --> 00:31:46,590
+撒德  你会不会正巧带了
+Hey, Thad, you wouldn't happen to have
+
+749
+00:31:46,590 --> 00:31:48,620
+领带夹或发夹
+a tie clip or a hairpin on you, would you?
+
+750
+00:31:48,620 --> 00:31:50,470
+和你的男伴闹矛盾了
+Little trouble with your date?
+
+751
+00:31:50,470 --> 00:31:51,880
+不  不是那样
+No, it's nothing like that.
+
+752
+00:31:51,880 --> 00:31:53,630
+是...
+It's, um...
+
+753
+00:31:54,250 --> 00:31:55,780
+我在和联调局合作
+All right, look, I'm with the FBI.
+
+754
+00:31:55,780 --> 00:31:57,290
+马上要出大事了  事态严峻
+There's some heavy-duty stuff going down right now,
+
+755
+00:31:57,290 --> 00:31:59,390
+我得帮忙阻止
+and I need to help stop it.
+
+756
+00:32:00,430 --> 00:32:02,160
+你不是要掏枪对付我了吧
+You're about to pull a gun on me, aren't you?
+
+757
+00:32:02,160 --> 00:32:04,000
+为什么这么说  戈德
+Wha-- what makes you say that, Gord?
+
+758
+00:32:04,000 --> 00:32:06,430
+因为你离开了觉醒仪式
+The fact that you left the Awakening Ceremony.
+
+759
+00:32:06,430 --> 00:32:08,190
+你听到枪声却跑了过来
+You're not fleeing from the sound of gunfire.
+
+760
+00:32:08,190 --> 00:32:11,440
+你外套下面鼓鼓的  就是枪吧
+Also, there's a pistol-shaped bulge in your jacket.
+
+761
+00:32:13,390 --> 00:32:14,040
+老天
+Jeez!
+
+762
+00:32:14,040 --> 00:32:16,050
+你疯了  你可能会打到我
+You crazy? You could have hit me!
+
+763
+00:32:16,390 --> 00:32:18,910
+你该庆幸我需要你活着  戈德
+You're lucky I need someone like you alive, Gord.
+
+764
+00:32:18,910 --> 00:32:21,110
+或者该叫你瑞奇·多特康
+Or should I say Rich.Com?
+
+765
+00:32:22,460 --> 00:32:23,640
+{\an8}塞西尔餐厅
+
+766
+00:32:23,800 --> 00:32:26,070
+就是这家餐厅吗
+Here, is this the restaurant?
+
+767
+00:32:26,320 --> 00:32:27,300
+没错
+Yeah, this is it.
+
+768
+00:32:27,310 --> 00:32:29,570
+我在监视那边的一辆货车
+I was watching for a truck over there and...
+
+769
+00:32:29,580 --> 00:32:30,810
+威勒就坐在窗边
+Weller was sitting right in that window
+
+770
+00:32:30,810 --> 00:32:32,790
+和一个女人一起
+with a-- with a woman.
+
+771
+00:32:33,260 --> 00:32:34,560
+谁
+Who?
+
+772
+00:32:37,420 --> 00:32:40,330
+我不知道
+Agh! I don't know, I...
+
+773
+00:32:40,330 --> 00:32:43,510
+我去和威勒联系一下
+Look, uh, I need to go and check in with Weller.
+
+774
+00:32:43,510 --> 00:32:44,380
+你带他进去吧
+Take him inside.
+
+775
+00:32:44,380 --> 00:32:45,910
+好
+Yeah, okay.
+
+776
+00:32:48,890 --> 00:32:50,240
+罗曼
+Roman...
+
+777
+00:32:53,890 --> 00:32:55,300
+罗曼
+Roman.
+
+778
+00:33:18,960 --> 00:33:19,700
+我杀了她
+I killed her.
+
+779
+00:33:19,700 --> 00:33:20,390
+谁
+Who?
+
+780
+00:33:20,390 --> 00:33:22,030
+没事的  艾玛
+It's okay, Emma.
+
+781
+00:33:24,230 --> 00:33:27,000
+艾玛  威勒的朋友
+Emma. Uh... Weller's friend.
+
+782
+00:33:27,000 --> 00:33:29,890
+-黑发中年女性 -没错
+- Middle-aged, dark hair? - ‭Yeah.
+
+783
+00:33:31,790 --> 00:33:35,670
+威勒说艾玛·肖不到一年前死于车祸
+Weller said Emma Shaw died in a car accident less than a year ago.
+
+784
+00:33:36,360 --> 00:33:38,410
+你杀了泰勒·肖的母亲
+You killed Taylor Shaw's mother.
+
+785
+00:33:38,420 --> 00:33:40,250
+为什么  我为什么杀她
+Why? Why would I do that?
+
+786
+00:33:40,250 --> 00:33:43,070
+因为艾玛会识破我不是她女儿
+Because Emma would have known I wasn't her daughter.
+
+787
+00:33:43,400 --> 00:33:46,030
+谢培德要掩盖我的身份
+Shepherd was protecting my cover story.
+
+788
+00:33:46,030 --> 00:33:47,220
+确保任务顺利进行
+Tying up loose threads.
+
+789
+00:33:47,220 --> 00:33:49,950
+所以就让我杀死无辜的人
+By making me kill an innocent person.
+
+790
+00:33:50,800 --> 00:33:51,720
+我们得告诉纳兹
+We need to tell Nas.
+
+791
+00:33:51,720 --> 00:33:53,580
+不  罗曼  等一下
+No, Roman, wait...
+
+792
+00:33:53,840 --> 00:33:55,730
+不能让威勒从她口中听说这事
+Weller can't find out through her.
+
+793
+00:33:55,730 --> 00:33:57,600
+让我来说
+Okay? Let me tell him.
+
+794
+00:33:58,300 --> 00:34:01,020
+肖一家对他很重要
+The Shaw family was very important to him.
+
+795
+00:34:01,020 --> 00:34:03,190
+如果我说  他会好受些
+He'll take it better coming from me.
+
+796
+00:34:04,700 --> 00:34:06,090
+我们走
+Let's go.
+
+797
+00:34:08,620 --> 00:34:09,540
+所以你的计划就是
+So you're telling me your plan
+
+798
+00:34:09,540 --> 00:34:11,200
+偷一堆放射性玩意
+was to steal a bunch of radioactive crap
+
+799
+00:34:11,200 --> 00:34:14,080
+搞个肮脏的炸弹  在你母校引爆
+and then detonate a dirty bomb at your alma mater?
+
+800
+00:34:14,080 --> 00:34:15,730
+原本应该由我一个同伙来破解
+One of my partners was supposed to unlock this,
+
+801
+00:34:15,730 --> 00:34:18,820
+但他身体不适  所以你快给我动手
+but he's indisposed, so... get to hacking!
+
+802
+00:34:18,820 --> 00:34:21,040
+你这计划行不通
+This is not a good plan, okay??
+
+803
+00:34:21,040 --> 00:34:21,570
+无意冒犯
+I mean, no offense,
+
+804
+00:34:21,580 --> 00:34:23,070
+但别人都会知道是内部人做的
+but everyone's gonna know it was an inside job.
+
+805
+00:34:23,070 --> 00:34:24,770
+事实上  他们会觉得是他
+Actually, they'll figure it was him.
+
+806
+00:34:24,780 --> 00:34:26,990
+跟美国作对的玻利维亚叛徒
+A Bolivian rebel with an axe to grind against the U.S.,
+
+807
+00:34:26,990 --> 00:34:29,830
+试图窃取危险品而身亡
+killed while stealing some pretty scary stuff.
+
+808
+00:34:30,350 --> 00:34:31,810
+玻利维亚
+Bolivia.
+
+809
+00:34:31,810 --> 00:34:33,080
+盛产锂的国家
+A lithium-rich country.
+
+810
+00:34:33,080 --> 00:34:35,850
+政府也快垮台了
+With a government... about to collapse.
+
+811
+00:34:35,850 --> 00:34:37,910
+撒德  别这样  你不是这种人
+Thad, come on. This isn't you.
+
+812
+00:34:37,910 --> 00:34:40,430
+你是跟药品打交道的人  不是战争
+You dick around with pharmaceutical prices, not war!
+
+813
+00:34:40,430 --> 00:34:41,700
+都是生意
+Business is business,
+
+814
+00:34:41,700 --> 00:34:43,970
+而且多亏我收购了莱利汽车公司
+and thanks to my recent acquisition of Riley motors,
+
+815
+00:34:43,970 --> 00:34:45,820
+生意真是越来越好了
+business just got very, very good.
+
+816
+00:34:45,820 --> 00:34:48,090
+-扎克卖给你了  -还有别的股东
+- Zach sold to you? - And a few other members.
+
+817
+00:34:48,100 --> 00:34:49,450
+锂的价格越来越高了
+Lithium was getting too expensive,
+
+818
+00:34:49,450 --> 00:34:50,900
+但我们不必担心
+but we're not gonna have that problem.
+
+819
+00:34:50,910 --> 00:34:52,430
+不  联调局已经盯上你了
+No, but the FBI's already onto you.
+
+820
+00:34:52,440 --> 00:34:53,580
+他们会知道真相的
+They're gonna know the truth.
+
+821
+00:34:53,580 --> 00:34:56,530
+炸弹爆炸后  真相就不重要了
+Once this bomb goes off, the truth isn't gonna matter.
+
+822
+00:34:56,530 --> 00:34:59,260
+明天一早  整个美国陷入惶恐
+Tomorrow morning, when an entire U.S. City is glowing red,
+
+823
+00:34:59,260 --> 00:35:00,660
+谁还在意几个联调局探员
+nobody's gonna care what a couple of Feds
+
+824
+00:35:00,660 --> 00:35:02,110
+还有他们的走狗怎么说
+and their pet rat have to say.
+
+825
+00:35:02,110 --> 00:35:03,760
+快动手
+Now hack!
+
+826
+00:35:04,400 --> 00:35:06,350
+抱歉  佛祖是不会允许我
+I'm sorry, but my Buddhist teachings prohibit me
+
+827
+00:35:06,350 --> 00:35:07,760
+助长暴力行为的
+from contributing to violence.
+
+828
+00:35:07,760 --> 00:35:09,490
+老天爷
+‭Ohh! Oh, my God.
+
+829
+00:35:09,490 --> 00:35:11,090
+你打中了我的脚
+You shot me in the foot!
+
+830
+00:35:11,090 --> 00:35:13,280
+下次  打中的就是上面了
+Next time, I aim higher.
+
+831
+00:35:13,280 --> 00:35:15,550
+好
+Okay.
+
+832
+00:35:21,790 --> 00:35:22,820
+本杰明·奥伦还没醒
+Benjamin Oren's still unconscious.
+
+833
+00:35:22,820 --> 00:35:24,650
+别人都只是干活的  什么都不知道
+The other guy's just a Northlake grunt. Doesn't know much.
+
+834
+00:35:24,650 --> 00:35:26,700
+瑞奇不见了  又跑了
+And Rich went missing. He ran, again.
+
+835
+00:35:26,700 --> 00:35:28,230
+快追踪他
+Start tracking him.
+
+836
+00:35:28,580 --> 00:35:29,800
+我在奥伦身上发现了这个
+I found this on Oren.
+
+837
+00:35:29,800 --> 00:35:31,110
+这是干什么的
+What's it for?
+
+838
+00:35:30,470 --> 00:35:33,560
+{\an8}莱利可替代能源学院
+
+839
+00:35:31,170 --> 00:35:33,500
+不知道  但我知道这些字母
+I don't know, but I recognize the letters.
+
+840
+00:35:33,500 --> 00:35:35,540
+莱利可替代能源学院
+Riley School of Alternative Energy.
+
+841
+00:35:35,540 --> 00:35:38,950
+学校里储备了很多危险物品
+The school has a hazardous materials containment system.
+
+842
+00:35:38,950 --> 00:35:40,080
+就在这个校区内
+Right here on campus.
+
+843
+00:35:40,080 --> 00:35:41,000
+多危险
+How hazardous?
+
+844
+00:35:41,000 --> 00:35:42,160
+放射性的
+Radioactive.
+
+845
+00:35:42,170 --> 00:35:44,030
+我们知道了奥伦的联络对象
+We figured out who Oren was texting with.
+
+846
+00:35:44,040 --> 00:35:45,630
+撒德·门森  他们定位了撒德的手机
+Thad Munson-- they just pinged Thad's phone
+
+847
+00:35:45,630 --> 00:35:47,010
+就在可替代能源学院里
+at the school of alternative energy.
+
+848
+00:35:47,010 --> 00:35:48,820
+他现在就在那  和瑞奇一起
+He's there right now with Rich.
+
+849
+00:35:48,820 --> 00:35:49,610
+我们有了线索
+We got the key--
+
+850
+00:35:49,610 --> 00:35:52,130
+撒德利用瑞奇来引爆核弹原料
+so Thad's using Rich to break out this nuclear material.
+
+851
+00:35:52,130 --> 00:35:53,850
+他们不是要筹备一场袭击
+They're not here to plan an attack.
+
+852
+00:35:53,850 --> 00:35:55,850
+而是就要发动袭击了
+They're here to execute one.
+
+853
+00:35:58,080 --> 00:36:00,520
+里德  塔莎  你们那层有什么发现
+Reade, Tasha, anything on your floors?
+
+854
+00:36:00,520 --> 00:36:02,020
+-还没  -没有
+- Not yet. ‭ - Negative.
+
+855
+00:36:02,020 --> 00:36:05,200
+帕特森  联络当地警方  封锁"迷宫"
+Patterson, get a local PD to help us lock down The Labyrinth
+
+856
+00:36:05,200 --> 00:36:06,900
+等我们搞清还有谁涉案
+until we know who else is involved.
+
+857
+00:36:06,900 --> 00:36:10,080
+叫防化小组来  希望不会用到他们
+Call in HAZMAT and pray to God that we don't need them.
+
+858
+00:36:13,660 --> 00:36:15,230
+不  你太迟了
+No! You're too late!
+
+859
+00:36:15,230 --> 00:36:16,360
+好吧
+Oh-kay...
+
+860
+00:36:16,360 --> 00:36:17,670
+门森  放了他
+Munson, let him go.
+
+861
+00:36:17,670 --> 00:36:18,540
+转身  探员
+Turn around, Fed,
+
+862
+00:36:18,540 --> 00:36:20,700
+不然我给你的佛教朋友开天眼
+ or your Buddhist friend here gets his third eye!
+
+863
+00:36:20,700 --> 00:36:21,820
+天眼其实是印度...
+Third eye is actually a Hindu--
+
+864
+00:36:21,820 --> 00:36:23,570
+-闭嘴  -闭嘴
+- Shut up! - Shut up!
+
+865
+00:36:25,300 --> 00:36:26,790
+抱歉  瑞奇
+I'm sorry, Rich.
+
+866
+00:36:27,110 --> 00:36:28,810
+我不能让他把容器带走
+I can't let him get away with that container.
+
+867
+00:36:28,810 --> 00:36:30,380
+没事  为什么要和我道歉
+That's okay, why are you apologizing to me?
+
+868
+00:36:30,380 --> 00:36:32,240
+我不知道是因为...
+I don't know why-- ‭'Cause...
+
+869
+00:36:32,670 --> 00:36:34,540
+-把枪放下  -好吧
+- Put the gun down. - Okay!
+
+870
+00:36:34,540 --> 00:36:35,780
+退后
+‭Back up.
+
+871
+00:36:37,500 --> 00:36:39,180
+锶已经密封好了
+Strontium's been contained.
+
+872
+00:36:39,190 --> 00:36:40,390
+派辆救护车来
+Send me an ambulance.
+
+873
+00:36:40,390 --> 00:36:42,340
+瑞奇中枪了
+Rich has been shot.
+
+874
+00:36:43,450 --> 00:36:44,600
+两枪
+Twice.
+
+875
+00:36:44,600 --> 00:36:46,280
+你对人质开枪
+You shot the hostage.
+
+876
+00:36:46,550 --> 00:36:47,870
+你对电影《生死时速》的痴迷
+Your obsession with the movie "Speed"
+
+877
+00:36:47,870 --> 00:36:49,880
+真的很不健康啊
+has become very unhealthy.
+
+878
+00:36:52,500 --> 00:36:54,610
+知道吗  波士顿
+You know, Boston,
+
+879
+00:36:54,610 --> 00:36:57,530
+等你去了加利福尼亚  我真的会想你
+I might actually miss you when you go to California.
+
+880
+00:36:59,150 --> 00:37:01,530
+{\an8}风过松林
+艺术家
+波士顿·阿利斯·克莱伯
+2001年
+
+881
+00:36:59,720 --> 00:37:01,090
+等等
+Wait...
+
+882
+00:37:01,940 --> 00:37:03,880
+这是你的作品
+You made this?
+
+883
+00:37:04,340 --> 00:37:05,940
+恍若隔世
+In a different life.
+
+884
+00:37:06,330 --> 00:37:09,300
+真了不起
+Well... it's incredible.
+
+885
+00:37:10,390 --> 00:37:13,830
+这么有才的人怎么会沦为罪犯
+How does someone this talented become a criminal?
+
+886
+00:37:16,460 --> 00:37:18,040
+我跟感觉走了
+I followed my heart.
+
+887
+00:37:21,380 --> 00:37:22,790
+很傻吧
+Stupid, right?
+
+888
+00:37:26,310 --> 00:37:27,820
+我得到完全赦免的可能性有多大
+So what are the chances I get a full pardon
+
+889
+00:37:27,820 --> 00:37:29,720
+既然我现在是国家英雄
+now that I'm a national hero?
+
+890
+00:37:29,720 --> 00:37:32,560
+你知道为我们做的事高度机密吧
+You do realize that your work with us is highly classified?
+
+891
+00:37:32,560 --> 00:37:34,610
+不给个勋章什么的吗
+Well, don't I get a medal of some kind?
+
+892
+00:37:34,610 --> 00:37:35,970
+紫心勋章  银星勋章
+Purple Heart, Silver Star?
+
+893
+00:37:35,970 --> 00:37:37,260
+赎罪本身便是回报
+Redemption's its own reward.
+
+894
+00:37:37,260 --> 00:37:41,240
+愚蠢的精神启迪
+Ah, stupid spiritual enlightenment.
+
+895
+00:37:41,240 --> 00:37:42,850
+老天
+Ow! Jeez.
+
+896
+00:37:42,850 --> 00:37:44,050
+回见
+See ya.
+
+897
+00:37:44,050 --> 00:37:47,640
+要是我说能帮你们解开另一个纹身怎么样
+What if I told you I could help you solve another tattoo?
+
+898
+00:37:49,310 --> 00:37:50,640
+怎么  我每隔一周过来一次
+What? I'm here every other week.
+
+899
+00:37:50,640 --> 00:37:52,600
+以为我不知道你们在忙什么
+You don't think I know what you guys are up to?
+
+900
+00:37:52,600 --> 00:37:54,060
+要我们怎么回报你
+What'll it cost us?
+
+901
+00:37:54,060 --> 00:37:56,450
+我只希望波士顿能被转去
+All I want is for Boston to be transferred
+
+902
+00:37:56,450 --> 00:37:58,570
+安全防范性最低的监狱里
+to a minimum security facility.
+
+903
+00:37:58,570 --> 00:37:59,900
+关白领罪犯的那种
+The white collar kind.
+
+904
+00:37:59,900 --> 00:38:01,580
+有网球场和编织课
+Tennis courts and macramé classes.
+
+905
+00:38:01,580 --> 00:38:04,190
+那样  他才可能尽早
+Then, at the earliest possible chance,
+
+906
+00:38:04,190 --> 00:38:05,570
+改过自新
+he gets out on good behavior.
+
+907
+00:38:05,570 --> 00:38:07,880
+哪门子宗教教你的
+Which religion is telling you to do this?
+
+908
+00:38:07,880 --> 00:38:09,820
+其实我在考虑建立自己的宗教
+Actually, I was thinking of starting one of my own.
+
+909
+00:38:09,820 --> 00:38:11,420
+太恐怖了
+That's terrifying.
+
+910
+00:38:11,420 --> 00:38:12,580
+你真大胆
+How dare you.
+
+911
+00:38:12,580 --> 00:38:13,850
+那你知道些什么
+So what have you got?
+
+912
+00:38:13,850 --> 00:38:16,540
+上次我来见你们俩的时候
+I may have done a little snooping around the Jane Doe files
+
+913
+00:38:16,540 --> 00:38:18,280
+对无名氏的档案做了些小调查
+last time I paid you two a visit.
+
+914
+00:38:18,280 --> 00:38:19,930
+是啊  可以想象
+Of course you did.
+
+915
+00:38:20,830 --> 00:38:22,330
+认识这个吗
+Recognize this?
+
+916
+00:38:23,860 --> 00:38:25,680
+我确定自己认得
+Because I sure do.
+
+917
+00:38:30,630 --> 00:38:32,280
+我看了孙博士的档案
+I've been reading Dr. Sun's file.
+
+918
+00:38:32,280 --> 00:38:33,110
+听着
+Look...
+
+919
+00:38:33,110 --> 00:38:35,100
+如果你要我因为博登的事去做治疗
+if you want me to open up to a therapist post-Borden,
+
+920
+00:38:35,100 --> 00:38:37,570
+我得好好研究一下治疗师
+I'm damn well gonna do my homework on them.
+
+921
+00:38:38,220 --> 00:38:40,200
+我想知道她为什么离开"零号分部"
+I wanted to know why she left Zero Division.
+
+922
+00:38:40,200 --> 00:38:42,410
+档案里没有写清来龙去脉
+Look, that file doesn't tell the whole story.
+
+923
+00:38:42,410 --> 00:38:44,250
+档案里写沙暴组织
+It says that she was there...
+
+924
+00:38:44,250 --> 00:38:46,110
+渗入你们组织时  她还在
+when Sandstorm infiltrated your group.
+
+925
+00:38:46,120 --> 00:38:48,910
+她还提出过怀疑某位队员
+And that she voiced concerns about the team member
+
+926
+00:38:48,910 --> 00:38:51,710
+之后果然证明这位队员是内鬼
+that later turned out to be compromised.
+
+927
+00:38:52,470 --> 00:38:54,270
+但当时没人信她
+But no one listened to her.
+
+928
+00:38:55,140 --> 00:38:56,620
+我没有信她
+I didn't listen.
+
+929
+00:38:56,620 --> 00:38:58,810
+是因为你们和内鬼太亲密吗
+Because you were too close to the mole?
+
+930
+00:39:00,550 --> 00:39:02,420
+你是怎么放下的
+How did you get over it?
+
+931
+00:39:04,160 --> 00:39:08,520
+这种被人背叛的感觉
+That feeling of... being betrayed.
+
+932
+00:39:09,050 --> 00:39:10,710
+我没有放下
+I-- I didn't.
+
+933
+00:39:11,850 --> 00:39:15,190
+我为此痛苦了很久
+And... and it cost me dearly.
+
+934
+00:39:15,190 --> 00:39:17,750
+可是  帕特森  你仍有机会
+But, look, Patterson, you still have a chance.
+
+935
+00:39:17,750 --> 00:39:19,750
+找孙博士聊聊
+Talk to Dr. Sun.
+
+936
+00:39:20,300 --> 00:39:22,220
+把博登忘了吧
+Put Borden behind you.
+
+937
+00:39:35,670 --> 00:39:36,970
+妮基
+Niki?
+
+938
+00:39:39,100 --> 00:39:41,480
+{\an8}要离开一阵子  回来后再见
+妮基
+
+939
+00:40:07,790 --> 00:40:09,570
+你觉得帕特森知道瑞奇
+You think Patterson will be pleased or pissed
+
+940
+00:40:09,570 --> 00:40:12,190
+破解了一个纹身  会开心还是生气
+when she finds out Rich cracked a tattoo?
+
+941
+00:40:12,190 --> 00:40:13,090
+生气
+Pissed.
+
+942
+00:40:13,100 --> 00:40:14,450
+绝对会生气
+Definitely pissed.
+
+943
+00:40:14,450 --> 00:40:16,350
+今天顺利吗
+Yeah. How'd it go today?
+
+944
+00:40:16,350 --> 00:40:19,880
+-罗曼有没有记起什么来  -没有
+- Roman, did he... remember anything? - No.
+
+945
+00:40:19,880 --> 00:40:21,310
+试试总没错
+It was worth a shot.
+
+946
+00:40:21,310 --> 00:40:22,360
+我们会找到她
+We'll find her.
+
+947
+00:40:22,360 --> 00:40:23,760
+谢培德
+Shepherd.
+
+948
+00:40:24,540 --> 00:40:25,950
+是啊
+Yeah.
+
+949
+00:40:25,980 --> 00:40:27,340
+今天和瑞奇
+Wasn't so bad,
+
+950
+00:40:27,340 --> 00:40:30,060
+一起出外勤  结果还不错
+out in the field today, with Rich.
+
+951
+00:40:30,390 --> 00:40:33,140
+也许他找到了自己的灵魂
+Maybe he is finding his... soul.
+
+952
+00:40:33,140 --> 00:40:34,660
+另外  你还不得不枪击了他
+Well, plus, you got to shoot him.
+
+953
+00:40:34,660 --> 00:40:36,300
+真希望你能亲眼见到
+I wish you could have seen that.
+
+954
+00:40:36,300 --> 00:40:37,690
+我也想
+‭Me, too.
+
+955
+00:40:39,010 --> 00:40:40,020
+我得走了
+I gotta go.
+
+956
+00:40:40,020 --> 00:40:41,210
+火热约会
+A hot date?
+
+957
+00:40:41,210 --> 00:40:43,680
+不  其实
+No, I-- Well, I mean...
+
+958
+00:40:43,920 --> 00:40:48,050
+是啊  不过也不对
+Yeah, but it's not, you know, it's not-- it's...
+
+959
+00:40:48,050 --> 00:40:49,180
+只是普通约会
+It's a date.
+
+960
+00:40:49,180 --> 00:40:50,980
+那么
+‭So...
+
+961
+00:40:51,260 --> 00:40:53,030
+明天见喽
+I'll see you tomorrow.
+
+962
+00:40:53,340 --> 00:40:54,800
+明天见
+See you tomorrow.
+
+963
+00:40:57,850 --> 00:40:58,890
+{\an8}国家安全局
+
+964
+00:40:59,030 --> 00:41:01,270
+{\an8}个人资料
+埃伦·布里格斯
+
+965
+00:41:06,370 --> 00:41:08,200
+关于杜鲁门计划查到什么吗
+Tell me you have something on Truman Protocol.
+
+966
+00:41:08,200 --> 00:41:10,020
+好像是曾在40年代
+It seems to be a series of meetings
+
+967
+00:41:10,020 --> 00:41:12,040
+召开的一系列会议
+that took place in the '40s...
+
+968
+00:41:12,040 --> 00:41:14,760
+计划如何在广岛上空投放原子弹
+in the buildup to the dropping of the A-bomb on Hiroshima.
+
+969
+00:41:14,760 --> 00:41:16,650
+这和现在的沙暴组织有什么关系呢
+So what has that got to do with Sandstorm now?
+
+970
+00:41:16,650 --> 00:41:18,110
+不知道
+I don't know.
+
+971
+00:41:18,450 --> 00:41:20,320
+我一辈子都在从事
+You know, I've been in the business of secrets
+
+972
+00:41:20,320 --> 00:41:22,480
+秘密工作
+for my entire life, and..
+
+973
+00:41:22,480 --> 00:41:24,360
+从未见过什么事埋藏得这么深
+I've never encountered anything this buried.
+
+974
+00:41:24,360 --> 00:41:27,690
+你是说  杜鲁门计划的档案都被篡改了
+You're telling me that every Truman Protocol file has been redacted?
+
+975
+00:41:27,690 --> 00:41:28,840
+不
+No...
+
+976
+00:41:28,840 --> 00:41:31,410
+我是说  根本就没有档案
+I'm telling you that there are no files.
+
+977
+00:41:31,410 --> 00:41:33,620
+不管杜鲁门协议是什么
+That whatever the Truman protocol was,
+
+978
+00:41:33,620 --> 00:41:37,190
+有人大费周章地把痕迹全抹去了
+somebody has worked very hard to have it completely erased.
+
+979
+00:41:44,870 --> 00:41:46,520
+联调局今天盯上我了
+The FBI was all over me today.
+
+980
+00:41:46,520 --> 00:41:49,010
+他们只是在追查门森和他手下
+They were just after Munson and his crew.
+
+981
+00:41:49,010 --> 00:41:52,320
+放松  他已经被处理掉了
+Relax. He's taken care of.
+
+982
+00:41:52,320 --> 00:41:54,500
+提前通知一下比较好
+Some advance notice would be nice.
+
+983
+00:41:54,780 --> 00:41:56,830
+谢培德不太喜欢通知
+Shepherd's not big on notice.
+
+984
+00:41:56,950 --> 00:42:00,150
+你确定联调局完全不知道我们的计划吗
+You sure the FBI knows nothing about our arrangement?
+
+985
+00:42:00,230 --> 00:42:02,590
+当然  除非你说了什么
+Well, not unless you said something.
+
+986
+00:42:02,950 --> 00:42:04,790
+我死也不会告诉任何人
+I'd die before I told anyone.
+
+987
+00:42:04,790 --> 00:42:06,280
+是的
+Yes...
+
+988
+00:42:06,400 --> 00:42:09,050
+如果说了  也是死路一条
+or, failing that, afterwards.
+
+989
+00:42:12,750 --> 00:42:15,120
+笑一个  莱利先生
+Smile, Mr. Riley.
+
+990
+00:42:15,850 --> 00:42:18,390
+没有你  我们进行不了第二阶段
+We couldn't do Phase Two without you.
+

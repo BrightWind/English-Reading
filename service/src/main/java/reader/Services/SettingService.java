@@ -18,8 +18,8 @@ public class SettingService {
         List<StrangeWordLevel> settings = strangeWordLevelDao.Get();
         if (settings == null || settings.size() == 0) {
             strangeWordLevel = new StrangeWordLevel();
-            strangeWordLevel.LowLevel = 3000;
-            strangeWordLevel.HighLevel = 4000;
+            strangeWordLevel.LowLevel = 2000;
+            strangeWordLevel.HighLevel = 2500;
             strangeWordLevelDao.Add(strangeWordLevel);
         }
         else

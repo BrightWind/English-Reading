@@ -1,0 +1,3784 @@
+﻿20
+00:00:36,120 --> 00:00:37,540
+Are you seeing this? There's a boot logger.
+
+21
+00:00:37,540 --> 00:00:38,790
+They're gonna know we were here.
+
+22
+00:00:38,790 --> 00:00:40,740
+That's why I'm changing the grades on the backup server.
+
+25
+00:00:40,750 --> 00:00:41,560
+And that helps us how?
+
+26
+00:00:41,570 --> 00:00:42,810
+Once I zero out the local drives,
+
+28
+00:00:42,810 --> 00:00:44,490
+they'll have no choice but to restore them
+
+30
+00:00:44,490 --> 00:00:45,520
+from the backups.
+
+31
+00:00:46,300 --> 00:00:47,030
+New grades in place.
+
+32
+00:00:47,030 --> 00:00:49,030
+No sign we were here. You're welcome.
+
+33
+00:00:49,350 --> 00:00:50,150
+The cops are here!
+
+34
+00:00:50,150 --> 00:00:52,330
+Like, not the campus cops, the real cops!
+
+35
+00:00:52,460 --> 00:00:54,720
+Oh, God... they've entered the building.
+
+36
+00:00:54,910 --> 00:00:57,500
+We have to go. Now!
+
+37
+00:00:57,510 --> 00:00:59,600
+- Just give me a minute. - We don't have one.
+
+38
+00:01:00,520 --> 00:01:02,030
+Let's go, guys, come on.
+
+39
+00:01:09,550 --> 00:01:10,850
+I did not enjoy that!
+
+40
+00:01:10,860 --> 00:01:12,850
+The cops saw us. What if they can I.D. us, man?
+
+41
+00:01:12,850 --> 00:01:14,050
+This is so, so bad.
+
+42
+00:01:14,060 --> 00:01:15,950
+Actually, this is very, very good.
+
+43
+00:01:15,950 --> 00:01:17,770
+See, now we know the true police response time,
+
+44
+00:01:17,770 --> 00:01:20,070
+so if we account for that here
+
+45
+00:01:20,070 --> 00:01:23,830
+and adjust the other variables accordingly, booyah.
+
+46
+00:01:23,830 --> 00:01:25,920
+- Next time, we'll-- - Next time, we'll study!
+
+47
+00:01:26,750 --> 00:01:27,700
+Oh, God.
+
+48
+00:01:31,950 --> 00:01:34,830
+Well, you did it. Officers, you caught us.
+
+49
+00:01:34,840 --> 00:01:38,350
+A bunch of dumb college kids just trespassing on campus
+
+50
+00:01:38,350 --> 00:01:40,350
+as dumb college kids are wont to do.
+
+51
+00:01:40,550 --> 00:01:42,680
+Now, you could take us down to the station, I get that.
+
+52
+00:01:42,680 --> 00:01:45,390
+Fill out all that boring paperwork, but for what?
+
+53
+00:01:45,390 --> 00:01:47,950
+I mean, it's a silly misdemeanor.
+
+54
+00:01:47,950 --> 00:01:50,780
+So why don't we just chalk this up we just being out here...
+
+56
+00:02:22,670 --> 00:02:23,860
+You look tired.
+
+57
+00:02:23,860 --> 00:02:25,310
+You need a pick-me-up?
+
+58
+00:02:26,860 --> 00:02:28,990
+Beats the hell out of espresso.
+
+59
+00:02:31,200 --> 00:02:33,840
+It was fun pretending to be somebody else for the weekend,
+
+60
+00:02:33,850 --> 00:02:37,230
+but I'm... on the clock now.
+
+62
+00:02:37,880 --> 00:02:40,850
+Dr. Jekyll and Agent Reade.
+
+63
+00:02:49,400 --> 00:02:51,000
+Nikki, I gotta get ready.
+
+64
+00:02:51,030 --> 00:02:52,550
+You feel ready to me.
+
+65
+00:02:56,760 --> 00:02:59,260
+Shepherd looked me right in the eye.
+
+66
+00:03:01,060 --> 00:03:02,180
+Just before...
+
+67
+00:03:04,640 --> 00:03:06,190
+There was nothing you could do.
+
+68
+00:03:06,240 --> 00:03:07,580
+That's the problem!
+
+69
+00:03:07,690 --> 00:03:10,200
+I mean, Shepherd goes where she wants.
+
+70
+00:03:10,220 --> 00:03:11,520
+Does what she wants.
+
+71
+00:03:11,520 --> 00:03:13,260
+Kills who she wants!
+
+72
+00:03:13,760 --> 00:03:15,060
+There's nothing that we can ever do.
+
+73
+00:03:15,070 --> 00:03:16,320
+Well, not entirely.
+
+74
+00:03:16,330 --> 00:03:17,930
+She didn't count on us finding Clark.
+
+75
+00:03:17,930 --> 00:03:19,900
+She killed him because he knew something.
+
+76
+00:03:20,800 --> 00:03:23,450
+Clark was lucid for a second.
+
+77
+00:03:23,870 --> 00:03:26,040
+He mentioned something about "The Truman Protocol."
+
+78
+00:03:26,040 --> 00:03:27,980
+Does that mean anything to you?
+
+79
+00:03:28,170 --> 00:03:30,550
+No... but, look, I'll look into it.
+
+80
+00:03:31,320 --> 00:03:32,870
+Uh, in the meantime...
+
+81
+00:03:33,950 --> 00:03:35,480
+Property records.
+
+82
+00:03:35,480 --> 00:03:37,390
+For Ellen Briggs.
+
+84
+00:03:37,540 --> 00:03:39,090
+This is everywhere that Shepherd lived
+
+85
+00:03:39,090 --> 00:03:40,130
+before she went off the grid?
+
+86
+00:03:40,130 --> 00:03:42,530
+Meaning Roman and I might have lived there, too.
+
+87
+00:03:42,530 --> 00:03:45,240
+We need to send you and Roman to every one of these addresses.
+
+88
+00:03:45,550 --> 00:03:48,510
+See if any of them trigger anything that leads us to Shepherd.
+
+89
+00:03:48,640 --> 00:03:49,980
+Hey, sorry to interrupt.
+
+90
+00:03:49,990 --> 00:03:51,390
+There's something you need to see.
+
+91
+00:03:51,610 --> 00:03:53,710
+What are you doing back here already?
+
+92
+00:03:56,300 --> 00:03:58,240
+I'm okay... I saw a doctor,
+
+93
+00:03:58,240 --> 00:04:00,280
+and she said there's nothing physically wrong with me.
+
+94
+00:04:00,280 --> 00:04:02,520
+All the more reason to get checked out psychologically.
+
+95
+00:04:02,520 --> 00:04:04,800
+An okay person doesn't collapse at work.
+
+96
+00:04:04,800 --> 00:04:07,540
+I had to come in today. For a tattoo.
+
+97
+00:04:07,540 --> 00:04:08,550
+You solved a new one?
+
+98
+00:04:08,550 --> 00:04:11,360
+Actually, this one solved itself.
+
+99
+00:04:13,010 --> 00:04:15,870
+By design, this tattoo had to be solved today.
+
+100
+00:04:15,870 --> 00:04:16,970
+How is that possible?
+
+101
+00:04:16,970 --> 00:04:19,290
+There's an equation hidden in the tattoo.
+
+102
+00:04:19,300 --> 00:04:21,880
+Its variables correspond to real-world economic values--
+
+103
+00:04:21,880 --> 00:04:23,980
+stock prices, commodities, futures.
+
+104
+00:04:23,980 --> 00:04:25,940
+This morning, for the first time,
+
+105
+00:04:25,940 --> 00:04:27,250
+the equation balanced out.
+
+106
+00:04:27,250 --> 00:04:28,670
+So something is about to go down.
+
+107
+00:04:28,670 --> 00:04:29,500
+But what?
+
+108
+00:04:29,510 --> 00:04:32,360
+I'm not sure yet, but I'm pretty sure it involves lithium.
+
+110
+00:04:32,370 --> 00:04:33,690
+In order for this equation to work,
+
+112
+00:04:33,690 --> 00:04:35,980
+its market price had to pass an all-time high.
+
+113
+00:04:35,990 --> 00:04:37,550
+What's so special about lithium?
+
+114
+00:04:37,550 --> 00:04:40,390
+It's the main component in all modern high-capacity batteries.
+
+115
+00:04:40,390 --> 00:04:42,750
+Everything from smart phones to electric cars.
+
+116
+00:04:42,750 --> 00:04:44,520
+Lithium powers the things that power everything.
+
+117
+00:04:44,520 --> 00:04:46,320
+It's quickly becoming the new oil.
+
+118
+00:04:46,320 --> 00:04:48,630
+But what about the tattoo itself?
+
+119
+00:04:48,630 --> 00:04:50,360
+It's the seal for a secret society
+
+120
+00:04:50,360 --> 00:04:53,090
+at Jameson College called Daedalus.
+
+121
+00:04:53,090 --> 00:04:54,730
+The smart guy from Greek mythology.
+
+122
+00:04:54,730 --> 00:04:56,800
+Made Icarus's wings, right?
+
+123
+00:04:58,500 --> 00:05:00,490
+Stop looking at me like that when I know things.
+
+124
+00:05:00,490 --> 00:05:02,580
+Pretentious college kids and lithium.
+
+125
+00:05:02,590 --> 00:05:03,660
+That does not add up.
+
+126
+00:05:03,660 --> 00:05:06,150
+Maybe they're mixing it with Jaeger and doing shots?
+
+127
+00:05:06,870 --> 00:05:09,760
+All right, how secret is this secret society?
+
+128
+00:05:09,760 --> 00:05:13,180
+Very-- members have a strict code of silence,
+
+129
+00:05:13,180 --> 00:05:17,160
+but a partial list of alumni was leaked a few years back.
+
+130
+00:05:17,160 --> 00:05:19,020
+Wow, that's some pretty heavy hitters here.
+
+131
+00:05:19,020 --> 00:05:21,830
+Fortune 500 CEOs, a couple of senators.
+
+132
+00:05:21,830 --> 00:05:24,320
+Even a former chairman of the Federal Reserve.
+
+133
+00:05:24,330 --> 00:05:25,290
+No...
+
+134
+00:05:26,600 --> 00:05:27,680
+And Gord Enver.
+
+135
+00:05:27,680 --> 00:05:29,300
+Yeah, I thought you might like that one.
+
+136
+00:05:29,300 --> 00:05:30,840
+Why does that sound familiar to me?
+
+137
+00:05:30,840 --> 00:05:33,100
+Because it's Rich.Com's real name.
+
+138
+00:05:33,100 --> 00:05:35,040
+Please tell me we don't need to bring him in.
+
+139
+00:05:35,410 --> 00:05:37,290
+We need a member who will talk.
+
+140
+00:05:37,630 --> 00:05:40,950
+And no one likes talking more than Rich.
+
+141
+00:05:45,490 --> 00:05:46,630
+What the hell?
+
+142
+00:05:47,170 --> 00:05:49,090
+Looks like someone found religion.
+
+143
+00:05:49,220 --> 00:05:51,620
+Looks like someone found all the religions.
+
+144
+00:05:51,620 --> 00:05:54,600
+Children, let us pray.
+
+145
+00:05:55,700 --> 00:05:57,470
+You've got to be kidding me.
+
+146
+00:06:09,820 --> 00:06:11,400
+Bless this mess.
+
+147
+00:06:11,640 --> 00:06:12,640
+You done?
+
+148
+00:06:13,140 --> 00:06:14,740
+We need to ask you for a little help.
+
+149
+00:06:14,740 --> 00:06:16,040
+Say no more.
+
+150
+00:06:17,380 --> 00:06:18,490
+With a case.
+
+151
+00:06:18,580 --> 00:06:20,280
+I'd love to help you, but, uh,
+
+152
+00:06:20,290 --> 00:06:23,200
+I'm actually pretty busy trying to investigate the spiritual plane
+
+153
+00:06:23,210 --> 00:06:25,660
+and reclaim my tattered soul from eternal damnation.
+
+154
+00:06:25,660 --> 00:06:27,630
+We have some questions about Daedalus.
+
+155
+00:06:29,170 --> 00:06:30,670
+True answers come from within, Jane.
+
+156
+00:06:30,680 --> 00:06:31,950
+Cooperate...
+
+157
+00:06:31,950 --> 00:06:34,500
+and we can make your incarceration far more comfortable.
+
+158
+00:06:34,500 --> 00:06:37,070
+What can you offer the man who wants for nothing?
+
+159
+00:06:37,500 --> 00:06:39,270
+The rest of your time in prison
+
+160
+00:06:39,270 --> 00:06:42,270
+becoming a living hell if you don't cooperate.
+
+161
+00:06:42,270 --> 00:06:43,560
+Every home is a prison.
+
+162
+00:06:43,560 --> 00:06:44,970
+Every prison a home.
+
+163
+00:06:44,970 --> 00:06:47,940
+I have no home, ergo, I have no prison.
+
+164
+00:06:47,950 --> 00:06:49,880
+So your religion is Fortune Cookie.
+
+165
+00:06:49,880 --> 00:06:53,200
+It's easier to hide behind simple jokes-- I get it.
+
+166
+00:06:54,040 --> 00:06:55,720
+Just tell us what this is.
+
+167
+00:06:57,360 --> 00:06:58,540
+How'd you get this?
+
+168
+00:07:01,160 --> 00:07:03,500
+What is the formula doing on your body?
+
+169
+00:07:03,500 --> 00:07:05,830
+What do you mean? What's "The formula"?
+
+170
+00:07:08,230 --> 00:07:11,040
+Okay, off the record, it's an old Daedalus tradition.
+
+171
+00:07:11,040 --> 00:07:12,960
+It's a risk-reward algorithm
+
+172
+00:07:12,960 --> 00:07:14,770
+we use to determine which risky activity
+
+173
+00:07:14,770 --> 00:07:16,840
+is actually worth the risk.
+
+174
+00:07:16,850 --> 00:07:19,270
+Cheating on tests, shoplifting...
+
+175
+00:07:19,300 --> 00:07:21,250
+unprotected sex-- you know, the fun stuff.
+
+176
+00:07:21,250 --> 00:07:22,990
+But some alumni have actually taken
+
+177
+00:07:22,990 --> 00:07:24,900
+to using it in their post-college lives
+
+178
+00:07:24,900 --> 00:07:27,530
+to justify some pretty shady business dealings.
+
+179
+00:07:27,530 --> 00:07:29,780
+Like becoming a dark web kingpin.
+
+180
+00:07:30,060 --> 00:07:31,270
+Let he who is without sin...
+
+181
+00:07:31,270 --> 00:07:33,270
+Please focus, Rich.
+
+182
+00:07:34,850 --> 00:07:36,780
+This version of the formula...
+
+183
+00:07:37,320 --> 00:07:38,370
+what's it for?
+
+184
+00:07:40,840 --> 00:07:42,110
+Oh, Gott im Himmel.
+
+185
+00:07:42,510 --> 00:07:44,530
+This is bad. This is very bad.
+
+186
+00:07:44,530 --> 00:07:46,190
+What's bad, Rich?
+
+187
+00:07:46,210 --> 00:07:48,240
+Koran Surah 5:101.
+
+189
+00:07:48,240 --> 00:07:49,650
+"Do not ask about things which,
+
+190
+00:07:49,650 --> 00:07:51,680
+if they are shown you, will distress you."
+
+191
+00:07:51,680 --> 00:07:53,300
+I'm already distressed!
+
+192
+00:07:53,430 --> 00:07:54,460
+What does it mean?
+
+193
+00:07:57,090 --> 00:07:58,750
+Matthew 24:7.
+
+194
+00:07:59,050 --> 00:08:00,950
+And nation will rise against nation,
+
+195
+00:08:00,950 --> 00:08:02,820
+kingdom against kingdom.
+
+196
+00:08:03,410 --> 00:08:06,220
+This permutation of the formula determines the optimal time
+
+197
+00:08:06,220 --> 00:08:07,760
+to start an armed conflict.
+
+198
+00:08:07,770 --> 00:08:09,330
+And, according to these numbers,
+
+199
+00:08:09,330 --> 00:08:11,310
+that time is today.
+
+200
+00:08:12,210 --> 00:08:13,650
+What are you saying, Rich?
+
+201
+00:08:14,250 --> 00:08:16,490
+Call your family and tell them you love them.
+
+202
+00:08:18,020 --> 00:08:20,590
+Because this is a formula to start a war.
+
+205
+00:08:35,600 --> 00:08:36,840
+Basically, Rich is right.
+
+206
+00:08:36,840 --> 00:08:38,720
+There's nothing basic about it-- I'm right.
+
+207
+00:08:39,050 --> 00:08:40,440
+The formula's been tweaked to determine at
+
+208
+00:08:40,440 --> 00:08:42,620
+what point lithium becomes so expensive
+
+209
+00:08:42,620 --> 00:08:45,400
+that it's more cost effective to just, you know,
+
+210
+00:08:45,400 --> 00:08:46,940
+invade another country and take theirs.
+
+211
+00:08:46,940 --> 00:08:47,700
+Which country?
+
+212
+00:08:47,700 --> 00:08:49,520
+Hard to say, based on the data set.
+
+213
+00:08:49,520 --> 00:08:51,540
+All major conflicts begin with a catalyst,
+
+214
+00:08:51,550 --> 00:08:53,510
+a casus belli, if you will.
+
+215
+00:08:53,510 --> 00:08:55,260
+Anyone can start a war if they find the right spark.
+
+216
+00:08:55,260 --> 00:08:56,680
+And blame it on the right country.
+
+217
+00:08:56,680 --> 00:08:58,390
+See? She gets it. All you need to do
+
+218
+00:08:58,390 --> 00:09:00,210
+is force the government's hand with a large enough attack.
+
+219
+00:09:00,210 --> 00:09:02,830
+So what's the attack, and which country's getting framed for it?
+
+220
+00:09:02,830 --> 00:09:05,720
+And which members of Daedalus are involved in the conspiracy?
+
+221
+00:09:05,720 --> 00:09:07,530
+How should I know? I belong to a...
+
+222
+00:09:07,530 --> 00:09:08,690
+very different club now.
+
+223
+00:09:08,690 --> 00:09:10,920
+Okay, so you're gonna pontificate?
+
+224
+00:09:10,920 --> 00:09:14,360
+Start waxing poetic on who else we should look at in Daedalus.
+
+225
+00:09:17,380 --> 00:09:18,680
+Zach Riley.
+
+226
+00:09:18,680 --> 00:09:19,910
+He's gotta be involved.
+
+227
+00:09:19,910 --> 00:09:21,060
+You know Zach Riley?
+
+228
+00:09:21,070 --> 00:09:23,640
+Know him? He got me into Daedalus.
+
+229
+00:09:23,640 --> 00:09:25,560
+The guy who wants to colonize the moon?
+
+230
+00:09:25,560 --> 00:09:27,600
+Oh, he's more than just the moon guy.
+
+231
+00:09:27,600 --> 00:09:29,810
+His software, RileyShare, was practically the birth
+
+232
+00:09:29,810 --> 00:09:31,640
+of digital music distribution.
+
+233
+00:09:31,640 --> 00:09:33,100
+Sold it for billions.
+
+234
+00:09:33,100 --> 00:09:34,740
+Now he's a major player in everything from
+
+235
+00:09:34,740 --> 00:09:37,100
+artificial intelligence to electric cars.
+
+236
+00:09:37,100 --> 00:09:38,650
+He's also a major ass-hat, okay?
+
+237
+00:09:38,650 --> 00:09:40,630
+It's like me, but without the wit
+
+238
+00:09:40,640 --> 00:09:42,160
+or the looks or the char-- You know what?
+
+239
+00:09:42,160 --> 00:09:43,780
+It's not a good comparison, okay?
+
+240
+00:09:43,780 --> 00:09:45,310
+- Imagine-- - Oh, my God.
+
+241
+00:09:45,310 --> 00:09:47,300
+Electric cars are powered by lithium.
+
+242
+00:09:48,150 --> 00:09:50,460
+There... Riley Motors
+
+243
+00:09:50,460 --> 00:09:53,300
+is one of the biggest buyers of lithium in the hemisphere.
+
+244
+00:09:53,300 --> 00:09:54,950
+So if the U.S. invade the right country,
+
+245
+00:09:54,950 --> 00:09:56,680
+they could save him billions.
+
+246
+00:09:57,220 --> 00:09:59,710
+I want to know where Zach Riley is, right now.
+
+247
+00:10:00,870 --> 00:10:03,200
+Anyone else in Daedalus that we should know about?
+
+248
+00:10:03,660 --> 00:10:06,960
+Well, there's probably one guy I should mention.
+
+249
+00:10:10,250 --> 00:10:13,820
+No. N-N-N-N-No. You didn't tell me he would be here.
+
+250
+00:10:14,430 --> 00:10:16,820
+If this is another one of your schemes to get me back, I swear--
+
+251
+00:10:16,820 --> 00:10:18,660
+I had nothing to do with this.
+
+252
+00:10:18,730 --> 00:10:20,120
+You like nice, by the way.
+
+253
+00:10:20,400 --> 00:10:21,990
+Don't talk to me, don't look at me--
+
+254
+00:10:22,000 --> 00:10:23,920
+Don't look at you? Come on, look at me!
+
+255
+00:10:23,920 --> 00:10:25,670
+I'm a changed man because of you.
+
+256
+00:10:25,670 --> 00:10:27,530
+You made me wanna be a better human.
+
+257
+00:10:27,570 --> 00:10:30,230
+Okay, so-- uck! You again?
+
+258
+00:10:30,230 --> 00:10:31,780
+Lovely to see you as well.
+
+259
+00:10:33,400 --> 00:10:35,810
+All right, guess where Zach Riley is right now.
+
+260
+00:10:35,810 --> 00:10:37,140
+Back at Jameson College,
+
+261
+00:10:37,140 --> 00:10:39,550
+an honoree for the winter carnival.
+
+262
+00:10:39,550 --> 00:10:41,290
+That makes sense-- Daedalus will traditionally
+
+263
+00:10:41,290 --> 00:10:44,020
+hide their meetings under the cover of larger alumni events.
+
+264
+00:10:44,020 --> 00:10:47,090
+It's, uh, designed to help safeguard their secrecy.
+
+265
+00:10:47,090 --> 00:10:48,620
+At some point during the carnival,
+
+266
+00:10:48,620 --> 00:10:50,860
+they'll have a members-only cocktail party at The Labyrinth.
+
+267
+00:10:50,860 --> 00:10:51,780
+The what?
+
+268
+00:10:52,400 --> 00:10:54,240
+Daedalus's clubhouse on campus.
+
+269
+00:10:54,240 --> 00:10:55,580
+Well, we need to get in that building.
+
+270
+00:10:55,580 --> 00:10:57,210
+Find out who Riley's conspiring with
+
+271
+00:10:57,210 --> 00:10:58,540
+and when the attack's gonna happen.
+
+272
+00:10:58,540 --> 00:11:01,190
+Good luck-- groups a lot scarier than the F.B.I.
+
+273
+00:11:01,190 --> 00:11:03,150
+have tried that and failed miserably.
+
+274
+00:11:03,150 --> 00:11:04,160
+Why go in as F.B.I.
+
+275
+00:11:04,160 --> 00:11:05,950
+When we got two card-carrying members right here?
+
+276
+00:11:05,950 --> 00:11:08,120
+- That's a good point. - Me go with Rich?
+
+277
+00:11:08,250 --> 00:11:09,610
+Uh, no, just give me the death penalty.
+
+278
+00:11:09,610 --> 00:11:11,480
+Oh, my God, how many times do I have to say I'm sorry?
+
+279
+00:11:11,480 --> 00:11:12,990
+Once! You have to say it one time!
+
+280
+00:11:13,000 --> 00:11:14,370
+Enough, you two!
+
+281
+00:11:14,370 --> 00:11:17,240
+Can members take a date to this party?
+
+282
+00:11:17,310 --> 00:11:19,470
+I mean, it's been a while since I've been available to attend,
+
+283
+00:11:19,470 --> 00:11:21,410
+- but, uh, yeah, they sure used to. - Great.
+
+284
+00:11:21,410 --> 00:11:23,270
+You'll go separately with a plus one.
+
+285
+00:11:23,270 --> 00:11:25,600
+That way, have twice the eyes and ears in there.
+
+286
+00:11:25,600 --> 00:11:28,480
+I'm sorry, but... why would I help any of you?
+
+287
+00:11:28,690 --> 00:11:30,680
+'Cause I can transfer you to Victorville.
+
+288
+00:11:31,020 --> 00:11:33,260
+That's 85 miles from your parents in L.A.
+
+289
+00:11:33,260 --> 00:11:35,830
+I know it's been a little hard for them to travel,
+
+290
+00:11:35,880 --> 00:11:38,680
+so this way, they'll be able to visit you more often.
+
+291
+00:11:39,830 --> 00:11:42,020
+As for you, Rich--
+
+292
+00:11:42,020 --> 00:11:44,190
+The Talmud states that whoever saves a life,
+
+293
+00:11:44,190 --> 00:11:47,050
+it is considered as if they saved an entire world.
+
+294
+00:11:47,050 --> 00:11:49,240
+Stopping this war will save thousands of lives,
+
+295
+00:11:49,240 --> 00:11:51,230
+and therefore, thousands of worlds.
+
+296
+00:11:51,230 --> 00:11:53,080
+That's quite enough for me.
+
+297
+00:11:56,030 --> 00:11:58,540
+It's a war formula. You need me out there.
+
+298
+00:11:58,540 --> 00:12:00,920
+No, right now, it's a recon mission. All right?
+
+299
+00:12:00,920 --> 00:12:02,810
+Our priority is still Sandstorm.
+
+300
+00:12:02,810 --> 00:12:05,770
+Nas will take you and Roman to all of Shepherd's old residences.
+
+301
+00:12:05,770 --> 00:12:07,780
+See if any of them trigger any memories.
+
+302
+00:12:07,780 --> 00:12:08,840
+Are you sure?
+
+303
+00:12:09,270 --> 00:12:10,860
+- Stop touching this. - You're touching it.
+
+304
+00:12:10,860 --> 00:12:12,440
+I'm allowed to, it's mine.
+
+305
+00:12:12,910 --> 00:12:15,630
+Yeah... uh... I can handle Rich.
+
+306
+00:12:15,630 --> 00:12:17,250
+All right? But we need a lead on Shepherd.
+
+307
+00:12:17,250 --> 00:12:20,270
+- So, please, find out. - Yeah, okay.
+
+308
+00:12:21,380 --> 00:12:22,930
+We have to infiltrate Daedalus,
+
+309
+00:12:22,930 --> 00:12:24,960
+get a pulse on Riley, and stop this attack.
+
+310
+00:12:24,960 --> 00:12:27,800
+So, Boston and Rich, they can get us into The Labyrinth.
+
+311
+00:12:27,810 --> 00:12:30,140
+Patterson, are you up for some field work?
+
+312
+00:12:30,140 --> 00:12:31,530
+- Yes. - Good.
+
+313
+00:12:31,880 --> 00:12:33,090
+You're with Boston.
+
+314
+00:12:33,530 --> 00:12:34,650
+Uck, Agent Granny Panties?
+
+315
+00:12:34,650 --> 00:12:37,100
+Oh, it's not exactly Comic-Con for me, either, dude.
+
+316
+00:12:37,100 --> 00:12:38,050
+She knows this world.
+
+317
+00:12:38,050 --> 00:12:40,590
+And her tech skills could come in handy.
+
+318
+00:12:40,650 --> 00:12:42,810
+Rich... You take Tasha.
+
+319
+00:12:43,370 --> 00:12:44,850
+Which one's Tasha?
+
+320
+00:12:46,770 --> 00:12:47,830
+That one.
+
+321
+00:12:49,520 --> 00:12:50,530
+No offense, but I don't think
+
+322
+00:12:50,530 --> 00:12:54,130
+anyone's gonna buy Suzy-Frowns-A-Lot as my plus one.
+
+323
+00:12:54,170 --> 00:12:55,840
+And, really, there's only one person in the whole F.B.I.
+
+324
+00:12:55,840 --> 00:12:57,990
+that can maybe pass as my date.
+
+325
+00:12:57,990 --> 00:12:59,130
+Jane's busy.
+
+326
+00:13:03,810 --> 00:13:05,410
+You're not talking about Jane.
+
+327
+00:13:21,140 --> 00:13:23,470
+See, this is trust. This is friendship.
+
+328
+00:13:23,470 --> 00:13:24,690
+Equal footing.
+
+329
+00:13:28,040 --> 00:13:29,750
+That water taste funny to you?
+
+330
+00:13:30,350 --> 00:13:32,520
+It's a little isotope that Nas cooked up.
+
+331
+00:13:32,880 --> 00:13:34,590
+It stays in your body for days,
+
+332
+00:13:34,590 --> 00:13:36,220
+trackable by satellites.
+
+333
+00:13:36,220 --> 00:13:37,600
+You leave me for a second,
+
+334
+00:13:37,600 --> 00:13:40,230
+I'll find you and I'll shoot you as a fleeing fugitive.
+
+335
+00:13:40,240 --> 00:13:41,940
+You are so controlling.
+
+336
+00:13:42,530 --> 00:13:44,180
+Why do I keep coming back to you?
+
+337
+00:13:46,850 --> 00:13:48,900
+So what happened between you and Rich?
+
+338
+00:13:49,040 --> 00:13:50,540
+He, uh, got sober in prison
+
+339
+00:13:50,540 --> 00:13:51,930
+and realized you were the worst person ever?
+
+340
+00:13:51,930 --> 00:13:53,490
+I don't want to talk about it.
+
+341
+00:13:53,610 --> 00:13:56,030
+So is there a Mr. Boring Lab Coat in your life?
+
+342
+00:13:56,770 --> 00:13:58,150
+I don't wanna talk about it.
+
+343
+00:13:59,100 --> 00:14:00,770
+All right, we're heading in. Can you hear us?
+
+344
+00:14:00,770 --> 00:14:02,960
+All right, Riley went into The Labyrinth 20 minutes ago.
+
+345
+00:14:02,960 --> 00:14:05,020
+All right, let's get eyes on him as fast as we can.
+
+346
+00:14:05,020 --> 00:14:06,490
+See who he's talking to.
+
+347
+00:14:06,570 --> 00:14:09,770
+Uh, guys, these don't look like typical college bouncers.
+
+348
+00:14:09,770 --> 00:14:11,500
+Only the penitent man shall pass.
+
+349
+00:14:11,500 --> 00:14:13,660
+All right, well, now you're just quoting "The Last Crusade."
+
+350
+00:14:21,750 --> 00:14:22,760
+No!
+
+351
+00:14:23,270 --> 00:14:25,050
+No, Gord Enver is not welcome here.
+
+352
+00:14:25,050 --> 00:14:26,340
+Phineas Gilmartin!
+
+353
+00:14:26,340 --> 00:14:28,560
+How dare you come back here after what you did?
+
+354
+00:14:28,620 --> 00:14:30,210
+Under no conditions
+
+355
+00:14:30,210 --> 00:14:31,990
+is this man to enter this building.
+
+356
+00:14:31,990 --> 00:14:33,540
+Phineas, you're not still mad about that?
+
+357
+00:14:33,550 --> 00:14:35,590
+- Good-bye, Gord. - Phinny!
+
+358
+00:14:35,590 --> 00:14:37,750
+To err is human, to forgive is...
+
+359
+00:14:38,350 --> 00:14:39,150
+Fellas, I'm a member here.
+
+360
+00:14:39,150 --> 00:14:41,350
+It's just a little inside joke we play sometimes.
+
+361
+00:14:41,360 --> 00:14:43,750
+Okay, um, well... what if I were to tell you
+
+362
+00:14:43,750 --> 00:14:46,390
+that he is a, uh, huge racist? How 'bout that?
+
+363
+00:14:46,400 --> 00:14:48,040
+I'm not just telling you, by the way, but...
+
+364
+00:14:48,910 --> 00:14:50,360
+You do realize getting inside that building
+
+365
+00:14:50,360 --> 00:14:52,290
+is a matter of national security.
+
+366
+00:14:52,410 --> 00:14:54,900
+So... what haven't you told me?
+
+367
+00:14:54,900 --> 00:14:55,790
+Jeez!
+
+368
+00:14:55,790 --> 00:14:57,900
+Okay, I maybe kinda-sorta forgot to mention
+
+369
+00:14:57,900 --> 00:15:01,570
+that I'm kinda-sorta persona non grata around here these days.
+
+370
+00:15:02,160 --> 00:15:03,990
+Hey, now we can go check out the carnival.
+
+371
+00:15:03,990 --> 00:15:05,240
+Maybe take in the ice sculptures?
+
+372
+00:15:05,240 --> 00:15:07,280
+Riley is about to start a war.
+
+373
+00:15:07,410 --> 00:15:09,580
+It's a bit hard to stop from out here.
+
+374
+00:15:14,060 --> 00:15:15,590
+There may be another way. Come on.
+
+375
+00:15:16,320 --> 00:15:18,840
+People forgot about these tunnels once Prohibition ended.
+
+376
+00:15:18,840 --> 00:15:19,870
+But I used to use them to sneak all kinds
+
+377
+00:15:19,870 --> 00:15:21,710
+of other things into The Labyrinth.
+
+378
+00:15:21,800 --> 00:15:23,350
+Hookers, Kurt, I'm talking about hookers.
+
+379
+00:15:23,350 --> 00:15:25,440
+I mean, if you're gonna push to be uncouth, you know.
+
+380
+00:15:25,680 --> 00:15:27,640
+Why does Phineas hate you so much?
+
+381
+00:15:27,740 --> 00:15:28,670
+Apart from the obvious.
+
+382
+00:15:28,670 --> 00:15:30,200
+Oh, I took apart his BWM
+
+383
+00:15:30,200 --> 00:15:32,570
+and then reassembled it on the roof of his dorm.
+
+384
+00:15:32,570 --> 00:15:34,080
+I don't know why he got so upset.
+
+385
+00:15:34,080 --> 00:15:35,860
+I'm the one that almost got expelled.
+
+386
+00:15:36,590 --> 00:15:37,970
+Hey, what gives? No, uh...
+
+387
+00:15:38,190 --> 00:15:39,060
+judgmental glare?
+
+388
+00:15:39,060 --> 00:15:40,930
+No lecture on reaping what I sow?
+
+389
+00:15:40,930 --> 00:15:44,050
+- Ah, I nearly got expelled myself. A few times. - What?
+
+390
+00:15:44,050 --> 00:15:46,400
+Kurt Weller, master prankster. Is that what you're telling me?
+
+391
+00:15:46,400 --> 00:15:48,580
+- I want details. - So do I.
+
+392
+00:15:49,040 --> 00:15:51,150
+Oh, my God. We're having a moment right now, aren't we?
+
+393
+00:15:51,150 --> 00:15:52,940
+- No! - You're realizing we're not so different.
+
+394
+00:15:52,940 --> 00:15:54,750
+We're two peas in a pod. Yin and yang.
+
+395
+00:15:54,750 --> 00:15:57,310
+Isaac and Ishmael. DeVito and Schwarzenegger.
+
+396
+00:15:57,310 --> 00:15:59,170
+Can you please just try and stay focused?
+
+397
+00:15:59,170 --> 00:16:00,900
+- Oh, hey, wait. - What?
+
+398
+00:16:01,080 --> 00:16:04,400
+Well, this is the door, but the handle's different.
+
+399
+00:16:04,690 --> 00:16:05,540
+How?
+
+400
+00:16:05,920 --> 00:16:07,340
+Well, it's not there anymore?
+
+401
+00:16:07,380 --> 00:16:08,870
+Probably on account of all the hookers I bought up.
+
+402
+00:16:08,880 --> 00:16:10,090
+I mentioned the hookers, right?
+
+403
+00:16:10,100 --> 00:16:11,140
+Yes, you did.
+
+404
+00:16:11,560 --> 00:16:12,830
+- Stand back. - What are you doing? Okay.
+
+405
+00:16:12,840 --> 00:16:14,460
+So what's behind that door?
+
+406
+00:16:14,460 --> 00:16:15,480
+The closet.
+
+407
+00:16:15,720 --> 00:16:17,420
+- All right. - What--
+
+408
+00:16:17,710 --> 00:16:18,700
+- Stand back - Okay.
+
+409
+00:16:24,000 --> 00:16:24,650
+Oh, see what they did?
+
+410
+00:16:24,650 --> 00:16:26,930
+They took out the closet to make room for the--
+
+411
+00:16:26,960 --> 00:16:28,610
+Yeah, this is better.
+
+412
+00:16:29,480 --> 00:16:30,300
+I mean...
+
+413
+00:16:30,800 --> 00:16:33,050
+not for us right now, obviously.
+
+414
+00:16:38,700 --> 00:16:43,110
+Well, if it isn't the one and only Gord Enver, everybody!
+
+415
+00:16:43,620 --> 00:16:45,640
+I wondered how you might make an entrance.
+
+416
+00:16:46,020 --> 00:16:47,640
+You did not disappoint.
+
+417
+00:16:48,290 --> 00:16:50,940
+Guys, please... he's a member.
+
+418
+00:16:51,010 --> 00:16:52,820
+Well, he was a member, right, before--
+
+419
+00:16:52,820 --> 00:16:54,470
+You know what? He's with me.
+
+420
+00:16:54,470 --> 00:16:55,400
+- Thad Munson. - Yes.
+
+421
+00:16:55,400 --> 00:16:57,170
+You're a sight for sore eyes.
+
+422
+00:16:58,140 --> 00:16:59,550
+Ah, it's good to see you, pal.
+
+423
+00:16:59,550 --> 00:17:00,340
+Oh, stop it.
+
+424
+00:17:00,340 --> 00:17:01,770
+My, who's your friend?
+
+425
+00:17:01,770 --> 00:17:05,090
+I would like to introduce you to Kurt... Enver.
+
+426
+00:17:05,090 --> 00:17:06,320
+My husband.
+
+427
+00:17:08,640 --> 00:17:09,650
+Nice try.
+
+428
+00:17:11,240 --> 00:17:13,810
+But this guy's got "Hooker" written all over him.
+
+429
+00:17:14,960 --> 00:17:16,900
+His arms are all burly.
+
+430
+00:17:17,280 --> 00:17:18,300
+You mind me asking where you got him?
+
+431
+00:17:18,300 --> 00:17:19,880
+Because I'd back that stallion, whew.
+
+432
+00:17:19,880 --> 00:17:22,490
+Oh, he's definitely a prostitute.
+
+433
+00:17:23,480 --> 00:17:25,380
+Thad, Phineas Gilmartin was giving me a bit of attitude--
+
+434
+00:17:25,380 --> 00:17:27,340
+Yeah, you know what, I'll handle Phineas.
+
+435
+00:17:27,340 --> 00:17:30,860
+You and your, uh, meat trophy enjoy yourself.
+
+436
+00:17:34,430 --> 00:17:36,070
+Reade, Tasha... what have we got
+
+437
+00:17:36,070 --> 00:17:39,050
+on Thad Munson and Phineas Gilmartin?
+
+438
+00:17:39,050 --> 00:17:42,110
+Phineas is an insurance lobbyist going through a bad divorce.
+
+439
+00:17:42,110 --> 00:17:44,140
+And Thad's a Wall Street guy known as The Vampire.
+
+441
+00:17:44,140 --> 00:17:46,630
+Buys struggling companies and sucks out every last penny.
+
+442
+00:17:46,630 --> 00:17:48,350
+Yeah, he just did it to a pharmaceutical company.
+
+443
+00:17:48,360 --> 00:17:51,640
+He raised their cancer drug prices by over 1,000%.
+
+445
+00:17:51,640 --> 00:17:53,110
+This guy definitely needs to be locked up,
+
+446
+00:17:53,110 --> 00:17:55,230
+but probably not for a terrorist attack.
+
+447
+00:18:01,580 --> 00:18:03,000
+This is where we grew up?
+
+448
+00:18:03,110 --> 00:18:04,710
+15 Robin Hood Lane.
+
+449
+00:18:04,710 --> 00:18:06,840
+According to property records, this is where Shepherd lived
+
+450
+00:18:06,850 --> 00:18:08,910
+when she brought you back from South Africa.
+
+451
+00:18:10,430 --> 00:18:11,420
+Anything?
+
+452
+00:18:12,720 --> 00:18:14,730
+- No. - You?
+
+453
+00:18:14,730 --> 00:18:15,740
+No.
+
+454
+00:18:15,830 --> 00:18:17,910
+If this is where we were raised...
+
+455
+00:18:18,190 --> 00:18:19,470
+it should mean something, right?
+
+456
+00:18:19,470 --> 00:18:21,150
+Well, let's take a look inside.
+
+457
+00:18:21,260 --> 00:18:23,330
+Well, what if someone comes home?
+
+458
+00:18:23,770 --> 00:18:25,530
+Or Shepherd could be expecting us to come here.
+
+459
+00:18:25,530 --> 00:18:26,830
+It could be a trap.
+
+460
+00:18:27,740 --> 00:18:31,000
+With you two... I'll take my chances.
+
+461
+00:18:43,610 --> 00:18:45,730
+Zach Riley, 10:00.
+
+462
+00:18:45,730 --> 00:18:47,290
+Standing at a table with...
+
+463
+00:18:49,070 --> 00:18:50,590
+Ah, I can't tell from here.
+
+464
+00:18:53,050 --> 00:18:54,180
+Shall we?
+
+465
+00:18:58,790 --> 00:18:59,880
+What about now?
+
+466
+00:19:03,240 --> 00:19:05,520
+That's Bradford Winer, international lawyer.
+
+467
+00:19:05,990 --> 00:19:07,580
+Does a lot of work with the state department.
+
+468
+00:19:07,580 --> 00:19:09,590
+If I were trying to seize resources from a foreign country
+
+469
+00:19:09,590 --> 00:19:11,620
+I would definitely want him on my side.
+
+470
+00:19:16,290 --> 00:19:18,730
+Their plan of attack could be on that computer.
+
+471
+00:19:20,620 --> 00:19:22,550
+Can you get past his security measures?
+
+472
+00:19:23,440 --> 00:19:25,600
+Well, technically, I'm barred by the U.S. government
+
+473
+00:19:25,600 --> 00:19:28,030
+from operating any illeg-- Ohh! Okay.
+
+474
+00:19:28,210 --> 00:19:30,120
+The local security is not the issue.
+
+475
+00:19:30,120 --> 00:19:32,640
+The tricky part is the fob in Riley's hand.
+
+476
+00:19:32,640 --> 00:19:35,620
+It generates a new, eight-digit pass code every 90 seconds,
+
+477
+00:19:35,620 --> 00:19:37,550
+and it can't be faked-- we need that code.
+
+478
+00:19:37,550 --> 00:19:38,610
+Patterson, you got that?
+
+479
+00:19:38,610 --> 00:19:39,990
+We'll handle the key fob.
+
+480
+00:19:39,990 --> 00:19:41,300
+We'll get the computer.
+
+481
+00:19:42,460 --> 00:19:43,740
+Come on, honey.
+
+482
+00:19:52,800 --> 00:19:54,990
+Hard to believe we ever lived in a place so...
+
+483
+00:19:54,990 --> 00:19:55,790
+Normal?
+
+484
+00:20:03,170 --> 00:20:04,610
+You remember something?
+
+485
+00:20:08,830 --> 00:20:09,830
+No.
+
+486
+00:20:10,590 --> 00:20:13,260
+I can't even remember the house I grew up in.
+
+487
+00:20:13,510 --> 00:20:16,100
+Maybe Shepherd kept us someplace different.
+
+488
+00:20:16,500 --> 00:20:18,260
+Shepherd took my life away.
+
+489
+00:20:18,440 --> 00:20:19,910
+Roman... She took everything!
+
+490
+00:20:19,910 --> 00:20:20,990
+I know how you feel.
+
+491
+00:20:20,990 --> 00:20:23,100
+Then why don't you feel it?!
+
+492
+00:20:24,540 --> 00:20:26,350
+She did this to you, too!
+
+493
+00:20:27,220 --> 00:20:28,390
+Where's your anger?
+
+494
+00:20:29,500 --> 00:20:30,760
+Where's your hurt?!
+
+495
+00:20:31,710 --> 00:20:32,790
+Roman...
+
+496
+00:20:33,610 --> 00:20:35,530
+I need you to calm down, okay?
+
+497
+00:20:36,220 --> 00:20:37,170
+No...
+
+498
+00:20:37,580 --> 00:20:39,230
+She stole my life from me.
+
+499
+00:20:39,540 --> 00:20:40,830
+She's gonna pay.
+
+500
+00:20:47,100 --> 00:20:48,760
+You're in pretty low gear today.
+
+501
+00:20:51,080 --> 00:20:52,570
+I been dating Nikki.
+
+502
+00:20:53,700 --> 00:20:55,740
+- Freddy's girlfriend? - Ex-girlfriend.
+
+503
+00:20:55,740 --> 00:20:58,150
+Oh, the ex-girlfriend of the killer you helped skip town?
+
+504
+00:20:59,090 --> 00:21:00,340
+Do you have any idea how messed up that is?
+
+505
+00:21:00,340 --> 00:21:02,860
+No, thought never crossed my mind, Zapata.
+
+506
+00:21:02,860 --> 00:21:03,770
+Reade, Tasha,
+
+507
+00:21:03,770 --> 00:21:05,590
+Rich and I are headed upstairs.
+
+508
+00:21:05,590 --> 00:21:07,730
+- You got eyes on the guards? - Only the ones in front.
+
+509
+00:21:07,730 --> 00:21:10,310
+Well, we're gonna have to risk it.
+
+510
+00:21:10,310 --> 00:21:12,450
+How do you know this is where Riley would keep his laptop?
+
+511
+00:21:12,450 --> 00:21:15,240
+Trust me, I know more about Zach than Zach does.
+
+512
+00:21:15,240 --> 00:21:16,720
+We were best friends back in the day.
+
+513
+00:21:16,720 --> 00:21:17,940
+Till you pissed him off?
+
+514
+00:21:17,940 --> 00:21:19,060
+No, until he pissed me off
+
+515
+00:21:19,060 --> 00:21:21,220
+when he took something that didn't belong to him.
+
+516
+00:21:21,220 --> 00:21:23,060
+Haven't spoken to him since.
+
+517
+00:21:26,410 --> 00:21:28,050
+You know, actually, you could say that he pretty much set me
+
+518
+00:21:28,050 --> 00:21:29,410
+on the path to becoming Rich.Com--
+
+519
+00:21:29,410 --> 00:21:31,730
+Rich! I don't need the origin story.
+
+520
+00:21:31,730 --> 00:21:34,170
+Right, nobody likes a prequel.
+
+521
+00:21:39,850 --> 00:21:41,460
+Zachy boy.
+
+522
+00:21:41,460 --> 00:21:43,850
+Some people never change.
+
+523
+00:21:44,490 --> 00:21:46,450
+We're ready for that password.
+
+524
+00:21:46,450 --> 00:21:48,990
+All right, it should be displayed on that fob.
+
+525
+00:21:50,760 --> 00:21:52,390
+Damn, front shirt pocket.
+
+526
+00:21:52,390 --> 00:21:53,690
+Hardest pocket to pick.
+
+527
+00:21:53,690 --> 00:21:54,700
+Okay, well, what if--
+
+528
+00:21:54,710 --> 00:21:56,160
+What if we just spill something on him,
+
+529
+00:21:56,160 --> 00:21:58,190
+and he has to take the key fob out to change, right?
+
+530
+00:21:58,190 --> 00:21:59,990
+Yeah, alone in a bathroom somewhere.
+
+531
+00:21:59,990 --> 00:22:01,260
+I thought you were the smart one.
+
+532
+00:22:01,260 --> 00:22:03,140
+I...
+
+533
+00:22:03,140 --> 00:22:04,430
+Wait...
+
+534
+00:22:07,800 --> 00:22:10,230
+Come here. Hey, Zach!
+
+535
+00:22:10,230 --> 00:22:11,600
+- Zach? - ‭What are you doing?
+
+536
+00:22:11,600 --> 00:22:14,500
+Zach Riley!
+
+537
+00:22:14,590 --> 00:22:16,570
+So great to see you!
+
+538
+00:22:16,960 --> 00:22:18,270
+‭Boston!
+
+539
+00:22:18,270 --> 00:22:19,480
+It's been... too long.
+
+540
+00:22:19,480 --> 00:22:21,050
+Way too long!
+
+541
+00:22:21,350 --> 00:22:22,620
+Oh, look at ya, huh?
+
+542
+00:22:22,620 --> 00:22:25,600
+Hey, you put NASA out of business yet??
+
+543
+00:22:25,600 --> 00:22:27,700
+Hey, I really want to introduce you to somebody, all right?
+
+544
+00:22:27,700 --> 00:22:30,200
+Zach Riley, visioneer of the future,
+
+545
+00:22:30,200 --> 00:22:32,310
+please allow me to introduce Patterson.
+
+546
+00:22:32,320 --> 00:22:34,310
+The love of my life.
+
+547
+00:22:34,310 --> 00:22:36,020
+Really? I thought you were--
+
+548
+00:22:36,020 --> 00:22:38,190
+It is such an honor to meet you, Mr. Riley.
+
+549
+00:22:38,190 --> 00:22:40,550
+Oh, my God, if I were a kid today,
+
+550
+00:22:40,550 --> 00:22:43,580
+I-- your just-- your poster would just be right between
+
+551
+00:22:43,580 --> 00:22:46,110
+Albert Einstein and Marie Curie.
+
+552
+00:22:46,110 --> 00:22:47,720
+I'm just a businessman who likes to dream.
+
+553
+00:22:47,720 --> 00:22:49,690
+Wonderful, it has just been such a treat and a half.
+
+554
+00:22:49,690 --> 00:22:52,830
+Seriously, thank you so much. Okay, have fun.
+
+555
+00:22:53,150 --> 00:22:54,940
+Hands off, she's all mine.
+
+556
+00:22:54,940 --> 00:22:57,770
+Weller, the code is 08...
+
+557
+00:22:57,770 --> 00:23:01,620
+28...07... 18.
+
+558
+00:23:02,120 --> 00:23:03,740
+Uh, we're in.
+
+559
+00:23:03,740 --> 00:23:06,110
+Okay, I'm floating all hard drive contents
+
+560
+00:23:06,110 --> 00:23:08,270
+to Lenny and Squiggy in the creepy black van.
+
+561
+00:23:08,270 --> 00:23:10,510
+Reade, Tasha, data's coming your way.
+
+562
+00:23:10,510 --> 00:23:13,070
+Look for anything indicating a pending attack on U.S. Soil.
+
+563
+00:23:13,080 --> 00:23:15,280
+Weller! The guards are heading upstairs.
+
+564
+00:23:15,290 --> 00:23:16,450
+Rich, you better wrap it up.
+
+565
+00:23:16,450 --> 00:23:18,180
+Just give me a minute.
+
+566
+00:23:18,700 --> 00:23:19,780
+Rich...
+
+567
+00:23:19,790 --> 00:23:21,110
+That's already been invented.
+
+568
+00:23:21,110 --> 00:23:22,140
+- H-Has it? - ‭Yes.
+
+569
+00:23:22,140 --> 00:23:24,310
+Well, why do I still have plaque?
+
+570
+00:23:24,390 --> 00:23:25,630
+Well, okay, I'm gonna let you get back
+
+571
+00:23:25,630 --> 00:23:26,750
+to being a billionaire, I guess.
+
+572
+00:23:26,750 --> 00:23:28,700
+It's so great to see you, huh?
+
+573
+00:23:28,700 --> 00:23:32,570
+Sir, Gord Enver has been located on the premises.
+
+574
+00:23:33,310 --> 00:23:35,390
+Still tight with Gord, Boston?
+
+575
+00:23:35,390 --> 00:23:37,770
+Uh-- uh, Gord, yeah. We-- we're, um...
+
+576
+00:23:37,780 --> 00:23:39,180
+we're actually in the same complex,
+
+577
+00:23:39,180 --> 00:23:41,060
+but we're not on civil terms right now.
+
+578
+00:23:41,060 --> 00:23:42,300
+That's too bad.
+
+579
+00:23:42,300 --> 00:23:43,900
+What's in your hand?
+
+580
+00:23:48,200 --> 00:23:49,580
+Nothing.
+
+581
+00:23:50,210 --> 00:23:51,610
+Feel a little high strung?
+
+582
+00:23:51,610 --> 00:23:52,530
+Go join a quartet.
+
+583
+00:23:52,530 --> 00:23:53,940
+- Excuse me. ‭- Okay.
+
+584
+00:23:53,940 --> 00:23:55,500
+Weller, get out of there.
+
+585
+00:23:55,500 --> 00:23:57,160
+Riley's coming your way.
+
+586
+00:23:57,900 --> 00:23:59,780
+Thanks for the heads-up.
+
+587
+00:24:12,290 --> 00:24:14,200
+What the hell are you doing, Gord?
+
+588
+00:24:14,490 --> 00:24:15,870
+Mr. Riley, I'm the Assistant--
+
+589
+00:24:15,870 --> 00:24:18,760
+You know exactly what I'm doing here, Zach.
+
+590
+00:24:18,860 --> 00:24:21,020
+I'm here for what's rightfully mine.
+
+591
+00:24:21,020 --> 00:24:23,990
+Proof that I was the sole inventor of RileyShare,
+
+592
+00:24:23,990 --> 00:24:26,490
+that you stole that code from me before you dropped out
+
+593
+00:24:26,500 --> 00:24:28,170
+and moved to Silicon Valley,
+
+594
+00:24:28,170 --> 00:24:31,050
+that your entire empire is built on a lie!
+
+595
+00:24:31,050 --> 00:24:34,270
+That I, Gordon Meredith Enver,
+
+596
+00:24:34,280 --> 00:24:35,280
+should be in your shoes,
+
+597
+00:24:35,280 --> 00:24:38,770
+breathing your rarefied air as a beloved visionary instead of...
+
+598
+00:24:38,770 --> 00:24:41,650
+lurking, nameless and thankless in the shadows,
+
+599
+00:24:41,660 --> 00:24:43,710
+like some digital thug!
+
+600
+00:24:44,590 --> 00:24:46,120
+Give us a moment.
+
+601
+00:24:47,710 --> 00:24:50,530
+Gord... I'm so sorry...
+
+602
+00:24:50,600 --> 00:24:52,200
+that you feel that way.
+
+603
+00:24:52,200 --> 00:24:54,220
+But I didn't steal anything from you.
+
+604
+00:24:54,220 --> 00:24:56,260
+Yeah, we developed some of that code together,
+
+605
+00:24:56,260 --> 00:24:57,300
+but then I begged you
+
+606
+00:24:57,310 --> 00:24:59,040
+to move to Silicon Valley with me to finish it.
+
+607
+00:24:59,040 --> 00:25:00,310
+No, no. No, no, no, no, no.
+
+608
+00:25:00,310 --> 00:25:01,450
+Yes! I remember,
+
+609
+00:25:01,450 --> 00:25:05,050
+because I couldn't believe how little faith you had in us,
+
+610
+00:25:05,050 --> 00:25:06,500
+in yourself.
+
+611
+00:25:06,510 --> 00:25:08,610
+The things we could've done together.
+
+612
+00:25:08,830 --> 00:25:09,480
+But, no...
+
+613
+00:25:09,910 --> 00:25:11,950
+you ran the numbers through that stupid formula
+
+614
+00:25:11,950 --> 00:25:14,630
+and then opted to stay and finish college.
+
+615
+00:25:14,870 --> 00:25:16,440
+Take the safe route.
+
+616
+00:25:17,210 --> 00:25:18,960
+Weller, we just found a draft of a press release
+
+618
+00:25:18,960 --> 00:25:20,010
+on Riley's laptop
+
+619
+00:25:20,010 --> 00:25:21,210
+announcing the sale of Riley Motors
+
+620
+00:25:21,210 --> 00:25:22,780
+so he can focus more on his space efforts.
+
+621
+00:25:22,780 --> 00:25:24,640
+Riley's getting out of the lithium business.
+
+622
+00:25:24,640 --> 00:25:27,320
+He's got no reason to be part of this conspiracy.
+
+623
+00:25:27,480 --> 00:25:29,200
+We're sorry about the mix-up.
+
+624
+00:25:29,200 --> 00:25:31,750
+He gets a little carried away sometimes, don't you?
+
+625
+00:25:31,750 --> 00:25:33,580
+Uh, Gord, we should go.
+
+626
+00:25:33,580 --> 00:25:35,750
+We've wasted enough of Mr. Riley's time.
+
+627
+00:25:35,750 --> 00:25:36,750
+I'm sorry, sir.
+
+628
+00:25:36,750 --> 00:25:38,160
+Gord...
+
+629
+00:25:38,920 --> 00:25:40,250
+If you're up for it,
+
+630
+00:25:40,250 --> 00:25:41,960
+there's always a spot for you on my team.
+
+631
+00:25:41,960 --> 00:25:44,380
+- Oh, that is... - That is very generous!
+
+632
+00:25:44,510 --> 00:25:45,810
+I'm sure you'll hear from him.
+
+633
+00:25:45,810 --> 00:25:47,290
+Let's go, honey.
+
+634
+00:26:01,110 --> 00:26:03,920
+It's okay.
+
+635
+00:26:03,930 --> 00:26:05,820
+We still have a couple more addresses to try.
+
+636
+00:26:05,820 --> 00:26:08,390
+Which is why we should get back on the road.
+
+637
+00:26:11,820 --> 00:26:13,320
+He needs to regain his composure,
+
+638
+00:26:13,320 --> 00:26:15,520
+and I don't think his prison cell in Zero Division
+
+639
+00:26:15,520 --> 00:26:16,920
+is a good place to do that.
+
+640
+00:26:16,920 --> 00:26:19,000
+Let's let him catch his breath, okay?
+
+641
+00:26:19,000 --> 00:26:20,860
+Then we'll get right back out there.
+
+642
+00:26:20,870 --> 00:26:22,970
+Okay, fine, but make it quick.
+
+643
+00:26:24,040 --> 00:26:25,350
+Here you go.
+
+644
+00:26:29,340 --> 00:26:31,020
+Place is a bit sparse.
+
+645
+00:26:31,030 --> 00:26:33,580
+Haven't had much time to decorate.
+
+646
+00:26:33,580 --> 00:26:36,080
+At least your doors open when you want them to.
+
+647
+00:26:36,710 --> 00:26:38,460
+They didn't always.
+
+648
+00:26:40,610 --> 00:26:42,050
+Nice flowers.
+
+649
+00:26:42,430 --> 00:26:44,900
+- Who's Oliver? - Just a friend.
+
+653
+00:27:00,450 --> 00:27:01,660
+What is it?
+
+654
+00:27:02,170 --> 00:27:03,680
+I remember something.
+
+655
+00:27:05,110 --> 00:27:08,020
+All right, the tattoo still points to Daedalus.
+
+656
+00:27:08,020 --> 00:27:10,640
+Even if Zach Riley isn't plotting a U.S. attack
+
+657
+00:27:10,650 --> 00:27:12,600
+to trigger a war, someone else here is.
+
+658
+00:27:12,600 --> 00:27:15,990
+From this point on, every member is a suspect.
+
+659
+00:27:15,990 --> 00:27:17,900
+This is all Rich's fault.
+
+660
+00:27:18,320 --> 00:27:19,860
+Sends us on some wild goose chase
+
+661
+00:27:19,860 --> 00:27:21,880
+because of a personal grudge he can't let go of.
+
+662
+00:27:21,890 --> 00:27:23,900
+Okay, is there an alumni room here somewhere
+
+663
+00:27:23,900 --> 00:27:25,560
+where we can get information?
+
+664
+00:27:25,560 --> 00:27:27,340
+You know, it's always about Rich with Rich.
+
+665
+00:27:27,340 --> 00:27:29,320
+He doesn't care about other people's issues.
+
+666
+00:27:29,320 --> 00:27:31,110
+- He doesn't... - ‭Would you shut up about Rich!
+
+667
+00:27:31,110 --> 00:27:33,620
+You broke up, you just need to deal with it.
+
+668
+00:27:33,620 --> 00:27:35,140
+At least your ex didn't try to kill you
+
+669
+00:27:35,140 --> 00:27:37,800
+and then hand you over to a madwoman to be tortured
+
+670
+00:27:37,800 --> 00:27:40,310
+and exploit your grief over your one true love who died
+
+671
+00:27:40,310 --> 00:27:42,620
+because you wouldn't move in with him.
+
+672
+00:27:44,490 --> 00:27:45,920
+You feel better?
+
+673
+00:27:47,820 --> 00:27:48,900
+Kinda.
+
+674
+00:27:48,900 --> 00:27:51,060
+- Great. ‭Yeah. - Yeah.
+
+675
+00:27:51,060 --> 00:27:53,930
+- So can we talk about my problems again? - Okay.
+
+676
+00:27:53,930 --> 00:27:55,520
+You know, Rich just will not shut up,
+
+677
+00:27:55,520 --> 00:27:58,960
+and I have asked him on numerous occasions...
+
+678
+00:28:01,430 --> 00:28:04,540
+Reade, Tasha, keep searching through Riley's files.
+
+679
+00:28:04,540 --> 00:28:06,880
+See if you can find out who he sold Riley Motors to.
+
+680
+00:28:06,880 --> 00:28:08,730
+We're looking for anyone who can benefit from the invasion
+
+681
+00:28:08,730 --> 00:28:10,450
+of a lithium-rich country.
+
+682
+00:28:10,450 --> 00:28:11,880
+Zach's right, you know.
+
+683
+00:28:11,880 --> 00:28:13,250
+I gave up on the software to stay in college
+
+684
+00:28:13,250 --> 00:28:16,140
+and finish my degree... a piece of paper.
+
+685
+00:28:16,140 --> 00:28:17,360
+That's Congressman Kelley.
+
+686
+00:28:17,360 --> 00:28:18,890
+He's on the Armed Forces Subcommittee.
+
+687
+00:28:18,890 --> 00:28:21,950
+A piece of paper that cost me billions of dollars, okay?
+
+688
+00:28:21,950 --> 00:28:23,450
+Are you happy now, mom and dad?
+
+689
+00:28:23,450 --> 00:28:24,740
+- Why don't you take that piece of paper... - Rich! Rich!
+
+690
+00:28:24,740 --> 00:28:26,040
+and roll it up real tight and shove it up your...
+
+691
+00:28:26,040 --> 00:28:28,300
+Rich. We're on a mission.
+
+692
+00:28:28,300 --> 00:28:32,050
+- Drop the existential crisis. - Who cares about the mission?
+
+693
+00:28:32,050 --> 00:28:34,990
+Kurt, listen. Don't be like me, okay?
+
+694
+00:28:34,990 --> 00:28:37,030
+Don't waste your life on missions.
+
+695
+00:28:37,030 --> 00:28:39,210
+You grab Jane now, before somebody else does,
+
+696
+00:28:39,210 --> 00:28:41,030
+and then uses her to make billions of dollars.
+
+697
+00:28:41,030 --> 00:28:42,530
+I know that last part didn't really make sense,
+
+698
+00:28:42,530 --> 00:28:44,800
+but you see what I'm saying, right?
+
+699
+00:28:51,030 --> 00:28:52,290
+What's going on?
+
+700
+00:28:53,720 --> 00:28:57,690
+It's the Awakening. It's a sacred Daedalus ritual.
+
+701
+00:28:57,690 --> 00:28:59,810
+This better not be a sex thing.
+
+702
+00:29:00,610 --> 00:29:03,220
+If it is, we should probably go along with it, right?
+
+703
+00:29:04,340 --> 00:29:06,050
+We don't wanna blow our cover.
+
+704
+00:29:06,050 --> 00:29:08,740
+I can't believe your real name is Boston Arliss Crab.
+
+705
+00:29:08,740 --> 00:29:09,670
+I thought it was an alias.
+
+706
+00:29:09,670 --> 00:29:11,330
+You're making fun of my name when your first name is...
+
+707
+00:29:11,330 --> 00:29:13,140
+Wait, who's that guy?
+
+708
+00:29:14,130 --> 00:29:16,170
+Excellent question.
+
+709
+00:29:17,580 --> 00:29:19,950
+I got eyes on a shady-looking dude headed straight for the exit.
+
+710
+00:29:19,950 --> 00:29:22,540
+Follow him, but don't engage. We're on our way.
+
+711
+00:29:22,540 --> 00:29:24,400
+If you want the heart of a lion,
+
+712
+00:29:24,400 --> 00:29:27,390
+you must first be willing to consume it.
+
+713
+00:29:27,860 --> 00:29:30,390
+Who will be the first to partake with me?
+
+714
+00:29:30,850 --> 00:29:34,980
+Stop! No one leaves once the Awakening has begun.
+
+715
+00:29:47,050 --> 00:29:48,140
+Come on.
+
+716
+00:29:48,140 --> 00:29:50,330
+Oh, you're definitely banned now, Gord.
+
+717
+00:29:50,330 --> 00:29:52,740
+Oh, suck it, Phineas.
+
+718
+00:29:52,860 --> 00:29:55,180
+- What's wrong with rich people? - We get bored.
+
+719
+00:29:55,180 --> 00:29:56,780
+Got an I.D. on the guy who left the party.
+
+720
+00:29:56,780 --> 00:29:59,360
+His name is Benjamin Oren.
+
+722
+00:29:59,360 --> 00:30:01,630
+He's an executive at Northlake Military Contractors.
+
+723
+00:30:01,630 --> 00:30:03,670
+Northlake stands to make millions if an attack on the U.S.
+
+724
+00:30:03,670 --> 00:30:05,830
+led to military action overseas.
+
+725
+00:30:05,830 --> 00:30:07,850
+He's sending another text.
+
+726
+00:30:08,280 --> 00:30:11,080
+Right. We're following him into the Fine Arts building.
+
+727
+00:30:11,420 --> 00:30:14,860
+Boston, what are you doing? Let's go!
+
+728
+00:30:16,750 --> 00:30:18,030
+Okay.
+
+729
+00:30:20,880 --> 00:30:23,710
+Hi. W-we didn't know anybody was in here.
+
+730
+00:30:23,710 --> 00:30:25,910
+W-we came in here to have sex with each other.
+
+731
+00:30:25,910 --> 00:30:29,470
+‭We find each other incredibly attractive.
+
+732
+00:30:30,050 --> 00:30:32,080
+Oh, son of a...
+
+733
+00:30:39,310 --> 00:30:41,890
+Uh... Boston!
+
+734
+00:30:47,670 --> 00:30:49,090
+Patterson.
+
+735
+00:30:49,170 --> 00:30:52,880
+- Reade, Tasha... help me now. - On our way.
+
+736
+00:30:54,000 --> 00:30:55,300
+Rich, give me your hand.
+
+737
+00:30:55,300 --> 00:30:56,730
+You're giving me a gun right now??
+
+738
+00:30:56,730 --> 00:30:58,570
+We are totally leveling up on our friendship.
+
+739
+00:30:58,570 --> 00:30:59,440
+What are you doing?
+
+740
+00:30:59,440 --> 00:31:02,210
+Give me your other hand! I'm saving your life. Here. ‭
+
+741
+00:31:02,210 --> 00:31:04,340
+‭You don't wanna run towards gunfire.
+
+742
+00:31:04,340 --> 00:31:08,440
+Gunfire doesn't kill people! People kill people!
+
+743
+00:31:09,630 --> 00:31:11,900
+I guess, technically, gunfire does kill people.
+
+744
+00:31:19,160 --> 00:31:20,490
+‭Sorry!
+
+745
+00:31:25,670 --> 00:31:26,880
+Down!
+
+746
+00:31:32,780 --> 00:31:36,410
+- Drop it. FBI! Drop the weapon. - Move!
+
+747
+00:31:43,390 --> 00:31:44,380
+Gord?
+
+748
+00:31:44,380 --> 00:31:46,590
+Hey, Thad, you wouldn't happen to have
+
+749
+00:31:46,590 --> 00:31:48,620
+a tie clip or a hairpin on you, would you?
+
+750
+00:31:48,620 --> 00:31:50,470
+Little trouble with your date?
+
+751
+00:31:50,470 --> 00:31:51,880
+No, it's nothing like that.
+
+752
+00:31:51,880 --> 00:31:53,630
+It's, um...
+
+753
+00:31:54,250 --> 00:31:55,780
+All right, look, I'm with the FBI.
+
+754
+00:31:55,780 --> 00:31:57,290
+There's some heavy-duty stuff going down right now,
+
+755
+00:31:57,290 --> 00:31:59,390
+and I need to help stop it.
+
+756
+00:32:00,430 --> 00:32:02,160
+You're about to pull a gun on me, aren't you?
+
+757
+00:32:02,160 --> 00:32:04,000
+Wha-- what makes you say that, Gord?
+
+758
+00:32:04,000 --> 00:32:06,430
+The fact that you left the Awakening Ceremony.
+
+759
+00:32:06,430 --> 00:32:08,190
+You're not fleeing from the sound of gunfire.
+
+760
+00:32:08,190 --> 00:32:11,440
+Also, there's a pistol-shaped bulge in your jacket.
+
+761
+00:32:13,390 --> 00:32:14,040
+Jeez!
+
+762
+00:32:14,040 --> 00:32:16,050
+You crazy? You could have hit me!
+
+763
+00:32:16,390 --> 00:32:18,910
+You're lucky I need someone like you alive, Gord.
+
+764
+00:32:18,910 --> 00:32:21,110
+Or should I say Rich.Com?
+
+766
+00:32:23,800 --> 00:32:26,070
+Here, is this the restaurant?
+
+767
+00:32:26,320 --> 00:32:27,300
+Yeah, this is it.
+
+768
+00:32:27,310 --> 00:32:29,570
+I was watching for a truck over there and...
+
+769
+00:32:29,580 --> 00:32:30,810
+Weller was sitting right in that window
+
+770
+00:32:30,810 --> 00:32:32,790
+with a-- with a woman.
+
+771
+00:32:33,260 --> 00:32:34,560
+Who?
+
+772
+00:32:37,420 --> 00:32:40,330
+Agh! I don't know, I...
+
+773
+00:32:40,330 --> 00:32:43,510
+Look, uh, I need to go and check in with Weller.
+
+774
+00:32:43,510 --> 00:32:44,380
+Take him inside.
+
+775
+00:32:44,380 --> 00:32:45,910
+Yeah, okay.
+
+776
+00:32:48,890 --> 00:32:50,240
+Roman...
+
+777
+00:32:53,890 --> 00:32:55,300
+Roman.
+
+778
+00:33:18,960 --> 00:33:19,700
+I killed her.
+
+779
+00:33:19,700 --> 00:33:20,390
+Who?
+
+780
+00:33:20,390 --> 00:33:22,030
+It's okay, Emma.
+
+781
+00:33:24,230 --> 00:33:27,000
+Emma. Uh... Weller's friend.
+
+782
+00:33:27,000 --> 00:33:29,890
+- Middle-aged, dark hair? - ‭Yeah.
+
+783
+00:33:31,790 --> 00:33:35,670
+Weller said Emma Shaw died in a car accident less than a year ago.
+
+784
+00:33:36,360 --> 00:33:38,410
+You killed Taylor Shaw's mother.
+
+785
+00:33:38,420 --> 00:33:40,250
+Why? Why would I do that?
+
+786
+00:33:40,250 --> 00:33:43,070
+Because Emma would have known I wasn't her daughter.
+
+787
+00:33:43,400 --> 00:33:46,030
+Shepherd was protecting my cover story.
+
+788
+00:33:46,030 --> 00:33:47,220
+Tying up loose threads.
+
+789
+00:33:47,220 --> 00:33:49,950
+By making me kill an innocent person.
+
+790
+00:33:50,800 --> 00:33:51,720
+We need to tell Nas.
+
+791
+00:33:51,720 --> 00:33:53,580
+No, Roman, wait...
+
+792
+00:33:53,840 --> 00:33:55,730
+Weller can't find out through her.
+
+793
+00:33:55,730 --> 00:33:57,600
+Okay? Let me tell him.
+
+794
+00:33:58,300 --> 00:34:01,020
+The Shaw family was very important to him.
+
+795
+00:34:01,020 --> 00:34:03,190
+He'll take it better coming from me.
+
+796
+00:34:04,700 --> 00:34:06,090
+Let's go.
+
+797
+00:34:08,620 --> 00:34:09,540
+So you're telling me your plan
+
+798
+00:34:09,540 --> 00:34:11,200
+was to steal a bunch of radioactive crap
+
+799
+00:34:11,200 --> 00:34:14,080
+and then detonate a dirty bomb at your alma mater?
+
+800
+00:34:14,080 --> 00:34:15,730
+One of my partners was supposed to unlock this,
+
+801
+00:34:15,730 --> 00:34:18,820
+but he's indisposed, so... get to hacking!
+
+802
+00:34:18,820 --> 00:34:21,040
+This is not a good plan, okay??
+
+803
+00:34:21,040 --> 00:34:21,570
+I mean, no offense,
+
+804
+00:34:21,580 --> 00:34:23,070
+but everyone's gonna know it was an inside job.
+
+805
+00:34:23,070 --> 00:34:24,770
+Actually, they'll figure it was him.
+
+806
+00:34:24,780 --> 00:34:26,990
+A Bolivian rebel with an axe to grind against the U.S.,
+
+807
+00:34:26,990 --> 00:34:29,830
+killed while stealing some pretty scary stuff.
+
+808
+00:34:30,350 --> 00:34:31,810
+Bolivia.
+
+809
+00:34:31,810 --> 00:34:33,080
+A lithium-rich country.
+
+810
+00:34:33,080 --> 00:34:35,850
+With a government... about to collapse.
+
+811
+00:34:35,850 --> 00:34:37,910
+Thad, come on. This isn't you.
+
+812
+00:34:37,910 --> 00:34:40,430
+You dick around with pharmaceutical prices, not war!
+
+813
+00:34:40,430 --> 00:34:41,700
+Business is business,
+
+814
+00:34:41,700 --> 00:34:43,970
+and thanks to my recent acquisition of Riley motors,
+
+815
+00:34:43,970 --> 00:34:45,820
+business just got very, very good.
+
+816
+00:34:45,820 --> 00:34:48,090
+- Zach sold to you? - And a few other members.
+
+817
+00:34:48,100 --> 00:34:49,450
+Lithium was getting too expensive,
+
+818
+00:34:49,450 --> 00:34:50,900
+but we're not gonna have that problem.
+
+819
+00:34:50,910 --> 00:34:52,430
+No, but the FBI's already onto you.
+
+820
+00:34:52,440 --> 00:34:53,580
+They're gonna know the truth.
+
+821
+00:34:53,580 --> 00:34:56,530
+Once this bomb goes off, the truth isn't gonna matter.
+
+822
+00:34:56,530 --> 00:34:59,260
+Tomorrow morning, when an entire U.S. City is glowing red,
+
+823
+00:34:59,260 --> 00:35:00,660
+nobody's gonna care what a couple of Feds
+
+824
+00:35:00,660 --> 00:35:02,110
+and their pet rat have to say.
+
+825
+00:35:02,110 --> 00:35:03,760
+Now hack!
+
+826
+00:35:04,400 --> 00:35:06,350
+I'm sorry, but my Buddhist teachings prohibit me
+
+827
+00:35:06,350 --> 00:35:07,760
+from contributing to violence.
+
+828
+00:35:07,760 --> 00:35:09,490
+‭Ohh! Oh, my God.
+
+829
+00:35:09,490 --> 00:35:11,090
+You shot me in the foot!
+
+830
+00:35:11,090 --> 00:35:13,280
+Next time, I aim higher.
+
+831
+00:35:13,280 --> 00:35:15,550
+Okay.
+
+832
+00:35:21,790 --> 00:35:22,820
+Benjamin Oren's still unconscious.
+
+833
+00:35:22,820 --> 00:35:24,650
+The other guy's just a Northlake grunt. Doesn't know much.
+
+834
+00:35:24,650 --> 00:35:26,700
+And Rich went missing. He ran, again.
+
+835
+00:35:26,700 --> 00:35:28,230
+Start tracking him.
+
+836
+00:35:28,580 --> 00:35:29,800
+I found this on Oren.
+
+837
+00:35:29,800 --> 00:35:31,110
+What's it for?
+
+839
+00:35:31,170 --> 00:35:33,500
+I don't know, but I recognize the letters.
+
+840
+00:35:33,500 --> 00:35:35,540
+Riley School of Alternative Energy.
+
+841
+00:35:35,540 --> 00:35:38,950
+The school has a hazardous materials containment system.
+
+842
+00:35:38,950 --> 00:35:40,080
+Right here on campus.
+
+843
+00:35:40,080 --> 00:35:41,000
+How hazardous?
+
+844
+00:35:41,000 --> 00:35:42,160
+Radioactive.
+
+845
+00:35:42,170 --> 00:35:44,030
+We figured out who Oren was texting with.
+
+846
+00:35:44,040 --> 00:35:45,630
+Thad Munson-- they just pinged Thad's phone
+
+847
+00:35:45,630 --> 00:35:47,010
+at the school of alternative energy.
+
+848
+00:35:47,010 --> 00:35:48,820
+He's there right now with Rich.
+
+849
+00:35:48,820 --> 00:35:49,610
+We got the key--
+
+850
+00:35:49,610 --> 00:35:52,130
+so Thad's using Rich to break out this nuclear material.
+
+851
+00:35:52,130 --> 00:35:53,850
+They're not here to plan an attack.
+
+852
+00:35:53,850 --> 00:35:55,850
+They're here to execute one.
+
+853
+00:35:58,080 --> 00:36:00,520
+Reade, Tasha, anything on your floors?
+
+854
+00:36:00,520 --> 00:36:02,020
+- Not yet. ‭ - Negative.
+
+855
+00:36:02,020 --> 00:36:05,200
+Patterson, get a local PD to help us lock down The Labyrinth
+
+856
+00:36:05,200 --> 00:36:06,900
+until we know who else is involved.
+
+857
+00:36:06,900 --> 00:36:10,080
+Call in HAZMAT and pray to God that we don't need them.
+
+858
+00:36:13,660 --> 00:36:15,230
+No! You're too late!
+
+859
+00:36:15,230 --> 00:36:16,360
+Oh-kay...
+
+860
+00:36:16,360 --> 00:36:17,670
+Munson, let him go.
+
+861
+00:36:17,670 --> 00:36:18,540
+Turn around, Fed,
+
+862
+00:36:18,540 --> 00:36:20,700
+ or your Buddhist friend here gets his third eye!
+
+863
+00:36:20,700 --> 00:36:21,820
+Third eye is actually a Hindu--
+
+864
+00:36:21,820 --> 00:36:23,570
+- Shut up! - Shut up!
+
+865
+00:36:25,300 --> 00:36:26,790
+I'm sorry, Rich.
+
+866
+00:36:27,110 --> 00:36:28,810
+I can't let him get away with that container.
+
+867
+00:36:28,810 --> 00:36:30,380
+That's okay, why are you apologizing to me?
+
+868
+00:36:30,380 --> 00:36:32,240
+I don't know why-- ‭'Cause...
+
+869
+00:36:32,670 --> 00:36:34,540
+- Put the gun down. - Okay!
+
+870
+00:36:34,540 --> 00:36:35,780
+‭Back up.
+
+871
+00:36:37,500 --> 00:36:39,180
+Strontium's been contained.
+
+872
+00:36:39,190 --> 00:36:40,390
+Send me an ambulance.
+
+873
+00:36:40,390 --> 00:36:42,340
+Rich has been shot.
+
+874
+00:36:43,450 --> 00:36:44,600
+Twice.
+
+875
+00:36:44,600 --> 00:36:46,280
+You shot the hostage.
+
+876
+00:36:46,550 --> 00:36:47,870
+Your obsession with the movie "Speed"
+
+877
+00:36:47,870 --> 00:36:49,880
+has become very unhealthy.
+
+878
+00:36:52,500 --> 00:36:54,610
+You know, Boston,
+
+879
+00:36:54,610 --> 00:36:57,530
+I might actually miss you when you go to California.
+
+881
+00:36:59,720 --> 00:37:01,090
+Wait...
+
+882
+00:37:01,940 --> 00:37:03,880
+You made this?
+
+883
+00:37:04,340 --> 00:37:05,940
+In a different life.
+
+884
+00:37:06,330 --> 00:37:09,300
+Well... it's incredible.
+
+885
+00:37:10,390 --> 00:37:13,830
+How does someone this talented become a criminal?
+
+886
+00:37:16,460 --> 00:37:18,040
+I followed my heart.
+
+887
+00:37:21,380 --> 00:37:22,790
+Stupid, right?
+
+888
+00:37:26,310 --> 00:37:27,820
+So what are the chances I get a full pardon
+
+889
+00:37:27,820 --> 00:37:29,720
+now that I'm a national hero?
+
+890
+00:37:29,720 --> 00:37:32,560
+You do realize that your work with us is highly classified?
+
+891
+00:37:32,560 --> 00:37:34,610
+Well, don't I get a medal of some kind?
+
+892
+00:37:34,610 --> 00:37:35,970
+Purple Heart, Silver Star?
+
+893
+00:37:35,970 --> 00:37:37,260
+Redemption's its own reward.
+
+894
+00:37:37,260 --> 00:37:41,240
+Ah, stupid spiritual enlightenment.
+
+895
+00:37:41,240 --> 00:37:42,850
+Ow! Jeez.
+
+896
+00:37:42,850 --> 00:37:44,050
+See ya.
+
+897
+00:37:44,050 --> 00:37:47,640
+What if I told you I could help you solve another tattoo?
+
+898
+00:37:49,310 --> 00:37:50,640
+What? I'm here every other week.
+
+899
+00:37:50,640 --> 00:37:52,600
+You don't think I know what you guys are up to?
+
+900
+00:37:52,600 --> 00:37:54,060
+What'll it cost us?
+
+901
+00:37:54,060 --> 00:37:56,450
+All I want is for Boston to be transferred
+
+902
+00:37:56,450 --> 00:37:58,570
+to a minimum security facility.
+
+903
+00:37:58,570 --> 00:37:59,900
+The white collar kind.
+
+904
+00:37:59,900 --> 00:38:01,580
+Tennis courts and macramé classes.
+
+905
+00:38:01,580 --> 00:38:04,190
+Then, at the earliest possible chance,
+
+906
+00:38:04,190 --> 00:38:05,570
+he gets out on good behavior.
+
+907
+00:38:05,570 --> 00:38:07,880
+Which religion is telling you to do this?
+
+908
+00:38:07,880 --> 00:38:09,820
+Actually, I was thinking of starting one of my own.
+
+909
+00:38:09,820 --> 00:38:11,420
+That's terrifying.
+
+910
+00:38:11,420 --> 00:38:12,580
+How dare you.
+
+911
+00:38:12,580 --> 00:38:13,850
+So what have you got?
+
+912
+00:38:13,850 --> 00:38:16,540
+I may have done a little snooping around the Jane Doe files
+
+913
+00:38:16,540 --> 00:38:18,280
+last time I paid you two a visit.
+
+914
+00:38:18,280 --> 00:38:19,930
+Of course you did.
+
+915
+00:38:20,830 --> 00:38:22,330
+Recognize this?
+
+916
+00:38:23,860 --> 00:38:25,680
+Because I sure do.
+
+917
+00:38:30,630 --> 00:38:32,280
+I've been reading Dr. Sun's file.
+
+918
+00:38:32,280 --> 00:38:33,110
+Look...
+
+919
+00:38:33,110 --> 00:38:35,100
+if you want me to open up to a therapist post-Borden,
+
+920
+00:38:35,100 --> 00:38:37,570
+I'm damn well gonna do my homework on them.
+
+921
+00:38:38,220 --> 00:38:40,200
+I wanted to know why she left Zero Division.
+
+922
+00:38:40,200 --> 00:38:42,410
+Look, that file doesn't tell the whole story.
+
+923
+00:38:42,410 --> 00:38:44,250
+It says that she was there...
+
+924
+00:38:44,250 --> 00:38:46,110
+when Sandstorm infiltrated your group.
+
+925
+00:38:46,120 --> 00:38:48,910
+And that she voiced concerns about the team member
+
+926
+00:38:48,910 --> 00:38:51,710
+that later turned out to be compromised.
+
+927
+00:38:52,470 --> 00:38:54,270
+But no one listened to her.
+
+928
+00:38:55,140 --> 00:38:56,620
+I didn't listen.
+
+929
+00:38:56,620 --> 00:38:58,810
+Because you were too close to the mole?
+
+930
+00:39:00,550 --> 00:39:02,420
+How did you get over it?
+
+931
+00:39:04,160 --> 00:39:08,520
+That feeling of... being betrayed.
+
+932
+00:39:09,050 --> 00:39:10,710
+I-- I didn't.
+
+933
+00:39:11,850 --> 00:39:15,190
+And... and it cost me dearly.
+
+934
+00:39:15,190 --> 00:39:17,750
+But, look, Patterson, you still have a chance.
+
+935
+00:39:17,750 --> 00:39:19,750
+Talk to Dr. Sun.
+
+936
+00:39:20,300 --> 00:39:22,220
+Put Borden behind you.
+
+937
+00:39:35,670 --> 00:39:36,970
+Niki?
+
+939
+00:40:07,790 --> 00:40:09,570
+You think Patterson will be pleased or pissed
+
+940
+00:40:09,570 --> 00:40:12,190
+when she finds out Rich cracked a tattoo?
+
+941
+00:40:12,190 --> 00:40:13,090
+Pissed.
+
+942
+00:40:13,100 --> 00:40:14,450
+Definitely pissed.
+
+943
+00:40:14,450 --> 00:40:16,350
+Yeah. How'd it go today?
+
+944
+00:40:16,350 --> 00:40:19,880
+- Roman, did he... remember anything? - No.
+
+945
+00:40:19,880 --> 00:40:21,310
+It was worth a shot.
+
+946
+00:40:21,310 --> 00:40:22,360
+We'll find her.
+
+947
+00:40:22,360 --> 00:40:23,760
+Shepherd.
+
+948
+00:40:24,540 --> 00:40:25,950
+Yeah.
+
+949
+00:40:25,980 --> 00:40:27,340
+Wasn't so bad,
+
+950
+00:40:27,340 --> 00:40:30,060
+out in the field today, with Rich.
+
+951
+00:40:30,390 --> 00:40:33,140
+Maybe he is finding his... soul.
+
+952
+00:40:33,140 --> 00:40:34,660
+Well, plus, you got to shoot him.
+
+953
+00:40:34,660 --> 00:40:36,300
+I wish you could have seen that.
+
+954
+00:40:36,300 --> 00:40:37,690
+‭Me, too.
+
+955
+00:40:39,010 --> 00:40:40,020
+I gotta go.
+
+956
+00:40:40,020 --> 00:40:41,210
+A hot date?
+
+957
+00:40:41,210 --> 00:40:43,680
+No, I-- Well, I mean...
+
+958
+00:40:43,920 --> 00:40:48,050
+Yeah, but it's not, you know, it's not-- it's...
+
+959
+00:40:48,050 --> 00:40:49,180
+It's a date.
+
+960
+00:40:49,180 --> 00:40:50,980
+‭So...
+
+961
+00:40:51,260 --> 00:40:53,030
+I'll see you tomorrow.
+
+962
+00:40:53,340 --> 00:40:54,800
+See you tomorrow.
+
+965
+00:41:06,370 --> 00:41:08,200
+Tell me you have something on Truman Protocol.
+
+966
+00:41:08,200 --> 00:41:10,020
+It seems to be a series of meetings
+
+967
+00:41:10,020 --> 00:41:12,040
+that took place in the '40s...
+
+968
+00:41:12,040 --> 00:41:14,760
+in the buildup to the dropping of the A-bomb on Hiroshima.
+
+969
+00:41:14,760 --> 00:41:16,650
+So what has that got to do with Sandstorm now?
+
+970
+00:41:16,650 --> 00:41:18,110
+I don't know.
+
+971
+00:41:18,450 --> 00:41:20,320
+You know, I've been in the business of secrets
+
+972
+00:41:20,320 --> 00:41:22,480
+for my entire life, and..
+
+973
+00:41:22,480 --> 00:41:24,360
+I've never encountered anything this buried.
+
+974
+00:41:24,360 --> 00:41:27,690
+You're telling me that every Truman Protocol file has been redacted?
+
+975
+00:41:27,690 --> 00:41:28,840
+No...
+
+976
+00:41:28,840 --> 00:41:31,410
+I'm telling you that there are no files.
+
+977
+00:41:31,410 --> 00:41:33,620
+That whatever the Truman protocol was,
+
+978
+00:41:33,620 --> 00:41:37,190
+somebody has worked very hard to have it completely erased.
+
+979
+00:41:44,870 --> 00:41:46,520
+The FBI was all over me today.
+
+980
+00:41:46,520 --> 00:41:49,010
+They were just after Munson and his crew.
+
+981
+00:41:49,010 --> 00:41:52,320
+Relax. He's taken care of.
+
+982
+00:41:52,320 --> 00:41:54,500
+Some advance notice would be nice.
+
+983
+00:41:54,780 --> 00:41:56,830
+Shepherd's not big on notice.
+
+984
+00:41:56,950 --> 00:42:00,150
+You sure the FBI knows nothing about our arrangement?
+
+985
+00:42:00,230 --> 00:42:02,590
+Well, not unless you said something.
+
+986
+00:42:02,950 --> 00:42:04,790
+I'd die before I told anyone.
+
+987
+00:42:04,790 --> 00:42:06,280
+Yes...
+
+988
+00:42:06,400 --> 00:42:09,050
+or, failing that, afterwards.
+
+989
+00:42:12,750 --> 00:42:15,120
+Smile, Mr. Riley.
+
+990
+00:42:15,850 --> 00:42:18,390
+We couldn't do Phase Two without you.
+
