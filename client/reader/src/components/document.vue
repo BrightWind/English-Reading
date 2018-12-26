@@ -312,7 +312,12 @@
         axios.get('/document/explain/get?doc_id=' + docId)
           .then(function (response) {
             console.log(response.data);
-            _this.StrangeWordList = response.data
+            _this.StrangeWordList = response.data;
+            let strange_words = [];
+            _this.StrangeWordList.forEach(item => {
+              strange_words.push(item.word);
+            });
+            console.log(strange_words);
           })
           .catch(function (error) {
             console.log(error)
