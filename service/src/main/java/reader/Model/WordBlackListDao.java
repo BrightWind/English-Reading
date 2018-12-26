@@ -19,21 +19,39 @@ public class WordBlackListDao {
         return mongoTemplate.findAll(WordBlackList.class);
     }
 
-
-    public boolean Save(WordBlackList wordBlackList)
-    {
+    public boolean Save(WordBlackList wordBlackList) {
         mongoTemplate.insert(wordBlackList);
         return true;
     }
 
-    public void AddWord(String id, String word) {
+    public void AddToWhite(String id, String word) {
+        mongoTemplate.updateFirst(
+                query(where("id").is(id)),
+                new Update().addToSet("whiteList", word),
+                WordBlackList.class);
+    }
+
+    public void AddToBlack(String id, String word) {
         mongoTemplate.updateFirst(
                 query(where("id").is(id)),
                 new Update().addToSet("blackList", word),
                 WordBlackList.class);
     }
 
-    public void DeleteWord(String id, String word) {
+    public void AddListToWhite(String id, List<String> listWord) {
+    }
+
+    public void AddListToBlack(String id, List<String> listWord) {
+    }
+
+    public void DeleteFromWhite(String id, String word) {
+        mongoTemplate.updateFirst(
+                query(where("id").is(id)),
+                new Update().pull("whiteList", word),
+                WordBlackList.class);
+    }
+
+    public void DeleteFromBlack(String id, String word) {
         mongoTemplate.updateFirst(
                 query(where("id").is(id)),
                 new Update().pull("blackList", word),

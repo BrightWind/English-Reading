@@ -19,6 +19,13 @@ public class Application implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        // load blackWordList/whiteWordList
+
+        // load dictionary
+
+        // load local document
+
+        // load present document
 
     }
 

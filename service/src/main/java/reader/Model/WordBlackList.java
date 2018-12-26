@@ -9,4 +9,6 @@ public class WordBlackList {
     @Id
     public String id;
     public Set<String> blackList = new HashSet<>();
+    public Set<String> whiteList = new HashSet<>();
+
 }

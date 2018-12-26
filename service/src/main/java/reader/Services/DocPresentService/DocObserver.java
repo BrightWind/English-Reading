@@ -1,5 +1,6 @@
 package reader.Services.DocPresentService;
 
+import org.springframework.stereotype.Component;
 import reader.Helper.ChineseChecker;
 import reader.Helper.StringHelper;
 import reader.Model.Document;
@@ -10,15 +11,17 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+@Component
 public class DocObserver implements ILoaderObserver {
     protected Queue<Document> task = new ArrayDeque<>(10);
 
     @Override
     public void OnDocLoaded(Document document) {
         task.add(document);
+        ConvertToPresentDoc(document);
     }
 
-    protected List<String> StringToLines(String content) {
+    public static List<String> CaptureLines(String content) {
         String splitter = "\r\n";
         if (content.indexOf(splitter) == -1)
         {
@@ -29,7 +32,7 @@ public class DocObserver implements ILoaderObserver {
         return Arrays.asList(lines);
     }
 
-    protected List<String> RemoveInvaildLines(List<String> lines) {
+    public static List<String> CaptureValidLines(List<String> lines) {
         List<String> newLines = new ArrayList<>();
 
         String pattern = "\\d\\d:\\d\\d:\\d\\d";
@@ -37,7 +40,7 @@ public class DocObserver implements ILoaderObserver {
         lines.forEach(line -> {
             line.trim();
 
-            if (line.indexOf("{\\an") != -1)
+            if (line.indexOf("{\\") != -1)
             {
                 return;
             }
@@ -59,7 +62,9 @@ public class DocObserver implements ILoaderObserver {
         return newLines;
     }
 
-    protected void CaptureStrangeWord(List<String> lines) {
+    public static Set<String> CaptureStrangeWord(List<String> lines, Set<String> whiteList, Set<String> blackList) {
+        Set<String> strangeSet = new HashSet<>();
+
         for (String line : lines) {
             //it should be chinese
             if (ChineseChecker.hasChinese(line))
@@ -73,35 +78,57 @@ public class DocObserver implements ILoaderObserver {
             while (wordQueue.size() > 0) {
                 String word = wordQueue.pop();
                 String trimWord = StringHelper.trim(word, ",.?!()-\"").toLowerCase();
+
                 if (trimWord.isEmpty()) {
                     continue;
                 }
 
-                if (trimWord.contains("'s")) {
-                    trimWord = trimWord.replace("'s", "");
+                if (trimWord.contains("'s")
+                    ||trimWord.contains("'t")
+                    ||trimWord.contains("'v")
+                    ||trimWord.contains("'d")) {
+                    continue;
                 }
 
-                if (IsStrangeWord(trimWord)) {
-                    LongWords.add(trimWord);
+                if (whiteList.contains(word)) {
+                    strangeSet.add(word);
+                    continue;
+                }
+
+                if (blackList.contains(word)) {
+                    continue;
+                }
+
+                if (word.length() < 7) {
+                    blackList.add(word);
+                }
+                else {
+                    whiteList.add(word);
+                    strangeSet.add(word);
                 }
             }
         }
+
+        return strangeSet;
     }
 
-    public void An(Document document) {
-        String content = document.content;
-
-
-
+    public void ConvertToPresentDoc(Document document) {
+        List<String> contents;
+        Set<String> strangeWords;
+        Set<String> whiteList = new HashSet<>();
+        Set<String> blackList = new HashSet<>();
+        contents = CaptureLines(document.content);
+        contents = CaptureValidLines(contents);
+        strangeWords = CaptureStrangeWord(contents, whiteList, blackList);
 
         DocumentProfile resourceProfile = new DocumentProfile();
-        resourceProfile.fileName = fileName;
-        resourceProfile.contentLines = contentList;
-        resourceProfile.strangeWords = LongWords;
-        QueryWord(resourceProfile, LongWords);
+        resourceProfile.fileName = document.tag;
+        resourceProfile.contentLines = contents;
+        resourceProfile.strangeWords = strangeWords;
+        //QueryWord(resourceProfile, LongWords);
 
-        documentProfileDao.Save(resourceProfile);
-        resources.put(resourceProfile.id, resourceProfile);
-        logger.info(String.format("Get file From local{%s}{%s}", resourceProfile.id, fileName));
+        //documentProfileDao.Save(resourceProfile);
+        //resources.put(resourceProfile.id, resourceProfile);
+        //logger.info(String.format("Get file From local{%s}{%s}", resourceProfile.id, fileName));
     }
 }

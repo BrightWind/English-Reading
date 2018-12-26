@@ -32,7 +32,7 @@ public class WordBlackListService {
 
     public void Add(String word) {
         wordBlackList.blackList.add(word);
-        wordBlackListDao.AddWord(wordBlackList.id, word);
+        wordBlackListDao.AddToBlack(wordBlackList.id, word);
     }
 
 }
