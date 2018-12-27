@@ -1,12 +1,16 @@
 package reader;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import reader.Helper.StringHelper;
+import reader.Services.BlackWhiteWordService;
+import reader.Services.DocumentPresentService;
+import reader.Services.LocalDictionaryService;
+import reader.Services.ResourceLoadingService;
 
 import java.util.concurrent.Executor;
 
@@ -17,16 +21,31 @@ public class Application implements CommandLineRunner {
         SpringApplication.run(Application.class, args);
     }
 
+    @Autowired
+    LocalDictionaryService localDictionaryService;
+
+    @Autowired
+    BlackWhiteWordService blackWhiteWordService;
+
+    @Autowired
+    DocumentPresentService documentPresentService;
+
+    @Autowired
+    ResourceLoadingService resourceLoadingService;
+
     @Override
     public void run(String... args) throws Exception {
-        // load blackWordList/whiteWordList
-
         // load dictionary
+        localDictionaryService.Load();
 
-        // load local document
+        // load blackWordList/whiteWordList
+        blackWhiteWordService.Load();
 
         // load present document
+        documentPresentService.Load();
 
+        // we need to load the infrastructure service before load resource
+        resourceLoadingService.LoadAsync();
     }
 
     @Bean
