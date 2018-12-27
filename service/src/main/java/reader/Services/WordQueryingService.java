@@ -28,7 +28,7 @@ public class WordQueryingService {
     @Autowired
     LocalDictionaryService localDictionaryService;
 
-    public String GetOrgPattren(String line) {
+    private String GetOrgPattern(String line) {
         String pattern = "（([a-zA-Z]+)的";
         Pattern r = Pattern.compile(pattern);
 
@@ -43,7 +43,7 @@ public class WordQueryingService {
 
     private String GetOrgPatternFromList(List<String> explain_list) {
         for (String line : explain_list) {
-            String org = GetOrgPattren(line);
+            String org = GetOrgPattern(line);
             if (org != null) {
                 return org;
             }

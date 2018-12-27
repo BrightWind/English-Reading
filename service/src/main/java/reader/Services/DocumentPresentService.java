@@ -22,24 +22,27 @@ public class DocumentPresentService {
     @Autowired
     DocumentProfileDao documentProfileDao;
 
+    @Autowired
+    BlackWhiteWordService whiteWordService;
+
     public void Load() {
         List<DocumentProfile> profileList = documentProfileDao.Get();
         if (profileList == null) {
             return;
         }
         for (DocumentProfile item: profileList) {
-            if (documentProfileHashMap.containsKey(item.fileName)) {
+            if (documentProfileHashMap.containsKey(item.id)) {
                 logger.info(String.format("document profile exist:%s", item.fileName));
                 continue;
             }
 
-            documentProfileHashMap.put(item.fileName, item);
+            documentProfileHashMap.put(item.id, item);
         }
     }
 
     public void Add(DocumentProfile documentProfile) {
         lock.lock();
-        documentProfileHashMap.put(documentProfile.fileName, documentProfile);
+        documentProfileHashMap.put(documentProfile.id, documentProfile);
         lock.unlock();
         documentProfileDao.Save(documentProfile);
     }
@@ -62,5 +65,22 @@ public class DocumentPresentService {
         }
         lock.unlock();
         return profile;
+    }
+
+    public void UpdateIndex(DocumentProfile documentProfile, int position) {
+        documentProfile.rPosition = position;
+        documentProfileDao.UpdateIndex(documentProfile.id, position);
+    }
+
+    public void RemoveWord(DocumentProfile documentProfile, String word) {
+        documentProfile.strangeWords.remove(word);
+        documentProfileDao.DeleteWord(documentProfile.id, word);
+        whiteWordService.RemoveFromWhite(word);
+    }
+
+    public void AddWord(DocumentProfile documentProfile, String word) {
+        documentProfile.strangeWords.add(word);
+        documentProfileDao.AddWord(documentProfile.id, word);
+        whiteWordService.AddToWhite(word);
     }
 }
