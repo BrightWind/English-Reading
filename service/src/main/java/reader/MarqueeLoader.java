@@ -12,7 +12,7 @@ import reader.Helper.ChineseChecker;
 import reader.Helper.StaticConfigration;
 import reader.Helper.StringHelper;
 import reader.Model.*;
-import reader.Services.ClouldDictionaryService;
+import reader.Services.CloudDictionaryService;
 import reader.Services.LocalDictionaryService;
 import reader.Services.SettingService;
 import reader.Services.WordBlackListService;
@@ -30,7 +30,7 @@ import java.util.regex.Pattern;
 
 @Component
 public class MarqueeLoader {
-    private static final Logger logger = LoggerFactory.getLogger(ClouldDictionaryService.class);
+    private static final Logger logger = LoggerFactory.getLogger(CloudDictionaryService.class);
 
     @Value("classpath")
     Resource resourcePath;
@@ -39,7 +39,7 @@ public class MarqueeLoader {
     DocumentProfileDao documentProfileDao;
 
     @Autowired
-    ClouldDictionaryService clouldDictionaryService;
+    CloudDictionaryService clouldDictionaryService;
 
     @Autowired
     LocalDictionaryService localDictionaryService;
@@ -266,7 +266,7 @@ public class MarqueeLoader {
     public void QueryWord(DocumentProfile resourceProfile, Set<String> LongWords) {
         for (String word : LongWords) {
             try {
-                CompletableFuture<WordExplain> qr =  clouldDictionaryService.QueryWord(word);
+                CompletableFuture<WordExplain> qr =  clouldDictionaryService.QueryWordAsync(word);
                 qr.thenAccept(wordExplain -> {
                     try {
                         if (wordExplain == null) return;
@@ -282,7 +282,7 @@ public class MarqueeLoader {
                         if (IsStrangeWord(org)) {
                             try
                             {
-                                CompletableFuture<WordExplain> tqr =  clouldDictionaryService.QueryWord(org);
+                                CompletableFuture<WordExplain> tqr =  clouldDictionaryService.QueryWordAsync(org);
                                 tqr.thenAccept(wordExplain1 -> {
                                     resourceProfile.strangeWords.add(word);
                                     documentProfileDao.AddWord(resourceProfile.id, word);
@@ -303,7 +303,7 @@ public class MarqueeLoader {
         }
     }
 
-    @PostConstruct
+    //@PostConstruct
     public void load ()
     {
         settingService.init();

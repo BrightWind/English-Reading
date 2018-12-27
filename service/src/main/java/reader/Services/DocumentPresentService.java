@@ -7,14 +7,17 @@ import org.springframework.stereotype.Service;
 import reader.Model.DocumentProfile;
 import reader.Model.DocumentProfileDao;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 @Service
 public class DocumentPresentService {
-    private static final Logger logger = LoggerFactory.getLogger(ClouldDictionaryService.class);
+    private static final Logger logger = LoggerFactory.getLogger(DocumentPresentService.class);
     private HashMap documentProfileHashMap = new HashMap<String, DocumentProfile>();
-
+    private Lock lock = new ReentrantLock();
 
     @Autowired
     DocumentProfileDao documentProfileDao;
@@ -35,13 +38,29 @@ public class DocumentPresentService {
     }
 
     public void Add(DocumentProfile documentProfile) {
+        lock.lock();
         documentProfileHashMap.put(documentProfile.fileName, documentProfile);
+        lock.unlock();
         documentProfileDao.Save(documentProfile);
     }
 
-    public void Get(String id) {
-
+    public List<DocumentProfile> Get() {
+        List<DocumentProfile> documentProfileList = new ArrayList<>();
+        lock.lock();
+        documentProfileHashMap.forEach((key,value)->{
+            documentProfileList.add((DocumentProfile)value);
+        });
+        lock.unlock();
+        return documentProfileList;
     }
 
-
+    public DocumentProfile Get(String id) {
+        DocumentProfile profile = null;
+        lock.lock();
+        if (documentProfileHashMap.containsKey(id)) {
+            profile = (DocumentProfile) documentProfileHashMap.get(id);
+        }
+        lock.unlock();
+        return profile;
+    }
 }

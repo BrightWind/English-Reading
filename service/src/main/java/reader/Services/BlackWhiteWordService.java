@@ -25,6 +25,9 @@ public class BlackWhiteWordService {
             wordBlackList = new WordBlackList();
             wordBlackListDao.Save(wordBlackList);
         }
+        else {
+            wordBlackList = blackList.get(0);
+        }
     }
 
     private boolean Contain(String word, Lock lock, Set<String> wordList) {

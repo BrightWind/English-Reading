@@ -1,19 +1,43 @@
-package reader.Services.DocPresentService;
+package reader.Services;
 
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import reader.Helper.ChineseChecker;
+import reader.Helper.StaticConfigration;
 import reader.Helper.StringHelper;
 import reader.Model.Document;
+import reader.Model.DocumentDao;
 import reader.Model.DocumentProfile;
+import reader.Services.DocLoadService.IDocLoader;
 import reader.Services.DocLoadService.ILoaderObserver;
 
 import java.util.*;
+import java.util.concurrent.CompletableFuture;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-@Component
-public class DocObserver implements ILoaderObserver {
+@Service
+public class DocumentLoadingService implements ILoaderObserver {
     protected Queue<Document> task = new ArrayDeque<>(10);
+
+    @Autowired
+    BlackWhiteWordService blackWhiteWordService;
+
+    @Autowired
+    WordQueryingService wordQueryingService;
+
+    @Autowired
+    DocumentPresentService documentPresentService;
+
+    @Autowired
+    DocumentDao documentDao;
+
+    public void LoadAsync() {
+        String path = StaticConfigration.ResourcePath();
+        IDocLoader iLocalLoader = IDocLoader.Create(0, this);
+        iLocalLoader.documentDao = documentDao;
+        iLocalLoader.Load(path);
+    }
 
     @Override
     public void OnDocLoaded(Document document) {
@@ -21,7 +45,7 @@ public class DocObserver implements ILoaderObserver {
         ConvertToPresentDoc(document);
     }
 
-    public static List<String> CaptureLines(String content) {
+    public List<String> CaptureLines(String content) {
         String splitter = "\r\n";
         if (content.indexOf(splitter) == -1)
         {
@@ -32,7 +56,7 @@ public class DocObserver implements ILoaderObserver {
         return Arrays.asList(lines);
     }
 
-    public static List<String> CaptureValidLines(List<String> lines) {
+    public List<String> CaptureValidLines(List<String> lines) {
         List<String> newLines = new ArrayList<>();
 
         String pattern = "\\d\\d:\\d\\d:\\d\\d";
@@ -62,7 +86,7 @@ public class DocObserver implements ILoaderObserver {
         return newLines;
     }
 
-    public static Set<String> CaptureStrangeWord(List<String> lines, Set<String> whiteList, Set<String> blackList) {
+    public Set<String> CaptureStrangeWord(List<String> lines) {
         Set<String> strangeSet = new HashSet<>();
 
         for (String line : lines) {
@@ -84,27 +108,36 @@ public class DocObserver implements ILoaderObserver {
                 }
 
                 if (trimWord.contains("'s")
-                    ||trimWord.contains("'t")
-                    ||trimWord.contains("'v")
-                    ||trimWord.contains("'d")) {
+                        ||trimWord.contains("'t")
+                        ||trimWord.contains("'v")
+                        ||trimWord.contains("'d")
+                        ||trimWord.contains("'re")) {
                     continue;
                 }
 
-                if (whiteList.contains(word)) {
-                    strangeSet.add(word);
+//                if (trimWord.indexOf(".") != -1
+//                    || trimWord.indexOf("-") != -1
+//                    || trimWord.indexOf("/") != -1) {
+//                    continue;
+//                }
+
+                trimWord.toLowerCase();
+
+                if (blackWhiteWordService.ContainInWhite(trimWord)) {
+                    strangeSet.add(trimWord);
                     continue;
                 }
 
-                if (blackList.contains(word)) {
+                if (blackWhiteWordService.ContainInBlack(trimWord)) {
                     continue;
                 }
 
-                if (word.length() < 7) {
-                    blackList.add(word);
+                if (trimWord.length() < 7) {
+                    blackWhiteWordService.AddToBlack(trimWord);
                 }
                 else {
-                    whiteList.add(word);
-                    strangeSet.add(word);
+                    blackWhiteWordService.AddToWhite(trimWord);
+                    strangeSet.add(trimWord);
                 }
             }
         }
@@ -115,20 +148,19 @@ public class DocObserver implements ILoaderObserver {
     public void ConvertToPresentDoc(Document document) {
         List<String> contents;
         Set<String> strangeWords;
-        Set<String> whiteList = new HashSet<>();
-        Set<String> blackList = new HashSet<>();
+
         contents = CaptureLines(document.content);
         contents = CaptureValidLines(contents);
-        strangeWords = CaptureStrangeWord(contents, whiteList, blackList);
+        strangeWords = CaptureStrangeWord(contents);
 
         DocumentProfile resourceProfile = new DocumentProfile();
         resourceProfile.fileName = document.tag;
         resourceProfile.contentLines = contents;
         resourceProfile.strangeWords = strangeWords;
-        //QueryWord(resourceProfile, LongWords);
 
-        //documentProfileDao.Save(resourceProfile);
-        //resources.put(resourceProfile.id, resourceProfile);
-        //logger.info(String.format("Get file From local{%s}{%s}", resourceProfile.id, fileName));
+        CompletableFuture future = wordQueryingService.QueryWordAsync(resourceProfile.strangeWords);
+        future.thenRun(()->{
+            documentPresentService.Add(resourceProfile);
+        });
     }
 }

@@ -13,19 +13,25 @@ public class StringHelper {
         int len = source.length();
         int i = len - 1;
         for (; i > -1; i--) {
-            if (source.charAt(i) > 'A' && source.charAt(i) < 'z') {
+            if (source.charAt(i) >= 'A' && source.charAt(i) <= 'z') {
+                break;
+            }
+        }
+        if (i == -1) {
+            return "";
+        }
+
+        int e = 0;
+        for (; e < len; e++) {
+            if (source.charAt(e) >= 'A' && source.charAt(e) <= 'z') {
                 break;
             }
         }
 
-        if (i == len - 1) {
+        if (i == len - 1 && e == 0) {
             return  source;
         }
-        else if (i == -1) {
-            return "";
-        }
-        else {
-            return source.substring(0, i + 1);
-        }
+
+        return source.substring(e, i + 1);
     }
 }

@@ -5,7 +5,7 @@ import reader.Model.DocumentDao;
 public abstract class IDocLoader {
     protected ILoaderObserver mLoaderObserver;
 
-    protected DocumentDao documentDao;
+    public DocumentDao documentDao;
 
     public IDocLoader(ILoaderObserver iLoaderObserver) {
         mLoaderObserver = iLoaderObserver;

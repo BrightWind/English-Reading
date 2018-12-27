@@ -15,7 +15,7 @@ public class WordBlackListService {
     @Autowired
     WordBlackListDao wordBlackListDao;
 
-    @PostConstruct
+    //@PostConstruct
     private void init() {
         List<WordBlackList> wordBlackListArr = wordBlackListDao.Get();
         if (wordBlackListArr == null || wordBlackListArr.size() == 0) {

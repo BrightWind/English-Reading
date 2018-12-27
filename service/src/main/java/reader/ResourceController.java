@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ResourceController {
-    @RequestMapping(value = "/document/explain/get", method = RequestMethod.GET)
+    @RequestMapping(value = "/res/load", method = RequestMethod.GET)
     public boolean Load(String url) {
         return false;
     }

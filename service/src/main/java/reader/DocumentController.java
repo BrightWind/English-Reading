@@ -3,16 +3,11 @@ package reader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import reader.Model.*;
-import reader.Services.ClouldDictionaryService;
-import reader.Services.LocalDictionaryService;
-import reader.Services.SettingService;
-import reader.Services.WordBlackListService;
+import reader.Services.*;
 
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 @CrossOrigin(value = "*")
 @RestController
@@ -32,14 +27,16 @@ public class DocumentController {
     @Autowired
     SettingService settingService;
 
-    @Autowired
-    ClouldDictionaryService clouldDictionaryService;
+
 
     @Autowired
     LocalDictionaryService localDictionaryService;
 
     @Autowired
     WordBlackListService wordBlackListService;
+
+    @Autowired
+    DocumentPresentService documentPresentService;
 
     @RequestMapping("/")
     public String index() {
@@ -50,7 +47,8 @@ public class DocumentController {
     public List<BriefDocumentProfile> GetDocumentList()
     {
         List<BriefDocumentProfile> list = new ArrayList<>();
-        for (Object profile: staticResource.resources.values()) {
+        List<DocumentProfile> documentProfileList = documentPresentService.Get();
+        for (Object profile: documentProfileList) {
             BriefDocumentProfile briefDocumentProfile = new BriefDocumentProfile();
             briefDocumentProfile.id = ((DocumentProfile)profile).id;
             briefDocumentProfile.fileName = ((DocumentProfile)profile).fileName;
@@ -68,9 +66,8 @@ public class DocumentController {
     @RequestMapping(value = "/document/get", method = RequestMethod.GET)
     public DocumentProfile GetDocument(String id)
     {
-        if (staticResource.resources.containsKey(id))
-        {
-            DocumentProfile documentProfile = (DocumentProfile)staticResource.resources.get(id);
+        DocumentProfile documentProfile = documentPresentService.Get(id);
+        if (documentProfile != null) {
             List<String> tempList = new ArrayList<>();
             for (String word: documentProfile.strangeWords) {
                 if (wordBlackListService.Contain(word)) {
@@ -82,13 +79,9 @@ public class DocumentController {
             for (String word: tempList) {
                 documentProfile.strangeWords.remove(word);
             }
+        }
 
-            return documentProfile;
-        }
-        else
-        {
-            return null;
-        }
+        return documentProfile;
     }
 
     @RequestMapping(value = "/document/explain/get", method = RequestMethod.GET)
@@ -132,6 +125,7 @@ public class DocumentController {
     @RequestMapping(value = "document/strange/word/add")
     public void AddStrangeWord(@RequestParam String doc_id, @RequestParam String word)
     {
+        /*
         String  tword = word.toLowerCase();
         if (!localDictionaryService.Find(tword)) {
             try {
@@ -151,7 +145,7 @@ public class DocumentController {
             documentProfileDao.AddWord(doc_id, tword);
             DocumentProfile rs = (DocumentProfile)staticResource.resources.get(doc_id);
             if (rs != null) rs.strangeWords.add(tword);
-        }
+        }*/
 
     }
 

@@ -6,7 +6,6 @@ import reader.Model.LocalDictionary;
 import reader.Model.LocalDictionaryDao;
 import reader.Model.WordExplain;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
@@ -30,6 +29,9 @@ public class LocalDictionaryService {
             dictionary = new LocalDictionary();
             localDictionaryDao.Save(dictionary);
         }
+        else {
+            dictionary = localDictionaries.get(0);
+        }
     }
 
     public WordExplain Get(String word)
@@ -46,7 +48,7 @@ public class LocalDictionaryService {
         return null;
     }
 
-    public boolean Find(String word)
+    public boolean Contain(String word)
     {
         rwLock.readLock().lock();
         try{
@@ -63,13 +65,13 @@ public class LocalDictionaryService {
         rwLock.writeLock().lock();
         try {
             dictionary.container.put(wordExplain.word, wordExplain);
-            localDictionaryDao.AddWord(wordExplain.word, wordExplain);
             //处理任务
         } catch (Exception ex) {
 
         } finally {
             rwLock.writeLock().unlock();   //释放锁
         }
+        localDictionaryDao.AddWord(wordExplain.word, wordExplain);
     }
 
     public void Add(List<WordExplain> wordExplainList) {
@@ -78,6 +80,7 @@ public class LocalDictionaryService {
             for (WordExplain wordExplain : wordExplainList) {
                 try {
                     dictionary.container.put(wordExplain.word, wordExplain);
+                    localDictionaryDao.AddWord(wordExplain.word, wordExplain);
                 } catch (Exception e) {
                 }
             }

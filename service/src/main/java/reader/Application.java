@@ -8,9 +8,9 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import reader.Services.BlackWhiteWordService;
+import reader.Services.DocumentLoadingService;
 import reader.Services.DocumentPresentService;
 import reader.Services.LocalDictionaryService;
-import reader.Services.ResourceLoadingService;
 
 import java.util.concurrent.Executor;
 
@@ -31,7 +31,7 @@ public class Application implements CommandLineRunner {
     DocumentPresentService documentPresentService;
 
     @Autowired
-    ResourceLoadingService resourceLoadingService;
+    DocumentLoadingService documentLoadingService;
 
     @Override
     public void run(String... args) throws Exception {
@@ -45,7 +45,7 @@ public class Application implements CommandLineRunner {
         documentPresentService.Load();
 
         // we need to load the infrastructure service before load resource
-        resourceLoadingService.LoadAsync();
+        documentLoadingService.LoadAsync();
     }
 
     @Bean
