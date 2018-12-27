@@ -21,6 +21,9 @@ public class DocumentPresentService {
 
     public void Load() {
         List<DocumentProfile> profileList = documentProfileDao.Get();
+        if (profileList == null) {
+            return;
+        }
         for (DocumentProfile item: profileList) {
             if (documentProfileHashMap.containsKey(item.fileName)) {
                 logger.info(String.format("document profile exist:%s", item.fileName));
@@ -31,11 +34,12 @@ public class DocumentPresentService {
         }
     }
 
-    public void Add() {
-
+    public void Add(DocumentProfile documentProfile) {
+        documentProfileHashMap.put(documentProfile.fileName, documentProfile);
+        documentProfileDao.Save(documentProfile);
     }
 
-    public void Get() {
+    public void Get(String id) {
 
     }
 
