@@ -19,10 +19,10 @@ public class DocumentController {
     CloudDictionaryService cloudDictionaryService;
 
     @Autowired
-    WordBlackListService wordBlackListService;
+    DocumentPresentService documentPresentService;
 
     @Autowired
-    DocumentPresentService documentPresentService;
+    BlackWhiteWordService whiteWordService;
 
     @RequestMapping("/")
     public String index() {
@@ -56,9 +56,8 @@ public class DocumentController {
         if (documentProfile != null) {
             List<String> tempList = new ArrayList<>();
             for (String word: documentProfile.strangeWords) {
-                if (wordBlackListService.Contain(word)) {
+                if (!whiteWordService.ContainInBlack(word) && whiteWordService.ContainInBlack(word)) {
                     tempList.add(word);
-                    //documentProfileDao.DeleteWord(documentProfile.id, word);
                 }
             }
 

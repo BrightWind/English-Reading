@@ -19,7 +19,7 @@
       </div>
       <div class="content-right" id="doc-content-right" @scroll="OnContentRightScroll()">
         <div class="word-block" v-for="strangeWord in visible_strange_word_list" >
-          <div class="video-trigger" @click="OnClickSpeech($event)">
+          <div class="video-trigger" @click="OnClickSpeech($event, strangeWord.word)">
               <video class="video-block" controls="" name="media"><source v-bind:src="'http://dict.youdao.com/dictvoice?audio=' + strangeWord.word + '&type=2'" type="audio/mpeg">
               </video>
           </div>
@@ -324,8 +324,9 @@
           })
       },
       OnClickSpeech(event) {
-        if (event != null) {
-          event.srcElement.lastChild.play();
+        if (event != null && event.currentTarget != null) {
+          console.log(event.currentTarget.lastChild);
+          event.currentTarget.lastChild.play();
         }
       },
       OnClickRemoveWordBlock(word) {
