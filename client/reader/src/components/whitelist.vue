@@ -6,7 +6,7 @@
       <div class="remove-block-actions"><button @click="OnClickDialogOK()">OK</button> <button @click="OnClickDialogCancel()">abort</button></div>
     </div>
 
-    <div class="title"><label>{{document.fileName}}</label><button @click="OnClickSubmit()">Submit<button</div>
+    <div class="title"><label>{{document.fileName}}</label><button @click="OnClickSubmit()">Submit</button></div>
 
     <div class="content" id="doc-content">
       <div class="content-left" id="doc-content-left">
@@ -118,8 +118,6 @@
     line-height: 15px;
     font-size: 14px;
     margin-top: 10px;
-  }
-  .speech {
   }
 
   .title {
@@ -263,9 +261,9 @@
 
         let WhiteListParam = {
             doc_id: docId,
-            white_list = white_set
+            white_list:white_set
         }
-        axios.post('list/white/list/add', WhiteListPara)
+        axios.post('list/white/list/add', WhiteListParam)
           .then(function (response) {
             _this.document = response.data
           })

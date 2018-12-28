@@ -32,15 +32,17 @@ public class LocalDocLoader extends IDocLoader {
         if (file.exists()) {
             try {
                 String filePath = file.getAbsolutePath();
-                InputStream inputStream = new FileInputStream(filePath);
-                String content = IOUtils.toString(inputStream, StandardCharsets.UTF_8);
-
-                Document document = new Document();
-                document.url = filePath;
-                document.tag = fileName;
-                document.content = content;
-                documentDao.Save(document);
-                file.delete();
+                Document document = documentDao.GetByURL(filePath);
+                if (document == null) {
+                    InputStream inputStream = new FileInputStream(filePath);
+                    String content = IOUtils.toString(inputStream, StandardCharsets.UTF_8);
+                    document = new Document();
+                    document.url = filePath;
+                    document.tag = fileName;
+                    document.content = content;
+                    documentDao.Save(document);
+                    file.delete();
+                }
 
                 if (mLoaderObserver != null) mLoaderObserver.OnDocLoaded(document);
             } catch (Exception ex) {

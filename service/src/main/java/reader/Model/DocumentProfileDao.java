@@ -31,6 +31,10 @@ public class DocumentProfileDao {
         return mongoTemplate.findOne(query(where("fileName").is(fileName)), DocumentProfile.class);
     }
 
+    public DocumentProfile GetByURL(String url) {
+        return mongoTemplate.findOne(query(where("url").is(url)), DocumentProfile.class);
+    }
+
     public List<DocumentProfile> Get() {
         return mongoTemplate.findAll(DocumentProfile.class);
     }

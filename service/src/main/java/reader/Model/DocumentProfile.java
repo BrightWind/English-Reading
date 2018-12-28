@@ -11,6 +11,7 @@ public class DocumentProfile {
     @Id
     public String id;
     public String fileName;
+    public String url;
     public String category;
     public List<String> contentLines = new ArrayList<>();
     public Set<String> strangeWords = new HashSet<>();

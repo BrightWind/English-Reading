@@ -8,6 +8,7 @@ import reader.Helper.StringHelper;
 import reader.Model.Document;
 import reader.Model.DocumentDao;
 import reader.Model.DocumentProfile;
+import reader.Model.DocumentProfileDao;
 import reader.Services.DocLoadService.IDocLoader;
 import reader.Services.DocLoadService.ILoaderObserver;
 
@@ -18,8 +19,6 @@ import java.util.regex.Pattern;
 
 @Service
 public class DocumentLoadingService implements ILoaderObserver {
-    protected Queue<Document> task = new ArrayDeque<>(10);
-
     @Autowired
     BlackWhiteWordService blackWhiteWordService;
 
@@ -32,6 +31,9 @@ public class DocumentLoadingService implements ILoaderObserver {
     @Autowired
     DocumentDao documentDao;
 
+    @Autowired
+    DocumentProfileDao documentProfileDao;
+
     public void LoadAsync() {
         String path = StaticConfigration.ResourcePath();
         IDocLoader iLocalLoader = IDocLoader.Create(0, this);
@@ -41,8 +43,10 @@ public class DocumentLoadingService implements ILoaderObserver {
 
     @Override
     public void OnDocLoaded(Document document) {
-        task.add(document);
-        ConvertToPresentDoc(document);
+        DocumentProfile documentProfile = documentProfileDao.GetByName(document.url);
+        if (documentProfile == null) {
+            ConvertToPresentDoc(document);
+        }
     }
 
     public List<String> CaptureLines(String content) {
@@ -165,6 +169,7 @@ public class DocumentLoadingService implements ILoaderObserver {
 
         DocumentProfile resourceProfile = new DocumentProfile();
         resourceProfile.fileName = document.tag;
+        resourceProfile.url = document.url;
         resourceProfile.contentLines = contents;
         resourceProfile.strangeWords = strangeWords;
 
