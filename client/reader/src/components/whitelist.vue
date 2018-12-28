@@ -1,7 +1,12 @@
 <template>
   <div class="document" id="document">
+    
+    <div class="message-box" v-show="show_dialog">
+      <p class="remove-block-tips">{{message}}</p>
+      <div class="remove-block-actions"><button @click="OnClickDialogOK()">OK</button> <button @click="OnClickDialogCancel()">abort</button></div>
+    </div>
 
-    <div class="title" @click="OnClickTitle()"><label>{{document.fileName}}</label></div>
+    <div class="title"><label>{{document.fileName}}</label><button @click="OnClickSubmit()">Submit<button</div>
 
     <div class="content" id="doc-content">
       <div class="content-left" id="doc-content-left">
@@ -28,17 +33,6 @@
     bottom: 10px;
     overflow-y: auto;
   }
-  .select-strange-word {
-    background: url('../assets/check_1.png');
-    background-position-x: right;
-    background-position-y: bottom;
-    background-size: 50%;
-    background-repeat: no-repeat;
-  }
-
-  .none-select-strange-word {
-        background: burlywood;
-  }
 
   .hide-block {
     visibility: hidden;
@@ -48,32 +42,6 @@
     font-size: 25px;
     color: white;
     z-index: 1000;
-  }
-
-  .new-strange-word-list {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    width: 400px;
-    height: 250px;
-    position: fixed;
-    z-index: 1000;
-    top: 25%;
-    left: 10%;
-    overflow-y: scroll;
-    background-color: black;
-  }
-
-  .new-strange-word {
-    width: 110px;
-    height: 40px;
-    margin: 5px 5px;
-    background-color: white;
-  }
-  .new-strange-word span {
-    display: block;
-    position: absolute;
-    margin: auto;
   }
 
   .word-list-done button {
@@ -240,11 +208,13 @@
           contentLines: '',
         },
         visible_strange_word_list: [],
+        show_dialog: false,
+        message: 'Submit the white list'
       }
     },
     mounted: function () {
       let _this = this;
-      this.OnClickTitle()
+      this.OnLoadDocument()
     },
     // updated: function(){
     //   this.$el.scrollTop = this.document.rPosition;
@@ -273,7 +243,41 @@
     },
     methods: {
       ...mapActions(['get_document_list']),
-      OnClickTitle () {
+      OnClickSubmit() {
+        this.show_dialog = true;
+      },
+      OnClickDialogOK() {
+        this.show_dialog = false;
+        let white_set = new Set();
+        this.visible_strange_word_list.forEach(item => {
+          white_set.add(item)
+        });
+
+        let docId = ''
+        if (this.$props.profile) {
+          docId = this.$props.id
+          this.$session.set('profile', docId)
+        } else {
+          docId = this.$session.get('profile')
+        }
+
+        let WhiteListParam = {
+            doc_id: docId,
+            white_list = white_set
+        }
+        axios.post('list/white/list/add', WhiteListPara)
+          .then(function (response) {
+            _this.document = response.data
+          })
+          .catch(function (error) {
+            console.log(error)
+          })
+
+      },
+      OnClickDialogCancel() {
+        this.show_dialog = false;
+      },
+      OnLoadDocument () {
         let docId = ''
         if (this.$props.profile) {
           docId = this.$props.id
@@ -290,8 +294,6 @@
           .catch(function (error) {
             console.log(error)
           })
-
-
       },
       AddToWhiteList(word) {
         let _this = this;
@@ -304,7 +306,6 @@
           this.visible_strange_word_list.splice(idx, 1);
         }
       }
-
     }
   }
 </script>

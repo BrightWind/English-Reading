@@ -6,6 +6,7 @@ import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+import java.util.Set;
 
 import static org.springframework.data.mongodb.core.query.Criteria.where;
 import static org.springframework.data.mongodb.core.query.Query.query;
@@ -47,6 +48,14 @@ public class DocumentProfileDao {
                 new Update().addToSet("strangeWords", word),
                 DocumentProfile.class);
     }
+
+    public void SaveStrangeWord(String id, Set<String> word_set) {
+        mongoTemplate.updateFirst(
+                query(where("id").is(id)),
+                new Update().set("strangeWords", word_set),
+                DocumentProfile.class);
+    }
+
 
     public void DeleteWord(String id, String word) {
         mongoTemplate.updateFirst(

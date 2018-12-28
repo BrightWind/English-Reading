@@ -1,16 +1,29 @@
 package reader;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import reader.Helper.StringHelper;
+import reader.Model.DocumentProfile;
+import reader.Model.WhiteListParam;
 import reader.Services.BlackWhiteWordService;
+import reader.Services.DocumentLoadingService;
+import reader.Services.DocumentPresentService;
 
-import java.util.List;
+import java.lang.reflect.Array;
+import java.util.*;
 
 @RestController
 public class BlackListController {
     @Autowired
     BlackWhiteWordService blackWhiteWordService;
+
+    @Autowired
+    DocumentPresentService documentPresentService;
+
+    @Autowired
+    DocumentLoadingService documentLoadingService;
 
     @RequestMapping(value = "list/white/contain")
     public boolean ContainInWhite(String word) {
@@ -33,12 +46,41 @@ public class BlackListController {
     }
 
     @RequestMapping(value = "list/white/list/add")
-    public void AddListToWhite(List<String> list) {
-        blackWhiteWordService.AddListToWhite(list);
+    public void AddListToWhite(@RequestBody WhiteListParam whiteListParam) {
+        DocumentProfile documentProfile = documentPresentService.Get(whiteListParam.doc_id);
+        if (documentProfile == null) {
+            return;
+        }
+
+        Set<String> white_set = new HashSet<>();
+        Set<String> black_set = new HashSet<>();
+
+        //content to word set
+        Set<String> word_set = documentLoadingService.CaptureWords(documentProfile.contentLines);
+
+        //get white list
+        whiteListParam.white_list.forEach(word -> {
+            word = StringHelper.trim(word, "");
+            white_set.add(word.toLowerCase());
+        });
+
+        //get black list
+        word_set.forEach(word->{
+            if (!white_set.contains(word)) {
+                black_set.add(word);
+            }
+        });
+
+        //update white and black list
+        //blackWhiteWordService.AddListToWhite(white_set);
+        blackWhiteWordService.AddListToBlack(black_set);
+
+        //save document strange list
+        documentPresentService.SaveStrangeWords(documentProfile, white_set);
     }
 
     @RequestMapping(value = "list/black/list/add")
-    public void AddListToBlack(List<String> list) {
+    public void AddListToBlack(Set<String> list) {
         blackWhiteWordService.AddListToBlack(list);
     }
 

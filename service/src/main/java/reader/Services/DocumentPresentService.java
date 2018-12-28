@@ -10,6 +10,7 @@ import reader.Model.DocumentProfileDao;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -82,5 +83,11 @@ public class DocumentPresentService {
         documentProfile.strangeWords.add(word);
         documentProfileDao.AddWord(documentProfile.id, word);
         whiteWordService.AddToWhite(word);
+    }
+
+    public void SaveStrangeWords(DocumentProfile documentProfile, Set<String> word_set) {
+        documentProfile.strangeWords = word_set;
+        documentProfileDao.SaveStrangeWord(documentProfile.id, word_set);
+        whiteWordService.AddListToWhite(word_set);
     }
 }

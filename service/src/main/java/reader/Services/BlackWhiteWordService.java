@@ -64,18 +64,18 @@ public class BlackWhiteWordService {
         wordBlackListDao.AddToBlack(wordBlackList.id, word);
     }
 
-    private void AddList(List<String> list, Lock lock, Set<String> wordList) {
+    private void AddList(Set<String> list, Lock lock, Set<String> wordList) {
         lock.lock();
         wordList.addAll(list);
         lock.unlock();
     }
 
-    public void AddListToWhite(List<String> list) {
+    public void AddListToWhite(Set<String> list) {
         AddList(list, whiteLock, wordBlackList.whiteList);
         wordBlackListDao.AddListToWhite(wordBlackList.id, list);
     }
 
-    public void AddListToBlack(List<String> list) {
+    public void AddListToBlack(Set<String> list) {
         AddList(list, blackLock, wordBlackList.blackList);
         wordBlackListDao.AddListToBlack(wordBlackList.id, list);
     }

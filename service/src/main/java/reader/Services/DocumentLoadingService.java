@@ -86,8 +86,8 @@ public class DocumentLoadingService implements ILoaderObserver {
         return newLines;
     }
 
-    public Set<String> CaptureStrangeWord(List<String> lines) {
-        Set<String> strangeSet = new HashSet<>();
+    public Set<String> CaptureWords(List<String> lines) {
+        Set<String> word_set = new HashSet<>();
 
         for (String line : lines) {
             //it should be chinese
@@ -123,24 +123,33 @@ public class DocumentLoadingService implements ILoaderObserver {
 
                 trimWord.toLowerCase();
 
-                if (blackWhiteWordService.ContainInWhite(trimWord)) {
-                    strangeSet.add(trimWord);
-                    continue;
-                }
-
-                if (blackWhiteWordService.ContainInBlack(trimWord)) {
-                    continue;
-                }
-
-                if (trimWord.length() < 7) {
-                    blackWhiteWordService.AddToBlack(trimWord);
-                }
-                else {
-                    blackWhiteWordService.AddToWhite(trimWord);
-                    strangeSet.add(trimWord);
-                }
+                word_set.add(trimWord);
             }
         }
+
+        return word_set;
+    }
+
+    public Set<String> CaptureStrangeWord(Set<String> words) {
+        Set<String> strangeSet = new HashSet<>();
+        words.forEach(word -> {
+            if (blackWhiteWordService.ContainInWhite(word)) {
+                strangeSet.add(word);
+                return;
+            }
+
+            if (blackWhiteWordService.ContainInBlack(word)) {
+                return;
+            }
+
+            if (word.length() < 7) {
+                blackWhiteWordService.AddToBlack(word);
+            }
+            else {
+                blackWhiteWordService.AddToWhite(word);
+                strangeSet.add(word);
+            }
+        });
 
         return strangeSet;
     }
@@ -151,7 +160,8 @@ public class DocumentLoadingService implements ILoaderObserver {
 
         contents = CaptureLines(document.content);
         contents = CaptureValidLines(contents);
-        strangeWords = CaptureStrangeWord(contents);
+        strangeWords = CaptureWords(contents);
+        strangeWords = CaptureStrangeWord(strangeWords);
 
         DocumentProfile resourceProfile = new DocumentProfile();
         resourceProfile.fileName = document.tag;

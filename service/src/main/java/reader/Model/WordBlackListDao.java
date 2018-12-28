@@ -6,6 +6,7 @@ import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+import java.util.Set;
 
 import static org.springframework.data.mongodb.core.query.Criteria.where;
 import static org.springframework.data.mongodb.core.query.Query.query;
@@ -38,10 +39,18 @@ public class WordBlackListDao {
                 WordBlackList.class);
     }
 
-    public void AddListToWhite(String id, List<String> listWord) {
+    public void AddListToWhite(String id, Set<String> listWord) {
+        mongoTemplate.updateFirst(
+                query(where("id").is(id)),
+                new Update().addToSet("whiteList").each(listWord),
+                WordBlackList.class);
     }
 
-    public void AddListToBlack(String id, List<String> listWord) {
+    public void AddListToBlack(String id, Set<String> listWord) {
+        mongoTemplate.updateFirst(
+                query(where("id").is(id)),
+                new Update().addToSet("blackList").each(listWord),
+                WordBlackList.class);
     }
 
     public void DeleteFromWhite(String id, String word) {

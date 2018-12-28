@@ -262,7 +262,7 @@
     },
     mounted: function () {
       let _this = this;
-      this.OnClickTitle()
+      this.OnLoadDocument()
     },
     updated: function(){
       this.$el.scrollTop = this.document.rPosition;
@@ -292,6 +292,9 @@
     methods: {
       ...mapActions(['get_document_list']),
       OnClickTitle () {
+        
+      },
+      OnLoadDocument () {
         let docId = ''
         if (this.$props.profile) {
           docId = this.$props.id
