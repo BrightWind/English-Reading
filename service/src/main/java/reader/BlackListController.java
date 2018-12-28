@@ -12,7 +12,6 @@ import reader.Services.BlackWhiteWordService;
 import reader.Services.DocumentLoadingService;
 import reader.Services.DocumentPresentService;
 
-import java.lang.reflect.Array;
 import java.util.*;
 @CrossOrigin(value = "*")
 @RestController
@@ -57,7 +56,7 @@ public class BlackListController {
         Set<String> black_set = new HashSet<>();
 
         //content to word set
-        Set<String> word_set = documentLoadingService.CaptureWords(documentProfile.contentLines);
+        Set<String> word_set = blackWhiteWordService.CaptureWords(documentProfile.contentLines);
 
         //get white list
         whiteListParam.white_list.forEach(word -> {

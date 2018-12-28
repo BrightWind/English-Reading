@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -24,7 +25,10 @@ public class DocumentPresentService {
     DocumentProfileDao documentProfileDao;
 
     @Autowired
-    BlackWhiteWordService whiteWordService;
+    BlackWhiteWordService blackWhiteWordService;
+
+    @Autowired
+    WordQueryingService wordQueryingService;
 
     public void Load() {
         List<DocumentProfile> profileList = documentProfileDao.Get();
@@ -37,7 +41,15 @@ public class DocumentPresentService {
                 continue;
             }
 
-            documentProfileHashMap.put(item.id, item);
+            List<String> contents;
+            contents = blackWhiteWordService.CaptureValidLines(item.contentLines);
+            item.strangeWords = blackWhiteWordService.CaptureWords(contents);
+            item.strangeWords = blackWhiteWordService.CaptureStrangeWord(item.strangeWords);
+
+            CompletableFuture future = wordQueryingService.QueryWordAsync(item.strangeWords);
+            future.thenRun(()->{
+                documentProfileHashMap.put(item.id, item);
+            });
         }
     }
 
@@ -76,18 +88,18 @@ public class DocumentPresentService {
     public void RemoveWord(DocumentProfile documentProfile, String word) {
         documentProfile.strangeWords.remove(word);
         documentProfileDao.DeleteWord(documentProfile.id, word);
-        whiteWordService.RemoveFromWhite(word);
+        blackWhiteWordService.RemoveFromWhite(word);
     }
 
     public void AddWord(DocumentProfile documentProfile, String word) {
         documentProfile.strangeWords.add(word);
         documentProfileDao.AddWord(documentProfile.id, word);
-        whiteWordService.AddToWhite(word);
+        blackWhiteWordService.AddToWhite(word);
     }
 
     public void SaveStrangeWords(DocumentProfile documentProfile, Set<String> word_set) {
         documentProfile.strangeWords = word_set;
         documentProfileDao.SaveStrangeWord(documentProfile.id, word_set);
-        whiteWordService.AddListToWhite(word_set);
+        blackWhiteWordService.AddListToWhite(word_set);
     }
 }
