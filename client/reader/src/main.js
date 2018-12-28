@@ -8,8 +8,8 @@ import VueSessionStorage from 'vue-sessionstorage'
 import { ObserveVisibility } from 'vue-observe-visibility'
 import scroll from 'vue-scroll'
 
-axios.defaults.baseURL = 'http://127.0.0.1:8090/'
-//axios.defaults.baseURL = 'http://97.64.18.99:8090/'
+//axios.defaults.baseURL = 'http://127.0.0.1:8090/'
+axios.defaults.baseURL = 'http://97.64.18.99:8090/'
 Vue.config.productionTip = false
 
 Vue.use(VueX)

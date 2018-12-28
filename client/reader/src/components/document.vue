@@ -292,7 +292,7 @@
     methods: {
       ...mapActions(['get_document_list']),
       OnClickTitle () {
-        
+
       },
       OnLoadDocument () {
         let docId = ''
@@ -329,7 +329,9 @@
       OnClickSpeech(event) {
         if (event != null && event.currentTarget != null) {
           console.log(event.currentTarget.lastChild);
-          event.currentTarget.lastChild.play();
+          let video = event.currentTarget.lastChild;
+          video.load();
+          video.play();
         }
       },
       OnClickRemoveWordBlock(word) {
