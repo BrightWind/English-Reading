@@ -14,6 +14,8 @@ public class SettingService {
 
     public StrangeWordLevel strangeWordLevel;
 
+    public Boolean Debug = true;
+
     public void init() {
         List<StrangeWordLevel> settings = strangeWordLevelDao.Get();
         if (settings == null || settings.size() == 0) {

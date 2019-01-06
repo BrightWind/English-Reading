@@ -11,6 +11,10 @@
       <div class="word-list-done"><button @click="OnClickWordListDone()">Done</button></div>
     </div>
 
+    <div class="next-page" >
+      <button @click="OnClickNextPage">- ></button>
+    </div>
+
     <div class="title" @click="OnClickTitle()"><label>{{document.fileName}}</label></div>
 
     <div class="content" id="doc-content">
@@ -125,6 +129,13 @@
     background-color: black;
   }
 
+  .next-page {
+    position: fixed;
+    top: 80%;
+    left: 65%;
+    width: 100px;
+    z-index: 1000;
+  }
 
   .remove-block {
     right: 8px;
@@ -133,7 +144,6 @@
     position: absolute;
     background-color: aliceblue;
     font-size: 30px;
-
   }
   .word-block {
     position: relative;
@@ -257,6 +267,7 @@
         selected_new_strange_word_List: [],
         wordRemoved: {},
         sessionPos  : 0,
+        clientHeight: -1,
         scrollRecorder: null
       }
     },
@@ -326,11 +337,13 @@
             console.log(error)
           })
       },
-      OnClickSpeech(event) {
+      OnClickSpeech(event, word) {
         if (event != null && event.currentTarget != null) {
           console.log(event.currentTarget.lastChild);
           let video = event.currentTarget.lastChild;
-          video.load();
+          if (-1 == video.currentSrc.indexOf(word)) {
+            video.load();
+          }
           video.play();
         }
       },
@@ -403,14 +416,25 @@
       },
       onScroll (event) {
         let _this = this;
-        //console.log("..debug..")
         _this.sessionPos = event.target.scrollTop;
+        if (_this.clientHeight == -1) {
+          _this.clientHeight = event.target.clientHeight;
+        }
 
         _this.ScrollFiller(_this.HandleScrollEvent, event.target);
       },
       HandleScrollEvent(target) {
           this.SaveDocumentPos();
           this.UpdateStrangeWordList(target);
+      },
+      OnClickNextPage() {
+        let _this = this;
+        _this.onScroll({
+          target: {
+            scrollTop :  _this.sessionPos + _this.clientHeight - 60,
+            clientHeight: _this.clientHeight
+          }
+        })
       },
       SaveDocumentPos() {
         let _this = this;
