@@ -1,7 +1,6 @@
 package reader;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.EnableAsync;
@@ -9,15 +8,18 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import reader.Services.BlackWhiteWordService;
-import reader.Services.DocumentLoadingService;
-import reader.Services.DocumentPresentService;
-import reader.Services.LocalDictionaryService;
+import reader.Helper.StringHelper;
+import reader.Services.*;
 
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;
 
 @SpringBootApplication
 @EnableAsync
+@Slf4j
 public class Application implements CommandLineRunner {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
@@ -27,27 +29,57 @@ public class Application implements CommandLineRunner {
     LocalDictionaryService localDictionaryService;
 
     @Autowired
-    BlackWhiteWordService blackWhiteWordService;
+    CloudDictionaryService cloudDictionaryService;
 
     @Autowired
-    DocumentPresentService documentPresentService;
+    WhiteListService whiteListService;
 
     @Autowired
-    DocumentLoadingService documentLoadingService;
+    DocumentInventoryService documentInventoryService;
+
+    @Autowired
+    ResourceLoadingService resourceLoadingService;
+
+    @Autowired
+    WordQueryingService wordQueryingService;
+
+    @Autowired
+    WordFrequencyService wordFrequencyService;
 
     @Override
     public void run(String... args) throws Exception {
         // load dictionary
         localDictionaryService.Load();
+        log.info("----step1 localDictionaryService.Load()");
 
         // load blackWordList/whiteWordList
-        blackWhiteWordService.Load();
+        whiteListService.Load();
+        log.info("----step2 whiteListService.Load()");
 
         // load present document
-        documentPresentService.Load();
+        documentInventoryService.Load(documentProfiles -> {
+            if (documentProfiles == null) return;
 
-        // we need to load the infrastructure service before load resource
-        documentLoadingService.LoadAsync();
+            Set<String> word_set = new HashSet<>();
+            documentProfiles.forEach(documentProfile -> {
+                List<String> contents = StringHelper.CaptureEnglishSentences(documentProfile.contentLines);
+                documentProfile.word_list = StringHelper.SplitToWords(contents);
+                wordFrequencyService.AddWord(documentProfile.word_list);
+                log.info(String.format("----step3 documentInventoryService.Load():%s", documentProfile.id));
+            });
+
+            documentProfiles.forEach(documentProfile -> {
+                documentProfile.strangeWords = whiteListService.CaptureStrangeWord(documentProfile.word_list);
+                word_set.addAll(documentProfile.strangeWords);
+            });
+
+            CompletableFuture completableFuture = wordQueryingService.QueryWordAsync(word_set);
+            completableFuture.thenAccept(param ->{
+                // we need to load the infrastructure service before load resource
+                resourceLoadingService.StartAsync();
+            });
+        });
+        log.info("----step4 documentInventoryService.Load()");
     }
 
     @Bean

@@ -8,22 +8,22 @@ import org.springframework.web.bind.annotation.RestController;
 import reader.Helper.StringHelper;
 import reader.Model.DocumentProfile;
 import reader.Model.WhiteListParam;
-import reader.Services.BlackWhiteWordService;
-import reader.Services.DocumentLoadingService;
-import reader.Services.DocumentPresentService;
+import reader.Services.WhiteListService;
+import reader.Services.ResourceLoadingService;
+import reader.Services.DocumentInventoryService;
 
 import java.util.*;
 @CrossOrigin(value = "*")
 @RestController
 public class BlackListController {
     @Autowired
-    BlackWhiteWordService blackWhiteWordService;
+    WhiteListService blackWhiteWordService;
 
     @Autowired
-    DocumentPresentService documentPresentService;
+    DocumentInventoryService documentPresentService;
 
     @Autowired
-    DocumentLoadingService documentLoadingService;
+    ResourceLoadingService documentLoadingService;
 
     @RequestMapping(value = "list/white/contain")
     public boolean ContainInWhite(String word) {
@@ -37,12 +37,12 @@ public class BlackListController {
 
     @RequestMapping(value = "list/white/add")
     public void AddToWhite(String word) {
-        blackWhiteWordService.AddToWhite(word);
+        blackWhiteWordService.AddToWhiteList(word);
     }
 
     @RequestMapping(value = "list/black/add")
     public void AddBlack(String word) {
-        blackWhiteWordService.AddToBlack(word);
+        blackWhiteWordService.AddToBlackList(word);
     }
 
     @RequestMapping(value = "list/white/list/add")
@@ -56,7 +56,7 @@ public class BlackListController {
         Set<String> black_set = new HashSet<>();
 
         //content to word set
-        Set<String> word_set = blackWhiteWordService.CaptureWords(documentProfile.contentLines);
+        Set<String> word_set = StringHelper.SplitToWords(documentProfile.contentLines);
 
         //get white list
         whiteListParam.white_list.forEach(word -> {

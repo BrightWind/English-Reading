@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import reader.Services.BlackWhiteWordService;
-import reader.Services.DocumentLoadingService;
+import reader.Helper.StringHelper;
+import reader.Services.WhiteListService;
+import reader.Services.ResourceLoadingService;
 
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -17,10 +17,10 @@ import java.util.Set;
 @RestController
 public class TestController {
     @Autowired
-    DocumentLoadingService documentLoadingService;
+    ResourceLoadingService documentLoadingService;
 
     @Autowired
-    BlackWhiteWordService blackWhiteWordService;
+    WhiteListService blackWhiteWordService;
 
     @RequestMapping(value = "test/strange/capture")
     public Set<String> CaptureWord(@RequestParam String content) {
@@ -28,8 +28,8 @@ public class TestController {
         Set<String> words;
 
         lines = blackWhiteWordService.CaptureLines(content);
-        lines = blackWhiteWordService.CaptureValidLines(lines);
-        words = blackWhiteWordService.CaptureWords(lines);
+        lines = StringHelper.CaptureEnglishSentences(lines);
+        words = StringHelper.SplitToWords(lines);
         words = blackWhiteWordService.CaptureStrangeWord(words);
 
         return words;

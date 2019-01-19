@@ -1,17 +1,24 @@
 package reader;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import reader.Helper.StringHelper;
 import reader.Model.*;
 import reader.Services.*;
 
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+import java.util.concurrent.CompletableFuture;
 
 @CrossOrigin(value = "*")
 @RestController
 public class DocumentController {
+    private static final Logger logger = LoggerFactory.getLogger(WordQueryingService.class);
+
     @Autowired
     LocalDictionaryService localDictionaryService;
 
@@ -19,10 +26,10 @@ public class DocumentController {
     CloudDictionaryService cloudDictionaryService;
 
     @Autowired
-    DocumentPresentService documentPresentService;
+    DocumentInventoryService documentPresentService;
 
     @Autowired
-    BlackWhiteWordService whiteWordService;
+    WhiteListService whiteWordService;
 
     @RequestMapping("/")
     public String index() {
@@ -54,16 +61,8 @@ public class DocumentController {
     {
         DocumentProfile documentProfile = documentPresentService.Get(id);
         if (documentProfile != null) {
-            List<String> tempList = new ArrayList<>();
-            for (String word: documentProfile.strangeWords) {
-                if (!whiteWordService.ContainInBlack(word) && whiteWordService.ContainInBlack(word)) {
-                    tempList.add(word);
-                }
-            }
-
-            for (String word: tempList) {
-                documentProfile.strangeWords.remove(word);
-            }
+            documentProfile.strangeWords = whiteWordService.CaptureStrangeWord(documentProfile.word_list);
+            documentProfile = documentProfile.OutputClone();
         }
 
         return documentProfile;
@@ -83,6 +82,7 @@ public class DocumentController {
             }
         }
 
+        logger.info("Get wordExplainList size: %d, %d", profile.strangeWords.size(), wordExplainList.size());
         return wordExplainList;
     }
 
@@ -99,26 +99,31 @@ public class DocumentController {
     }
 
     @RequestMapping(value = "document/strange/word/add")
-    public void AddStrangeWord(@RequestParam String doc_id, @RequestParam String word)
+    public WordExplain AddStrangeWord(@RequestParam String doc_id, @RequestParam String word)
     {
         String  tword = word.toLowerCase();
+        tword = StringHelper.trim(tword, "");
         DocumentProfile rs = documentPresentService.Get(doc_id);
         if (!localDictionaryService.Contain(tword)) {
             try {
-                cloudDictionaryService.QueryWordAsync(tword).thenAccept(wordExplain -> {
-                    if (wordExplain != null)
-                    {
-                        localDictionaryService.Add(wordExplain);
-                        if (rs != null) documentPresentService.AddWord(rs, tword);
-                    }
-                });
+                CompletableFuture<WordExplain> future = cloudDictionaryService.QueryWordAsync(tword);
+                WordExplain wordExplain = future.get();
+                if (wordExplain == null) {
+                    return null;
+                }
+
+                localDictionaryService.Add(wordExplain);
+                if (rs != null) documentPresentService.AddWord(rs, tword);
+
+                return wordExplain;
             }
-            catch (Exception ex) {};
+            catch (Exception ex) {
+                return null;
+            }
         } else {
-
             if (rs != null) documentPresentService.AddWord(rs, tword);
+            return localDictionaryService.Get(tword);
         }
-
     }
 
     @RequestMapping(value = "document/strange/word/delete")

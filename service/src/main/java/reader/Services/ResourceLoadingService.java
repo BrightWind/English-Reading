@@ -1,8 +1,11 @@
 package reader.Services;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reader.Helper.StaticConfigration;
+import reader.Helper.StringHelper;
 import reader.Model.Document;
 import reader.Model.DocumentDao;
 import reader.Model.DocumentProfile;
@@ -11,18 +14,19 @@ import reader.Services.DocLoadService.IDocLoader;
 import reader.Services.DocLoadService.ILoaderObserver;
 
 import java.util.*;
-import java.util.concurrent.CompletableFuture;
 
 @Service
-public class DocumentLoadingService implements ILoaderObserver {
+public class ResourceLoadingService implements ILoaderObserver {
+    private static final Logger logger = LoggerFactory.getLogger(ResourceLoadingService.class);
+
     @Autowired
-    BlackWhiteWordService blackWhiteWordService;
+    WhiteListService blackWhiteWordService;
 
     @Autowired
     WordQueryingService wordQueryingService;
 
     @Autowired
-    DocumentPresentService documentPresentService;
+    DocumentInventoryService documentPresentService;
 
     @Autowired
     DocumentDao documentDao;
@@ -30,7 +34,10 @@ public class DocumentLoadingService implements ILoaderObserver {
     @Autowired
     DocumentProfileDao documentProfileDao;
 
-    public void LoadAsync() {
+    @Autowired
+    WordFrequencyService wordFrequencyService;
+
+    public void StartAsync() {
         String path = StaticConfigration.ResourcePath();
         IDocLoader iLocalLoader = IDocLoader.Create(0, this);
         iLocalLoader.documentDao = documentDao;
@@ -47,23 +54,29 @@ public class DocumentLoadingService implements ILoaderObserver {
 
 
     public void ConvertToPresentDoc(Document document) {
-        List<String> contents;
-        Set<String> strangeWords;
+        List<String> contents = blackWhiteWordService.CaptureLines(document.content);
+        contents = StringHelper.CaptureEnglishSentences(contents);
+        Set<String> words = StringHelper.SplitToWords(contents);
+        wordFrequencyService.AddWord(words);
+        logger.info(String.format("wordFrequencyService size:%d", wordFrequencyService.GenerateWordRankList().size()));
 
-        contents = blackWhiteWordService.CaptureLines(document.content);
-        contents = blackWhiteWordService.CaptureValidLines(contents);
-        strangeWords = blackWhiteWordService.CaptureWords(contents);
-        strangeWords = blackWhiteWordService.CaptureStrangeWord(strangeWords);
+        Set<String> strangeWords = blackWhiteWordService.CaptureStrangeWord(words);
+        wordQueryingService.QueryWordAsync(strangeWords);
+
+        //strangeWords = blackWhiteWordService.CaptureStrangeWord(words);
 
         DocumentProfile resourceProfile = new DocumentProfile();
         resourceProfile.fileName = document.tag;
         resourceProfile.url = document.url;
         resourceProfile.contentLines = contents;
-        resourceProfile.strangeWords = strangeWords;
+        documentPresentService.Add(resourceProfile);
 
+        /*
+        resourceProfile.strangeWords = strangeWords;
         CompletableFuture future = wordQueryingService.QueryWordAsync(resourceProfile.strangeWords);
         future.thenRun(()->{
             documentPresentService.Add(resourceProfile);
         });
+        */
     }
 }

@@ -4,53 +4,51 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import reader.Helper.StringHelper;
 import reader.Model.DocumentProfile;
 import reader.Model.DocumentProfileDao;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Set;
-import java.util.concurrent.CompletableFuture;
+import java.util.*;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
+import java.util.function.Consumer;
 
 @Service
-public class DocumentPresentService {
-    private static final Logger logger = LoggerFactory.getLogger(DocumentPresentService.class);
+public class DocumentInventoryService {
+    private static final Logger logger = LoggerFactory.getLogger(DocumentInventoryService.class);
     private HashMap documentProfileHashMap = new HashMap<String, DocumentProfile>();
     private Lock lock = new ReentrantLock();
+
+    private boolean bReady = false;
 
     @Autowired
     DocumentProfileDao documentProfileDao;
 
     @Autowired
-    BlackWhiteWordService blackWhiteWordService;
+    WhiteListService blackWhiteWordService;
 
     @Autowired
     WordQueryingService wordQueryingService;
 
-    public void Load() {
+    @Autowired
+    WordFrequencyService wordFrequencyService;
+
+    public void Load(Consumer<List<DocumentProfile>> onLoaded) {
         List<DocumentProfile> profileList = documentProfileDao.Get();
         if (profileList == null) {
             return;
         }
-        for (DocumentProfile item: profileList) {
-            if (documentProfileHashMap.containsKey(item.id)) {
-                logger.info(String.format("document profile exist:%s", item.fileName));
-                continue;
+
+        profileList.forEach(documentProfile -> {
+            if (documentProfileHashMap.containsKey(documentProfile.id)) {
+                logger.info(String.format("document profile exist:%s", documentProfile.fileName));
+                return;
             }
 
-            List<String> contents;
-            contents = blackWhiteWordService.CaptureValidLines(item.contentLines);
-            item.strangeWords = blackWhiteWordService.CaptureWords(contents);
-            item.strangeWords = blackWhiteWordService.CaptureStrangeWord(item.strangeWords);
+            documentProfileHashMap.put(documentProfile.id, documentProfile);
+        });
 
-            CompletableFuture future = wordQueryingService.QueryWordAsync(item.strangeWords);
-            future.thenRun(()->{
-                documentProfileHashMap.put(item.id, item);
-            });
-        }
+        if (onLoaded != null) onLoaded.accept(profileList);
     }
 
     public void Add(DocumentProfile documentProfile) {
@@ -61,11 +59,11 @@ public class DocumentPresentService {
     }
 
     public List<DocumentProfile> Get() {
+        if (!bReady) return null;
+
         List<DocumentProfile> documentProfileList = new ArrayList<>();
         lock.lock();
-        documentProfileHashMap.forEach((key,value)->{
-            documentProfileList.add((DocumentProfile)value);
-        });
+        documentProfileHashMap.forEach((key,value)-> documentProfileList.add((DocumentProfile)value));
         lock.unlock();
         return documentProfileList;
     }
@@ -94,12 +92,16 @@ public class DocumentPresentService {
     public void AddWord(DocumentProfile documentProfile, String word) {
         documentProfile.strangeWords.add(word);
         documentProfileDao.AddWord(documentProfile.id, word);
-        blackWhiteWordService.AddToWhite(word);
+        blackWhiteWordService.AddToWhiteList(word);
     }
 
     public void SaveStrangeWords(DocumentProfile documentProfile, Set<String> word_set) {
         documentProfile.strangeWords = word_set;
         documentProfileDao.SaveStrangeWord(documentProfile.id, word_set);
         blackWhiteWordService.AddListToWhite(word_set);
+    }
+
+    public void Ready() {
+        bReady = true;
     }
 }

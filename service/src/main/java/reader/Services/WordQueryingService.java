@@ -28,6 +28,9 @@ public class WordQueryingService {
     @Autowired
     LocalDictionaryService localDictionaryService;
 
+    @Autowired
+    WhiteListService whiteWordService;
+
     private String GetOrgPattern(String line) {
         String pattern = "（([a-zA-Z]+)的";
         Pattern r = Pattern.compile(pattern);
@@ -59,7 +62,6 @@ public class WordQueryingService {
                 WordExplain wordExplain = cloudDictionaryService.QueryWord(word);
 
                 if (wordExplain != null) {
-
                     String originalPattern = GetOrgPatternFromList(wordExplain.explain_list);
                     if (originalPattern == null) {
                         localDictionaryService.Add(wordExplain);
@@ -73,6 +75,8 @@ public class WordQueryingService {
                         WordExplain variantPattern = (WordExplain)wordExplain.clone();
                         variantPattern.word = word;
                         localDictionaryService.Add(variantPattern);
+                    } else {
+                        whiteWordService.AddToBlackList(word);
                     }
                 } else {
                     logger.info(String.format("failed to query:%s", word));

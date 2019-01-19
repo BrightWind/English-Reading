@@ -1,5 +1,7 @@
 package reader.Services;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reader.Model.LocalDictionary;
@@ -12,6 +14,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 @Service
 public class LocalDictionaryService {
+    private static final Logger logger = LoggerFactory.getLogger(ResourceLoadingService.class);
+
     private ReadWriteLock rwLock = new ReentrantReadWriteLock();
     private LocalDictionary dictionary;
 
@@ -32,6 +36,8 @@ public class LocalDictionaryService {
         else {
             dictionary = localDictionaries.get(0);
         }
+
+        logger.info(String.format("LocalDictionaryService size:%d", dictionary.container.size()));
     }
 
     public WordExplain Get(String word)
