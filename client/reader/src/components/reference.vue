@@ -83,7 +83,7 @@ export default {
 
   .main-frame {
     width: 100%;
-    height: 1000px;
+    //height: 1000px;
     background-color: bisque;
     //margin-top: 50px;
   }
