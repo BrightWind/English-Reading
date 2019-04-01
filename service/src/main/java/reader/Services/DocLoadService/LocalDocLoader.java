@@ -29,6 +29,10 @@ public class LocalDocLoader extends IDocLoader {
             return;
         }
 
+        if (fileName.endsWith(".ass") || fileName.contains(".简体.") || fileName.contains("繁体")) {
+            return;
+        }
+
         if (file.exists()) {
             try {
                 String filePath = file.getAbsolutePath();
