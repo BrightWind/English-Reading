@@ -8,11 +8,9 @@ import org.springframework.stereotype.Service;
 import reader.Model.Document;
 import reader.Model.WordExplain;
 
-import java.util.ArrayDeque;
-import java.util.List;
-import java.util.Queue;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.Semaphore;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -55,32 +53,69 @@ public class WordQueryingService {
         return null;
     }
 
+    final Semaphore semaphore = new Semaphore(10);
+
+    int count = 0;
+
+    public void Increase() {
+        synchronized (this) {
+            count++;
+            logger.info(String.format("semaphore count:%d, ++" ,count));
+        }
+    }
+    public void Decrease() {
+        synchronized (this) {
+            count--;
+            logger.info(String.format("semaphore count:%d,--", count));
+        }
+    }
+
+    public void HandleQueryResult(String word, WordExplain wordExplain) {
+        if (wordExplain == null) {
+            whiteWordService.AddToBlackList(word);
+            logger.info(String.format("failed to query:%s", word));
+            return;
+        }
+
+        String originalPattern = GetOrgPatternFromList(wordExplain.explain_list);
+        if (originalPattern == null) {
+            localDictionaryService.Add(wordExplain);
+            return;
+        }
+
+        originalPattern.toLowerCase();
+        wordExplain = cloudDictionaryService.QueryWord(originalPattern);
+        if (wordExplain == null) {
+            whiteWordService.AddToBlackList(word);
+            return;
+        }
+
+        localDictionaryService.Add(wordExplain);
+        WordExplain variantPattern = (WordExplain)wordExplain.clone();
+        variantPattern.word = word;
+        localDictionaryService.Add(variantPattern);
+    }
+
     @Async
     public CompletableFuture QueryWordAsync(Set<String> wordList) {
+        logger.info(String.format("word set size:%d", wordList.size()));
         wordList.forEach(word -> {
-            if (!localDictionaryService.Contain(word)) {
-                WordExplain wordExplain = cloudDictionaryService.QueryWord(word);
+            try {
+                count++;
+                logger.info(String.format("semaphore :word:%s, count:%d, semaphore:%d", word, count, semaphore.availablePermits()));
 
-                if (wordExplain != null) {
-                    String originalPattern = GetOrgPatternFromList(wordExplain.explain_list);
-                    if (originalPattern == null) {
-                        localDictionaryService.Add(wordExplain);
-                        return;
-                    }
-
-                    originalPattern.toLowerCase();
-                    wordExplain = cloudDictionaryService.QueryWord(originalPattern);
-                    if (wordExplain != null) {
-                        localDictionaryService.Add(wordExplain);
-                        WordExplain variantPattern = (WordExplain)wordExplain.clone();
-                        variantPattern.word = word;
-                        localDictionaryService.Add(variantPattern);
-                    } else {
-                        whiteWordService.AddToBlackList(word);
-                    }
-                } else {
-                    logger.info(String.format("failed to query:%s", word));
+                semaphore.acquire();
+                if (localDictionaryService.Contain(word)) {
+                    semaphore.release();
+                    return;
                 }
+
+                cloudDictionaryService.QueryWordAsync(word).thenAccept(wordExplain -> {
+                    HandleQueryResult(word, wordExplain);
+                    semaphore.release();
+                });
+            } catch (Exception ex) {
+                semaphore.release();
             }
         });
 

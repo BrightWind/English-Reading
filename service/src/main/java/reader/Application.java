@@ -75,6 +75,7 @@ public class Application implements CommandLineRunner {
 
             CompletableFuture completableFuture = wordQueryingService.QueryWordAsync(word_set);
             completableFuture.thenAccept(param ->{
+                documentInventoryService.Ready();
                 // we need to load the infrastructure service before load resource
                 resourceLoadingService.StartAsync();
             });
