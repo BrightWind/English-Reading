@@ -61,4 +61,8 @@ public class WordFrequencyService {
             return SortMapToList(WordFrequency);
         }
     }
+
+    public HashMap<String, Integer> GetRank() {
+        return WordFrequency;
+    }
 }
