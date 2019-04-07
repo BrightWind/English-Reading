@@ -133,7 +133,8 @@ public class WhiteListService {
                 return;
             }
 
-            if (wordRankList.indexOf(word) > WordGrate && word.length() > 3) {
+            int rank = wordRankList.indexOf(word);
+            if ((rank < 0 || rank > WordGrate) && word.length() > 2) {
                 strangeSet.add(word);
             }
         });

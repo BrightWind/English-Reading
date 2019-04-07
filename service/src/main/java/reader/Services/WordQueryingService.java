@@ -102,19 +102,19 @@ public class WordQueryingService {
         wordList.forEach(word -> {
             try {
                 count++;
-                logger.info(String.format("semaphore :word:%s, count:%d, semaphore:%d", word, count, semaphore.availablePermits()));
 
                 semaphore.acquire();
+                //logger.info(String.format("semaphore :word:%s, count:%d, semaphore:%d", word, count, semaphore.availablePermits()));
                 if (localDictionaryService.Contain(word)) {
-                    semaphore.release();
                     return;
                 }
 
                 cloudDictionaryService.QueryWordAsync(word).thenAccept(wordExplain -> {
                     HandleQueryResult(word, wordExplain);
-                    semaphore.release();
                 });
             } catch (Exception ex) {
+            }
+            finally {
                 semaphore.release();
             }
         });

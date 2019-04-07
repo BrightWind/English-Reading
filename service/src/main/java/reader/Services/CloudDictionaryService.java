@@ -14,8 +14,6 @@ import java.util.concurrent.Semaphore;
 public class CloudDictionaryService {
     //private static final Logger logger = LoggerFactory.getLogger(GitHubLookupService.class);
 
-    private Semaphore semaphore = new Semaphore(5);
-
     private final RestTemplate restTemplate;
     private final String YouDaoUrlTemple = "http://dict.youdao.com/jsonapi?xmlVersion=5.1&client=&q=%s&dicts=&keyfrom=&model=&mid=&imei=&vendor=&screen=&ssid=&network=5g&abtest=&jsonversion=2";
 
@@ -37,7 +35,6 @@ public class CloudDictionaryService {
 
     public WordExplain QueryWord(String word) {
         try {
-            semaphore.acquire();
             String url = String.format(YouDaoUrlTemple, word);
             YDResult ydResult = restTemplate.getForObject(url, YDResult.class);
             if (ydResult != null)
@@ -56,7 +53,6 @@ public class CloudDictionaryService {
         }
         catch (Exception ex) {}
         finally {
-            semaphore.release();
         }
 
         return null;

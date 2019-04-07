@@ -1,7 +1,10 @@
 package reader.Services.DocLoadService;
 
 import org.apache.commons.io.IOUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import reader.Model.Document;
+import reader.Services.ResourceLoadingService;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -9,6 +12,8 @@ import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 
 public class LocalDocLoader extends IDocLoader {
+    private static final Logger logger = LoggerFactory.getLogger(LocalDocLoader.class);
+
     public LocalDocLoader(ILoaderObserver iLoaderObserver) {
         super(iLoaderObserver);
     }
@@ -48,6 +53,7 @@ public class LocalDocLoader extends IDocLoader {
                     file.delete();
                 }
 
+                logger.info(String.format("loading file: %s", fileName));
                 if (mLoaderObserver != null) mLoaderObserver.OnDocLoaded(document);
             } catch (Exception ex) {
                 ex.printStackTrace();

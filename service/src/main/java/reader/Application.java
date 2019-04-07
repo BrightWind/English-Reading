@@ -78,6 +78,8 @@ public class Application implements CommandLineRunner {
                 documentInventoryService.Ready();
                 // we need to load the infrastructure service before load resource
                 resourceLoadingService.StartAsync();
+                log.info(String.format("----loading finish---------"));
+
             });
         });
         log.info("----step4 documentInventoryService.Load()");
